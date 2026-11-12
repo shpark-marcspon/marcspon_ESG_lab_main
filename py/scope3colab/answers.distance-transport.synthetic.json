@@ -1,0 +1,98 @@
+{
+  "synthetic": true,
+  "note": "운송 갈래(`--input distance-transport`, C4-1·C9-1 만) 짜 둔 가짜 AI 답(지은 것). 거리판 답에서 C6-1·C7 몫(10~18번)을 뺀 것과 같다 — C4-1·C9-1 은 C6-1·C7 의 캐시에 기대지 않는다(실측). JSON 부름의 답은 올바른 JSON.",
+  "answers": [
+    {
+      "expect": "입력 단위: 가상팔레트\n목표(기준) 단위: kg",
+      "text": "{\"factor\": 9.5}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시가\n",
+      "text": "Synthetic Ga"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시다\n",
+      "text": "Synthetic Da"
+    },
+    {
+      "expect": "출발지: 가상시가\n도착지: 가상시다\n국가 힌트: KR",
+      "text": "{\"distance_km\": 92}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시라\n",
+      "text": "Synthetic Ra"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시마\n",
+      "text": "Synthetic Ma"
+    },
+    {
+      "expect": "출발지: 가상시라\n도착지: 가상시마\n국가 힌트: KR",
+      "text": "{\"distance_km\": 901}"
+    },
+    {
+      "expect": "출발지: 가상시라\n도착지: 가상시마\n운송수단: 도로(트럭)",
+      "text": "{\"distance_km\": 99}"
+    },
+    {
+      "expect": "텍스트: 가상수레 입고 가상부속 세트\n",
+      "text": "{\"mode\": \"rail\"}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시파\n",
+      "text": "Synthetic Pa"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시하\n",
+      "text": "Synthetic Ha"
+    },
+    {
+      "expect": "출발지: 가상시파\n도착지: 가상시하\n국가 힌트: KR",
+      "text": "{\"distance_km\": 902}"
+    },
+    {
+      "expect": "출발지: 가상시파\n도착지: 가상시하\n운송수단: 도로(트럭)",
+      "text": "{\"distance_km\": 999}"
+    },
+    {
+      "expect": "지역: 가상시파\n국가 힌트: 가상국",
+      "text": "{\"airport_name\": \"Synthetic Pa Airport\", \"iata\": \"\"}"
+    },
+    {
+      "expect": "지역: 가상시하\n국가 힌트: 가상국",
+      "text": "{\"airport_name\": \"Synthetic Ha Airport\", \"iata\": \"\"}"
+    },
+    {
+      "expect": "변환하라.\n\n    Synthetic Pa Airport\n",
+      "text": "Synthetic Pa Airport"
+    },
+    {
+      "expect": "변환하라.\n\n    Synthetic Ha Airport\n",
+      "text": "Synthetic Ha Airport"
+    },
+    {
+      "expect": "출발지: Synthetic Pa Airport\n도착지: Synthetic Ha Airport\n국가 힌트: 가상국",
+      "text": "{\"distance_km\": 95}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상공항가\n",
+      "text": "Synthetic Airport Ga"
+    },
+    {
+      "expect": "변환하라.\n\n    ZZQ\n",
+      "text": "Synthetic Zzq"
+    },
+    {
+      "expect": "출발지: 가상공항가\n도착지: ZZQ\n국가 힌트: KR",
+      "text": "{\"distance_km\": 903}"
+    },
+    {
+      "expect": "출발지: 가상공항가\n도착지: ZZQ\n운송수단: 도로(트럭)",
+      "text": "{\"distance_km\": 998}"
+    },
+    {
+      "expect": "출발지: 가상공항가\n도착지: ZZQ\n국가 힌트: 가상국",
+      "text": "{\"distance_km\": 96}"
+    }
+  ]
+}

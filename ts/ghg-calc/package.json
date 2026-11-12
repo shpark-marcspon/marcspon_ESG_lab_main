@@ -1,0 +1,24 @@
+{
+  "name": "ghg-calc",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scope 1·2 온실가스 배출량 계산 엔진 (순수 함수, 십진 정확 연산)",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "kernel": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "fast-check": "^4.10.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

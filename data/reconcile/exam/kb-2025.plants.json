@@ -1,0 +1,291 @@
+{
+ "note": "방법 비교 실측의 시험지에 심는 오류. 문서 B(데이터북) 문서 모델의 사본에만 심는다. 심는 자리는 정답 쌍 가운데 종류별 조건에 맞는 것에서 씨앗 고정 난수로 뽑았다 (손으로 고르지 않았다). rounding_control 은 오류가 아닌 대조군이다.",
+ "status": "러너 작성, 전문가 검토 전 (밴드 R, 2026-10-04)",
+ "seed": 20261004,
+ "plan": [
+  {
+   "kind": "one_of_two_places",
+   "pool": "any"
+  },
+  {
+   "kind": "one_of_two_places",
+   "pool": "any"
+  },
+  {
+   "kind": "one_of_two_places",
+   "pool": "any"
+  },
+  {
+   "kind": "rounding_control",
+   "pool": "any"
+  },
+  {
+   "kind": "row_shift",
+   "pool": "any"
+  },
+  {
+   "kind": "year_swap",
+   "pool": "seed_tables"
+  },
+  {
+   "kind": "digit_changed",
+   "pool": "seed_tables"
+  },
+  {
+   "kind": "digit_changed",
+   "pool": "any"
+  },
+  {
+   "kind": "digits_transposed",
+   "pool": "seed_tables"
+  },
+  {
+   "kind": "digits_transposed",
+   "pool": "outside"
+  },
+  {
+   "kind": "digit_dropped",
+   "pool": "outside"
+  },
+  {
+   "kind": "digit_added",
+   "pool": "seed_tables"
+  },
+  {
+   "kind": "times_1000",
+   "pool": "seed_tables"
+  },
+  {
+   "kind": "times_1000",
+   "pool": "outside"
+  }
+ ],
+ "plants": [
+  {
+   "id": "E01",
+   "kind": "one_of_two_places",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p78-t1:r6c3",
+     "original": "139",
+     "planted": "138",
+     "pair": "P52"
+    }
+   ],
+   "otherPlaceInB": [
+    "p21-t2:r4c7"
+   ]
+  },
+  {
+   "id": "E02",
+   "kind": "one_of_two_places",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t2:r2c7",
+     "original": "4,529",
+     "planted": "4,229",
+     "pair": "P18"
+    }
+   ],
+   "otherPlaceInB": [
+    "p78-t1:r4c3"
+   ]
+  },
+  {
+   "id": "E03",
+   "kind": "one_of_two_places",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p78-t1:r7c3",
+     "original": "3,721",
+     "planted": "3,321",
+     "pair": "P53"
+    }
+   ],
+   "otherPlaceInB": [
+    "p21-t2:r5c7"
+   ]
+  },
+  {
+   "id": "E04",
+   "kind": "rounding_control",
+   "isError": false,
+   "cells": [
+    {
+     "cell": "p77-t1:r2c3",
+     "original": "2,689.020",
+     "planted": "2,689",
+     "pair": "P48"
+    }
+   ],
+   "otherPlaceInB": []
+  },
+  {
+   "id": "E05",
+   "kind": "row_shift",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t2:r5c6",
+     "original": "4,188",
+     "planted": "6,874",
+     "pair": "P25"
+    },
+    {
+     "cell": "p21-t2:r6c6",
+     "original": "6,874",
+     "planted": "4,188",
+     "pair": "P28"
+    }
+   ],
+   "otherPlaceInB": []
+  },
+  {
+   "id": "E06",
+   "kind": "year_swap",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t1:r1c4",
+     "original": "22,510",
+     "planted": "22,253",
+     "pair": "P02"
+    },
+    {
+     "cell": "p21-t1:r1c5",
+     "original": "22,253",
+     "planted": "22,510",
+     "pair": "P03"
+    }
+   ],
+   "otherPlaceInB": [
+    "p77-t1:r2c0"
+   ]
+  },
+  {
+   "id": "E07",
+   "kind": "digit_changed",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t1:r3c5",
+     "original": "148,926",
+     "planted": "148,526",
+     "pair": "P09"
+    }
+   ],
+   "otherPlaceInB": [
+    "p77-t1:r2c2"
+   ]
+  },
+  {
+   "id": "E08",
+   "kind": "digit_changed",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t2:r9c6",
+     "original": "31,213",
+     "planted": "31,913",
+     "pair": "P34"
+    }
+   ],
+   "otherPlaceInB": []
+  },
+  {
+   "id": "E09",
+   "kind": "digits_transposed",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t2:r6c7",
+     "original": "6,136",
+     "planted": "1,636",
+     "pair": "P29"
+    }
+   ],
+   "otherPlaceInB": [
+    "p78-t1:r8c3"
+   ]
+  },
+  {
+   "id": "E10",
+   "kind": "digits_transposed",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p78-t1:r5c3",
+     "original": "20,639",
+     "planted": "26,039",
+     "pair": "P51"
+    }
+   ],
+   "otherPlaceInB": [
+    "p21-t2:r3c7"
+   ]
+  },
+  {
+   "id": "E11",
+   "kind": "digit_dropped",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p78-t1:r11c3",
+     "original": "184",
+     "planted": "14",
+     "pair": "P57"
+    }
+   ],
+   "otherPlaceInB": [
+    "p21-t2:r10c7"
+   ]
+  },
+  {
+   "id": "E12",
+   "kind": "digit_added",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t2:r10c6",
+     "original": "195",
+     "planted": "1,295",
+     "pair": "P37"
+    }
+   ],
+   "otherPlaceInB": []
+  },
+  {
+   "id": "E13",
+   "kind": "times_1000",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p21-t2:r2c5",
+     "original": "7,284",
+     "planted": "7,284,000",
+     "pair": "P16"
+    }
+   ],
+   "otherPlaceInB": []
+  },
+  {
+   "id": "E14",
+   "kind": "times_1000",
+   "isError": true,
+   "cells": [
+    {
+     "cell": "p77-t1:r2c1",
+     "original": "126,673",
+     "planted": "126,673,000",
+     "pair": "P46"
+    }
+   ],
+   "otherPlaceInB": [
+    "p21-t1:r2c5"
+   ]
+  }
+ ]
+}

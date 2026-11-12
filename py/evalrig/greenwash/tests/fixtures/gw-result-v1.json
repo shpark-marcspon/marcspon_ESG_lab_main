@@ -1,0 +1,236 @@
+{
+ "schemaVersion": "greenwash.result@1",
+ "source": {
+  "fileName": "synthetic.pdf",
+  "sha256": "a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1",
+  "pageCount": 10
+ },
+ "config": {
+  "checker": {
+   "maxCandidatesPerPage": 3,
+   "maxCharsPageText": 2500,
+   "evidenceK": 2,
+   "maxCharsPerChunk": 450,
+   "useEvidenceFailopen": false,
+   "maxCharsEvidenceTotal": 1600,
+   "reportLevels": [
+    "High",
+    "Mid",
+    "Low"
+   ],
+   "debug": true,
+   "debugPages": 2,
+   "batchEval": false,
+   "promptVersion": "2026-01-15-v1"
+  },
+  "chunking": {
+   "chunkSize": 800,
+   "chunkOverlap": 150,
+   "separators": [
+    "\n\n",
+    "\n",
+    " "
+   ],
+   "normalize": true,
+   "embeddingBatchSize": 50
+  },
+  "chat": {
+   "temperature": 0.0,
+   "maxTokens": 1300
+  }
+ },
+ "models": {
+  "chat": "gpt-4.1-mini",
+  "embedding": "text-embedding-3-small"
+ },
+ "promptVersion": "2026-01-15-v1",
+ "parts": [
+  {
+   "name": "CEO 메시지",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "회사소개",
+   "pages": []
+  },
+  {
+   "name": "기후/환경 토픽",
+   "pages": [
+    3,
+    4,
+    5
+   ]
+  }
+ ],
+ "pages": [
+  3,
+  4,
+  5
+ ],
+ "extraTerms": [],
+ "items": [
+  {
+   "page": 3,
+   "parts": [
+    "CEO 메시지"
+   ],
+   "sentence": "가상상사는 100% 무공해 공정을 갖춘 탄소중립 기업입니다.",
+   "level": "High",
+   "riskTags": [
+    "지은 꼬리표"
+   ],
+   "confirmedInEvidence": [],
+   "missingFields": [
+    "지은 빠진 항목"
+   ],
+   "reasonBullets": [
+    "지은 사유"
+   ],
+   "fixParagraph": "지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. ",
+   "evidencePages": [],
+   "evidenceInternal": "",
+   "position": null,
+   "exampleSentence": null
+  },
+  {
+   "page": 3,
+   "parts": [
+    "기후/환경 토픽"
+   ],
+   "sentence": "가상상사는 100% 무공해 공정을 갖춘 탄소중립 기업입니다.",
+   "level": "High",
+   "riskTags": [
+    "지은 꼬리표"
+   ],
+   "confirmedInEvidence": [],
+   "missingFields": [
+    "지은 빠진 항목"
+   ],
+   "reasonBullets": [
+    "지은 사유"
+   ],
+   "fixParagraph": "지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. ",
+   "evidencePages": [],
+   "evidenceInternal": "",
+   "position": null,
+   "exampleSentence": null
+  },
+  {
+   "page": 4,
+   "parts": [
+    "기후/환경 토픽"
+   ],
+   "sentence": "우리는 탄소 배출을 줄이는 경영을 추구합니다.",
+   "level": "Low",
+   "riskTags": [
+    "선언적 문장"
+   ],
+   "confirmedInEvidence": [],
+   "missingFields": [],
+   "reasonBullets": [
+    "지은 사유"
+   ],
+   "fixParagraph": "지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. ",
+   "evidencePages": [],
+   "evidenceInternal": "",
+   "position": null,
+   "exampleSentence": null
+  },
+  {
+   "page": 4,
+   "parts": [
+    "기후/환경 토픽"
+   ],
+   "sentence": "net-zero 로 가는 길에서 그린 전력의 비중을 늘리고 있습니다.",
+   "level": "Mid",
+   "riskTags": [
+    "지은 꼬리표"
+   ],
+   "confirmedInEvidence": [],
+   "missingFields": [
+    "지은 빠진 항목"
+   ],
+   "reasonBullets": [
+    "지은 사유"
+   ],
+   "fixParagraph": "지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. ",
+   "evidencePages": [],
+   "evidenceInternal": "",
+   "position": null,
+   "exampleSentence": null
+  },
+  {
+   "page": 3,
+   "parts": [
+    "CEO 메시지",
+    "기후/환경 토픽"
+   ],
+   "sentence": "가상상사의 모든 제품은　친환경 제품입니다.",
+   "level": "Mid",
+   "riskTags": [
+    "지은 꼬리표"
+   ],
+   "confirmedInEvidence": [],
+   "missingFields": [
+    "지은 빠진 항목"
+   ],
+   "reasonBullets": [
+    "지은 사유"
+   ],
+   "fixParagraph": "지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. 지은 수정 방향 글입니다. ",
+   "evidencePages": [],
+   "evidenceInternal": "",
+   "position": null,
+   "exampleSentence": null
+  }
+ ],
+ "candidateStats": {
+  "raw": 9,
+  "hardDropped": 0,
+  "nonEnvDropped": 1,
+  "promoDropped": 0,
+  "tableDropped": 0,
+  "kept": 5,
+  "failedPages": [
+   {
+    "page": 5,
+    "error": "지은 실패(시험)"
+   }
+  ]
+ },
+ "counts": {
+  "total": 5,
+  "byLevel": {
+   "High": 2,
+   "Mid": 2,
+   "Low": 1
+  },
+  "byPart": {
+   "CEO 메시지": {
+    "High": 1,
+    "Mid": 1,
+    "Low": 0
+   },
+   "회사소개": {
+    "High": 0,
+    "Mid": 0,
+    "Low": 0
+   },
+   "기후/환경 토픽": {
+    "High": 1,
+    "Mid": 2,
+    "Low": 1
+   }
+  }
+ },
+ "wordCounts": {
+  "total": [],
+  "pages": []
+ },
+ "dryRun": null,
+ "report": {
+  "file": "greenwash-report.xlsx"
+ }
+}

@@ -1,0 +1,2708 @@
+{
+ "note": "값 후보의 종류의 정답 (밴드 G1, MARC-TICK-34). 종류 규칙(kinds.ts)과 그 출력을 보지 않은 서브에이전트가 지침(kinds-guideline.md), 자리의 앞뒤 글, 쪽 그림만 보고 달았다. 러너는 답을 고치지 않고 합치기만 했다. kind 가 null 인 자리는 「모르겠다」이고 채점의 분모에서 빠진다. 공개 보고서가 출처다.",
+ "status": "서브에이전트 작성, 전문가 검토 전",
+ "document": {
+  "file_name": "cosmax_2025_kor.pdf",
+  "sha256": "9e86eb928eab4244ec71ebde1aef2756a561a5237ee25e43f3b1b3a70524aa0c"
+ },
+ "seed": 20261005,
+ "quota": {
+  "sentence": 100,
+  "number_only_block": 50,
+  "table_text_cell": 50,
+  "table_cell": 100
+ },
+ "items": [
+  {
+   "id": "p3-t3:r16c5",
+   "bucket": "table_cell",
+   "page": 3,
+   "raw": "170",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "차례(Contents) 쪽의 「온실가스 검증의견서 … 170」, 가리키는 쪽 번호"
+  },
+  {
+   "id": "p5-t1:r5c0#n2",
+   "bucket": "table_text_cell",
+   "page": 5,
+   "raw": "5",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "간지 쪽 왼쪽 아래의 쪽 번호 「< 5 >」(글자가 겹쳐 두 번 뽑힘)"
+  },
+  {
+   "id": "p14-t1:r1c0#n2",
+   "bucket": "table_text_cell",
+   "page": 14,
+   "raw": "14",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 왼쪽 아래의 쪽 번호 「< 14 >」(두 번 뽑힘), 표의 칸이 아님"
+  },
+  {
+   "id": "p24-t1:r0c1#n1",
+   "bucket": "table_text_cell",
+   "page": 24,
+   "raw": "24.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "재생에너지 사용량 도표 안에 적힌 「전년 대비 24.3% 증가」, 증가율(축 눈금 아님)"
+  },
+  {
+   "id": "p28-t1:r6c3",
+   "bucket": "table_cell",
+   "page": 28,
+   "raw": "▲ 4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "이중 중대성 평가 순위 표의 「2024년 대비 순위」 칸, 폐기물 관리의 순위 변동 폭 ▲4"
+  },
+  {
+   "id": "p36-t2:r1c2",
+   "bucket": "table_cell",
+   "page": 36,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "연도별 실적 표의 「제품 안전성 관련 규제 위반 건수」(건) 실적 0"
+  },
+  {
+   "id": "p39-t2:r7c4",
+   "bucket": "table_cell",
+   "page": 39,
+   "raw": "133.2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "연도별 실적 표의 「재생에너지 사용량」(TJ) 행의 양(머리글 추정은 장기(2030) 목표, 실적이든 목표든 값)"
+  },
+  {
+   "id": "p43-t1:r6c0#n2",
+   "bucket": "table_text_cell",
+   "page": 43,
+   "raw": "43",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "간지 쪽 왼쪽 아래의 쪽 번호 「< 43 >」(두 번 뽑힘)"
+  },
+  {
+   "id": "p45-t2:r1c1#n2",
+   "bucket": "table_text_cell",
+   "page": 45,
+   "raw": "27.9",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "요약 숫자 「재생에너지 사용량 7,742MWh(27.9TJ)」의 TJ 환산 양"
+  },
+  {
+   "id": "p45-t2:r2c1#n1",
+   "bucket": "table_text_cell",
+   "page": 45,
+   "raw": "24.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "요약 숫자 재생에너지 사용량 아래의 「전년 대비 24.3% 증가」, 증가율"
+  },
+  {
+   "id": "p45-t2:r2c3#n1",
+   "bucket": "table_text_cell",
+   "page": 45,
+   "raw": "45.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "요약 숫자 용수 재사용량 20,117ton 아래의 「전년 대비 45.1% 증가」, 증가율"
+  },
+  {
+   "id": "p45-t2:r4c0#n2",
+   "bucket": "table_text_cell",
+   "page": 45,
+   "raw": "45",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 왼쪽 아래의 쪽 번호 「< 45 >」(두 번 뽑힘)"
+  },
+  {
+   "id": "p48-t1:r1c3#n1",
+   "bucket": "table_text_cell",
+   "page": 48,
+   "raw": "0.6",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "본문 문장 「약 0.6톤의 탄소 감축 효과를 거두었습니다」의 감축량(표의 칸으로 잘못 묶인 문장)"
+  },
+  {
+   "id": "p48-t2:r3c3",
+   "bucket": "table_cell",
+   "page": 48,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "환경 인식 제고 활동 현황 표의 「환경교육 이수율」(%) 2023 칸 100"
+  },
+  {
+   "id": "p54-t1:r7c3",
+   "bucket": "table_cell",
+   "page": 54,
+   "raw": "42,495",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "Scope 1, 2 온실가스 배출량 표의 「합계」(tCO2eq) 행의 배출량"
+  },
+  {
+   "id": "p54-t2:r4c3",
+   "bucket": "table_cell",
+   "page": 54,
+   "raw": "0.025",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "에너지 사용량 표의 「원단위」(TJ/매출액-억 원) 행의 잰 값"
+  },
+  {
+   "id": "p55-t1:r4c5",
+   "bucket": "table_cell",
+   "page": 55,
+   "raw": "599",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "Scope 3 온실가스 배출량 표의 「(C5) 폐기물 발생」(tCO2eq) 2025 칸"
+  },
+  {
+   "id": "p55-t1:r8c5",
+   "bucket": "table_cell",
+   "page": 55,
+   "raw": "97,796",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "Scope 3 온실가스 배출량 표의 「합계」(tCO2eq) 2025 칸"
+  },
+  {
+   "id": "p59-t2:r3c4#n2",
+   "bucket": "table_text_cell",
+   "page": 59,
+   "raw": "230,001",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "용수 사용량 표의 「상수」(ton) 2025 칸 230,001(2024·2025 칸이 한 칸으로 붙어 뽑힘, 열 머리글 추정은 틀림)"
+  },
+  {
+   "id": "p59-t2:r4c4#n1",
+   "bucket": "table_text_cell",
+   "page": 59,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "용수 사용량 표의 「지하수」(ton) 2024 칸 0(두 칸이 붙어 뽑힘)"
+  },
+  {
+   "id": "p59-t2:r4c4#n2",
+   "bucket": "table_text_cell",
+   "page": 59,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "용수 사용량 표의 「지하수」(ton) 2025 칸 0(두 칸이 붙어 뽑힘)"
+  },
+  {
+   "id": "p59-t2:r5c4#n1",
+   "bucket": "table_text_cell",
+   "page": 59,
+   "raw": "192,354",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "용수 사용량 표의 「합계」(ton) 2024 칸 192,354(두 칸이 붙어 뽑힘)"
+  },
+  {
+   "id": "p59-t2:r5c4#n2",
+   "bucket": "table_text_cell",
+   "page": 59,
+   "raw": "230,001",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "용수 사용량 표의 「합계」(ton) 2025 칸 230,001(두 칸이 붙어 뽑힘)"
+  },
+  {
+   "id": "p59-t2:r6c4#n1",
+   "bucket": "table_text_cell",
+   "page": 59,
+   "raw": "14.17",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "용수 사용량 표의 「원단위」(ton/매출액-억 원) 2024 칸 14.17(두 칸이 붙어 뽑힘)"
+  },
+  {
+   "id": "p59-t2:r6c4#n2",
+   "bucket": "table_text_cell",
+   "page": 59,
+   "raw": "15.07",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "용수 사용량 표의 「원단위」(ton/매출액-억 원) 2025 칸 15.07(두 칸이 붙어 뽑힘)"
+  },
+  {
+   "id": "p60-t2:r3c2",
+   "bucket": "table_cell",
+   "page": 60,
+   "raw": "4.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "수질오염물질 배출량 표의 「SS」(ton) 2023 칸"
+  },
+  {
+   "id": "p60-t2:r3c4",
+   "bucket": "table_cell",
+   "page": 60,
+   "raw": "8.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "수질오염물질 배출량 표의 「SS」(ton) 2025 칸"
+  },
+  {
+   "id": "p60-t3:r2c4",
+   "bucket": "table_cell",
+   "page": 60,
+   "raw": "176",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "대기오염물질 배출량 표의 「SOx」(kg) 2025 칸"
+  },
+  {
+   "id": "p60-t3:r4c4",
+   "bucket": "table_cell",
+   "page": 60,
+   "raw": "2,479",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "대기오염물질 배출량 표의 「합계」(kg) 2025 칸"
+  },
+  {
+   "id": "p65-t2:r1c4#n1",
+   "bucket": "table_text_cell",
+   "page": 65,
+   "raw": "20",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "요약 숫자 「친환경 바이오베이스 점착제 적용 제품 약 20만 개」의 수량(20만의 20만 뽑힘)"
+  },
+  {
+   "id": "p65-t2:r1c4#n2",
+   "bucket": "table_text_cell",
+   "page": 65,
+   "raw": "6",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "같은 요약 숫자의 「(국내 6개 품목 적용)」, 적용한 품목을 세어 보고한 실적"
+  },
+  {
+   "id": "p65-t2:r2c6",
+   "bucket": "table_cell",
+   "page": 65,
+   "raw": "74",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "간지 쪽 오른쪽의 작은 차례 「고객가치 경영 74」, 가리키는 쪽 번호"
+  },
+  {
+   "id": "p65-t2:r4c0#n1",
+   "bucket": "table_text_cell",
+   "page": 65,
+   "raw": "65",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 왼쪽 아래의 쪽 번호 「< 65 >」(두 번 뽑힌 것의 첫째)"
+  },
+  {
+   "id": "p65-t2:r4c0#n2",
+   "bucket": "table_text_cell",
+   "page": 65,
+   "raw": "65",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 왼쪽 아래의 쪽 번호 「< 65 >」(두 번 뽑힌 것의 둘째)"
+  },
+  {
+   "id": "p70-t1:r1c3",
+   "bucket": "table_cell",
+   "page": 70,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "안전성 관련 규제 위반 현황 표의 「제품 안전성 관련 규제 위반」(건) 실적 0"
+  },
+  {
+   "id": "p72-t1:r1c6",
+   "bucket": "table_cell",
+   "page": 72,
+   "raw": "95",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "로봇 보유 현황 표의 「로봇 설비 보유 대수」(대) 2025 칸"
+  },
+  {
+   "id": "p84-t2:r0c2#n1",
+   "bucket": "table_text_cell",
+   "page": 84,
+   "raw": "2,711",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "요약 숫자 「사회공헌 프로그램 수혜 인원수 누적 2,711명」"
+  },
+  {
+   "id": "p84-t2:r0c3",
+   "bucket": "table_cell",
+   "page": 84,
+   "raw": "106건",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "요약 숫자 「공동 연구 산학협력 건수 106건」"
+  },
+  {
+   "id": "p84-t2:r1c5",
+   "bucket": "table_cell",
+   "page": 84,
+   "raw": "85",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "간지 쪽 오른쪽의 작은 차례 「공급망 ESG 관리 85」, 가리키는 쪽 번호"
+  },
+  {
+   "id": "p84-t3:r1c0#n1",
+   "bucket": "table_text_cell",
+   "page": 84,
+   "raw": "84",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 왼쪽 아래의 쪽 번호 「< 84 >」(두 번 뽑힌 것의 첫째)"
+  },
+  {
+   "id": "p84-t3:r1c0#n2",
+   "bucket": "table_text_cell",
+   "page": 84,
+   "raw": "84",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 왼쪽 아래의 쪽 번호 「< 84 >」(두 번 뽑힌 것의 둘째)"
+  },
+  {
+   "id": "p88-t1:r1c4",
+   "bucket": "table_cell",
+   "page": 88,
+   "raw": "232",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "공급망 환경 평가 대상 협력사 표의 「환경 평가 대상 협력사 수」(개사) 2025 칸, 세어 보고한 실적"
+  },
+  {
+   "id": "p97-t2:r1c1#n1",
+   "bucket": "table_text_cell",
+   "page": 97,
+   "raw": "1,497",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "요약 숫자 「AI·DT 아카데미 참여 인원수 누적 1,497명」"
+  },
+  {
+   "id": "p97-t2:r4c0#n2",
+   "bucket": "table_text_cell",
+   "page": 97,
+   "raw": "97",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 왼쪽 아래의 쪽 번호 「< 97 >」(두 번 뽑힘)"
+  },
+  {
+   "id": "p102-t1:r8c5",
+   "bucket": "table_cell",
+   "page": 102,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "임직원 전문성 강화 프로그램 표 안의 작은 표, 「연구소 신입사원 교육」의 이수율 100%"
+  },
+  {
+   "id": "p102-t1:r14c7#n2",
+   "bucket": "table_text_cell",
+   "page": 102,
+   "raw": "418",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "같은 표의 「사업적 이익으로 인한 정량적 영향」 칸 「2025년 기준 신규 고객 매출 418억 원」의 금액"
+  },
+  {
+   "id": "p102-t1:r17c7#n2",
+   "bucket": "table_text_cell",
+   "page": 102,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "같은 표의 「2025년 ESG 규제 및 법규 위반 0건」의 건수 실적"
+  },
+  {
+   "id": "p105-t1:r1c0#n2",
+   "bucket": "table_text_cell",
+   "page": 105,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "임직원 만족도 조사 결과의 「참여율 2025 100%」의 비율(2025 는 연도 라벨)"
+  },
+  {
+   "id": "p105-t1:r1c1#n2",
+   "bucket": "table_text_cell",
+   "page": 105,
+   "raw": "79.6",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "임직원 만족도 조사 결과의 「몰입도 점수 2025 79.6점」의 점수"
+  },
+  {
+   "id": "p108-t2:r4c2",
+   "bucket": "table_cell",
+   "page": 108,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "인권영향평가 결과 표의 「인권 리스크 완화 계획 수립 비율」(%) 칸"
+  },
+  {
+   "id": "p108-t3:r4c2",
+   "bucket": "table_cell",
+   "page": 108,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「산업안전 / 임직원, 협력사」, 열 「취약 이해관계자 / 조치 비율」, 표 「〉인권 리스크 진단 및 조치 현황」"
+  },
+  {
+   "id": "p109-t1:r1c4",
+   "bucket": "table_cell",
+   "page": 109,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「신고 접수 건수 / 건」, 열 「2025」, 표 「〉인권침해 신고 현황」"
+  },
+  {
+   "id": "p112-t1:r3c5",
+   "bucket": "table_cell",
+   "page": 112,
+   "raw": "2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「법규 리스크 평가 / 리스크 발견 / 건」, 열 「2025」, 표 「〉사업장 위험성평가 현황」"
+  },
+  {
+   "id": "p118-t2:r5c0#n1",
+   "bucket": "table_text_cell",
+   "page": 118,
+   "raw": "118",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림에서 왼쪽 아래 쪽 넘김 자리의 쪽 번호 118(표가 아닌 간지 쪽, 같은 글자가 두 번 뽑힘)"
+  },
+  {
+   "id": "p118-t2:r5c0#n2",
+   "bucket": "table_text_cell",
+   "page": 118,
+   "raw": "118",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림에서 왼쪽 아래 쪽 넘김 자리의 쪽 번호 118(표가 아닌 간지 쪽, 같은 글자가 두 번 뽑힘)"
+  },
+  {
+   "id": "p124-t3:r8c1",
+   "bucket": "table_cell",
+   "page": 124,
+   "raw": "34.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림의 〉주주 구성 현황 표(단위 %)에서 외국계 투자자의 지분 구성 34.1%"
+  },
+  {
+   "id": "p127-t1:r2c3",
+   "bucket": "table_cell",
+   "page": 127,
+   "raw": "2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「제보 및 상담 (이해관계자별) / 전체 / 건」, 열 「〉반부패 신고 및 조치 / 2023」, 표 「처리 결과는 제보 접수부터 사실 확인 착수 여부, 최종」 (쪽 그림의 〉반부패 신고 및 조치 표에서 확인)"
+  },
+  {
+   "id": "p127-t1:r10c4",
+   "bucket": "table_cell",
+   "page": 127,
+   "raw": "2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「제보 및 상담 (제보유형별) / 단순 현업 이슈 / 건」, 열 「〉반부패 신고 및 조치 / 2024」, 표 「처리 결과는 제보 접수부터 사실 확인 착수 여부, 최종」 (쪽 그림의 〉반부패 신고 및 조치 표에서 확인)"
+  },
+  {
+   "id": "p127-t1:r12c5",
+   "bucket": "table_cell",
+   "page": 127,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「조치1) / 관련 부서 이관 / 건」, 열 「〉반부패 신고 및 조치 / 2025」, 표 「처리 결과는 제보 접수부터 사실 확인 착수 여부, 최종」 (쪽 그림의 〉반부패 신고 및 조치 표에서 확인)"
+  },
+  {
+   "id": "p128-t1:r3c4",
+   "bucket": "table_cell",
+   "page": 128,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「행동강령 위반 / 이해관계 상충 / 건」, 열 「2024」, 표 「〉행동강령 위반 및 조치」"
+  },
+  {
+   "id": "p128-t1:r10c5",
+   "bucket": "table_cell",
+   "page": 128,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「위반 조치사항 / 견책 / 건」, 열 「2025」, 표 「〉행동강령 위반 및 조치」"
+  },
+  {
+   "id": "p137-t1:r1c4",
+   "bucket": "table_cell",
+   "page": 137,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「내부 정보보호 감사 이행률 / %」, 열 「2025」, 표 「〉정보보호 감사 결과」"
+  },
+  {
+   "id": "p140-t1:r4c0#n1",
+   "bucket": "table_text_cell",
+   "page": 140,
+   "raw": "140",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림에서 왼쪽 아래 쪽 넘김 자리의 쪽 번호 140(표가 아닌 간지 쪽, 같은 글자가 두 번 뽑힘)"
+  },
+  {
+   "id": "p140-t1:r4c0#n2",
+   "bucket": "table_text_cell",
+   "page": 140,
+   "raw": "140",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림에서 왼쪽 아래 쪽 넘김 자리의 쪽 번호 140(표가 아닌 간지 쪽, 같은 글자가 두 번 뽑힘)"
+  },
+  {
+   "id": "p141-t1:r17c4",
+   "bucket": "table_cell",
+   "page": 141,
+   "raw": "64,250,968",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「[비유동자산] / 이연법인세자산 / 천 원」, 열 「2024」, 표 「연결 재무제표」"
+  },
+  {
+   "id": "p141-t1:r20c5",
+   "bucket": "table_cell",
+   "page": 141,
+   "raw": "1,201,480,559",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「[유동부채] / 천 원」, 열 「2025」, 표 「연결 재무제표」"
+  },
+  {
+   "id": "p141-t1:r21c5",
+   "bucket": "table_cell",
+   "page": 141,
+   "raw": "311,594,033",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「[비유동부채] / 천 원」, 열 「2025」, 표 「연결 재무제표」"
+  },
+  {
+   "id": "p141-t2:r3c3",
+   "bucket": "table_cell",
+   "page": 141,
+   "raw": "5,674,755",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「[지배기업주주지분] / 자본금 / 천 원」, 열 「2023」"
+  },
+  {
+   "id": "p141-t2:r3c4",
+   "bucket": "table_cell",
+   "page": 141,
+   "raw": "5,674,755",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「[지배기업주주지분] / 자본금 / 천 원」, 열 「2024」"
+  },
+  {
+   "id": "p141-t2:r7c3",
+   "bucket": "table_cell",
+   "page": 141,
+   "raw": "313,066,874",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「[지배기업주주지분] / 이익잉여금 / 천 원」, 열 「2023」"
+  },
+  {
+   "id": "p142-t1:r1c6",
+   "bucket": "table_cell",
+   "page": 142,
+   "raw": "49,873",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「온실가스 배출량(Scope 1, 2) / tCO2eq」, 열 「2025」, 표 「배출량(Scope 1,2)1)」"
+  },
+  {
+   "id": "p142-t1:r13c4",
+   "bucket": "table_cell",
+   "page": 142,
+   "raw": "253",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「해외 / 코스맥스인도네시아 / tCO2eq」, 열 「2023」, 표 「배출량(Scope 1,2)1)」"
+  },
+  {
+   "id": "p142-t1:r20c5",
+   "bucket": "table_cell",
+   "page": 142,
+   "raw": "5,452",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「국내 / 코스맥스 / 평택 공장3) / tCO2eq」, 열 「2024」, 표 「배출량(Scope 1,2)1)」"
+  },
+  {
+   "id": "p142-t3:r4c3",
+   "bucket": "table_cell",
+   "page": 142,
+   "raw": "2,294",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「(C3) 연료 및 에너지 관련 활동 / tCO2eq」, 열 「2024」, 표 「기타 배출량(Scope 3)1)」"
+  },
+  {
+   "id": "p143-t2:r9c3",
+   "bucket": "table_cell",
+   "page": 143,
+   "raw": "197.9",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「코스맥스 (별도) / 합계 / TJ」, 열 「2023」, 표 「비재생에너지 사용량」"
+  },
+  {
+   "id": "p144-t1:r6c2",
+   "bucket": "table_cell",
+   "page": 144,
+   "raw": "27",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「지정 폐기물 배출량 / ton」, 열 「2023」, 표 「배출량1)2)」"
+  },
+  {
+   "id": "p144-t1:r6c4",
+   "bucket": "table_cell",
+   "page": 144,
+   "raw": "33",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「지정 폐기물 배출량 / ton」, 열 「2025」, 표 「배출량1)2)」"
+  },
+  {
+   "id": "p144-t3:r4c3",
+   "bucket": "table_cell",
+   "page": 144,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「판교 R&I 센터6) / ton」, 열 「2024」, 표 「1) 코스맥스 기준 2) 모두 외부 위탁으로 처리 3)」"
+  },
+  {
+   "id": "p144-t3:r4c4",
+   "bucket": "table_cell",
+   "page": 144,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「판교 R&I 센터6) / ton」, 열 「2025」, 표 「1) 코스맥스 기준 2) 모두 외부 위탁으로 처리 3)」"
+  },
+  {
+   "id": "p144-t3:r7c4",
+   "bucket": "table_cell",
+   "page": 144,
+   "raw": "12",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「화성 공장4) / ton」, 열 「2025」, 표 「1) 코스맥스 기준 2) 모두 외부 위탁으로 처리 3)」"
+  },
+  {
+   "id": "p144-t3:r9c3",
+   "bucket": "table_cell",
+   "page": 144,
+   "raw": "9",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「판교 R&I 센터6) / ton」, 열 「2024」, 표 「1) 코스맥스 기준 2) 모두 외부 위탁으로 처리 3)」"
+  },
+  {
+   "id": "p144-t4:r1c4",
+   "bucket": "table_cell",
+   "page": 144,
+   "raw": "2,766",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「폐기물 재활용량 / ton」, 열 「2025」, 표 「재활용1)」"
+  },
+  {
+   "id": "p145-t1:r1c4",
+   "bucket": "table_cell",
+   "page": 145,
+   "raw": "540,724",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「총 용수 사용량 / ton」, 열 「2023」, 표 「사용량1)」"
+  },
+  {
+   "id": "p145-t2:r5c4",
+   "bucket": "table_cell",
+   "page": 145,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「국내 / 코스맥스 / 판교 R&I 센터4) / ton」, 열 「2023」, 표 「1) 용수 취수량과 동일 기준 관리 2) 화성 1공장,」"
+  },
+  {
+   "id": "p145-t2:r9c5",
+   "bucket": "table_cell",
+   "page": 145,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「해외 / 코스맥스광저우 / ton」, 열 「2024」, 표 「1) 용수 취수량과 동일 기준 관리 2) 화성 1공장,」"
+  },
+  {
+   "id": "p145-t2:r11c4",
+   "bucket": "table_cell",
+   "page": 145,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「해외 / 코스맥스인도네시아 / ton」, 열 「2023」, 표 「1) 용수 취수량과 동일 기준 관리 2) 화성 1공장,」"
+  },
+  {
+   "id": "p146-t1:r1c5",
+   "bucket": "table_cell",
+   "page": 146,
+   "raw": "494,521",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「총 폐수 방류량 / ton」, 열 「2024」, 표 「방류량」"
+  },
+  {
+   "id": "p146-t1:r7c4",
+   "bucket": "table_cell",
+   "page": 146,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「국내 / 코스맥스향약원 / ton」, 열 「2023」, 표 「방류량」"
+  },
+  {
+   "id": "p146-t1:r11c6",
+   "bucket": "table_cell",
+   "page": 146,
+   "raw": "8,509",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「해외 / 코스맥스타일랜드 / ton」, 열 「2025」, 표 「방류량」"
+  },
+  {
+   "id": "p146-t2:r3c6",
+   "bucket": "table_cell",
+   "page": 146,
+   "raw": "492",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「국내 / 코스맥스 / 화성 공장1) / ton」, 열 「2025」, 표 「1) 화성 1공장, 화성 2공장, 완제품창고(23년 1」"
+  },
+  {
+   "id": "p146-t2:r4c4",
+   "bucket": "table_cell",
+   "page": 146,
+   "raw": "453",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「국내 / 코스맥스 / 평택 공장2) / ton」, 열 「2023」, 표 「1) 화성 1공장, 화성 2공장, 완제품창고(23년 1」"
+  },
+  {
+   "id": "p146-t2:r9c5",
+   "bucket": "table_cell",
+   "page": 146,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「해외 / 코스맥스광저우 / ton」, 열 「2024」, 표 「1) 화성 1공장, 화성 2공장, 완제품창고(23년 1」"
+  },
+  {
+   "id": "p146-t2:r15c6",
+   "bucket": "table_cell",
+   "page": 146,
+   "raw": "19.52",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「폐수 방류량 원단위6) / ton/매출액-억 원」, 열 「2025」, 표 「1) 화성 1공장, 화성 2공장, 완제품창고(23년 1」"
+  },
+  {
+   "id": "p147-t2:r4c4",
+   "bucket": "table_cell",
+   "page": 147,
+   "raw": "3.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「평택 공장2) / ton」, 열 「2025」, 표 「수질」"
+  },
+  {
+   "id": "p147-t2:r9c4",
+   "bucket": "table_cell",
+   "page": 147,
+   "raw": "2.91",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「BOD 원단위3) / kg/매출액-억 원」, 열 「2025」, 표 「수질」"
+  },
+  {
+   "id": "p148-t2:r1c3",
+   "bucket": "table_cell",
+   "page": 148,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「위반 건수 / 건」, 열 「2024」, 표 「환경 법규위반1)」"
+  },
+  {
+   "id": "p148-t2:r2c2",
+   "bucket": "table_cell",
+   "page": 148,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「금전적 제재 / 건」, 열 「2023」, 표 「환경 법규위반1)」"
+  },
+  {
+   "id": "p148-t2:r2c3",
+   "bucket": "table_cell",
+   "page": 148,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「금전적 제재 / 건」, 열 「2024」, 표 「환경 법규위반1)」"
+  },
+  {
+   "id": "p149-t1:r11c6",
+   "bucket": "table_cell",
+   "page": 149,
+   "raw": "30",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「코스맥스 (별도) / 고용 형태별 / 계약직 / 명」, 열 「2025」, 표 「임직원 현황1)」"
+  },
+  {
+   "id": "p149-t1:r12c4",
+   "bucket": "table_cell",
+   "page": 149,
+   "raw": "441",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표 칸의 보고 수치: 행 「코스맥스 (별도) / 연령별 / 만 30세 미만 / 명」, 열 「2023」, 표 「임직원 현황1)」"
+  },
+  {
+   "id": "p149-t3:r6c5",
+   "bucket": "table_cell",
+   "page": 149,
+   "raw": "12",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "임원 수(명) 표의 2024년 칸, 세어 본 실적"
+  },
+  {
+   "id": "p149-t3:r6c6",
+   "bucket": "table_cell",
+   "page": 149,
+   "raw": "20",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "임원 수(명) 표의 2025년 칸, 세어 본 실적"
+  },
+  {
+   "id": "p149-t3:r8c5",
+   "bucket": "table_cell",
+   "page": 149,
+   "raw": "200",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "하급 관리직 인원(명) 표의 연도 칸"
+  },
+  {
+   "id": "p150-t2:r10c5",
+   "bucket": "table_cell",
+   "page": 150,
+   "raw": "5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "신규 채용 표의 만 50세 이상 인원(명)"
+  },
+  {
+   "id": "p150-t2:r10c6",
+   "bucket": "table_cell",
+   "page": 150,
+   "raw": "3",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "신규 채용 표의 만 50세 이상 인원(명)"
+  },
+  {
+   "id": "p150-t2:r11c5",
+   "bucket": "table_cell",
+   "page": 150,
+   "raw": "163",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "신규 채용 표의 남성 인원(명)"
+  },
+  {
+   "id": "p150-t5:r4c2",
+   "bucket": "table_cell",
+   "page": 150,
+   "raw": "0.4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "직원 1인당 교육 비용(백만 원) 칸"
+  },
+  {
+   "id": "p150-t6:r3c4",
+   "bucket": "table_cell",
+   "page": 150,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "장애인 인식개선 교육 이수율(%) 칸"
+  },
+  {
+   "id": "p151-t2:r7c3",
+   "bucket": "table_cell",
+   "page": 151,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "육아휴직 표의 남성 비율(%) 칸"
+  },
+  {
+   "id": "p151-t2:r8c2",
+   "bucket": "table_cell",
+   "page": 151,
+   "raw": "97.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "육아휴직 표의 여성 비율(%) 칸"
+  },
+  {
+   "id": "p151-t4:r7c5",
+   "bucket": "table_cell",
+   "page": 151,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "직업성질환 발생률(20만 근로시간당) 칸의 잰 값 0"
+  },
+  {
+   "id": "p151-t5:r2c4",
+   "bucket": "table_cell",
+   "page": 151,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "위반 건수(건) 칸의 실적 0"
+  },
+  {
+   "id": "p151-t5:r5c4",
+   "bucket": "table_cell",
+   "page": 151,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "금전적 제재(백만 원) 칸의 실적 0"
+  },
+  {
+   "id": "p152-t1:r2c3",
+   "bucket": "table_cell",
+   "page": 152,
+   "raw": "8.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "직원 1인당 교육시간(시간) 칸"
+  },
+  {
+   "id": "p152-t1:r3c2",
+   "bucket": "table_cell",
+   "page": 152,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "교육참여 비율(%) 칸"
+  },
+  {
+   "id": "p152-t1:r5c2",
+   "bucket": "table_cell",
+   "page": 152,
+   "raw": "23.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "직원 1인당 교육시간(시간) 칸"
+  },
+  {
+   "id": "p152-t1:r9c2",
+   "bucket": "table_cell",
+   "page": 152,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "교육참여 비율(%) 칸"
+  },
+  {
+   "id": "p152-t5:r2c3",
+   "bucket": "table_cell",
+   "page": 152,
+   "raw": "18.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "정보보안 교육 직원 1인당 교육시간(시간) 칸"
+  },
+  {
+   "id": "p152-t5:r6c4",
+   "bucket": "table_cell",
+   "page": 152,
+   "raw": "100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "정보보안 교육참여 비율(%) 칸"
+  },
+  {
+   "id": "p152-t6:r1c5",
+   "bucket": "table_cell",
+   "page": 152,
+   "raw": "287,288,291",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "총 출연금 및 기타 지출(원) 금액 칸"
+  },
+  {
+   "id": "p155-t1:r2c4",
+   "bucket": "table_cell",
+   "page": 155,
+   "raw": "167",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: APPENDIX 간지의 차례에서 「제3자 검증의견서」 앞의 쪽 번호 167"
+  },
+  {
+   "id": "p155-t1:r5c0#n1",
+   "bucket": "table_text_cell",
+   "page": 155,
+   "raw": "155",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 간지 쪽의 쪽 번호 155(왼쪽 아래 쪽 표시). 표가 아니라 쪽 번호가 겹쳐 뽑힌 것"
+  },
+  {
+   "id": "p155-t1:r5c0#n2",
+   "bucket": "table_text_cell",
+   "page": 155,
+   "raw": "155",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 간지 쪽의 쪽 번호 155가 겹쳐 뽑힌 것"
+  },
+  {
+   "id": "p156-t2:r4c4#n1",
+   "bucket": "table_text_cell",
+   "page": 156,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: GRI Index 의 구획 제목 「중요 이슈 1. 제품 안전 및 책임」의 차례 번호"
+  },
+  {
+   "id": "p156-t2:r19c4#n1",
+   "bucket": "table_text_cell",
+   "page": 156,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 구획 제목 「중요 이슈 2. 에너지 절감 및 기후변화 대응」의 차례 번호"
+  },
+  {
+   "id": "p156-t2:r32c4#n1",
+   "bucket": "table_text_cell",
+   "page": 156,
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 구획 제목 「중요 이슈 3. 협력사 지속가능성(ESG) 관리」의 차례 번호"
+  },
+  {
+   "id": "p156-t2:r32c4#n17",
+   "bucket": "table_text_cell",
+   "page": 156,
+   "raw": "87",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: GRI 414-2 행의 「보고 페이지」 칸 87, 쪽 번호(여러 행이 한 칸으로 붙어 뽑힘)"
+  },
+  {
+   "id": "p163-t1:r9c5#n1",
+   "bucket": "table_text_cell",
+   "page": 163,
+   "raw": "4,880",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "SASB 대응 활동 칸의 팜유 총사용량 4,880ton"
+  },
+  {
+   "id": "p163-t1:r9c5#n2",
+   "bucket": "table_text_cell",
+   "page": 163,
+   "raw": "3,093",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "RSPO 인증 팜유 사용량 3,093ton"
+  },
+  {
+   "id": "p163-t1:r9c5#n3",
+   "bucket": "table_text_cell",
+   "page": 163,
+   "raw": "63.4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "RSPO 인증 팜유 비율 63.4%"
+  },
+  {
+   "id": "p163-t1:r11c5#n1",
+   "bucket": "table_text_cell",
+   "page": 163,
+   "raw": "35",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "공장 생산능력 35억 개, 보고한 양"
+  },
+  {
+   "id": "p163-t1:r12c5#n1",
+   "bucket": "table_text_cell",
+   "page": 163,
+   "raw": "20",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "생산 공장 수 20개, SASB 활동 지표(제조시설 수)로 보고한 사업장 수 실적"
+  },
+  {
+   "id": "p165-t1:r1c1#n1",
+   "bucket": "table_text_cell",
+   "page": 165,
+   "raw": "1.3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: UN SDGs 세부 목표 번호 1.3"
+  },
+  {
+   "id": "p165-t1:r4c1#n1",
+   "bucket": "table_text_cell",
+   "page": 165,
+   "raw": "4.5",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: UN SDGs 세부 목표 번호 4.5"
+  },
+  {
+   "id": "p165-t1:r4c1#n2",
+   "bucket": "table_text_cell",
+   "page": 165,
+   "raw": "5.1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: UN SDGs 세부 목표 번호 5.1"
+  },
+  {
+   "id": "p165-t1:r6c1#n1",
+   "bucket": "table_text_cell",
+   "page": 165,
+   "raw": "5.5",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: UN SDGs 세부 목표 번호 5.5"
+  },
+  {
+   "id": "p165-t1:r6c1#n2",
+   "bucket": "table_text_cell",
+   "page": 165,
+   "raw": "6.3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: UN SDGs 세부 목표 번호 6.3"
+  },
+  {
+   "id": "p165-t1:r12c1",
+   "bucket": "table_cell",
+   "page": 165,
+   "raw": "8.3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: UN SDGs 세부 목표 번호 8.3(숫자 칸으로 뽑혔으나 목표 번호)"
+  },
+  {
+   "id": "p170-t1:r1c1",
+   "bucket": "table_cell",
+   "page": 170,
+   "raw": "3,512",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "검증의견서 표의 국내 직접배출(Scope 1) 3,512 ton CO2eq"
+  },
+  {
+   "id": "p171-t1:r2c6",
+   "bucket": "table_cell",
+   "page": 171,
+   "raw": "29.3",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 화성 1공장 에너지 사용량(TJ) 연료 29.3"
+  },
+  {
+   "id": "p171-t1:r8c2",
+   "bucket": "table_cell",
+   "page": 171,
+   "raw": "202",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 부자재창고 간접배출(Scope 2) 지역기반 202 ton CO2eq"
+  },
+  {
+   "id": "p171-t1:r12c8",
+   "bucket": "table_cell",
+   "page": 171,
+   "raw": "41.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 코스맥스네오 에너지 사용량(TJ) 총량 41.1"
+  },
+  {
+   "id": "p171-t1:r13c8",
+   "bucket": "table_cell",
+   "page": 171,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 코스맥스네오 부자재창고 에너지 사용량(TJ) 총량 1(전력 및 열 1.0 의 합)"
+  },
+  {
+   "id": "p171-t2:r9c4",
+   "bucket": "table_cell",
+   "page": 171,
+   "raw": "2,383",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: PELEY Cosmetics 총량(Scope 1+2) 지역기반 2,383 ton CO2eq"
+  },
+  {
+   "id": "p171-t2:r10c6",
+   "bucket": "table_cell",
+   "page": 171,
+   "raw": "52.3",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 해외 소계 에너지 사용량(TJ) 연료 52.3"
+  },
+  {
+   "id": "p171-t2:r10c7",
+   "bucket": "table_cell",
+   "page": 171,
+   "raw": "465.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 해외 소계 에너지 사용량(TJ) 전력 및 열 465.0"
+  },
+  {
+   "id": "p172-t1:r3c2#n2",
+   "bucket": "table_text_cell",
+   "page": 172,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "Scope 3 카테고리 이름 「Scope 1, 2에 포함되지 않은…」의 Scope 번호(이름의 일부)"
+  },
+  {
+   "id": "p172-t3:r4c2",
+   "bucket": "table_cell",
+   "page": 172,
+   "raw": "465,187",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "PT COSMAX INDONESIA 태양광 사용실적(kWh) 칸"
+  },
+  {
+   "id": "p172-t3:r5c3",
+   "bucket": "table_cell",
+   "page": 172,
+   "raw": "298,000",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "YATSEN 녹색프리미엄 구매량(kWh) 칸"
+  },
+  {
+   "id": "p172-t3:r6c2",
+   "bucket": "table_cell",
+   "page": 172,
+   "raw": "5,497,576",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "소계 행의 태양광 사용실적(kWh) 칸"
+  },
+  {
+   "id": "p4-b27#n2",
+   "bucket": "sentence",
+   "page": 4,
+   "raw": "4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「그룹 매출 4조 원 시대를 바라보는」: 매출 금액(바라보는 규모)"
+  },
+  {
+   "id": "p4-b68#n1",
+   "bucket": "sentence",
+   "page": 4,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": "identifier",
+   "basis": "「글로벌 1위를 향한」: 지향하는 순위. 양은 아니나 약속한 순위로 보았고, 구호(Global Beauty No.1)의 일부로도 읽힌다"
+  },
+  {
+   "id": "p6-b6#n1",
+   "bucket": "sentence",
+   "page": 6,
+   "raw": "30",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "「지난 30여 년간」: 기간"
+  },
+  {
+   "id": "p6-b19#n1",
+   "bucket": "number_only_block",
+   "page": 6,
+   "raw": "4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 지역별 매출비중 도넛 도표의 인도네시아 4%(도표의 값 숫자)"
+  },
+  {
+   "id": "p6-b20#n1",
+   "bucket": "number_only_block",
+   "page": 6,
+   "raw": "6%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 지역별 매출비중 도넛 도표의 미국 6%(도표의 값 숫자)"
+  },
+  {
+   "id": "p6-b27#n1",
+   "bucket": "number_only_block",
+   "page": 6,
+   "raw": "1,571",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 기업 개요 표의 「임직원 수 1,571명」: 세어 본 실적"
+  },
+  {
+   "id": "p6-b37#n1",
+   "bucket": "sentence",
+   "page": 6,
+   "raw": "2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "연혁의 「수출 2억불 달성」: 수출 금액"
+  },
+  {
+   "id": "p6-b42#n1",
+   "bucket": "sentence",
+   "page": 6,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "연혁의 「평택 1공장 준공」: 공장 이름의 번호"
+  },
+  {
+   "id": "p7-b19#n1",
+   "bucket": "number_only_block",
+   "page": 7,
+   "raw": "35",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「연간 화장품 생산능력 35억 개」: 잰 양"
+  },
+  {
+   "id": "p9-b27#n1",
+   "bucket": "sentence",
+   "page": 9,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": "value",
+   "basis": "쪽 그림: 꼭지 제목 「GLOBAL BEAUTY NO.1」: 구호·이름의 일부인 숫자(순위의 뜻도 있다)"
+  },
+  {
+   "id": "p13-b28#n1",
+   "bucket": "number_only_block",
+   "page": 13,
+   "raw": "4,526",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「기능성·특허·지식재산권 4,526건 보유」: 세어 본 실적"
+  },
+  {
+   "id": "p13-b30#n1",
+   "bucket": "sentence",
+   "page": 13,
+   "raw": "35",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「연간 생산 능력 35억 개 생산」: 잰 양"
+  },
+  {
+   "id": "p13-b33#n3",
+   "bucket": "sentence",
+   "page": 13,
+   "raw": "140",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「140여 개국에 수출」: 수출국 수의 실적"
+  },
+  {
+   "id": "p13-b36#n2",
+   "bucket": "sentence",
+   "page": 13,
+   "raw": "1,100",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「1,100여 명의 연구 인력」: 인원 수의 실적"
+  },
+  {
+   "id": "p13-b36#n4",
+   "bucket": "sentence",
+   "page": 13,
+   "raw": "4,526",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「4,526건의 특허·지식재산권」: 세어 본 실적"
+  },
+  {
+   "id": "p14-b38#n1",
+   "bucket": "sentence",
+   "page": 14,
+   "raw": "4",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "쪽 그림: 고객사 사례(롯데호텔앤리조트) 칸의 「Product 4개 브랜드 · 32개 제품」: 그 협업에서 낸 브랜드 수의 실적"
+  },
+  {
+   "id": "p15-b27#n1",
+   "bucket": "number_only_block",
+   "page": 15,
+   "raw": "8",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "쪽 그림: Key Figure 의 「8개국 글로벌 R&I 센터」: 거점(국가) 수의 실적"
+  },
+  {
+   "id": "p21-b12#n1",
+   "bucket": "sentence",
+   "page": 21,
+   "raw": "3",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "「3대 전략 체계」: 구성을 센 수"
+  },
+  {
+   "id": "p22-b17#n2",
+   "bucket": "sentence",
+   "page": 22,
+   "raw": "2",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "「ESG위원회는 사내이사 1인과 독립이사 2인으로 구성」: 위원 수(다른 자리와 대조할 수 있는 실적). 기구의 구성을 센 수로도 읽힌다"
+  },
+  {
+   "id": "p23-b27#n3",
+   "bucket": "sentence",
+   "page": 23,
+   "raw": "1.97",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「온실가스(Scope 1, 2) 원단위: 1.97tCO2eq/매출액-억 원」: 잰 양"
+  },
+  {
+   "id": "p23-b38#n1",
+   "bucket": "sentence",
+   "page": 23,
+   "raw": "5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「지속가능한 제품 매출 비율: 약 5%」: 비율"
+  },
+  {
+   "id": "p23-b50#n1",
+   "bucket": "sentence",
+   "page": 23,
+   "raw": "45.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「용수 재사용량 전년 대비 45.1% 확대」: 증감률"
+  },
+  {
+   "id": "p23-b52#n1",
+   "bucket": "sentence",
+   "page": 23,
+   "raw": "12",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「누적 12개 제품 대상 LCA 측정」: 측정한 제품 수의 실적"
+  },
+  {
+   "id": "p23-b60#n3",
+   "bucket": "sentence",
+   "page": 23,
+   "raw": "30%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「2035년 … 용수 사용량 원단위 30% 감축」: 목표값"
+  },
+  {
+   "id": "p23-b60#n5",
+   "bucket": "sentence",
+   "page": 23,
+   "raw": "95%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「2035년 국내 폐기물 재활용률 95% 달성」: 목표값"
+  },
+  {
+   "id": "p24-b40#n1",
+   "bucket": "number_only_block",
+   "page": 24,
+   "raw": "7,742",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 재생에너지 사용량(단위 MWh) 막대 도표의 2025 막대 위 값 7,742"
+  },
+  {
+   "id": "p24-b44#n1",
+   "bucket": "sentence",
+   "page": 24,
+   "raw": "6",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 태양광 발전 설비 구축 「11개 사업장 (국내 6개, 해외 5개)」: 사업장 수의 실적"
+  },
+  {
+   "id": "p25-b46#n1",
+   "bucket": "sentence",
+   "page": 25,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「딘서트코 2스타 인증 획득」: 인증 등급의 이름에 든 숫자"
+  },
+  {
+   "id": "p25-b50#n1",
+   "bucket": "number_only_block",
+   "page": 25,
+   "raw": "3.4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「친환경 물류 포장재 탄소 저감량 3.4ton」: 잰 양"
+  },
+  {
+   "id": "p26-b25#n1",
+   "bucket": "sentence",
+   "page": 26,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「완화 조치를 수립하고 100% 이행을 완료」: 이행 비율"
+  },
+  {
+   "id": "p26-b33#n1",
+   "bucket": "number_only_block",
+   "page": 26,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「인권영향평가 실시 비율 100%」: 비율"
+  },
+  {
+   "id": "p26-b36#n1",
+   "bucket": "number_only_block",
+   "page": 26,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「인권 리스크 완화 조치 비율 100%」: 비율"
+  },
+  {
+   "id": "p26-b40#n1",
+   "bucket": "sentence",
+   "page": 26,
+   "raw": "8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「생활임금 보장 수준 점검 8개 사업장」: 점검한 사업장 수의 실적"
+  },
+  {
+   "id": "p27-b21#n1",
+   "bucket": "sentence",
+   "page": 27,
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "「연 1회 이중 중대성 평가를 실시」: 정해 둔 빈도"
+  },
+  {
+   "id": "p27-b33#n1",
+   "bucket": "sentence",
+   "page": 27,
+   "raw": "10",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "「도출된 상위 10개 이슈」: 글의 구성(이슈의 수)을 센 수"
+  },
+  {
+   "id": "p30-b34#n4",
+   "bucket": "sentence",
+   "page": 30,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「2030년 0건 지속 유지」: 목표값"
+  },
+  {
+   "id": "p30-b36#n4",
+   "bucket": "sentence",
+   "page": 30,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「2030년 0건 지속 유지」: 목표값"
+  },
+  {
+   "id": "p30-b47#n2",
+   "bucket": "sentence",
+   "page": 30,
+   "raw": "1.97",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「2025년 1.97tCO2eq/매출액-억 원」: 잰 양(원단위 실적)"
+  },
+  {
+   "id": "p30-b60#n2",
+   "bucket": "sentence",
+   "page": 30,
+   "raw": "63.4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「2025년 63.4%」: 비율 실적"
+  },
+  {
+   "id": "p30-b60#n4",
+   "bucket": "sentence",
+   "page": 30,
+   "raw": "80%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「2030년 80% 달성」: 목표값"
+  },
+  {
+   "id": "p33-b20#n1",
+   "bucket": "number_only_block",
+   "page": 33,
+   "raw": "34",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 장 표지의 차례 「34 Material Issue. 제품 안전 및 책임」: 쪽 번호"
+  },
+  {
+   "id": "p33-b21#n1",
+   "bucket": "number_only_block",
+   "page": 33,
+   "raw": "37",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 장 표지의 차례 「37 Material Issue. 에너지 절감 및 기후변화 대응」: 쪽 번호"
+  },
+  {
+   "id": "p33-b22#n1",
+   "bucket": "number_only_block",
+   "page": 33,
+   "raw": "40",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 장 표지의 차례 「40 Material Issue. 협력사 지속가능성(ESG) 관리」: 쪽 번호"
+  },
+  {
+   "id": "p34-b26#n1",
+   "bucket": "number_only_block",
+   "page": 34,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「제품 안전성 관련 규제 위반 건수 0건」: 세어 본 실적"
+  },
+  {
+   "id": "p34-b28#n1",
+   "bucket": "number_only_block",
+   "page": 34,
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「제품 리콜 건수 0건」: 세어 본 실적"
+  },
+  {
+   "id": "p40-b27#n1",
+   "bucket": "number_only_block",
+   "page": 40,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「핵심 협력사 행동규범 서명률 100%」: 비율"
+  },
+  {
+   "id": "p40-b28#n1",
+   "bucket": "number_only_block",
+   "page": 40,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「핵심 협력사 ESG 평가 비율 100%」: 비율"
+  },
+  {
+   "id": "p47-b12#n1",
+   "bucket": "sentence",
+   "page": 47,
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "「분기별 1회 정기 회의를 개최」: 정해 둔 빈도"
+  },
+  {
+   "id": "p47-b20#n2",
+   "bucket": "sentence",
+   "page": 47,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「환경경영시스템 인증을 100% 보유」: 인증 보유 비율"
+  },
+  {
+   "id": "p47-b24#n6",
+   "bucket": "sentence",
+   "page": 47,
+   "raw": "313",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "「318건의 사전 예방 점검 … 이 중 313건에 대한 개선 조치를 완료」: 세어 본 실적"
+  },
+  {
+   "id": "p48-b6#n3",
+   "bucket": "sentence",
+   "page": 48,
+   "raw": "2,727",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「환경 운영비는 2,727백만 원」: 2025년 환경 운영비 금액"
+  },
+  {
+   "id": "p48-b7#n2",
+   "bucket": "sentence",
+   "page": 48,
+   "raw": "2,655",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「2025년 연간 누적 기준 2,655명이 교육을 이수」: 세어 보고한 이수 인원 실적"
+  },
+  {
+   "id": "p48-b19#n1",
+   "bucket": "number_only_block",
+   "page": 48,
+   "raw": "1,169",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「환경투자 비용」 막대 도표(단위 백만 원)의 2025 막대 위에 적힌 값 숫자"
+  },
+  {
+   "id": "p48-b22#n1",
+   "bucket": "number_only_block",
+   "page": 48,
+   "raw": "732",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「환경투자 비용」 막대 도표의 2024 막대 위에 적힌 값 숫자(축 눈금이 아님)"
+  },
+  {
+   "id": "p50-b13#n7",
+   "bucket": "sentence",
+   "page": 50,
+   "raw": "20",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "글 「장기 20년(2032~2050년)」: 분석 기간의 길이"
+  },
+  {
+   "id": "p50-b17#n2",
+   "bucket": "sentence",
+   "page": 50,
+   "raw": "3",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "글 「…의 3가지 시나리오 중」: 시나리오 구성을 센 수"
+  },
+  {
+   "id": "p53-b17#n1",
+   "bucket": "number_only_block",
+   "page": 53,
+   "raw": "24",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 감축 경로 도표(단위 천tCO2eq)의 2035년 점 아래에 적힌 값 숫자 24(축 눈금이 아니고 중간 목표 배출량)"
+  },
+  {
+   "id": "p53-b20#n3",
+   "bucket": "sentence",
+   "page": 53,
+   "raw": "19",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "글 「공정·설비 효율화 과제 19개를 도출」: 도출한 과제 수의 실적으로 봄. 구성을 센 수로도 읽힘"
+  },
+  {
+   "id": "p54-b15#n1",
+   "bucket": "sentence",
+   "page": 54,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "각주 「합산 값과 1tCO₂eq 미만의 차이」: 반올림 오차의 문턱값. 기준 단위로도 읽힘"
+  },
+  {
+   "id": "p55-b23#n1",
+   "bucket": "number_only_block",
+   "page": 55,
+   "raw": "80",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「총 교육 시간」 막대 도표(단위 시간)의 2025 막대 위에 적힌 값 숫자"
+  },
+  {
+   "id": "p56-b15#n4",
+   "bucket": "sentence",
+   "page": 56,
+   "raw": "5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「2026년에는 목표를 5%로 상향 설정」: 원단위 절감 목표값"
+  },
+  {
+   "id": "p56-b22#n1",
+   "bucket": "number_only_block",
+   "page": 56,
+   "raw": "3.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 재생에너지 사용량 「거점별(국내)」 도넛 도표에서 코스맥스향약원 옆에 적힌 비율 값 3.1%"
+  },
+  {
+   "id": "p58-b18#n3",
+   "bucket": "sentence",
+   "page": 58,
+   "raw": "30%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「원단위를 각각 30% 감축」: 2035년 감축 목표값"
+  },
+  {
+   "id": "p58-b18#n4",
+   "bucket": "sentence",
+   "page": 58,
+   "raw": "95%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「재활용률 95%를 달성」: 중기 목표값"
+  },
+  {
+   "id": "p61-b21#n1",
+   "bucket": "sentence",
+   "page": 61,
+   "raw": "65",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "글 「미국 캘리포니아 Proposition 65」: 법령 이름에 든 번호"
+  },
+  {
+   "id": "p72-b24#n3",
+   "bucket": "sentence",
+   "page": 72,
+   "raw": "84",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「립글로스 생산량은 분당 60개에서 84개로」: 잰 생산량"
+  },
+  {
+   "id": "p75-b33#n5",
+   "bucket": "sentence",
+   "page": 75,
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "글 「운영을 본격화한 이후 1년 만에」: 기간"
+  },
+  {
+   "id": "p76-b19#n2",
+   "bucket": "sentence",
+   "page": 76,
+   "raw": "75%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「중남미 인구의 75%가 곱슬머리」: 비율(외부 통계이나 양을 나타내는 값)"
+  },
+  {
+   "id": "p77-b17#n2",
+   "bucket": "sentence",
+   "page": 77,
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "글 「2023년 출시한 3WAAU」: 플랫폼 이름에 든 숫자"
+  },
+  {
+   "id": "p77-b17#n6",
+   "bucket": "sentence",
+   "page": 77,
+   "raw": "1,000",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "글 「1,000여 종의 혁신 제형과 … 용기」: 보유 제형 수의 실적(어림수). 구성을 센 수로도 읽힘"
+  },
+  {
+   "id": "p79-b19#n1",
+   "bucket": "sentence",
+   "page": 79,
+   "raw": "30%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「신제품 30% 이상 재활용 고려 설계 적용」: 로드맵의 목표값"
+  },
+  {
+   "id": "p79-b23#n1",
+   "bucket": "sentence",
+   "page": 79,
+   "raw": "20%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「재생 플라스틱 적용 옵션 20% 확보」: 로드맵의 목표값"
+  },
+  {
+   "id": "p79-b25#n1",
+   "bucket": "sentence",
+   "page": 79,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「표준 패키징 100% 지속가능 소재 기반」: 로드맵의 목표값"
+  },
+  {
+   "id": "p79-b51#n6",
+   "bucket": "sentence",
+   "page": 79,
+   "raw": "3.4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「약 3.4ton의 CO₂ 배출량을 저감」: 잰 저감량"
+  },
+  {
+   "id": "p82-b16#n6",
+   "bucket": "sentence",
+   "page": 82,
+   "raw": "2,000",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「2030년까지 약 2,000종 규모로 확대」: 미생물 확보 목표값"
+  },
+  {
+   "id": "p88-b22#n1",
+   "bucket": "number_only_block",
+   "page": 88,
+   "raw": "5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「협력사 고충처리 현황」 상자의 「접수 건수 5건」: 세어 보고한 실적"
+  },
+  {
+   "id": "p88-b24#n1",
+   "bucket": "number_only_block",
+   "page": 88,
+   "raw": "5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「협력사 고충처리 현황」 상자의 「처리 건수 5건」: 세어 보고한 실적"
+  },
+  {
+   "id": "p88-b26#n1",
+   "bucket": "number_only_block",
+   "page": 88,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「협력사 고충처리 현황」 상자의 「처리 비율 100%」"
+  },
+  {
+   "id": "p90-b12#n1",
+   "bucket": "sentence",
+   "page": 90,
+   "raw": "3,500",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "글 「3,500여 개의 교육 콘텐츠」: 외부 플랫폼이 제공하는 콘텐츠 수(어림수). 양으로 봤으나 구성을 센 수로도 읽힘"
+  },
+  {
+   "id": "p93-b48#n1",
+   "bucket": "number_only_block",
+   "page": 93,
+   "raw": "3,000",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 사회공헌 로드맵 「단기(2026) 사회공헌 프로그램 수혜 누적 인원 3,000명」: 목표값"
+  },
+  {
+   "id": "p93-b51#n1",
+   "bucket": "number_only_block",
+   "page": 93,
+   "raw": "4,000",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 사회공헌 로드맵 「중기(2028) 수혜 누적 인원 4,000명」: 목표값"
+  },
+  {
+   "id": "p93-b55#n1",
+   "bucket": "number_only_block",
+   "page": 93,
+   "raw": "5,000",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 사회공헌 로드맵 「장기(2030) 수혜 누적 인원 5,000명」: 목표값(본문의 5,000명과 대조되는 자리)"
+  },
+  {
+   "id": "p94-b13#n2",
+   "bucket": "sentence",
+   "page": 94,
+   "raw": "30",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「대학생 30명 … 총 81명에게 장학금을 지원」: 세어 보고한 지원 인원 실적"
+  },
+  {
+   "id": "p95-b13#n3",
+   "bucket": "sentence",
+   "page": 95,
+   "raw": "3",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "글 「POSTECH, 포항시와의 3자 업무협약」: 협약 당사자의 구성을 센 수"
+  },
+  {
+   "id": "p95-b13#n4",
+   "bucket": "sentence",
+   "page": 95,
+   "raw": "25",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "글 「전 세계 25개 대학을 포함한」: 협력 대학 수의 실적. 구성을 센 수로도 읽힘"
+  },
+  {
+   "id": "p95-b13#n5",
+   "bucket": "sentence",
+   "page": 95,
+   "raw": "30",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "글 「30여 개 연구 기관과 공동 연구 네트워크」: 협력 기관 수의 실적(어림수). 구성을 센 수로도 읽힘"
+  },
+  {
+   "id": "p96-b22#n4",
+   "bucket": "sentence",
+   "page": 96,
+   "raw": "80",
+   "kind": "duration",
+   "ambiguousWith": "identifier",
+   "basis": "글 「인도네시아 독립 80주년 기념행사」: 주년(지난 기간). 행사 이름의 일부로도 읽힘"
+  },
+  {
+   "id": "p99-b20#n3",
+   "bucket": "sentence",
+   "page": 99,
+   "raw": "8",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "글 「4명의 인턴이 8주간 … 근무」: 기간"
+  },
+  {
+   "id": "p100-b12#n2",
+   "bucket": "sentence",
+   "page": 100,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": "count",
+   "basis": "글 「구성원별 1:1 피드백」: 「1:1」 이라는 방식 이름의 앞 조각(기계가 1 만 뽑음). 잰 양이 아님"
+  },
+  {
+   "id": "p100-b29#n1",
+   "bucket": "number_only_block",
+   "page": 100,
+   "raw": "83,219",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 「2025년 기준 보수 수준」 상자의 「구성원 인당 평균 보수 83,219천 원」"
+  },
+  {
+   "id": "p100-b32#n1",
+   "bucket": "number_only_block",
+   "page": 100,
+   "raw": "91.9%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 같은 상자의 「남성 대비 여성 총 급여 비율 91.9%」"
+  },
+  {
+   "id": "p100-b34#n1",
+   "bucket": "number_only_block",
+   "page": 100,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림: 같은 상자의 「생활임금 분석 기준에 활용된 구성원 비율 100%」"
+  },
+  {
+   "id": "p102-b16#n4",
+   "bucket": "sentence",
+   "page": 102,
+   "raw": "3.25",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「임직원 1인당 평균 3.25시간의 학습」: 잰 평균 학습 시간(기간이 아니라 실적 양)"
+  },
+  {
+   "id": "p103-b16#n3",
+   "bucket": "sentence",
+   "page": 103,
+   "raw": "39",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "글 「2023년부터 2025년까지 39개의 AI·DT 관련 교육 과정을 운영」: 운영한 과정 수의 실적. 구성을 센 수로도 읽힘"
+  },
+  {
+   "id": "p103-b16#n4",
+   "bucket": "sentence",
+   "page": 103,
+   "raw": "1,497",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「누적 참여 임직원 수는 1,497명」: 세어 보고한 인원 실적"
+  },
+  {
+   "id": "p106-b12#n2",
+   "bucket": "sentence",
+   "page": 106,
+   "raw": "11",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「총 11건의 제보가 접수」: 세어 보고한 접수 건수 실적"
+  },
+  {
+   "id": "p108-b12#n1",
+   "bucket": "sentence",
+   "page": 108,
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "글 「연 1회 이상 정기적으로 인권영향평가를 실시」: 정해 둔 빈도"
+  },
+  {
+   "id": "p111-b12#n1",
+   "bucket": "sentence",
+   "page": 111,
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "글 「이사회는 연 1회 안전보건 관련 안건을 상정」: 정해 둔 빈도"
+  },
+  {
+   "id": "p111-b20#n1",
+   "bucket": "sentence",
+   "page": 111,
+   "raw": "2",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "글 「비상대피경로 다중화(2경로 이상) 확보」: 관리 기준의 문턱값. 정해 둔 수로도 읽힘"
+  },
+  {
+   "id": "p111-b26#n2",
+   "bucket": "sentence",
+   "page": 111,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "글 「생산 사업장은 안전보건경영시스템 인증을 100% 보유」: 인증 보유 비율"
+  },
+  {
+   "id": "p112-b15#n5",
+   "bucket": "sentence",
+   "page": 112,
+   "raw": "90",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "발굴한 리스크 119건 중 중점 29건 외 나머지 90건: 세어 보고한 실적 건수"
+  },
+  {
+   "id": "p112-b19#n3",
+   "bucket": "sentence",
+   "page": 112,
+   "raw": "71",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "판교 사업장에 배치된 관리감독자 71명: 인원 실적"
+  },
+  {
+   "id": "p112-b20#n2",
+   "bucket": "sentence",
+   "page": 112,
+   "raw": "506",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "2025년 발행한 안전 작업 허가서 총 506건: 실적 건수"
+  },
+  {
+   "id": "p114-b17#n1",
+   "bucket": "sentence",
+   "page": 114,
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "「반기별 1회 이상」 평가 실시: 정해 둔 빈도"
+  },
+  {
+   "id": "p114-b17#n5",
+   "bucket": "sentence",
+   "page": 114,
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "「연 1회 협력사 ESG 평가」: 정해 둔 빈도"
+  },
+  {
+   "id": "p114-b20#n1",
+   "bucket": "number_only_block",
+   "page": 114,
+   "raw": "85",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림의 「협력사 안전보건 수준 평가 결과」 요약 칸 중 발견 건수 85건(본문의 위험 요소 85건과 같은 실적)"
+  },
+  {
+   "id": "p114-b22#n1",
+   "bucket": "number_only_block",
+   "page": 114,
+   "raw": "85",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림의 요약 칸 중 처리 건수 85건: 실적 건수"
+  },
+  {
+   "id": "p114-b24#n1",
+   "bucket": "number_only_block",
+   "page": 114,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림의 요약 칸 중 개선율 100%: 실적 비율"
+  },
+  {
+   "id": "p115-b13#n5",
+   "bucket": "sentence",
+   "page": 115,
+   "raw": "15",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "2025년 증축 공사 현장 점검을 총 15회 실시했다는 실적 횟수(정해 둔 빈도가 아니라 센 결과)"
+  },
+  {
+   "id": "p117-b17#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "1,397",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 「2025년 건강검진 실적」 수검자 인원 1,397명"
+  },
+  {
+   "id": "p117-b19#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 수검자 비율 100%"
+  },
+  {
+   "id": "p117-b22#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "550",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 「추적관리대상(요관찰)」 일반건강검진 추적관리 대상 인원 550명"
+  },
+  {
+   "id": "p117-b25#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "237",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 일반검진 유소견자 인원 237명"
+  },
+  {
+   "id": "p117-b27#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "17.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 일반검진 유소견자 비율 17.0%"
+  },
+  {
+   "id": "p117-b30#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "112",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 특수건강검진 추적관리 대상 인원 112명"
+  },
+  {
+   "id": "p117-b33#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "20",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 특수검진 유소견자 인원 20명"
+  },
+  {
+   "id": "p117-b35#n1",
+   "bucket": "number_only_block",
+   "page": 117,
+   "raw": "2.9%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 특수검진 유소견자 비율 2.9%"
+  },
+  {
+   "id": "p119-b25#n4",
+   "bucket": "sentence",
+   "page": 119,
+   "raw": "3",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "정관에 정한 이사 임기 3년: 기간"
+  },
+  {
+   "id": "p119-b25#n5",
+   "bucket": "sentence",
+   "page": 119,
+   "raw": "6",
+   "kind": "duration",
+   "ambiguousWith": "value",
+   "basis": "독립이사 연임 기간 최대 6년: 기간이면서 넘지 않도록 정한 한도(문턱값)이기도 함"
+  },
+  {
+   "id": "p121-b12#n6",
+   "bucket": "sentence",
+   "page": 121,
+   "raw": "9.4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "CEO 보수가 임직원 평균 보수의 약 9.4배: 계산된 비율"
+  },
+  {
+   "id": "p121-b16#n1",
+   "bucket": "number_only_block",
+   "page": 121,
+   "raw": "4.67",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 「2025년 이사회 활동 평가 결과」 이사회의 구성 4.67점: 평가 점수"
+  },
+  {
+   "id": "p121-b18#n1",
+   "bucket": "number_only_block",
+   "page": 121,
+   "raw": "4.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 이사회의 역할 4.8점: 평가 점수"
+  },
+  {
+   "id": "p121-b20#n1",
+   "bucket": "number_only_block",
+   "page": 121,
+   "raw": "4.87",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 이사회의 운영 4.87점: 평가 점수"
+  },
+  {
+   "id": "p121-b22#n2",
+   "bucket": "sentence",
+   "page": 121,
+   "raw": "5",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "종합 평점 4.78점 옆의 「5점 만점」: 척도의 만점"
+  },
+  {
+   "id": "p122-b12#n6",
+   "bucket": "sentence",
+   "page": 122,
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "경영위원회 평균 참석률 100%: 실적 비율"
+  },
+  {
+   "id": "p122-b13#n2",
+   "bucket": "sentence",
+   "page": 122,
+   "raw": "2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "각주 글 속 부결 안건 2건: 세어 보고한 실적 건수(각주 번호가 아니라 각주 내용의 수)"
+  },
+  {
+   "id": "p123-b21#n2",
+   "bucket": "sentence",
+   "page": 123,
+   "raw": "4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "독립이사 선임 의결 요건 「주식 총수의 1/4 이상」의 분모 4: 문턱값(분수 1/4 의 일부만 뽑힘)"
+  },
+  {
+   "id": "p126-b16#n1",
+   "bucket": "sentence",
+   "page": 126,
+   "raw": "2",
+   "kind": "duration",
+   "ambiguousWith": "count",
+   "basis": "자회사 내부 감사를 「2년 주기로」 실시: 주기를 말하는 기간(정해 둔 빈도로도 읽힘)"
+  },
+  {
+   "id": "p127-b12#n4",
+   "bucket": "sentence",
+   "page": 127,
+   "raw": "11",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "2025년 신문고·레드휘슬로 접수된 신고 총 11건: 실적 건수(쪽 그림의 표 2025 전체 11과 같음)"
+  },
+  {
+   "id": "p127-b27#n1",
+   "bucket": "number_only_block",
+   "page": 127,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 「반부패 신고 및 조치」 표(단위 건)의 값 칸에 있는 1 로 봄. 어느 칸인지는 글만으로 특정 못 하나 표에 1 인 값 칸이 여럿이고 모두 건수"
+  },
+  {
+   "id": "p127-b28#n1",
+   "bucket": "number_only_block",
+   "page": 127,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 「반부패 신고 및 조치」 표(단위 건)의 값 칸에 있는 1 로 봄. 어느 칸인지는 특정 못 함"
+  },
+  {
+   "id": "p127-b29#n1",
+   "bucket": "number_only_block",
+   "page": 127,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 「반부패 신고 및 조치」 표(단위 건)의 값 칸에 있는 1 로 봄. 어느 칸인지는 특정 못 함"
+  },
+  {
+   "id": "p127-b30#n1",
+   "bucket": "number_only_block",
+   "page": 127,
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "쪽 그림 「반부패 신고 및 조치」 표(단위 건)의 값 칸에 있는 1 로 봄. 어느 칸인지는 특정 못 함"
+  },
+  {
+   "id": "p142-b17#n4",
+   "bucket": "sentence",
+   "page": 142,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「화성 1공장」: 사업장 이름의 일부"
+  },
+  {
+   "id": "p143-b20#n2",
+   "bucket": "sentence",
+   "page": 143,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「화성 1공장」: 사업장 이름의 일부"
+  },
+  {
+   "id": "p143-b20#n6",
+   "bucket": "sentence",
+   "page": 143,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「평택 2공장」: 사업장 이름의 일부"
+  },
+  {
+   "id": "p144-b14#n10",
+   "bucket": "sentence",
+   "page": 144,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 4) 의 「평택 1공장」: 사업장 이름의 일부"
+  },
+  {
+   "id": "p144-b15#n2",
+   "bucket": "sentence",
+   "page": 144,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "소제목 「처리량1)2)」의 위첨자 각주 번호 2 (쪽 그림에서 위첨자 확인)"
+  },
+  {
+   "id": "p147-b14#n4",
+   "bucket": "sentence",
+   "page": 147,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「화성 1공장」: 사업장 이름의 일부"
+  },
+  {
+   "id": "p147-b17#n3",
+   "bucket": "sentence",
+   "page": 147,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「화성 2공장」: 사업장 이름의 일부"
+  },
+  {
+   "id": "p150-b16#n4",
+   "bucket": "sentence",
+   "page": 150,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「평택 2공장」: 사업장 이름의 일부"
+  },
+  {
+   "id": "p151-b19#n6",
+   "bucket": "sentence",
+   "page": 151,
+   "raw": "79.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "2025년 임직원 몰입도 점수 목표 79.5점: 목표값"
+  },
+  {
+   "id": "p168-b27#n3",
+   "bucket": "sentence",
+   "page": 168,
+   "raw": "4",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "AA1000 의 「4대 원칙」: 구성을 센 수"
+  },
+  {
+   "id": "p169-b32#n1",
+   "bucket": "sentence",
+   "page": 169,
+   "raw": "22",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "Issue Date 22/06/2026 의 일(日): 날짜의 조각"
+  },
+  {
+   "id": "p170-b21#n1",
+   "bucket": "sentence",
+   "page": 170,
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「제 3 자 검증」: 낱말(제3자)의 일부, 재거나 센 양이 아님"
+  },
+  {
+   "id": "p170-b24#n1",
+   "bucket": "sentence",
+   "page": 170,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「첨부 1 참고」: 첨부 문서 번호"
+  },
+  {
+   "id": "p170-b24#n10",
+   "bucket": "sentence",
+   "page": 170,
+   "raw": "7",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "Scope 3 「카테고리 1, 2, 3, 5, 6, 7, 9」의 7: 카테고리 번호"
+  },
+  {
+   "id": "p171-b20#n1",
+   "bucket": "sentence",
+   "page": 171,
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「첨부 #1.」: 첨부 번호"
+  },
+  {
+   "id": "p171-b21#n3",
+   "bucket": "sentence",
+   "page": 171,
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "「Scope 1 & 2」의 2: Scope 이름의 일부"
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "note": "[옮긴 사본: 밴드 CT2 (MARC-TICK-38) 가 대응표 unnamed-row/vision-merged 로 자리 ID 만 파생 문서의 ID 로 옮겼다. 글자와 그 밖의 내용은 원래 파일 그대로다. 원래 파일을 고친 것이 아니다.] 넓힌 시험지에 심는 것 (밴드 U). 밴드 R 의 명세(kb-2025.plants.json, 문서 B 의 숫자 칸 16칸)는 그대로 같이 심고, 여기에는 새로 심는 자리만 적는다. 두 문서 모델의 사본에만 심는다. 자리는 넓힌 정답의 자리 가운데 종류별 조건에 맞는 것에서 씨앗 고정 난수로 뽑았다 (손으로 고르지 않았다). 서술에 심을 때는 그 숫자 덩어리의 글자만 바꾼다. 한 쌍·한 묶음에는 한 자리만 심는다. 밴드 R 의 정답 쌍·심은 칸과 이어진 자리, 원문에서 표기 자릿수가 다른 쌍·묶음에는 심지 않는다. rounding_control 은 오류가 아닌 대조군이다.",
+ "status": "러너 작성, 전문가 검토 전 (밴드 U, 2026-10-04)",
+ "seed": 20261004,
+ "plan": [
+  {
+   "kind": "digit_changed",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "digit_changed",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "digits_transposed",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "digits_transposed",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "digit_dropped",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "digit_added",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "times_10",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "times_1000",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "rounding_control",
+   "pool": "prose_pair"
+  },
+  {
+   "kind": "digit_changed",
+   "pool": "group_a"
+  },
+  {
+   "kind": "digits_transposed",
+   "pool": "group_a"
+  },
+  {
+   "kind": "times_10",
+   "pool": "group_a"
+  },
+  {
+   "kind": "digit_changed",
+   "pool": "group_b"
+  },
+  {
+   "kind": "digit_dropped",
+   "pool": "group_b"
+  },
+  {
+   "kind": "times_10",
+   "pool": "group_b"
+  }
+ ],
+ "skipped": [
+  {
+   "step": 9,
+   "kind": "rounding_control",
+   "pool": "prose_pair",
+   "why": "조건에 맞는 자리가 없다"
+  }
+ ],
+ "plants": [
+  {
+   "id": "U01",
+   "kind": "digit_changed",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p62-t8:r1c6",
+   "original": "2,252,448",
+   "planted": "2,252,498",
+   "pairs": [
+    "N18"
+   ],
+   "groups": []
+  },
+  {
+   "id": "U02",
+   "kind": "digit_changed",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p31-b9#n2",
+   "original": "19.7",
+   "planted": "49.7",
+   "pairs": [
+    "N07"
+   ],
+   "groups": [
+    "GA23"
+   ]
+  },
+  {
+   "id": "U03",
+   "kind": "digits_transposed",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p62-t9:r1c5",
+   "original": "92,213",
+   "planted": "92,123",
+   "pairs": [
+    "N19"
+   ],
+   "groups": []
+  },
+  {
+   "id": "U04",
+   "kind": "digits_transposed",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p39-b22#n3",
+   "original": "13.82%",
+   "planted": "31.82%",
+   "pairs": [
+    "N11"
+   ],
+   "groups": [
+    "GA20"
+   ]
+  },
+  {
+   "id": "U05",
+   "kind": "digit_dropped",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p62-t9:r1c7",
+   "original": "124,353",
+   "planted": "24,353",
+   "pairs": [
+    "N20"
+   ],
+   "groups": []
+  },
+  {
+   "id": "U06",
+   "kind": "digit_added",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p17-b8#n3",
+   "original": "20.1",
+   "planted": "260.1",
+   "pairs": [
+    "N05"
+   ],
+   "groups": [
+    "GA32"
+   ]
+  },
+  {
+   "id": "U07",
+   "kind": "times_10",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p62-t8:r1c7",
+   "original": "2,776,424",
+   "planted": "27,764,240",
+   "pairs": [
+    "N17"
+   ],
+   "groups": []
+  },
+  {
+   "id": "U08",
+   "kind": "times_1000",
+   "isError": true,
+   "pool": "prose_pair",
+   "doc": "a",
+   "target": "p62-t8:r1c5",
+   "original": "2,858,759",
+   "planted": "2,858,759,000",
+   "pairs": [
+    "N16"
+   ],
+   "groups": []
+  },
+  {
+   "id": "U09",
+   "kind": "digit_changed",
+   "isError": true,
+   "pool": "group_a",
+   "doc": "a",
+   "target": "p47-t1:r4c9",
+   "original": "55,911,585",
+   "planted": "55,913,585",
+   "pairs": [],
+   "groups": [
+    "GA38"
+   ]
+  },
+  {
+   "id": "U10",
+   "kind": "digits_transposed",
+   "isError": true,
+   "pool": "group_a",
+   "doc": "a",
+   "target": "p37-t8:r4c1",
+   "original": "17.5",
+   "planted": "71.5",
+   "pairs": [],
+   "groups": [
+    "GA22"
+   ]
+  },
+  {
+   "id": "U11",
+   "kind": "times_10",
+   "isError": true,
+   "pool": "group_a",
+   "doc": "a",
+   "target": "p46-t3:r3c7",
+   "original": "42%",
+   "planted": "420%",
+   "pairs": [],
+   "groups": [
+    "GA33"
+   ]
+  },
+  {
+   "id": "U12",
+   "kind": "digit_changed",
+   "isError": true,
+   "pool": "group_b",
+   "doc": "b",
+   "target": "p50-b5#n2",
+   "original": "91.5%",
+   "planted": "94.5%",
+   "pairs": [],
+   "groups": [
+    "GB17"
+   ]
+  },
+  {
+   "id": "U13",
+   "kind": "digit_dropped",
+   "isError": true,
+   "pool": "group_b",
+   "doc": "b",
+   "target": "p31-b5#n3",
+   "original": "2,883",
+   "planted": "283",
+   "pairs": [],
+   "groups": [
+    "GB15"
+   ]
+  },
+  {
+   "id": "U14",
+   "kind": "times_10",
+   "isError": true,
+   "pool": "group_b",
+   "doc": "b",
+   "target": "p4-b12#n2",
+   "original": "25,806",
+   "planted": "258,060",
+   "pairs": [],
+   "groups": [
+    "GB14"
+   ]
+  }
+ ]
+}

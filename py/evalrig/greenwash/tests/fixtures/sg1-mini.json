@@ -1,0 +1,15 @@
+{
+ "note": "지은 SG1 꼴 픽스처 — 실재 보고서 글 0. 가상상사는 지어낸 이름.",
+ "queries": [
+  {"id": "D01", "self": "p3-b1", "text": "가상상사의 사업장은 몇 곳인가", "type": "data"},
+  {"id": "G01", "self": "p12-b4", "text": "가상상사는 모든 사업장의 전력을\n100% 재생에너지로 바꿨다.", "type": "greenwash"},
+  {"id": "G02", "self": "p7-b30", "text": "가상상사는 2030년 감축 목표를 세웠다.", "type": "greenwash"},
+  {"id": "G03", "self": "p7-b31", "text": "가상상사의 포장재는 대부분 재활용된다.", "type": "greenwash"}
+ ],
+ "claimExpected": {
+  "G01": {"verdict": "unsupported", "has_number": true},
+  "G02": {"verdict": "supported", "has_number": true},
+  "G03": {"verdict": "partially_supported", "has_number": false}
+ },
+ "document": {"source": {"file_name": "synthetic.pdf", "sha256": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff", "page_count": 20}}
+}

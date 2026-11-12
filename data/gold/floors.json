@@ -1,0 +1,201 @@
+{
+ "_comment": "회귀 하한. 2026-10-01 에 이 밴드가 실측한 값 그대로다 (python -m docparse score --gold data/gold). 분모는 정답의 비어 있지 않은 셀. 값을 낮추려면 근거를 CORRECTIONS.md 나 보고에 남긴다.",
+ "measured_on": "2026-10-01",
+ "metrics": [
+  "recall",
+  "recall_strict",
+  "recall_position"
+ ],
+ "auto": {
+  "by_form": {
+   "horizontal_rules": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "ruled_cells": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "no_vertical_rules": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   }
+  },
+  "by_table": {
+   "cos_p142_ghg": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "cos_p142_ghg_cont": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "cos_p142_scope3": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "cos_p149_headcount": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "cos_p171_sites": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "kb_p50_financed": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "kb_p51_gics": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "kbd_p20_energy": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "kbd_p22_scope3": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "kbd_p41_hiring": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p64_segment": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p64_valuedist": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p66_diversity": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p70_energy": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p70_ewaste": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   }
+  }
+ },
+ "text": {
+  "by_form": {
+   "horizontal_rules": {
+    "recall": 0.7825,
+    "recall_strict": 0.5919,
+    "recall_position": 0.2578
+   },
+   "ruled_cells": {
+    "recall": 0.9135,
+    "recall_strict": 0.75,
+    "recall_position": 0.9088
+   },
+   "no_vertical_rules": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   }
+  },
+  "by_table": {
+   "cos_p142_ghg": {
+    "recall": 0.5615,
+    "recall_strict": 0.5385,
+    "recall_position": 0.4308
+   },
+   "cos_p142_ghg_cont": {
+    "recall": 0.9184,
+    "recall_strict": 0.9184,
+    "recall_position": 0.0
+   },
+   "cos_p142_scope3": {
+    "recall": 0.8,
+    "recall_strict": 0.8,
+    "recall_position": 0.0
+   },
+   "cos_p149_headcount": {
+    "recall": 0.8495,
+    "recall_strict": 0.6452,
+    "recall_position": 0.5806
+   },
+   "cos_p171_sites": {
+    "recall": 0.8992,
+    "recall_strict": 0.4109,
+    "recall_position": 0.0388
+   },
+   "kb_p50_financed": {
+    "recall": 0.9007,
+    "recall_strict": 0.7021,
+    "recall_position": 0.8865
+   },
+   "kb_p51_gics": {
+    "recall": 0.9467,
+    "recall_strict": 0.8607,
+    "recall_position": 0.9467
+   },
+   "kbd_p20_energy": {
+    "recall": 0.9683,
+    "recall_strict": 0.8889,
+    "recall_position": 0.9683
+   },
+   "kbd_p22_scope3": {
+    "recall": 0.8039,
+    "recall_strict": 0.6078,
+    "recall_position": 0.8039
+   },
+   "kbd_p41_hiring": {
+    "recall": 0.9302,
+    "recall_strict": 0.5814,
+    "recall_position": 0.9186
+   },
+   "sam_p64_segment": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p64_valuedist": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p66_diversity": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p70_energy": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   },
+   "sam_p70_ewaste": {
+    "recall": 1.0,
+    "recall_strict": 1.0,
+    "recall_position": 1.0
+   }
+  }
+ }
+}

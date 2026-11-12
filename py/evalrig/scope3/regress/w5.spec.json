@@ -1,0 +1,11 @@
+{
+  "schema": "evalrig.scope3.regress-w5/1",
+  "note": "짝만(드롭다운 열 → 계수 책 시트·이름 열·답 열). 이름 글은 싣지 않는다 — `regress w5` 가 실행 때 템플릿·책에서 읽어 사례를 out/ 에 짓는다(감독 답 ②). 드롭다운 열의 첫 값은 소제목 줄이라 뺀다(skipFirst), 「선택안함」도 뺀다.",
+  "skip": ["선택안함"],
+  "skipFirst": true,
+  "pairs": [
+    {"id": "transport-spend", "dropdown": "DD_TRANSPORT_SPEND", "bookSheet": "운송_Spend", "nameColumn": "한국어 품목명", "answerColumn": "NAICS Title (US EPA)", "baseline": {"same": 17, "of": 27}},
+    {"id": "travel-spend", "dropdown": "DD_TRAVEL_SPEND", "bookSheet": "출장_Spend", "nameColumn": "한국어 품목명", "answerColumn": "NAICS Title (US EPA)", "baseline": {"same": 11, "of": 14}},
+    {"id": "energy", "dropdown": "DD_ENERGY", "bookSheet": "에너지", "nameColumn": "활동유형\n(에너지원)", "answerColumn": "활동유형\n(에너지원)", "baseline": {"same": 13, "of": 14}}
+  ]
+}

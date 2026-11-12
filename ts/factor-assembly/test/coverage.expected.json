@@ -1,0 +1,2609 @@
+{
+ "$comment": "덮인 범위 고정 (MARC-TICK-18). pnpm tsx src/cli.ts coverage --json 의 rows 다. 업종 제조업·건설업, 발전 여부 false, 상태를 준 경우의 상태는 대응표의 상태, GWP kr-ets-decree-annex2, 사용량은 그 연료의 별표 12 단위로 1000. 대응표나 계수 표가 바뀌어 덮인 범위가 달라지면 test/coverage.test.ts 가 빨개진다. 늘어난 것이 맞으면 이 파일을 다시 만들고 차이를 보고에 적는다.",
+ "rows": [
+  {
+   "fuel": "원유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "record_not_found",
+    "where": "CO2"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "원유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": false,
+    "kind": "record_not_found",
+    "where": "CO2"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "원유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "원유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "휘발유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:휘발유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "휘발유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:휘발유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "휘발유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:휘발유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "휘발유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:휘발유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "휘발유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:휘발유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "휘발유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:휘발유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "등유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:등유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "등유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:등유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "등유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:등유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "등유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:등유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "등유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:등유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "등유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:등유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "경유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:경유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "경유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:경유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "경유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:경유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "경유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:경유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "경유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:경유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "경유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:경유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "B-A유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-A유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-A유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-A유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-A유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-A유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-A유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-A유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-A유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-A유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "B-A유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-A유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "B-B유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-B유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-B유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-B유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-B유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-B유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-B유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-B유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-B유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-B유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "B-B유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-B유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "B-C유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-C유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-C유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-C유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-C유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-C유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-C유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-C유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "B-C유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-C유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "B-C유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:B-C유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "프로판(LPG1호)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:프로판(LPG1호):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "프로판(LPG1호)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:프로판(LPG1호):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "프로판(LPG1호)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:프로판(LPG1호):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "프로판(LPG1호)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:프로판(LPG1호):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "프로판(LPG1호)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:프로판(LPG1호):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "프로판(LPG1호)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:프로판(LPG1호):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "부탄(LPG3호)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:부탄(LPG3호):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "부탄(LPG3호)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:부탄(LPG3호):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "부탄(LPG3호)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:부탄(LPG3호):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "부탄(LPG3호)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:부탄(LPG3호):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "부탄(LPG3호)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:부탄(LPG3호):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "부탄(LPG3호)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:부탄(LPG3호):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "나프타",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:나프타:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "나프타",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:나프타:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "나프타",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:나프타:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "나프타",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:나프타:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "나프타",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:나프타:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "나프타",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:나프타:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "용제",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:용제:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "용제",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:용제:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "용제",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:용제:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "용제",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:용제:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "용제",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:용제:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "용제",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:용제:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "항공유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:항공유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "항공유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:항공유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "항공유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:항공유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "항공유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:항공유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "항공유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:항공유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "항공유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:항공유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "아스팔트",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아스팔트:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아스팔트",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아스팔트:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아스팔트",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아스팔트:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아스팔트",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아스팔트:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아스팔트",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아스팔트:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "아스팔트",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아스팔트:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "윤활유",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:윤활유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "윤활유",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:윤활유:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "윤활유",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:윤활유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "윤활유",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:윤활유:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "L"
+   }
+  },
+  {
+   "fuel": "윤활유",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:윤활유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "윤활유",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:윤활유:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "L",
+    "kind": "unit_conversion_not_found",
+    "where": "L→Gg"
+   }
+  },
+  {
+   "fuel": "석유코크스",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:석유코크스:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "석유코크스",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:석유코크스:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "석유코크스",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:석유코크스:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "석유코크스",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:석유코크스:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "석유코크스",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:석유코크스:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "석유코크스",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:석유코크스:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "부생연료유1호",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유1호",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유1호",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유1호",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유1호",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "calorific"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유1호",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "calorific"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유2호",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유2호",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유2호",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유2호",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유2호",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "calorific"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "부생연료유2호",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "액체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "calorific"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "천연가스(LNG)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:천연가스(LNG):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "천연가스(LNG)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:천연가스(LNG):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "천연가스(LNG)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:천연가스(LNG):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "천연가스(LNG)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:천연가스(LNG):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "천연가스(LNG)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:천연가스(LNG):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "천연가스(LNG)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:천연가스(LNG):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "도시가스(LNG)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:도시가스(LNG):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "Nm3"
+   }
+  },
+  {
+   "fuel": "도시가스(LNG)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:도시가스(LNG):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "Nm3"
+   }
+  },
+  {
+   "fuel": "도시가스(LNG)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:도시가스(LNG):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "Nm3"
+   }
+  },
+  {
+   "fuel": "도시가스(LNG)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:도시가스(LNG):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "Nm3"
+   }
+  },
+  {
+   "fuel": "도시가스(LNG)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:도시가스(LNG):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "Nm3",
+    "kind": "unit_conversion_not_found",
+    "where": "Nm3→Gg"
+   }
+  },
+  {
+   "fuel": "도시가스(LNG)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:도시가스(LNG):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "Nm3",
+    "kind": "unit_conversion_not_found",
+    "where": "Nm3→Gg"
+   }
+  },
+  {
+   "fuel": "도시가스(LPG)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "도시가스(LPG)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CH4"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "도시가스(LPG)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CO2"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "도시가스(LPG)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "CO2"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "도시가스(LPG)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "calorific"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "도시가스(LPG)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "기체",
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_name_not_mapped",
+    "where": "calorific"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "국내무연탄",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:국내무연탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "국내무연탄",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:국내무연탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "국내무연탄",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:국내무연탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "국내무연탄",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:국내무연탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "국내무연탄",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:국내무연탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "국내무연탄",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:국내무연탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "연료용 수입무연탄",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 수입무연탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 수입무연탄",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 수입무연탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 수입무연탄",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 수입무연탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 수입무연탄",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 수입무연탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 수입무연탄",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 수입무연탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "연료용 수입무연탄",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 수입무연탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "원료용 수입무연탄",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 수입무연탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 수입무연탄",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 수입무연탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 수입무연탄",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 수입무연탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 수입무연탄",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 수입무연탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 수입무연탄",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 수입무연탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "원료용 수입무연탄",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 수입무연탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "연료용 유연탄(역청탄)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 유연탄(역청탄)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 유연탄(역청탄)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 유연탄(역청탄)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "연료용 유연탄(역청탄)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 유연탄(역청탄):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "연료용 유연탄(역청탄)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:연료용 유연탄(역청탄):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "원료용 유연탄(역청탄)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 유연탄(역청탄)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 유연탄(역청탄)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 유연탄(역청탄)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 유연탄(역청탄):manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "원료용 유연탄(역청탄)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 유연탄(역청탄):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 3
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "원료용 유연탄(역청탄)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:원료용 유연탄(역청탄):manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 2
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "아역청탄",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아역청탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아역청탄",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아역청탄:manufacturing_construction:cv2_co2ef2_ch4n2o1_ox2:other",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아역청탄",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아역청탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아역청탄",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아역청탄:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "아역청탄",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아역청탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "아역청탄",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:아역청탄:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 0
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "코크스",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "record_not_found",
+    "where": "CO2"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "코크스",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": false,
+    "kind": "record_not_found",
+    "where": "CO2"
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "코크스",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:코크스:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "코크스",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:코크스:manufacturing_construction:cv2_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": true,
+    "usageUnit": "kg"
+   }
+  },
+  {
+   "fuel": "코크스",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:코크스:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "코크스",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": "고체",
+   "assembly": {
+    "ok": true,
+    "factorId": "kr-ets:stationary:코크스:manufacturing_construction:cv1_co2ef1_ch4n2o1_ox1",
+    "assumptions": 1
+   },
+   "calculation": {
+    "ok": false,
+    "usageUnit": "kg",
+    "kind": "unit_conversion_not_found",
+    "where": "kg→Gg"
+   }
+  },
+  {
+   "fuel": "전기(발전기준)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(발전기준)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(발전기준)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(발전기준)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(발전기준)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(발전기준)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(소비기준)",
+   "mode": "all_tier2",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(소비기준)",
+   "mode": "all_tier2",
+   "stateGiven": true,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(소비기준)",
+   "mode": "group_minimum_a",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(소비기준)",
+   "mode": "group_minimum_a",
+   "stateGiven": true,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(소비기준)",
+   "mode": "all_tier1",
+   "stateGiven": false,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  },
+  {
+   "fuel": "전기(소비기준)",
+   "mode": "all_tier1",
+   "stateGiven": true,
+   "givenState": null,
+   "assembly": {
+    "ok": false,
+    "kind": "fuel_state_unknown",
+    "where": null
+   },
+   "calculation": null
+  }
+ ]
+}

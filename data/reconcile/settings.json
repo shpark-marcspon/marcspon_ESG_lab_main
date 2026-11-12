@@ -1,0 +1,17 @@
+{
+ "note": "데이터 검증 시제품의 설정. 수치는 전부 가정이고 실측이 아니다 (밴드 P, 2026-10-04).",
+ "label": {
+  "maxTargetsPerCall": 40,
+  "outputTokensPerLabel": 90,
+  "outputTokensOverhead": 200,
+  "outputCapFactor": 2,
+  "minConfidence": "medium",
+  "concurrency": 4,
+  "basis": "maxTargetsPerCall 40: 답 하나를 90 토큰으로 어림하면 호출 하나의 출력이 약 3,800 토큰이라 모의 모델의 출력 상한(4,000)과 실제 모델의 기본 상한 안에 든다. outputTokensPerLabel 90: 답 하나의 JSON(필드 11개, ID·지표 키·단위·근거 ID 두세 개)을 글자 수로 어림한 값이고 실제 모델로 잰 적이 없다. minConfidence medium: AI 가 스스로 확신이 낮다고 한 뜻은 짝짓기에 쓰지 않는다 (일치 판정을 믿을 수 있게). 확신 등급이 실제 정확도와 맞는지는 재지 않았다. outputCapFactor 2: 답 하나의 어림(90 토큰)이 틀려도 답이 잘리지 않게 요청의 출력 상한을 어림의 두 배로 둔다 (모델의 출력 상한에서 자른다). dry-run 의 비용 상한은 이 상한을 다 쓸 때의 값이다."
+ },
+ "dryRunRoutes": [
+  "light-openai",
+  "light-anthropic",
+  "light-gemini-35"
+ ]
+}

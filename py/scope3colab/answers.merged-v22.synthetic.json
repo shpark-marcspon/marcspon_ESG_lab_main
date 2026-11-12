@@ -1,0 +1,174 @@
+{
+  "synthetic": true,
+  "note": "짜 둔 가짜 AI 답(지은 것). 합본판(S3C-o5, `--input merged-v22`): 기존 답 파일 셋의 글·expect 를 합본판의 실제 부름 차례로 다시 놓았다(calls.jsonl 실측). 받은 v2.2 시트 차례 C1·C2(기본판 1~8) → C3(나머지 판 1 — 단위 AI) → C4-1(거리판 1~9) → C6-1(거리판 10~15) → C6-2(기본판 9 — 이동수단 AI) → C7(거리판 16~18) → C9-1(거리판 19~32). 캐시로 사라진 부름 0, 새 부름 0 — 42 = 9 + 32 + 1.",
+  "answers": [
+    {
+      "expect": "가상상자 묶음",
+      "text": "```json\n{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Paperboard Container Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}\n```"
+    },
+    {
+      "expect": "가상자문 용역 계약",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Management Consulting Services\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "품목명: 가상부속 세트",
+      "text": "가상부속류"
+    },
+    {
+      "expect": "가상부속 세트",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상의자 교체",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Office Furniture Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상압착기 1호",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Industrial Machinery Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상화물차 2대",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Motor Vehicle Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상서버 증설",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Computer Equipment Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "입력 단위: 가상와트",
+      "text": "{\"factor\": 9.9}"
+    },
+    {
+      "expect": "입력 단위: 가상팔레트\n목표(기준) 단위: kg",
+      "text": "{\"factor\": 9.5}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시가\n",
+      "text": "Synthetic Ga"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시다\n",
+      "text": "Synthetic Da"
+    },
+    {
+      "expect": "출발지: 가상시가\n도착지: 가상시다\n국가 힌트: KR",
+      "text": "{\"distance_km\": 92}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시라\n",
+      "text": "Synthetic Ra"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시마\n",
+      "text": "Synthetic Ma"
+    },
+    {
+      "expect": "출발지: 가상시라\n도착지: 가상시마\n국가 힌트: KR",
+      "text": "{\"distance_km\": 901}"
+    },
+    {
+      "expect": "출발지: 가상시라\n도착지: 가상시마\n운송수단: 도로(트럭)",
+      "text": "{\"distance_km\": 99}"
+    },
+    {
+      "expect": "텍스트: 가상수레 입고 가상부속 세트\n",
+      "text": "{\"mode\": \"rail\"}"
+    },
+    {
+      "expect": "입력값: 가상이동\n",
+      "text": "{\"mode\": \"train\"}"
+    },
+    {
+      "expect": "지역: 가상시자\n국가 힌트: KR",
+      "text": "{\"airport_name\": \"Synthetic Ja Airport\", \"iata\": \"\"}"
+    },
+    {
+      "expect": "지역: 가상시차\n국가 힌트: KR",
+      "text": "{\"airport_name\": \"Synthetic Cha Airport\", \"iata\": \"\"}"
+    },
+    {
+      "expect": "변환하라.\n\n    Synthetic Ja Airport\n",
+      "text": "Synthetic Ja Airport"
+    },
+    {
+      "expect": "변환하라.\n\n    Synthetic Cha Airport\n",
+      "text": "Synthetic Cha Airport"
+    },
+    {
+      "expect": "출발지: Synthetic Ja Airport\n도착지: Synthetic Cha Airport\n국가 힌트: KR",
+      "text": "{\"distance_km\": 93}"
+    },
+    {
+      "expect": "입력값: 가상기타경비",
+      "text": "{\"mode\": \"taxi\"}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시카\n",
+      "text": "Synthetic Ka"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시타\n",
+      "text": "Synthetic Ta"
+    },
+    {
+      "expect": "출발지: 가상시카\n도착지: 가상시타\n국가 힌트: KR",
+      "text": "{\"distance_km\": 94}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시파\n",
+      "text": "Synthetic Pa"
+    },
+    {
+      "expect": "변환하라.\n\n    가상시하\n",
+      "text": "Synthetic Ha"
+    },
+    {
+      "expect": "출발지: 가상시파\n도착지: 가상시하\n국가 힌트: KR",
+      "text": "{\"distance_km\": 902}"
+    },
+    {
+      "expect": "출발지: 가상시파\n도착지: 가상시하\n운송수단: 도로(트럭)",
+      "text": "{\"distance_km\": 999}"
+    },
+    {
+      "expect": "지역: 가상시파\n국가 힌트: 가상국",
+      "text": "{\"airport_name\": \"Synthetic Pa Airport\", \"iata\": \"\"}"
+    },
+    {
+      "expect": "지역: 가상시하\n국가 힌트: 가상국",
+      "text": "{\"airport_name\": \"Synthetic Ha Airport\", \"iata\": \"\"}"
+    },
+    {
+      "expect": "변환하라.\n\n    Synthetic Pa Airport\n",
+      "text": "Synthetic Pa Airport"
+    },
+    {
+      "expect": "변환하라.\n\n    Synthetic Ha Airport\n",
+      "text": "Synthetic Ha Airport"
+    },
+    {
+      "expect": "출발지: Synthetic Pa Airport\n도착지: Synthetic Ha Airport\n국가 힌트: 가상국",
+      "text": "{\"distance_km\": 95}"
+    },
+    {
+      "expect": "변환하라.\n\n    가상공항가\n",
+      "text": "Synthetic Airport Ga"
+    },
+    {
+      "expect": "변환하라.\n\n    ZZQ\n",
+      "text": "Synthetic Zzq"
+    },
+    {
+      "expect": "출발지: 가상공항가\n도착지: ZZQ\n국가 힌트: KR",
+      "text": "{\"distance_km\": 903}"
+    },
+    {
+      "expect": "출발지: 가상공항가\n도착지: ZZQ\n운송수단: 도로(트럭)",
+      "text": "{\"distance_km\": 998}"
+    },
+    {
+      "expect": "출발지: 가상공항가\n도착지: ZZQ\n국가 힌트: 가상국",
+      "text": "{\"distance_km\": 96}"
+    }
+  ]
+}

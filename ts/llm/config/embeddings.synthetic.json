@@ -1,0 +1,25 @@
+{
+  "checkedOn": "2026-10-02",
+  "synthetic": true,
+  "note": "테스트와 --provider mock 전용 가상 임베딩 모델이다. 단가, 차원, 한도는 실제 공급사 값이 아니며 지어낸 숫자다.",
+  "sources": {},
+  "models": {},
+  "routes": {},
+  "embeddingModels": {
+    "mock-embedding-synthetic": {
+      "provider": "mock",
+      "apiModelId": "mock-embedding-synthetic",
+      "label": "모의 임베딩 모델 (synthetic)",
+      "synthetic": true,
+      "pricing": { "input": 1.0 },
+      "dimensions": 64,
+      "maxInputTokens": 1000,
+      "maxInputsPerRequest": 100,
+      "maxTokensPerRequest": 10000,
+      "multilingual": null,
+      "sourceRefs": [],
+      "notes": []
+    }
+  },
+  "embeddingRoutes": { "mock": "mock-embedding-synthetic" }
+}

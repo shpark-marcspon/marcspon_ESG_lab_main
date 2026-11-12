@@ -1,0 +1,1212 @@
+{
+ "conventions": {
+  "accept": "items[].accept — 판단이 갈리는 자리에서 같이 맞다고 볼 등급. 돌리기 전에 정했다.",
+  "labels": [
+   "High",
+   "Mid",
+   "Low",
+   "NonRisk"
+  ],
+  "notes": [
+   "문장 = 정규화한 쪽 글 전체(2,500자 자르기 없음 — 쪽 4 의 잘림 뒤 문장도 라벨)를 split_sentences_kor 로 가른 것. 표 꼴 줄도 한 문장.",
+   "같은 (쪽, sha12) 문장은 한 줄로 접고 occurrences 에 센다.",
+   "level 은 1차 결과의 등급(High·Mid·Low)과 같은 값, NonRisk 는 1차 결과 items 에 없는 문장(Level docstring).",
+   "카테고리 목록 미수령(MARC-ENT-612) — 모든 줄 category absent"
+  ],
+  "risk": [
+   "High",
+   "Mid"
+  ],
+  "rules": {
+   "R1": "High — 범위 전체를 단정하는 검증 없는 환경 주장(「100%」「모든」「무공해」「탄소중립 기업」처럼 회사·제품 전체를 못박음).",
+   "R2": "Mid — 뜻이 넓은 친환경 꼬리표(eco·그린·청정·친환경을 향한·유기농)나 내용·근거가 없는 달성 주장.",
+   "R3": "Low — 환경 개선의 의지·계획·노력 선언(추구·노력·지향·~하고자·계획·확대해 나가겠습니다). 수치·검증 없음.",
+   "R4": "NonRisk — 환경 주장이 아니거나, 수치·기준·검증이 붙은 사실·목표(기준연도·감축률이 다 있는 목표 포함)."
+  }
+ },
+ "coverage": "exhaustive",
+ "items": [
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 1,
+   "rule": "R4",
+   "sentence": "CEO 메시지 가상상사는 지난 한 해 동안 고객과 임직원의 신뢰를 바탕으로 사업을 이어 왔습니다.",
+   "sha12": "47a2c6b60448"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 1,
+   "page": 1,
+   "rule": "R3",
+   "sentence": "우리는 탄소 배출을 줄이는 경영을 추구합니다.",
+   "sha12": "bf94f87acfba"
+  },
+  {
+   "accept": [
+    "Low"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 1,
+   "rule": "R4",
+   "sentence": "가상상사는 2030년까지 온실가스 배출량을 2020년 대비 40% 줄이는 것을 목표로 합니다.",
+   "sha12": "2f288d9bfc1e"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 1,
+   "rule": "R4",
+   "sentence": "혁신과 도전으로 미래 가치를 창출하겠습니다.",
+   "sha12": "2addcb3ea752"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 1,
+   "page": 1,
+   "rule": "R3",
+   "sentence": "모든 사업장에서 재생에너지 사용을 확대해 나가겠습니다.",
+   "sha12": "06187af9853a"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 1,
+   "rule": "R4",
+   "sentence": "친환경 제품의 매출 비중은 전체의 12%였으며 제3자 검증을 받았습니다.",
+   "sha12": "1799ebb51805"
+  },
+  {
+   "accept": [
+    "Low"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Mid",
+   "level": "Mid",
+   "occurrences": 1,
+   "page": 1,
+   "rule": "R2",
+   "sentence": "앞으로도 친환경을 향한 걸음을 멈추지 않고 이해관계자와 함께 성장하겠습니다.",
+   "sha12": "5cf6c72942f4"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 2,
+   "rule": "R4",
+   "sentence": "회사소개 가상상사는 1998년에 세워진 생활용품 제조 기업입니다.",
+   "sha12": "36658bf5f439"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 2,
+   "rule": "R4",
+   "sentence": "본사는 가상시에 있고 사업장은 국내 세 곳과 해외 한 곳입니다.",
+   "sha12": "1c27b30ca393"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Mid",
+   "level": "Mid",
+   "occurrences": 1,
+   "page": 2,
+   "rule": "R2",
+   "sentence": "주요 제품은 주방 세제와 세탁 세제이며 eco프리 라인과 유기농 원료 라인을 운영합니다.",
+   "sha12": "2bed6f492416"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 2,
+   "rule": "R4",
+   "sentence": "공기청정기 필터 사업은 2024년에 정리했습니다.",
+   "sha12": "fdec8eaf0fd8"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "High",
+   "level": "High",
+   "occurrences": 1,
+   "page": 2,
+   "rule": "R1",
+   "sentence": "가상상사는 100% 무공해 공정을 갖춘 탄소중립 기업입니다.",
+   "sha12": "e5c48f07b8f5"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 2,
+   "rule": "R4",
+   "sentence": "지속가능한 성장 기반을 마련하고 가치 창출에 앞장서고 있습니다.",
+   "sha12": "a8789953b892"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 1,
+   "page": 2,
+   "rule": "R3",
+   "sentence": "플라스틱 포장재의 재활용 원료 비율을 높이고자 합니다.",
+   "sha12": "278682d8aa1a"
+  },
+  {
+   "accept": [
+    "Low"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Mid",
+   "level": "Mid",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R2",
+   "sentence": "기후변화 대응 가상상사는 탄소중립 달성을 위해 감축 경로를 수립하였습니다.",
+   "sha12": "0eb7a6cfb2d2"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R4",
+   "sentence": "2024년 Scope 1 배출량은 1,200 tCO2eq, Scope 2 배출량은 3,400 tCO2eq 입니다.",
+   "sha12": "3b70bd648521"
+  },
+  {
+   "accept": [
+    "NonRisk"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R3",
+   "sentence": "구분 | 2022 | 2023 | 2024 전력 사용량 12,300 MWh 11,800 MWh 11,200 MWh 재생에너지 비율 8% 11% 15% 용수 사용량 45,000 톤 43,000 톤 재생에너지 전환을 지속적으로 추진하겠습니다.",
+   "sha12": "858f439a2f41"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R3",
+   "sentence": "폐기물 재활용률을 높이기 위해 노력하고 있습니다.",
+   "sha12": "9c8da5b964c8"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "High",
+   "level": "High",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R1",
+   "sentence": "가상상사의 모든 제품은 친환경 제품입니다.",
+   "sha12": "08ba776a19a2"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R3",
+   "sentence": "에너지 효율을 높여 온실가스 감축에 기여하고자 합니다.",
+   "sha12": "0f5f5ba1c422"
+  },
+  {
+   "accept": [
+    "NonRisk"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R3",
+   "sentence": "용수 재사용 설비를 2025년에 도입할 계획입니다.",
+   "sha12": "fe41bd17e5f4"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Mid",
+   "level": "Mid",
+   "occurrences": 1,
+   "page": 3,
+   "rule": "R2",
+   "sentence": "net-zero 로 가는 길에서 그린 전력과 청정에너지의 비중을 늘리고 있습니다.",
+   "sha12": "01e44e4bf158"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "환경 성과 가상상사는 2010년에 사업장 3곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "d40d14266d49"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2010년의 폐기물 발생량은 800톤이었고 이 가운데 재활용한 양은 300톤입니다.",
+   "sha12": "e7aa2a351b83"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 20,
+   "page": 4,
+   "rule": "R3",
+   "sentence": "온실가스 감축 설비에 대한 투자를 확대해 나가겠습니다.",
+   "sha12": "dd71836fd44e"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2010년에는 저탄소 원료의 사용 비율을 10%까지 올렸습니다.",
+   "sha12": "7ad8874edcae"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "Low",
+   "level": "Low",
+   "occurrences": 20,
+   "page": 4,
+   "rule": "R3",
+   "sentence": "협력사와 함께 순환경제 체계를 만들어 가는 것을 지향합니다.",
+   "sha12": "ed715fb61eec"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2011년에 사업장 4곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "e84d9fec96ff"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2011년의 폐기물 발생량은 837톤이었고 이 가운데 재활용한 양은 329톤입니다.",
+   "sha12": "3ab48510fba3"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2011년에는 저탄소 원료의 사용 비율을 12%까지 올렸습니다.",
+   "sha12": "b4040f132207"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2012년에 사업장 5곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "9631ef72fa37"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2012년의 폐기물 발생량은 874톤이었고 이 가운데 재활용한 양은 358톤입니다.",
+   "sha12": "22d7527def1b"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2012년에는 저탄소 원료의 사용 비율을 14%까지 올렸습니다.",
+   "sha12": "68d1d64946b0"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2013년에 사업장 6곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "41c93d21fa1a"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2013년의 폐기물 발생량은 911톤이었고 이 가운데 재활용한 양은 387톤입니다.",
+   "sha12": "4caa6a6b097c"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2013년에는 저탄소 원료의 사용 비율을 16%까지 올렸습니다.",
+   "sha12": "cc1a1e8b90c2"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2014년에 사업장 3곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "a1540d5342e8"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2014년의 폐기물 발생량은 948톤이었고 이 가운데 재활용한 양은 416톤입니다.",
+   "sha12": "5c09bbb199c7"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2014년에는 저탄소 원료의 사용 비율을 18%까지 올렸습니다.",
+   "sha12": "3c8a8002b80d"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2015년에 사업장 4곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "4f9f7a07183d"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2015년의 폐기물 발생량은 985톤이었고 이 가운데 재활용한 양은 445톤입니다.",
+   "sha12": "9825550d39ca"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2015년에는 저탄소 원료의 사용 비율을 20%까지 올렸습니다.",
+   "sha12": "c872b5a1d655"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2016년에 사업장 5곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "e8a3500228d6"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2016년의 폐기물 발생량은 1022톤이었고 이 가운데 재활용한 양은 474톤입니다.",
+   "sha12": "49c8f52186d8"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2016년에는 저탄소 원료의 사용 비율을 22%까지 올렸습니다.",
+   "sha12": "1195e519085a"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2017년에 사업장 6곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "c2b98a58d547"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2017년의 폐기물 발생량은 1059톤이었고 이 가운데 재활용한 양은 503톤입니다.",
+   "sha12": "611c6dc0197a"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2017년에는 저탄소 원료의 사용 비율을 24%까지 올렸습니다.",
+   "sha12": "5ba8697bc9ad"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2018년에 사업장 3곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "85ba043647dd"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2018년의 폐기물 발생량은 1096톤이었고 이 가운데 재활용한 양은 532톤입니다.",
+   "sha12": "86d945531abe"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2018년에는 저탄소 원료의 사용 비율을 26%까지 올렸습니다.",
+   "sha12": "e700f319eaad"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2019년에 사업장 4곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "883bd37d670f"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2019년의 폐기물 발생량은 1133톤이었고 이 가운데 재활용한 양은 561톤입니다.",
+   "sha12": "a045da5a0891"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2019년에는 저탄소 원료의 사용 비율을 28%까지 올렸습니다.",
+   "sha12": "d25f90a4373f"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2020년에 사업장 5곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "0d54a67f53cf"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2020년의 폐기물 발생량은 1170톤이었고 이 가운데 재활용한 양은 590톤입니다.",
+   "sha12": "f84b9f8646ff"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2020년에는 저탄소 원료의 사용 비율을 30%까지 올렸습니다.",
+   "sha12": "635a95a343d2"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2021년에 사업장 6곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "8e194400c31a"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2021년의 폐기물 발생량은 1207톤이었고 이 가운데 재활용한 양은 619톤입니다.",
+   "sha12": "845b137fcdd5"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2021년에는 저탄소 원료의 사용 비율을 32%까지 올렸습니다.",
+   "sha12": "c37119b1f6e9"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2022년에 사업장 3곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "2697c86497af"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2022년의 폐기물 발생량은 1244톤이었고 이 가운데 재활용한 양은 648톤입니다.",
+   "sha12": "83ee16708dbd"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2022년에는 저탄소 원료의 사용 비율을 34%까지 올렸습니다.",
+   "sha12": "376870f8a880"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2023년에 사업장 4곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "0f48f88f96c4"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2023년의 폐기물 발생량은 1281톤이었고 이 가운데 재활용한 양은 677톤입니다.",
+   "sha12": "16435b69e959"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2023년에는 저탄소 원료의 사용 비율을 36%까지 올렸습니다.",
+   "sha12": "7752ad16741b"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2024년에 사업장 5곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "9d3c5da4a9f4"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2024년의 폐기물 발생량은 1318톤이었고 이 가운데 재활용한 양은 706톤입니다.",
+   "sha12": "482b5f6f09c9"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2024년에는 저탄소 원료의 사용 비율을 38%까지 올렸습니다.",
+   "sha12": "409d868ad5fa"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2025년에 사업장 6곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "86626ee6f09f"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2025년의 폐기물 발생량은 1355톤이었고 이 가운데 재활용한 양은 735톤입니다.",
+   "sha12": "2d2658011241"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2025년에는 저탄소 원료의 사용 비율을 40%까지 올렸습니다.",
+   "sha12": "2db2b586942c"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2026년에 사업장 3곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "9edeafd73d13"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2026년의 폐기물 발생량은 1392톤이었고 이 가운데 재활용한 양은 764톤입니다.",
+   "sha12": "b05dc6b79461"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2026년에는 저탄소 원료의 사용 비율을 42%까지 올렸습니다.",
+   "sha12": "a18b0936580f"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2027년에 사업장 4곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "781547c0f63a"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2027년의 폐기물 발생량은 1429톤이었고 이 가운데 재활용한 양은 793톤입니다.",
+   "sha12": "4e8126e2c5fd"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2027년에는 저탄소 원료의 사용 비율을 44%까지 올렸습니다.",
+   "sha12": "e721ad441464"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2028년에 사업장 5곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "81c8831c47af"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2028년의 폐기물 발생량은 1466톤이었고 이 가운데 재활용한 양은 822톤입니다.",
+   "sha12": "9e30abcc7ebc"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2028년에는 저탄소 원료의 사용 비율을 46%까지 올렸습니다.",
+   "sha12": "70243a79fbdd"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "가상상사는 2029년에 사업장 6곳의 에너지 사용량을 조사했습니다.",
+   "sha12": "5d9927f72923"
+  },
+  {
+   "accept": [],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2029년의 폐기물 발생량은 1503톤이었고 이 가운데 재활용한 양은 851톤입니다.",
+   "sha12": "3102bd99dc38"
+  },
+  {
+   "accept": [
+    "Mid"
+   ],
+   "category": {
+    "status": "absent"
+   },
+   "label": "NonRisk",
+   "level": "NonRisk",
+   "occurrences": 1,
+   "page": 4,
+   "rule": "R4",
+   "sentence": "2029년에는 저탄소 원료의 사용 비율을 48%까지 올렸습니다.",
+   "sha12": "696ad4bab9b0"
+  }
+ ],
+ "meta": {
+  "pages": 4,
+  "sentences": 122
+ },
+ "module": "greenwash",
+ "pending": [
+  {
+   "question": "MARC-ENT-607",
+   "slot": "consultant",
+   "what": "컨설턴트가 쓰는 그린워싱 정리 엑셀과 그 정답"
+  },
+  {
+   "question": "MARC-ENT-8",
+   "slot": "consultant",
+   "what": "정확도 합격 기준·정답셋·기존 컨설팅 오류 기록"
+  }
+ ],
+ "provenance": {
+  "at": "2026-11-09",
+  "by": "runner-EVB (MARC-TICK-553)",
+  "from": [
+   "py/greenwash/tests/sample_text.py(지은 글 네 쪽)",
+   "evalrig.greenwash.gold.SAMPLE_LABELS"
+  ],
+  "kind": "runner_made"
+ },
+ "review": {
+  "at": null,
+  "by": null,
+  "note": "러너가 지음. 사람(컨설턴트) 검토 0",
+  "sample": null,
+  "status": "none"
+ },
+ "schema": "evalrig.gold@1",
+ "setId": "greenwash.synthetic-sample",
+ "synthetic": true,
+ "unit": "greenwash.page_sentence@1",
+ "version": 1
+}

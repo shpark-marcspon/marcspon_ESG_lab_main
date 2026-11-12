@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://esg-lab.local/schemas/greenwash-result.schema.json",
+  "title": "그린워싱 점검 결과",
+  "description": "py/greenwash 의 `scan` 이 내는 결과. 마크스폰의 Colab 노트북(프롬프트 판 2026-01-15-v1)을 약점까지 그대로 옮긴 기준선이다. 머리(문서, 설정, 모델 이름, 공급사 갈래, 파트별 쪽)는 늘 있고 몸은 공급사 갈래로 갈린다: `mock`·`live` 는 항목 목록·후보 집계·낱말 빈도, `dry-run` 은 계수. `mock` 의 결과는 지은 답으로 만든 것이라 `synthetic` 이 true 여야 한다. 쪽 번호는 1부터다.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source", "config", "models", "prompt_version", "provider", "synthetic", "parts", "pages"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file_name", "sha256", "page_count"],
+      "properties": {
+        "file_name": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "page_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["checker", "chunking", "chat"],
+      "properties": {
+        "checker": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["max_candidates_per_page", "max_chars_page_text", "evidence_k", "max_chars_per_chunk", "use_evidence_failopen", "max_chars_evidence_total", "report_levels", "debug", "debug_pages", "batch_eval", "prompt_version"],
+          "description": "노트북의 GWConfig 전부",
+          "properties": {
+            "max_candidates_per_page": {"type": "integer"},
+            "max_chars_page_text": {"type": "integer"},
+            "evidence_k": {"type": "integer"},
+            "max_chars_per_chunk": {"type": "integer"},
+            "use_evidence_failopen": {"type": "boolean"},
+            "max_chars_evidence_total": {"type": "integer"},
+            "report_levels": {"type": "array", "items": {"type": "string"}},
+            "debug": {"type": "boolean"},
+            "debug_pages": {"type": "integer"},
+            "batch_eval": {"type": "boolean"},
+            "prompt_version": {"type": "string"}
+          }
+        },
+        "chunking": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["chunk_size", "chunk_overlap", "separators", "normalize", "embedding_batch_size"],
+          "properties": {
+            "chunk_size": {"type": "integer"},
+            "chunk_overlap": {"type": "integer"},
+            "separators": {"type": "array", "items": {"type": "string"}},
+            "normalize": {"type": "boolean"},
+            "embedding_batch_size": {"type": "integer"}
+          }
+        },
+        "chat": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["temperature", "max_tokens"],
+          "properties": {
+            "temperature": {"type": "number"},
+            "max_tokens": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "models": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chat", "embedding"],
+      "description": "노트북이 부르는 모델의 이름. `mock`·`dry-run` 에서는 부르지 않는다",
+      "properties": {
+        "chat": {"type": "string"},
+        "embedding": {"type": "string"}
+      }
+    },
+    "prompt_version": {"type": "string"},
+    "provider": {"enum": ["mock", "dry-run", "live"]},
+    "synthetic": {"type": "boolean", "description": "지은 답(모의 공급사)으로 만든 결과이면 true"},
+    "parts": {
+      "type": "array",
+      "description": "파트별 쪽(사람이 준 것을 문서 범위로 자른 것). 한 쪽이 두 파트에 들 수 있다",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "pages"],
+        "properties": {
+          "name": {"type": "string"},
+          "pages": {"type": "array", "items": {"type": "integer", "minimum": 1}}
+        }
+      }
+    },
+    "pages": {"type": "array", "items": {"type": "integer", "minimum": 1}, "description": "점검한 쪽(파트의 합집합). 근거 허용 쪽과 같다"},
+    "items": {"type": "array", "items": {"$ref": "#/$defs/item"}},
+    "candidate_stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["raw", "hard_dropped", "non_env_dropped", "promo_dropped", "table_dropped", "kept", "failed_pages"],
+      "description": "후보 집계. 실패한 쪽의 후보는 집계에 들지 않는다",
+      "properties": {
+        "raw": {"type": "integer", "minimum": 0},
+        "hard_dropped": {"type": "integer", "minimum": 0},
+        "non_env_dropped": {"type": "integer", "minimum": 0},
+        "promo_dropped": {"type": "integer", "minimum": 0},
+        "table_dropped": {"type": "integer", "minimum": 0},
+        "kept": {"type": "integer", "minimum": 0},
+        "failed_pages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["page", "error"],
+            "properties": {"page": {"type": "integer", "minimum": 1}, "error": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "word_counts": {"$ref": "#/$defs/word_counts"},
+    "calls": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chat", "embedding_document_requests", "embedding_query_requests"],
+      "properties": {
+        "chat": {"type": "object", "additionalProperties": {"type": "integer", "minimum": 0}},
+        "embedding_document_requests": {"type": "integer", "minimum": 0},
+        "embedding_query_requests": {"type": "integer", "minimum": 0}
+      }
+    },
+    "dry_run": {"$ref": "#/$defs/dry_run"}
+  },
+  "allOf": [
+    {"if": {"properties": {"provider": {"const": "mock"}}}, "then": {"properties": {"synthetic": {"const": true}}}},
+    {"if": {"properties": {"provider": {"const": "live"}}}, "then": {"properties": {"synthetic": {"const": false}}}},
+    {
+      "if": {"properties": {"provider": {"const": "dry-run"}}},
+      "then": {
+        "required": ["dry_run"],
+        "properties": {"items": false, "candidate_stats": false, "word_counts": false, "calls": false, "synthetic": {"const": false}}
+      },
+      "else": {
+        "required": ["items", "candidate_stats", "word_counts"],
+        "properties": {"dry_run": false}
+      }
+    }
+  ],
+  "$defs": {
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["page", "parts", "sentence", "level", "risk_tags", "confirmed_in_evidence", "missing_fields", "reason_bullets", "fix_paragraph", "evidence_pages", "evidence_internal", "span"],
+      "properties": {
+        "page": {"type": "integer", "minimum": 1},
+        "parts": {"type": "array", "items": {"type": "string"}, "description": "이 쪽이 든 파트의 이름. 둘 이상일 수 있다"},
+        "sentence": {"type": "string"},
+        "level": {"enum": ["High", "Mid", "Low"]},
+        "risk_tags": {"type": "array", "items": {"type": "string"}},
+        "confirmed_in_evidence": {"type": "array", "items": {"type": "string"}},
+        "missing_fields": {"type": "array", "items": {"type": "string"}},
+        "reason_bullets": {"type": "array", "items": {"type": "string"}},
+        "fix_paragraph": {"type": "string", "description": "수정 방향. 노트북의 세 벌 칸(fix, action, fix_paragraph)을 한 칸으로 싣는다"},
+        "evidence_pages": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "evidence_internal": {"type": "string", "description": "판단 근거 한 줄. Low 는 빈 글이다"},
+        "span": {
+          "description": "문장의 글자 자리. 기준선은 AI 가 돌려준 문장이 쪽 글에 있는지 확인하지 않으므로 늘 null 이다",
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["page", "start", "end"],
+              "properties": {
+                "page": {"type": "integer", "minimum": 1},
+                "start": {"type": "integer", "minimum": 0},
+                "end": {"type": "integer", "minimum": 0}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "term_counts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["term", "count"],
+        "properties": {"term": {"type": "string"}, "count": {"type": "integer", "minimum": 1}}
+      }
+    },
+    "word_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "pages"],
+      "description": "의심 낱말의 빈도. 문서 전체를 센다(점검 쪽만이 아니다)",
+      "properties": {
+        "total": {"$ref": "#/$defs/term_counts"},
+        "pages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["page", "counts"],
+            "properties": {"page": {"type": "integer", "minimum": 1}, "counts": {"$ref": "#/$defs/term_counts"}}
+          }
+        }
+      }
+    },
+    "tokens": {
+      "description": "토큰 수. 못 셌으면 0 이 아니라 `unmeasured` 갈래다",
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "encoding", "value"],
+          "properties": {"status": {"const": "measured"}, "encoding": {"type": "string"}, "value": {"type": "integer", "minimum": 0}}
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "encoding", "reason"],
+          "properties": {"status": {"const": "unmeasured"}, "encoding": {"type": "string"}, "reason": {"type": "string"}}
+        }
+      ]
+    },
+    "tally": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requests", "input_chars", "input_tokens"],
+      "properties": {
+        "requests": {"type": "integer", "minimum": 0},
+        "input_chars": {"type": "integer", "minimum": 0},
+        "input_tokens": {"$ref": "#/$defs/tokens"}
+      }
+    },
+    "by_kind": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["detect", "eval", "low_only", "repair"],
+      "properties": {
+        "detect": {"$ref": "#/$defs/tally"},
+        "eval": {"$ref": "#/$defs/tally"},
+        "low_only": {"$ref": "#/$defs/tally"},
+        "repair": {"$ref": "#/$defs/tally"}
+      }
+    },
+    "dry_run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pages_checked", "pages_with_text", "pages_truncated", "chunks", "embedding_index", "rule_candidates", "lower", "upper", "per_page"],
+      "description": "보내지 않고 센 것. 입력 글자·토큰은 메시지의 글(시스템 + 사용자)이고 대화 API 의 메시지 틀 토큰은 들지 않는다",
+      "properties": {
+        "pages_checked": {"type": "integer", "minimum": 0},
+        "pages_with_text": {"type": "integer", "minimum": 0},
+        "pages_truncated": {"type": "integer", "minimum": 0, "description": "글이 상한(기본 2,500자)을 넘어 잘린 쪽"},
+        "chunks": {"type": "integer", "minimum": 0, "description": "문서 전체의 조각 수"},
+        "embedding_index": {"$ref": "#/$defs/tally", "description": "조각 전체를 임베딩하는 요청(묶음 50)"},
+        "rule_candidates": {"type": "integer", "minimum": 0, "description": "규칙이 뽑은 선언문 후보의 합(쪽당 끊은 뒤)"},
+        "lower": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["chat", "chat_by_kind", "embedding_queries", "judged"],
+          "description": "아래끝: AI 후보 0, 다시 묻기 0, 근거 없음",
+          "properties": {
+            "chat": {"$ref": "#/$defs/tally"},
+            "chat_by_kind": {"$ref": "#/$defs/by_kind"},
+            "embedding_queries": {"$ref": "#/$defs/tally"},
+            "judged": {"type": "integer", "minimum": 0}
+          }
+        },
+        "upper": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["chat", "chat_by_kind", "embedding_queries", "output_tokens_max", "evidence_chars", "evidence_cap_reached"],
+          "description": "위끝: 쪽마다 탐지 1 + 판정 4 + 다시 묻기 3 + 근거 물음 4",
+          "properties": {
+            "chat": {"$ref": "#/$defs/tally"},
+            "chat_by_kind": {"$ref": "#/$defs/by_kind"},
+            "embedding_queries": {"$ref": "#/$defs/tally"},
+            "output_tokens_max": {"type": "integer", "minimum": 0, "description": "대화 요청 수 × 출력 상한"},
+            "evidence_chars": {"type": "integer", "minimum": 0},
+            "evidence_cap_reached": {"type": "boolean"}
+          }
+        },
+        "per_page": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["page", "text_chars", "truncated", "rule_candidates", "lower_judged"],
+            "properties": {
+              "page": {"type": "integer", "minimum": 1},
+              "text_chars": {"type": "integer", "minimum": 0},
+              "truncated": {"type": "boolean"},
+              "rule_candidates": {"type": "integer", "minimum": 0},
+              "lower_judged": {"type": "integer", "minimum": 0}
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+ "conventions": {
+  "accept": "items[].accept — 이 셋에는 없음.",
+  "kinds": [
+   "jump_up",
+   "jump_down",
+   "diverging_trend",
+   "blank"
+  ],
+  "labels": [
+   "flag_no_note",
+   "explained",
+   "none"
+  ],
+  "rules": [
+   "튐 = 앞 해 대비 ±30% 이상(J1 +45%, J2 −40%). 엇갈린 추세 = 생산량(E-100)이 줄 때 해마다 +12%(D1).",
+   "빈칸 = 그 해 값 null(B1 사회, B2 지배구조). 1차 흐름은 「환경」만 검토하므로 B1·B2 는 1차가 볼 수 없는 칸이다.",
+   "짝의 두 행은 값의 해마다 비가 같고(배율만 다름) 메모만 다르다. 메모 있는 쪽을 내면 거짓 양성.",
+   "연도 = 변동 해. 엇갈린 추세는 마지막 해, 변동 없음은 null."
+  ]
+ },
+ "coverage": "exhaustive",
+ "items": [
+  {
+   "accept": [],
+   "indicator": "E-100",
+   "kind": null,
+   "pair": null,
+   "verdict": "none",
+   "year": null
+  },
+  {
+   "accept": [],
+   "indicator": "E-107",
+   "kind": null,
+   "pair": null,
+   "verdict": "none",
+   "year": null
+  },
+  {
+   "accept": [],
+   "indicator": "S-103",
+   "kind": null,
+   "pair": null,
+   "verdict": "none",
+   "year": null
+  },
+  {
+   "accept": [],
+   "indicator": "E-101",
+   "kind": "jump_up",
+   "pair": "J1",
+   "verdict": "flag_no_note",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "indicator": "E-102",
+   "kind": "jump_up",
+   "pair": "J1",
+   "verdict": "explained",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "indicator": "E-103",
+   "kind": "jump_down",
+   "pair": "J2",
+   "verdict": "flag_no_note",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "indicator": "E-104",
+   "kind": "jump_down",
+   "pair": "J2",
+   "verdict": "explained",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "indicator": "E-105",
+   "kind": "diverging_trend",
+   "pair": "D1",
+   "verdict": "flag_no_note",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "indicator": "E-106",
+   "kind": "diverging_trend",
+   "pair": "D1",
+   "verdict": "explained",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "indicator": "S-101",
+   "kind": "blank",
+   "pair": "B1",
+   "verdict": "flag_no_note",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "indicator": "S-102",
+   "kind": "blank",
+   "pair": "B1",
+   "verdict": "explained",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "indicator": "G-101",
+   "kind": "blank",
+   "pair": "B2",
+   "verdict": "flag_no_note",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "indicator": "G-102",
+   "kind": "blank",
+   "pair": "B2",
+   "verdict": "explained",
+   "year": "2024"
+  }
+ ],
+ "meta": {
+  "input": "synthetic-risk.input.json",
+  "inputSha16": "496fa515cdfb940f",
+  "pairs": 5,
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ]
+ },
+ "module": "dataverify",
+ "pending": [
+  {
+   "question": "MARC-ENT-607",
+   "slot": "consultant",
+   "what": "컨설턴트가 쓰는 결과 양식(데이터 리스크 워드)과 그 정답"
+  },
+  {
+   "question": "MARC-ENT-8",
+   "slot": "consultant",
+   "what": "정확도 합격 기준·정답셋·기존 컨설팅 오류 기록"
+  }
+ ],
+ "provenance": {
+  "at": "2026-11-09",
+  "by": "runner-EVB (MARC-TICK-553)",
+  "from": [
+   "evalrig.dataverify.risk(손으로 쓴 계열, 난수 0)"
+  ],
+  "kind": "runner_made"
+ },
+ "review": {
+  "at": null,
+  "by": null,
+  "note": "러너가 지음. 사람(컨설턴트) 검토 0",
+  "sample": null,
+  "status": "none"
+ },
+ "schema": "evalrig.gold@1",
+ "setId": "dataverify.synthetic-risk",
+ "synthetic": true,
+ "unit": "dataverify.indicator_year@1",
+ "version": 1
+}

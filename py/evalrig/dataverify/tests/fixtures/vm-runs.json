@@ -1,0 +1,17 @@
+{
+ "note": "지은 1차 실행 셋(convert_156 단위의 payload 꼴) — measure_vm 시험용. ID 는 가상 기업 시험지 ①의 것",
+ "runs": [
+  {"plan": 3, "checks": 3, "insight": ["E-101", "E-102"], "units": [
+   {"rule": "sum", "items": ["E-001", "E-002", "E-003"], "unresolved": [], "year": "2023", "verdict": "FAIL"},
+   {"rule": "sum", "items": ["E-004", "E-005", "E-006"], "unresolved": [], "year": "2022", "verdict": "FAIL"},
+   {"rule": "ratio", "items": ["E-004", "E-005", "E-007"], "unresolved": [], "year": "2024", "verdict": "OK"}]},
+  {"plan": 2, "checks": 3, "insight": ["E-101"], "units": [
+   {"rule": "sum", "items": ["E-001", "E-002", "E-003"], "unresolved": [], "year": "2023", "verdict": "FAIL"},
+   {"rule": "sum", "items": ["E-004", "E-005", "E-006"], "unresolved": [], "year": "2022", "verdict": "OK"},
+   {"rule": "sum", "items": ["E-010", "E-011", "E-012"], "unresolved": [], "year": "2023", "verdict": "FAIL"}]},
+  {"plan": 4, "checks": 3, "insight": [], "units": [
+   {"rule": "sum", "items": ["E-001", "E-002", "E-003"], "unresolved": [], "year": "2023", "verdict": "FAIL"},
+   {"rule": "ratio", "items": ["E-004", "E-005", "E-007"], "unresolved": [], "year": "2024", "verdict": "FAIL"},
+   {"rule": "sum", "items": ["E-004", "E-005"], "unresolved": [["지은", "없는", "항목", "t"]], "year": "2022", "verdict": "FAIL"}]}
+ ]
+}

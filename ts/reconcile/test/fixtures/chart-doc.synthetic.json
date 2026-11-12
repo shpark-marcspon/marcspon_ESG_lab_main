@@ -1,0 +1,132 @@
+{
+ "schema_version": "0.1",
+ "source": {
+  "file_name": "chart-doc.synthetic.pdf",
+  "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "page_count": 1
+ },
+ "parser": {
+  "name": "docparse",
+  "version": "synthetic",
+  "table_strategy": "auto",
+  "llm_used": false,
+  "ocr_used": false
+ },
+ "pages": [
+  {
+   "page": 1,
+   "width": 600.0,
+   "height": 800.0,
+   "text_layer": "present",
+   "char_count": 120,
+   "image_coverage": 0.0,
+   "columns": 1,
+   "notes": []
+  }
+ ],
+ "sections": [],
+ "blocks": [
+  {
+   "id": "p1-b1",
+   "kind": "paragraph",
+   "page": 1,
+   "bbox": [
+    50,
+    60,
+    500,
+    72
+   ],
+   "order": 1,
+   "section_id": null,
+   "text": "가상 배출량 추이 (synthetic)",
+   "font_size": 9.0
+  },
+  {
+   "id": "p1-b2",
+   "kind": "table",
+   "page": 1,
+   "bbox": [
+    50,
+    80,
+    500,
+    200
+   ],
+   "order": 2,
+   "section_id": null,
+   "table_id": "p1-t1"
+  },
+  {
+   "id": "p1-b3",
+   "kind": "paragraph",
+   "page": 1,
+   "bbox": [
+    50,
+    210,
+    500,
+    222
+   ],
+   "order": 3,
+   "section_id": null,
+   "text": "한 줄 도표의 값 310 320 그리고 눈금 0 100",
+   "font_size": 9.0
+  },
+  {
+   "id": "p1-b4",
+   "kind": "paragraph",
+   "page": 1,
+   "bbox": [
+    50,
+    230,
+    500,
+    242
+   ],
+   "order": 4,
+   "section_id": null,
+   "text": "도표 아래의 글에는 55 톤이 적혀 있다.",
+   "font_size": 9.0
+  }
+ ],
+ "tables": [
+  {
+   "id": "p1-t1",
+   "page": 1,
+   "bbox": [
+    50,
+    80,
+    500,
+    200
+   ],
+   "n_rows": 3,
+   "n_cols": 2,
+   "cells": [
+    [
+     "110 120 130 210 220 230",
+     "42.5%"
+    ],
+    [
+     "2023 2024 2025",
+     ""
+    ],
+    [
+     "계획 실적",
+     ""
+    ]
+   ],
+   "header": {
+    "rows": [],
+    "cols": [],
+    "basis": "rows_before_first_numeric_row"
+   },
+   "method": "lines",
+   "status": "low_confidence",
+   "notes": [],
+   "footnote_marks": [
+    {
+     "row": 0,
+     "col": 1,
+     "mark": "1)"
+    }
+   ]
+  }
+ ]
+}

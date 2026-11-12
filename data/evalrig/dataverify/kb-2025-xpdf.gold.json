@@ -1,0 +1,459 @@
+{
+ "conventions": {
+  "accept": "items[].accept — 돌리기 전에 정했다.",
+  "kinds": [
+   "digit",
+   "unit_scale",
+   "rounding",
+   "year_swap",
+   "source_only",
+   "report_only"
+  ],
+  "labels": [
+   "match",
+   "mismatch",
+   "source_only",
+   "report_only"
+  ],
+  "rules": [
+   "원천 = 엑셀(지은 시험지), 보고서 = 공개 PDF(그대로). 칸마다 원천 값과 보고서 글자 값을 견준 정답.",
+   "rounding 은 원천에 소수 0.4 를 붙인 것 — 보고서 글자로 반올림하면 같다: match(대조군), mismatch 도 accept.",
+   "year_swap 은 두 칸 모두 mismatch. report_only 는 원천에서 행을 뺀 지표의 보고서 칸 전부. source_only 는 원천에만 있는 행의 해마다.",
+   "문서 a 지표 칸 중 연도 없는 4 칸은 정답 밖(meta.excludedNoYear).",
+   "1차(colab_156)에는 두 문서 대사가 없다 — 이 시험지의 1차 점수는 not_applicable."
+  ]
+ },
+ "coverage": "exhaustive",
+ "items": [
+  {
+   "accept": [],
+   "cell": "p46-t2:r1c3",
+   "indicator": "ghg.scope1",
+   "kind": "report_only",
+   "verdict": "report_only",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r1c4",
+   "indicator": "ghg.scope1",
+   "kind": "report_only",
+   "verdict": "report_only",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r1c5",
+   "indicator": "ghg.scope1",
+   "kind": "report_only",
+   "verdict": "report_only",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r3c3",
+   "indicator": "ghg.scope1_2.total",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r3c4",
+   "indicator": "ghg.scope1_2.total",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r3c5",
+   "indicator": "ghg.scope1_2.total",
+   "kind": "unit_scale",
+   "verdict": "mismatch",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r2c3",
+   "indicator": "ghg.scope2.location",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r2c4",
+   "indicator": "ghg.scope2.location",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r2c5",
+   "indicator": "ghg.scope2.location",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": null,
+   "indicator": "ghg.scope2.market",
+   "kind": "source_only",
+   "verdict": "source_only",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": null,
+   "indicator": "ghg.scope2.market",
+   "kind": "source_only",
+   "verdict": "source_only",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": null,
+   "indicator": "ghg.scope2.market",
+   "kind": "source_only",
+   "verdict": "source_only",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r1c4",
+   "indicator": "ghg.scope3.cat1",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r1c5",
+   "indicator": "ghg.scope3.cat1",
+   "kind": "digit",
+   "verdict": "mismatch",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r1c6",
+   "indicator": "ghg.scope3.cat1",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r9c4",
+   "indicator": "ghg.scope3.cat11",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r9c5",
+   "indicator": "ghg.scope3.cat11",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r9c6",
+   "indicator": "ghg.scope3.cat11",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r10c4",
+   "indicator": "ghg.scope3.cat12",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r10c5",
+   "indicator": "ghg.scope3.cat12",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r10c6",
+   "indicator": "ghg.scope3.cat12",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r11c4",
+   "indicator": "ghg.scope3.cat13",
+   "kind": "year_swap",
+   "verdict": "mismatch",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r11c5",
+   "indicator": "ghg.scope3.cat13",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r11c6",
+   "indicator": "ghg.scope3.cat13",
+   "kind": "year_swap",
+   "verdict": "mismatch",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r2c4",
+   "indicator": "ghg.scope3.cat2",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r2c5",
+   "indicator": "ghg.scope3.cat2",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r2c6",
+   "indicator": "ghg.scope3.cat2",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r3c5",
+   "indicator": "ghg.scope3.cat3",
+   "kind": "digit",
+   "verdict": "mismatch",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r3c6",
+   "indicator": "ghg.scope3.cat3",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r4c4",
+   "indicator": "ghg.scope3.cat4",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r4c5",
+   "indicator": "ghg.scope3.cat4",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r4c6",
+   "indicator": "ghg.scope3.cat4",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r5c4",
+   "indicator": "ghg.scope3.cat5",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r5c5",
+   "indicator": "ghg.scope3.cat5",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r5c6",
+   "indicator": "ghg.scope3.cat5",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r6c4",
+   "indicator": "ghg.scope3.cat6",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r6c5",
+   "indicator": "ghg.scope3.cat6",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r6c6",
+   "indicator": "ghg.scope3.cat6",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r7c4",
+   "indicator": "ghg.scope3.cat7",
+   "kind": null,
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r7c5",
+   "indicator": "ghg.scope3.cat7",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r7c6",
+   "indicator": "ghg.scope3.cat7",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r13c4",
+   "indicator": "ghg.scope3.total",
+   "kind": "unit_scale",
+   "verdict": "mismatch",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r13c5",
+   "indicator": "ghg.scope3.total",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p47-t2:r13c6",
+   "indicator": "ghg.scope3.total",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  },
+  {
+   "accept": [
+    "mismatch"
+   ],
+   "cell": "p46-t2:r4c3",
+   "indicator": "revenue",
+   "kind": "rounding",
+   "verdict": "match",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r4c4",
+   "indicator": "revenue",
+   "kind": null,
+   "verdict": "match",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "cell": "p46-t2:r4c5",
+   "indicator": "revenue",
+   "kind": null,
+   "verdict": "match",
+   "year": "2025"
+  }
+ ],
+ "meta": {
+  "cellsUsed": 44,
+  "excludedNoYear": [
+   "p109-t1:r2c0",
+   "p109-t1:r2c1",
+   "p109-t1:r2c2",
+   "p109-t1:r2c3"
+  ],
+  "plants": "kb-2025-xpdf.plants.json",
+  "report": {
+   "fileName": "kb_2025_kor.pdf",
+   "pdfSha256": "348361500479d12a5ad6bea8c53c89233774d0e7e913e3721e7afa3b3bf67132"
+  },
+  "v1Score": {
+   "reason": "1차(colab_156)에 두 문서 대사 없음",
+   "status": "not_applicable"
+  }
+ },
+ "module": "dataverify",
+ "pending": [
+  {
+   "question": "MARC-ENT-607",
+   "slot": "consultant",
+   "what": "컨설턴트가 쓰는 결과 양식(데이터 리스크 워드)과 그 정답"
+  },
+  {
+   "question": "MARC-ENT-8",
+   "slot": "consultant",
+   "what": "정확도 합격 기준·정답셋·기존 컨설팅 오류 기록"
+  }
+ ],
+ "provenance": {
+  "at": "2026-11-09",
+  "by": "runner-EVB (MARC-TICK-553)",
+  "from": [
+   "data/reconcile/gold/kb-2025.gold.json sha16=ba3ca1138a05fd2e",
+   "evalrig.dataverify.xpdf seed=20261110"
+  ],
+  "kind": "runner_made"
+ },
+ "review": {
+  "at": null,
+  "by": null,
+  "note": "러너가 지음. 사람(컨설턴트) 검토 0",
+  "sample": null,
+  "status": "none"
+ },
+ "schema": "evalrig.gold@1",
+ "setId": "dataverify.kb-2025-xpdf",
+ "synthetic": false,
+ "unit": "dataverify.indicator_year@1",
+ "version": 1
+}

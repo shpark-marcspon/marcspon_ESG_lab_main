@@ -1,0 +1,6985 @@
+{
+ "note": "도표 속 숫자의 계열·범주 정답 (밴드 VT1, MARC-TICK-42). 문서 a = samsung_2026_kor.pdf, b = cosmax_2025_kor.pdf. 도표의 목록·상자·갈래는 밴드 G1 의 도표 정답에서 왔고, 값마다의 계열·범주·제목은 코드 라벨과 AI 의 답을 보지 않은 서브에이전트 다섯이 쪽 그림을 보고 적었다. 러너는 합치기만 했다. id 는 숫자 낱말의 열쇠(py/docparse/tagtext.py 의 number_words: 쪽의 숫자 낱말 전부에 차례로 준 것)다. 도표에 들지 않은 숫자 낱말은 role=other 다. 도표 쪽 26과 대조 쪽 2(삼성전자 34, 코스맥스 127)만 담는다.",
+ "status": "서브에이전트 작성, 전문가 검토 전",
+ "documents": {
+  "a": "samsung_2026_kor.pdf",
+  "b": "cosmax_2025_kor.pdf"
+ },
+ "pages": {
+  "a": [
+   8,
+   11,
+   13,
+   14,
+   15,
+   16,
+   22,
+   24,
+   25,
+   29,
+   30,
+   34,
+   38,
+   40,
+   41,
+   44,
+   46
+  ],
+  "b": [
+   6,
+   24,
+   28,
+   48,
+   53,
+   55,
+   56,
+   57,
+   93,
+   124,
+   127
+  ]
+ },
+ "overlap_check": {
+  "labeler": "O (씨앗 43 으로 뽑은 8쪽을 따로 달았다)",
+  "places": 47,
+  "values_both": 33,
+  "category_differs": 6,
+  "only_one_side": 1,
+  "differ": [
+   {
+    "key": "p46-w3",
+    "doc": "samsung_2026_kor",
+    "what": "category",
+    "main": [
+     "DS부문"
+    ],
+    "second": null
+   },
+   {
+    "key": "p46-w4",
+    "doc": "samsung_2026_kor",
+    "what": "category",
+    "main": [
+     "전사"
+    ],
+    "second": null
+   },
+   {
+    "key": "p46-w5",
+    "doc": "samsung_2026_kor",
+    "what": "category",
+    "main": [
+     "DX부문"
+    ],
+    "second": null
+   },
+   {
+    "key": "p46-w6",
+    "doc": "samsung_2026_kor",
+    "what": "category",
+    "main": [
+     "DX부문"
+    ],
+    "second": null
+   },
+   {
+    "key": "p46-w7",
+    "doc": "samsung_2026_kor",
+    "what": "category",
+    "main": [
+     "전사"
+    ],
+    "second": null
+   },
+   {
+    "key": "p46-w8",
+    "doc": "samsung_2026_kor",
+    "what": "category",
+    "main": [
+     "DS부문"
+    ],
+    "second": null
+   },
+   {
+    "key": "p53-w11",
+    "doc": "cosmax_2025_kor",
+    "what": "only_one_side",
+    "main": null,
+    "second": [
+     "C-C006",
+     "value",
+     null,
+     [
+      "2035"
+     ]
+    ]
+   }
+  ]
+ },
+ "charts": [
+  {
+   "id": "S-C001",
+   "doc": "a",
+   "page": 8,
+   "kind": "pie",
+   "title": "재생에너지 전환율",
+   "series": null,
+   "bbox": [
+    54.3,
+    214.0,
+    214.7,
+    269.7
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "소제목 '전사'"
+  },
+  {
+   "id": "S-C002",
+   "doc": "a",
+   "page": 8,
+   "kind": "pie",
+   "title": "재생에너지 전환율",
+   "series": null,
+   "bbox": [
+    229.1,
+    223.9,
+    306.3,
+    268.4
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "소제목 'DX부문'"
+  },
+  {
+   "id": "S-C003",
+   "doc": "a",
+   "page": 8,
+   "kind": "pie",
+   "title": "재생에너지 전환율",
+   "series": null,
+   "bbox": [
+    319.4,
+    224.5,
+    397.3,
+    268.4
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "소제목 'DS부문'"
+  },
+  {
+   "id": "S-C004",
+   "doc": "a",
+   "page": 8,
+   "kind": "pie",
+   "title": "폐기물 재활용률(DS부문)",
+   "series": null,
+   "bbox": [
+    235.6,
+    327.3,
+    397.3,
+    384.9
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "도넛 하나에 값 하나. 계열·범주 이름 없음. 제목은 두 줄('폐기물 재활용률' / '(DS부문)')을 이어 적음."
+  },
+  {
+   "id": "S-C005",
+   "doc": "a",
+   "page": 8,
+   "kind": "pie",
+   "title": "제품 플라스틱 부품 재활용 플라스틱 적용률(DX부문)",
+   "series": null,
+   "bbox": [
+    55.6,
+    328.6,
+    216.0,
+    384.9
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "도넛 하나에 값 하나. 계열·범주 이름 없음. 제목은 세 줄을 이어 적음."
+  },
+  {
+   "id": "S-C006",
+   "doc": "a",
+   "page": 8,
+   "kind": "pie",
+   "title": "협력회사 종합 평가 우수 등급 비율",
+   "series": null,
+   "bbox": [
+    630.3,
+    337.1,
+    792.7,
+    392.7
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "도넛 하나에 값 하나. 계열·범주 이름 없음."
+  },
+  {
+   "id": "S-C007",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "Scope 1, 2 온실가스 배출량",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    341.7,
+    189.8,
+    484.4,
+    271.6
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. ’30년 자리에는 막대 대신 점선 원 안에 '탄소중립' 글자(숫자 없음). 단위: 만 톤 CO₂e. 제목 속 숫자(w1,w2)와 각주 번호(w8)는 적지 않음."
+  },
+  {
+   "id": "S-C008",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "재생에너지 전환율",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    494.2,
+    193.1,
+    634.9,
+    271.6
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. 단위: %"
+  },
+  {
+   "id": "S-C009",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "7대 제품 대표 모델의 평균 소비전력 개선율",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    644.7,
+    202.9,
+    785.5,
+    271.6
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. 두 막대 사이에 '목표 달성' 원 표시. 단위: %. 제목의 2) 3) 은 각주 번호."
+  },
+  {
+   "id": "S-C010",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "제품 플라스틱 부품 재활용 플라스틱 적용률",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    341.7,
+    301.1,
+    484.4,
+    378.3
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. 단위: %. 제목의 4) 5) 6) 은 각주 번호."
+  },
+  {
+   "id": "S-C011",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "폐기물 매립 제로 검증 ‘플래티넘’ 등급 획득 사업장 수",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    644.7,
+    314.2,
+    785.5,
+    378.3
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. 두 막대 사이에 '목표 달성' 원 표시. 단위: 개. 제목의 7) 은 각주 번호."
+  },
+  {
+   "id": "S-C012",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "누적 폐전자제품 수거량(’09년~)",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    494.2,
+    320.7,
+    634.9,
+    378.3
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. 단위: 만 톤. 제목 아래 설명 글('2025년 폐전자제품 수거 체계 100여 개 국가에서 운영')의 숫자는 도표 값이 아님."
+  },
+  {
+   "id": "S-C013",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "글로벌 수자원 환원율",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    341.7,
+    399.3,
+    484.4,
+    477.8
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. 단위: %. 오른쪽 설명 글의 100%(w29)는 도표 값이 아니라 적지 않음. 제목의 8) 은 각주 번호."
+  },
+  {
+   "id": "S-C014",
+   "doc": "a",
+   "page": 11,
+   "kind": "bar_v",
+   "title": "AWS 수자원 관리 인증 ‘플래티넘’ 등급 취득 사업장 수",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    644.7,
+    425.5,
+    785.5,
+    477.8
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례(■ 목표 ■ 실적)는 묶음 전체의 오른쪽 위에 하나만 있다. 회색 막대=목표, 연두 막대=실적. 단위: 개. 제목의 9) 는 각주 번호."
+  },
+  {
+   "id": "S-C015",
+   "doc": "a",
+   "page": 13,
+   "kind": "bar_v",
+   "title": "DX부문 재생에너지 전환율·사용량",
+   "series": [
+    "전환율",
+    "사용량"
+   ],
+   "bbox": [
+    353.5,
+    428.7,
+    504.0,
+    520.4
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "범례 없음. 계열 이름은 제목과 단위 표기에서 가져왔다. 막대 색(2023·2024 회색, 2025 연두)은 이름 붙은 계열이 아님(최근 연도 강조). 막대 높이는 전환율을 따르는 듯 보인다."
+  },
+  {
+   "id": "S-C016",
+   "doc": "a",
+   "page": 13,
+   "kind": "bar_v",
+   "title": "DX부문 Scope 1, 2 배출량",
+   "series": [
+    "Scope 1",
+    "Scope 2"
+   ],
+   "bbox": [
+    72.0,
+    432.0,
+    274.9,
+    520.4
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "쌓은 막대. 범례: 회색 ● Scope 1, 연두 ● Scope 2. 단위: 만 톤 CO₂e. 범례 글자 속 숫자(w13, w19)와 제목 속 숫자(w10, w11), 각주 번호(w9, w36)는 적지 않음. 맨 위 합계 숫자는 계열 이름이 그림에 없어 series null, ambiguous true(합계를 '합계'·'Scope 1, 2' 로 부를지 갈릴 수 있음)."
+  },
+  {
+   "id": "S-C017",
+   "doc": "a",
+   "page": 14,
+   "kind": "bar_v",
+   "title": "DX부문 제품 소비전력 개선율",
+   "series": null,
+   "bbox": [
+    382.9,
+    201.6,
+    523.6,
+    265.1
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "계열 하나, 범례 없음. 막대 색(2023·2024 회색, 2025 연두)은 이름 붙은 계열이 아님. 왼쪽 본문의 30%(w3)는 도표 밖 문장 속 숫자."
+  },
+  {
+   "id": "S-C018",
+   "doc": "a",
+   "page": 15,
+   "kind": "bar_v",
+   "title": "재활용 플라스틱 적용률·적용량",
+   "series": [
+    "당해 연도 적용률",
+    "당해 연도 적용량",
+    "전체 누적 적용량"
+   ],
+   "bbox": [
+    628.4,
+    445.1,
+    795.3,
+    536.7
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "꺾은선(검은 점: 당해 연도 적용률, %) + 묶은 막대(회색: 당해 연도 적용량, 연두: 전체 누적 적용량). 단위 표기 '(기준연도: 2009년, 단위: 만 톤)'."
+  },
+  {
+   "id": "S-C019",
+   "doc": "a",
+   "page": 16,
+   "kind": "bar_v",
+   "title": "폐전자제품 누적 수거량",
+   "series": [
+    "당해 연도 수거량",
+    "전체 누적 수거량"
+   ],
+   "bbox": [
+    638.2,
+    392.7,
+    793.3,
+    468.0
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S1",
+   "note": "묶은 막대(회색: 당해 연도 수거량, 연두: 전체 누적 수거량). 단위 표기 '(기준연도: 2009년, 단위: 만 톤)'."
+  },
+  {
+   "id": "S-C020",
+   "doc": "a",
+   "page": 22,
+   "kind": "bar_v",
+   "title": "Scope 1, 2 온실가스 배출량",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    356.7,
+    178.0,
+    494.2,
+    245.5
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "범례(목표·실적)는 묶음 상자 오른쪽 위에 한 번만 적혀 있고 다섯 도표가 같이 쓴다. 회색 막대=목표, 초록 막대=실적. '50년 자리는 값 없이 「탄소중립」 동그라미. 제목의 1, 2(w1, w2)는 값이 아니라 적지 않음. '25년 막대 옆에 (S1+S2) 라는 글자가 있다."
+  },
+  {
+   "id": "S-C021",
+   "doc": "a",
+   "page": 22,
+   "kind": "bar_v",
+   "title": "재생에너지 전환율",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    504.0,
+    178.0,
+    640.1,
+    245.5
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "범례(목표·실적)는 묶음 상자 오른쪽 위에 한 번만 적혀 있고 다섯 도표가 같이 쓴다. 회색 막대=목표, 초록 막대=실적."
+  },
+  {
+   "id": "S-C022",
+   "doc": "a",
+   "page": 22,
+   "kind": "bar_v",
+   "title": "국내 제조사업장 폐기물 재활용률",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    356.7,
+    263.1,
+    494.2,
+    329.2
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "범례(목표·실적)는 묶음 상자 오른쪽 위에 한 번만 적혀 있고 다섯 도표가 같이 쓴다. 회색 막대=목표, 초록 막대=실적. 제목의 각주 번호 3) 4) 는 적지 않음."
+  },
+  {
+   "id": "S-C023",
+   "doc": "a",
+   "page": 22,
+   "kind": "bar_v",
+   "title": "국내 제조사업장 용수 재이용량",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    356.7,
+    346.9,
+    494.2,
+    411.1
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "범례(목표·실적)는 묶음 상자 오른쪽 위에 한 번만 적혀 있고 다섯 도표가 같이 쓴다. 회색 막대=목표, 초록 막대=실적. 그림에 적힌 제목은 「용수 재이용량」이다(목록의 힌트는 「용수 취수량」). '30년 자리는 값 없이 「취수량 증가 제로화」 동그라미. 108 옆의 5) 는 각주 번호."
+  },
+  {
+   "id": "S-C024",
+   "doc": "a",
+   "page": 22,
+   "kind": "bar_v",
+   "title": "국내 제조사업장 NOx 감축량",
+   "series": [
+    "목표",
+    "실적"
+   ],
+   "bbox": [
+    356.7,
+    430.7,
+    494.2,
+    504.0
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "범례(목표·실적)는 묶음 상자 오른쪽 위에 한 번만 적혀 있고 다섯 도표가 같이 쓴다. 회색 막대=목표, 초록 막대=실적. '40년 자리는 값 없이 「자연상태 수준 처리」 동그라미."
+  },
+  {
+   "id": "S-C025",
+   "doc": "a",
+   "page": 24,
+   "kind": "pie",
+   "title": "2025년 DS부문 온실가스 감축 프로젝트 실적",
+   "series": null,
+   "bbox": [
+    49.1,
+    93.6,
+    273.6,
+    153.8
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "도넛. 조각 이름과 비율은 왼쪽 범례에 적혀 있다."
+  },
+  {
+   "id": "S-C026",
+   "doc": "a",
+   "page": 25,
+   "kind": "bar_v",
+   "title": "DS부문 재생에너지 전환율·사용량",
+   "series": [
+    "재생에너지 전환율(%)",
+    "재생에너지 사용량(GWh)"
+   ],
+   "bbox": [
+    366.5,
+    206.2,
+    531.5,
+    299.8
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "꺾은선(검정)=전환율, 막대(초록)=사용량."
+  },
+  {
+   "id": "S-C027",
+   "doc": "a",
+   "page": 29,
+   "kind": "bar_h",
+   "title": "국내 사업장 용수 절감량",
+   "series": null,
+   "bbox": [
+    568.1,
+    498.8,
+    793.3,
+    542.0
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "가로 막대, 계열 하나(이름 없음). 제목 옆에 (기흥, 화성, 평택, 천안, 온양사업장) (단위: 천 톤)."
+  },
+  {
+   "id": "S-C028",
+   "doc": "a",
+   "page": 30,
+   "kind": "bar_h",
+   "title": "국내 사업장 용수 재이용량",
+   "series": null,
+   "bbox": [
+    49.1,
+    229.1,
+    273.6,
+    271.6
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S2",
+   "note": "가로 막대, 계열 하나(이름 없음). 제목 옆에 (기흥, 화성, 평택, 천안, 온양사업장) (단위: 천 톤)."
+  },
+  {
+   "id": "S-C029",
+   "doc": "a",
+   "page": 38,
+   "kind": "other",
+   "title": "Heat Map 생성",
+   "series": null,
+   "bbox": [
+    267.1,
+    422.2,
+    432.0,
+    481.1
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": false,
+   "labeler": "S3",
+   "note": "수량을 그린 도표가 아니다. 리스크 심각성 × 리스크 발생 가능성을 고·중·저로 나눈 3×3 칸의 개념도(예시 그림)이고 숫자·값이 하나도 없다."
+  },
+  {
+   "id": "S-C030",
+   "doc": "a",
+   "page": 40,
+   "kind": "pie",
+   "title": "채널별 접수 비율",
+   "series": null,
+   "bbox": [
+    308.9,
+    381.6,
+    531.5,
+    432.0
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S3",
+   "note": "도넛. 조각 이름과 값은 도넛 오른쪽에 나란히 적혀 있다(조각에 직접 붙은 글자는 없음). 위 상자 제목은 「2025년 고충처리1) 성과」, 단위 %. 「총 16,460건 접수 99.8% 처리」(p40-w2)는 요약 문장이라 넣지 않았다."
+  },
+  {
+   "id": "S-C031",
+   "doc": "a",
+   "page": 40,
+   "kind": "pie",
+   "title": "유형별 처리 비율",
+   "series": null,
+   "bbox": [
+    308.9,
+    442.5,
+    531.5,
+    511.9
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S3",
+   "note": "도넛(조각 여섯). 아랫줄의 「업무전환·전배 2.3」「안전보건 개선문의 6.1」도 같은 도넛의 조각으로 보았다(여섯 값의 합이 100.0). 단위 %."
+  },
+  {
+   "id": "S-C032",
+   "doc": "a",
+   "page": 41,
+   "kind": "bar_v",
+   "title": "거점형태별 생활임금 산정 비율",
+   "series": [
+    "판매·연구소 등",
+    "생산"
+   ],
+   "bbox": [
+    366.5,
+    451.6,
+    531.5,
+    523.6
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S3",
+   "note": "세로 막대. 노란 막대 = 생산, 회색 막대 = 판매·연구소 등(2025 에만 있음). 단위 %. 각주 「* DX 부문기준」."
+  },
+  {
+   "id": "S-C033",
+   "doc": "a",
+   "page": 44,
+   "kind": "bar_v",
+   "title": "성별 임금격차",
+   "series": null,
+   "bbox": [
+    47.1,
+    485.7,
+    273.6,
+    535.4
+   ],
+   "value_texts_without_fact": [
+    "31.8",
+    "30.2",
+    "30.7",
+    "27.3",
+    "28.4",
+    "27.9",
+    "25.3",
+    "23.1",
+    "24.2",
+    "23.7"
+   ],
+   "is_chart": true,
+   "labeler": "S3",
+   "note": "세로 막대, 계열 하나(이름 없음), 단위 %. 가로축은 '15~'25(숫자 낱말에는 어깨점 없이 15~25 로 잡혀 있다). 값 열한 개 가운데 숫자 낱말 목록에 있는 것은 '25 의 22.2 하나뿐이고, '15 31.8, '16 30.2, '17 30.7, '18 27.3, '19 28.4, '20 27.9, '21 25.3, '22 23.1, '23 24.2, '24 23.7 은 목록에 없다."
+  },
+  {
+   "id": "S-C034",
+   "doc": "a",
+   "page": 46,
+   "kind": "bar_v",
+   "title": "전사",
+   "series": [
+    "개선 필요",
+    "우수"
+   ],
+   "bbox": [
+    569.5,
+    450.3,
+    633.6,
+    505.3
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S3",
+   "note": "세 작은 도표를 묶는 제목은 「2025년 협력회사 종합평가 결과」, 범례(개선 필요·우수)와 단위 %는 셋이 같이 쓴다. 노란 막대 = 우수, 회색 막대 = 개선 필요."
+  },
+  {
+   "id": "S-C035",
+   "doc": "a",
+   "page": 46,
+   "kind": "bar_v",
+   "title": "DX부문",
+   "series": [
+    "개선 필요",
+    "우수"
+   ],
+   "bbox": [
+    646.7,
+    450.3,
+    712.1,
+    505.3
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S3",
+   "note": "세 작은 도표를 묶는 제목은 「2025년 협력회사 종합평가 결과」, 범례(개선 필요·우수)와 단위 %는 셋이 같이 쓴다. 노란 막대 = 우수, 회색 막대 = 개선 필요."
+  },
+  {
+   "id": "S-C036",
+   "doc": "a",
+   "page": 46,
+   "kind": "bar_v",
+   "title": "DS부문",
+   "series": [
+    "개선 필요",
+    "우수"
+   ],
+   "bbox": [
+    725.2,
+    450.3,
+    790.7,
+    505.3
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "S3",
+   "note": "세 작은 도표를 묶는 제목은 「2025년 협력회사 종합평가 결과」, 범례(개선 필요·우수)와 단위 %는 셋이 같이 쓴다. 노란 막대 = 우수, 회색 막대 = 개선 필요."
+  },
+  {
+   "id": "C-C001",
+   "doc": "b",
+   "page": 6,
+   "kind": "pie",
+   "title": "지역별 매출비중",
+   "series": null,
+   "bbox": [
+    751.4,
+    180.7,
+    922.9,
+    289.3
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "도넛. 제목은 도넛 가운데에 두 줄(지역별 / 매출비중). 아래 각주 '* 연결 조정 전 법인별 매출비중'. 조각과 이름 사이에 이음선이 없어 값은 이름 바로 아래 숫자로 읽었다."
+  },
+  {
+   "id": "C-C002",
+   "doc": "b",
+   "page": 24,
+   "kind": "bar_v",
+   "title": "재생에너지 사용량",
+   "series": null,
+   "bbox": [
+    742.9,
+    265.1,
+    893.5,
+    379.6
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "단위: MWh. 두 막대 사이의 '전년 대비 24.3% 증가'(p24-w10)는 막대의 값이 아닌 증감률 주석이라 적지 않았다."
+  },
+  {
+   "id": "C-C003",
+   "doc": "b",
+   "page": 28,
+   "kind": "other",
+   "title": "이중 중대성 평가 매트릭스",
+   "series": null,
+   "bbox": [
+    551.8,
+    153.8,
+    922.9,
+    445.1
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "산점도 꼴의 매트릭스(가로 Environmental & Social Materiality, 세로 Financial Materiality). 눈금 숫자도 값 숫자도 적혀 있지 않다. 점 옆 이름표의 1~10 은 순위 번호(이름표의 일부)이고 number_words 에 없다. 이 쪽의 숫자 낱말은 전부 왼쪽 표(순위, 2024년 대비 순위)의 것이라 도표와 무관. 수량 도표로 볼지 갈릴 수 있다(값이 적히지 않은 위치 그림)."
+  },
+  {
+   "id": "C-C004",
+   "doc": "b",
+   "page": 48,
+   "kind": "bar_v",
+   "title": "환경 운영비",
+   "series": null,
+   "bbox": [
+    437.2,
+    242.2,
+    521.0,
+    330.5
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "단위: 백만 원"
+  },
+  {
+   "id": "C-C005",
+   "doc": "b",
+   "page": 48,
+   "kind": "bar_v",
+   "title": "환경투자 비용",
+   "series": null,
+   "bbox": [
+    261.8,
+    267.1,
+    339.1,
+    330.5
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "단위: 백만 원"
+  },
+  {
+   "id": "C-C006",
+   "doc": "b",
+   "page": 53,
+   "kind": "line",
+   "title": "온실가스 배출량 감축 경로",
+   "series": null,
+   "bbox": [
+    167.6,
+    233.0,
+    579.9,
+    513.2
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "단위: 천tCO2eq. 세로축 이름 Total GHG, 눈금 숫자 없음. 범례 없음(선 하나). 회색 원 안의 '2024년 대비 50% 감축'(p53-w11)은 감축률 주석이라 값으로 적지 않았다. 2050 자리의 'Net Zero' 는 숫자가 아니다."
+  },
+  {
+   "id": "C-C007",
+   "doc": "b",
+   "page": 55,
+   "kind": "bar_v",
+   "title": "총 교육 시간",
+   "series": null,
+   "bbox": [
+    830.0,
+    361.3,
+    894.1,
+    426.8
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "단위: 시간"
+  },
+  {
+   "id": "C-C008",
+   "doc": "b",
+   "page": 55,
+   "kind": "bar_v",
+   "title": "교육 대상 협력사",
+   "series": null,
+   "bbox": [
+    651.9,
+    371.8,
+    714.8,
+    426.8
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C1",
+   "note": "단위: 개사"
+  },
+  {
+   "id": "C-C009",
+   "doc": "b",
+   "page": 56,
+   "kind": "pie",
+   "title": "거점별(국내)",
+   "series": null,
+   "bbox": [
+    562.9,
+    380.9,
+    727.9,
+    462.1
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C2",
+   "note": "도넛. 윗제목은 「재생에너지 사용량」이고 도표 하나의 제목은 「거점별(국내)」. 값은 % 가 붙은 낱말. 아래의 표(구분·단위·재생에너지 사용량, w17 w20 w23 w25 w27)는 표라서 적지 않았다."
+  },
+  {
+   "id": "C-C010",
+   "doc": "b",
+   "page": 56,
+   "kind": "pie",
+   "title": "지역별",
+   "series": null,
+   "bbox": [
+    750.1,
+    380.9,
+    907.2,
+    462.1
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C2",
+   "note": "도넛. 윗제목은 「재생에너지 사용량」. 아래 표(w19 w22 w26)는 표라서 적지 않았다. 표에는 「해외1)」로 각주 번호가 붙지만 도넛 옆 글자는 「해외」."
+  },
+  {
+   "id": "C-C011",
+   "doc": "b",
+   "page": 57,
+   "kind": "pie",
+   "title": "제품 전 과정 평가(LCA) 환경 영향 범주",
+   "series": null,
+   "bbox": [
+    557.7,
+    117.8,
+    776.3,
+    291.9
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": false,
+   "labeler": "C2",
+   "note": "수량을 그린 도표가 아니다. 환경영향범주의 분류(대기·수계·토양·인간과 그 아래 항목)를 고리 꼴로 늘어놓은 개념도로, 조각의 크기가 값을 뜻하지 않고 값 숫자도 없다. 가운데 「29가지」는 범주의 가짓수를 적은 글자이며 숫자 낱말 목록에 없다."
+  },
+  {
+   "id": "C-C012",
+   "doc": "b",
+   "page": 93,
+   "kind": "other",
+   "title": "사회공헌 영역 지표",
+   "series": null,
+   "bbox": [
+    619.2,
+    274.9,
+    759.3,
+    380.9
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": false,
+   "labeler": "C2",
+   "note": "두 축(세로 「사회문제 해결」, 가로 「코스맥스 강점」)에 여덟 영역(문화향유, 일자리 창출, 자원순환, 생태계복원, 사회적약자, 여성자립, 청년 창업, 안전·건강)을 점으로 놓은 자리 그림. 눈금도 값 숫자도 없어 수량을 읽을 수 없는 개념도로 보았다. 사람에 따라 산점도로 볼 수 있는 자리다(갈림). 어느 쪽이든 이 도표에 속한 숫자 낱말은 없다. 위 상자의 (50%) 둘(p93-w3, p93-w4)은 두 측면의 비중을 적은 글자로 도표 상자 밖이며 도표의 값이 아니다."
+  },
+  {
+   "id": "C-C013",
+   "doc": "b",
+   "page": 124,
+   "kind": "bar_v",
+   "title": "주주 구성 현황",
+   "series": null,
+   "bbox": [
+    778.9,
+    257.2,
+    911.1,
+    374.4
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C2",
+   "note": "세로 막대 둘, (단위: 주). 범주 이름은 가로축에 두 줄로 나뉘어 적혀 있어 이어 적었다. 값 축 눈금 없음. 아래 표의 11,345,662주·3,847주·11,349,509주는 표이고 숫자 낱말 목록에도 없다."
+  },
+  {
+   "id": "C-C014",
+   "doc": "b",
+   "page": 124,
+   "kind": "pie",
+   "title": "주주 구성 현황",
+   "series": null,
+   "bbox": [
+    561.6,
+    267.1,
+    730.5,
+    358.7
+   ],
+   "value_texts_without_fact": [],
+   "is_chart": true,
+   "labeler": "C2",
+   "note": "도넛, (단위: %). 조각 옆 숫자에는 % 가 붙어 있지 않다. 「코스맥스비티아이」「국내 개인투자자 및 기타」는 두 줄로 나뉜 것을 이어 적었다. 아래 표(w12~w16, % 붙은 것)는 표라서 적지 않았다."
+  }
+ ],
+ "labels": [
+  {
+   "doc": "a",
+   "id": "p8-w2",
+   "raw": "32.5%",
+   "chart": "S-C001",
+   "role": "value",
+   "series": null,
+   "category": [
+    "전사"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p8-w3",
+   "raw": "94.8%",
+   "chart": "S-C002",
+   "role": "value",
+   "series": null,
+   "category": [
+    "DX부문"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p8-w4",
+   "raw": "26.2%",
+   "chart": "S-C003",
+   "role": "value",
+   "series": null,
+   "category": [
+    "DS부문"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p8-w6",
+   "raw": "99.3%",
+   "chart": "S-C004",
+   "role": "value",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p8-w5",
+   "raw": "33.7%",
+   "chart": "S-C005",
+   "role": "value",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p8-w7",
+   "raw": "75.0%",
+   "chart": "S-C006",
+   "role": "value",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p8-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p8-w8",
+   "raw": "67.2%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p8-w9",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p8-w10",
+   "raw": "8",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w12",
+   "raw": "32",
+   "chart": "S-C007",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w9",
+   "raw": "34.3",
+   "chart": "S-C007",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w10",
+   "raw": "34",
+   "chart": "S-C007",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’26년",
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w7",
+   "raw": "94",
+   "chart": "S-C008",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w6",
+   "raw": "94.8",
+   "chart": "S-C008",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w5",
+   "raw": "95",
+   "chart": "S-C008",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’26년",
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w4",
+   "raw": "100",
+   "chart": "S-C008",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’27년",
+    "'27년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w11",
+   "raw": "34.4",
+   "chart": "S-C009",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w13",
+   "raw": "30",
+   "chart": "S-C009",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’30년",
+    "'30년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w24",
+   "raw": "33.7",
+   "chart": "S-C010",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w22",
+   "raw": "50",
+   "chart": "S-C010",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’30년",
+    "'30년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w18",
+   "raw": "100",
+   "chart": "S-C010",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’50년",
+    "'50년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w19",
+   "raw": "22",
+   "chart": "S-C011",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w20",
+   "raw": "22",
+   "chart": "S-C011",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’30년",
+    "'30년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w25",
+   "raw": "754",
+   "chart": "S-C012",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w23",
+   "raw": "1,000",
+   "chart": "S-C012",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’30년",
+    "'30년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w21",
+   "raw": "2,500",
+   "chart": "S-C012",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’50년",
+    "'50년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w33",
+   "raw": "50",
+   "chart": "S-C013",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w30",
+   "raw": "67.2",
+   "chart": "S-C013",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w31",
+   "raw": "65",
+   "chart": "S-C013",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’26년",
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w28",
+   "raw": "100",
+   "chart": "S-C013",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’30년",
+    "'30년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w35",
+   "raw": "6",
+   "chart": "S-C014",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "’25년",
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w34",
+   "raw": "8",
+   "chart": "S-C014",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’26년",
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w32",
+   "raw": "13",
+   "chart": "S-C014",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "’30년",
+    "'30년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p11-w1",
+   "raw": "1,",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w2",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w3",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w8",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w14",
+   "raw": "4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w15",
+   "raw": "7)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w16",
+   "raw": "5)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w17",
+   "raw": "6)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w26",
+   "raw": "8)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w27",
+   "raw": "9)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w29",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w36",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w37",
+   "raw": "5)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w38",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w39",
+   "raw": "6)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w40",
+   "raw": "7)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w41",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w42",
+   "raw": "8)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w43",
+   "raw": "4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w44",
+   "raw": "9)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w45",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p11-w46",
+   "raw": "11",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w17",
+   "raw": "93.4%",
+   "chart": "S-C015",
+   "role": "value",
+   "series": [
+    "전환율",
+    "재생에너지 전환율"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w22",
+   "raw": "(2,720)",
+   "chart": "S-C015",
+   "role": "value",
+   "series": [
+    "사용량",
+    "재생에너지 사용량"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w18",
+   "raw": "93.4%",
+   "chart": "S-C015",
+   "role": "value",
+   "series": [
+    "전환율",
+    "재생에너지 전환율"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w25",
+   "raw": "(2,884)",
+   "chart": "S-C015",
+   "role": "value",
+   "series": [
+    "사용량",
+    "재생에너지 사용량"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w14",
+   "raw": "94.8%",
+   "chart": "S-C015",
+   "role": "value",
+   "series": [
+    "전환율",
+    "재생에너지 전환율"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w21",
+   "raw": "(2,924)",
+   "chart": "S-C015",
+   "role": "value",
+   "series": [
+    "사용량",
+    "재생에너지 사용량"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w33",
+   "raw": "2023",
+   "chart": "S-C015",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w34",
+   "raw": "2024",
+   "chart": "S-C015",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w35",
+   "raw": "2025",
+   "chart": "S-C015",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w20",
+   "raw": "31.3",
+   "chart": "S-C016",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2023"
+   ],
+   "ambiguous": true,
+   "note": "막대 맨 위의 숫자. 두 조각(Scope 1 + Scope 2)의 합으로 보이며 이름은 그림에 없다."
+  },
+  {
+   "doc": "a",
+   "id": "p13-w26",
+   "raw": "21.1",
+   "chart": "S-C016",
+   "role": "value",
+   "series": [
+    "Scope 1"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w27",
+   "raw": "10.2",
+   "chart": "S-C016",
+   "role": "value",
+   "series": [
+    "Scope 2"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w15",
+   "raw": "34.2",
+   "chart": "S-C016",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ],
+   "ambiguous": true,
+   "note": "막대 맨 위의 숫자. 두 조각(Scope 1 + Scope 2)의 합으로 보이며 이름은 그림에 없다."
+  },
+  {
+   "doc": "a",
+   "id": "p13-w23",
+   "raw": "23.6",
+   "chart": "S-C016",
+   "role": "value",
+   "series": [
+    "Scope 1"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w28",
+   "raw": "10.6",
+   "chart": "S-C016",
+   "role": "value",
+   "series": [
+    "Scope 2"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w16",
+   "raw": "34.3",
+   "chart": "S-C016",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ],
+   "ambiguous": true,
+   "note": "막대 맨 위의 숫자. 두 조각(Scope 1 + Scope 2)의 합으로 보이며 이름은 그림에 없다."
+  },
+  {
+   "doc": "a",
+   "id": "p13-w24",
+   "raw": "25.6",
+   "chart": "S-C016",
+   "role": "value",
+   "series": [
+    "Scope 1"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w29",
+   "raw": "8.6",
+   "chart": "S-C016",
+   "role": "value",
+   "series": [
+    "Scope 2"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p13-w30",
+   "raw": "2023",
+   "chart": "S-C016",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w31",
+   "raw": "2024",
+   "chart": "S-C016",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w32",
+   "raw": "2025",
+   "chart": "S-C016",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w1",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w2",
+   "raw": "1,",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w3",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w4",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w5",
+   "raw": "2030",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w6",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w7",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w8",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w9",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w10",
+   "raw": "1,",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w11",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w12",
+   "raw": "6,600",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w13",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w19",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w36",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w37",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p13-w38",
+   "raw": "13",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w4",
+   "raw": "25.1%",
+   "chart": "S-C017",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p14-w2",
+   "raw": "31.5%",
+   "chart": "S-C017",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p14-w1",
+   "raw": "34.4%",
+   "chart": "S-C017",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p14-w5",
+   "raw": "2023",
+   "chart": "S-C017",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w6",
+   "raw": "2024",
+   "chart": "S-C017",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w7",
+   "raw": "2025",
+   "chart": "S-C017",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w3",
+   "raw": "30%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w8",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w9",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w10",
+   "raw": "5)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w11",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w12",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w13",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w14",
+   "raw": "4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w15",
+   "raw": "5)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w16",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w17",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w18",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p14-w19",
+   "raw": "14",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w7",
+   "raw": "25.0%",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "당해 연도 적용률"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w13",
+   "raw": "16",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "당해 연도 적용량"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w10",
+   "raw": "57",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "전체 누적 적용량"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w6",
+   "raw": "31.0%",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "당해 연도 적용률"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w11",
+   "raw": "20",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "당해 연도 적용량"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w9",
+   "raw": "77",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "전체 누적 적용량"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w5",
+   "raw": "33.7%",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "당해 연도 적용률"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w12",
+   "raw": "22",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "당해 연도 적용량"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w8",
+   "raw": "99",
+   "chart": "S-C018",
+   "role": "value",
+   "series": [
+    "전체 누적 적용량"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p15-w14",
+   "raw": "2023",
+   "chart": "S-C018",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w15",
+   "raw": "2024",
+   "chart": "S-C018",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w16",
+   "raw": "2025",
+   "chart": "S-C018",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w1",
+   "raw": "21%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w2",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w3",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w4",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w17",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p15-w18",
+   "raw": "15",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p16-w7",
+   "raw": "60",
+   "chart": "S-C019",
+   "role": "value",
+   "series": [
+    "당해 연도 수거량"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p16-w4",
+   "raw": "630",
+   "chart": "S-C019",
+   "role": "value",
+   "series": [
+    "전체 누적 수거량"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p16-w6",
+   "raw": "61",
+   "chart": "S-C019",
+   "role": "value",
+   "series": [
+    "당해 연도 수거량"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p16-w3",
+   "raw": "691",
+   "chart": "S-C019",
+   "role": "value",
+   "series": [
+    "전체 누적 수거량"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p16-w5",
+   "raw": "64",
+   "chart": "S-C019",
+   "role": "value",
+   "series": [
+    "당해 연도 수거량"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p16-w2",
+   "raw": "754",
+   "chart": "S-C019",
+   "role": "value",
+   "series": [
+    "전체 누적 수거량"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p16-w8",
+   "raw": "2023",
+   "chart": "S-C019",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p16-w9",
+   "raw": "2024",
+   "chart": "S-C019",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p16-w10",
+   "raw": "2025",
+   "chart": "S-C019",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p16-w1",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p16-w11",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p16-w12",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p16-w13",
+   "raw": "16",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w3",
+   "raw": "1,450",
+   "chart": "S-C020",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w7",
+   "raw": "1,381",
+   "chart": "S-C020",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w5",
+   "raw": "1,376",
+   "chart": "S-C020",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w13",
+   "raw": "26",
+   "chart": "S-C021",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w12",
+   "raw": "26.2",
+   "chart": "S-C021",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w9",
+   "raw": "27",
+   "chart": "S-C021",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w6",
+   "raw": "100",
+   "chart": "S-C021",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'50년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w19",
+   "raw": "99.2",
+   "chart": "S-C022",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w17",
+   "raw": "99.3",
+   "chart": "S-C022",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w20",
+   "raw": "99.4",
+   "chart": "S-C022",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w18",
+   "raw": "99.9",
+   "chart": "S-C022",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'30년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w23",
+   "raw": "109",
+   "chart": "S-C023",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w22",
+   "raw": "108",
+   "chart": "S-C023",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w24",
+   "raw": "110",
+   "chart": "S-C023",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w29",
+   "raw": "588",
+   "chart": "S-C024",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w28",
+   "raw": "768",
+   "chart": "S-C024",
+   "role": "value",
+   "series": [
+    "실적"
+   ],
+   "category": [
+    "'25년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w27",
+   "raw": "775",
+   "chart": "S-C024",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "'26년"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p22-w1",
+   "raw": "1,",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w2",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w4",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w8",
+   "raw": "25%)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w10",
+   "raw": "97%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w11",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w14",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w15",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w16",
+   "raw": "4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w21",
+   "raw": "5)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w25",
+   "raw": "6)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w26",
+   "raw": "7)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w30",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w31",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w32",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w33",
+   "raw": "4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w34",
+   "raw": "5)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w35",
+   "raw": "6)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w36",
+   "raw": "7)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w37",
+   "raw": "8)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w38",
+   "raw": "9)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w39",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p22-w40",
+   "raw": "22",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w3",
+   "raw": "72%",
+   "chart": "S-C025",
+   "role": "value",
+   "series": null,
+   "category": [
+    "공정가스 처리시설 운영"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p24-w5",
+   "raw": "5%",
+   "chart": "S-C025",
+   "role": "value",
+   "series": null,
+   "category": [
+    "공정효율화, 대체가스 사용"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p24-w8",
+   "raw": "23%",
+   "chart": "S-C025",
+   "role": "value",
+   "series": null,
+   "category": [
+    "재생에너지 사용"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p24-w4",
+   "raw": "17,035",
+   "chart": "S-C025",
+   "role": "value",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w1",
+   "raw": "(1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w2",
+   "raw": "(4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w6",
+   "raw": "(2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w7",
+   "raw": "(5)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w9",
+   "raw": "(3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w10",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w11",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w12",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w13",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w14",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w15",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w16",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w17",
+   "raw": "10,200",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w18",
+   "raw": "97%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w19",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w20",
+   "raw": "7,380",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w21",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w22",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w23",
+   "raw": "14,600",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w24",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w25",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p24-w26",
+   "raw": "24",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w4",
+   "raw": "24%",
+   "chart": "S-C026",
+   "role": "value",
+   "series": [
+    "재생에너지 전환율(%)"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p25-w3",
+   "raw": "25%",
+   "chart": "S-C026",
+   "role": "value",
+   "series": [
+    "재생에너지 전환율(%)"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p25-w2",
+   "raw": "26%",
+   "chart": "S-C026",
+   "role": "value",
+   "series": [
+    "재생에너지 전환율(%)"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p25-w7",
+   "raw": "6,569",
+   "chart": "S-C026",
+   "role": "value",
+   "series": [
+    "재생에너지 사용량(GWh)"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p25-w6",
+   "raw": "7,184",
+   "chart": "S-C026",
+   "role": "value",
+   "series": [
+    "재생에너지 사용량(GWh)"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p25-w5",
+   "raw": "7,962",
+   "chart": "S-C026",
+   "role": "value",
+   "series": [
+    "재생에너지 사용량(GWh)"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p25-w8",
+   "raw": "2023",
+   "chart": "S-C026",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w9",
+   "raw": "2024",
+   "chart": "S-C026",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w10",
+   "raw": "2025",
+   "chart": "S-C026",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w1",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w11",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w12",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w13",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w14",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w15",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w16",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w17",
+   "raw": "4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w18",
+   "raw": "70%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w19",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w20",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w21",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w22",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w23",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w24",
+   "raw": "1,803",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w25",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w26",
+   "raw": "4)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w27",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w28",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w29",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w30",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w31",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p25-w32",
+   "raw": "25",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w11",
+   "raw": "12,710",
+   "chart": "S-C027",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p29-w13",
+   "raw": "16,759",
+   "chart": "S-C027",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p29-w14",
+   "raw": "21,869",
+   "chart": "S-C027",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p29-w10",
+   "raw": "2023",
+   "chart": "S-C027",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w12",
+   "raw": "2024",
+   "chart": "S-C027",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w15",
+   "raw": "2025",
+   "chart": "S-C027",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w1",
+   "raw": "153,238",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w2",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w3",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w4",
+   "raw": "21,869",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w5",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w6",
+   "raw": "107,967",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w7",
+   "raw": "65,995",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w8",
+   "raw": "58,156",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w9",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w16",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p29-w17",
+   "raw": "29",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w2",
+   "raw": "92,657",
+   "chart": "S-C028",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p30-w4",
+   "raw": "101,106",
+   "chart": "S-C028",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p30-w5",
+   "raw": "107,967",
+   "chart": "S-C028",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p30-w1",
+   "raw": "2023",
+   "chart": "S-C028",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w3",
+   "raw": "2024",
+   "chart": "S-C028",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w6",
+   "raw": "2025",
+   "chart": "S-C028",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w7",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w8",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w9",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w10",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p30-w11",
+   "raw": "30",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p34-w1",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p34-w2",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p34-w3",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p34-w4",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p34-w5",
+   "raw": "34",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w1",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w2",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w3",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w4",
+   "raw": "4",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w5",
+   "raw": "5",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w6",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w7",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w8",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-w9",
+   "raw": "38",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p40-w3",
+   "raw": "36.0",
+   "chart": "S-C030",
+   "role": "value",
+   "series": null,
+   "category": [
+    "온라인 기구"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w4",
+   "raw": "23.9",
+   "chart": "S-C030",
+   "role": "value",
+   "series": null,
+   "category": [
+    "오프라인"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w5",
+   "raw": "19.7",
+   "chart": "S-C030",
+   "role": "value",
+   "series": null,
+   "category": [
+    "핫라인"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w6",
+   "raw": "20.3",
+   "chart": "S-C030",
+   "role": "value",
+   "series": null,
+   "category": [
+    "근로자 대표"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w7",
+   "raw": "34.9",
+   "chart": "S-C031",
+   "role": "value",
+   "series": null,
+   "category": [
+    "총무인프라 제안사항",
+    "총무인프라제안사항"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w8",
+   "raw": "23.4",
+   "chart": "S-C031",
+   "role": "value",
+   "series": null,
+   "category": [
+    "인사제도 운영문의",
+    "인사제도운영문의"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w9",
+   "raw": "8.3",
+   "chart": "S-C031",
+   "role": "value",
+   "series": null,
+   "category": [
+    "대인관계"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w10",
+   "raw": "25.0",
+   "chart": "S-C031",
+   "role": "value",
+   "series": null,
+   "category": [
+    "기타"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w11",
+   "raw": "2.3",
+   "chart": "S-C031",
+   "role": "value",
+   "series": null,
+   "category": [
+    "업무전환·전배"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w12",
+   "raw": "6.1",
+   "chart": "S-C031",
+   "role": "value",
+   "series": null,
+   "category": [
+    "안전보건 개선문의"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p40-w1",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p40-w2",
+   "raw": "99.8%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p40-w13",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p40-w14",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p40-w15",
+   "raw": "40",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w2",
+   "raw": "100",
+   "chart": "S-C032",
+   "role": "value",
+   "series": [
+    "생산"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p41-w3",
+   "raw": "100",
+   "chart": "S-C032",
+   "role": "value",
+   "series": [
+    "생산"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p41-w4",
+   "raw": "100",
+   "chart": "S-C032",
+   "role": "value",
+   "series": [
+    "생산"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p41-w6",
+   "raw": "71",
+   "chart": "S-C032",
+   "role": "value",
+   "series": [
+    "판매·연구소 등"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p41-w9",
+   "raw": "2023",
+   "chart": "S-C032",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w10",
+   "raw": "2024",
+   "chart": "S-C032",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w11",
+   "raw": "2025",
+   "chart": "S-C032",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w1",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w5",
+   "raw": "2020",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w7",
+   "raw": "2021",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w8",
+   "raw": "2022",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w12",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w13",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p41-w14",
+   "raw": "41",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w22",
+   "raw": "22.2",
+   "chart": "S-C033",
+   "role": "value",
+   "series": null,
+   "category": [
+    "'25",
+    "25",
+    "’25",
+    "̕25"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p44-w23",
+   "raw": "15",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w24",
+   "raw": "16",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w25",
+   "raw": "17",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w26",
+   "raw": "18",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w27",
+   "raw": "19",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w28",
+   "raw": "20",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w29",
+   "raw": "21",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w30",
+   "raw": "22",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w31",
+   "raw": "23",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w32",
+   "raw": "24",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w33",
+   "raw": "25",
+   "chart": "S-C033",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w1",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w2",
+   "raw": "2015",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w3",
+   "raw": "2020",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w4",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w5",
+   "raw": "4.5",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w6",
+   "raw": "6.6",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w7",
+   "raw": "7.4",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w8",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w9",
+   "raw": "12.4",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w10",
+   "raw": "15.3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w11",
+   "raw": "18.9",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w12",
+   "raw": "28.9",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w13",
+   "raw": "31.5",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w14",
+   "raw": "35.7",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w15",
+   "raw": "17.2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w16",
+   "raw": "18.0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w17",
+   "raw": "19.9",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w18",
+   "raw": "2023",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w19",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w20",
+   "raw": "6.8%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w21",
+   "raw": "0.1%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w34",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p44-w35",
+   "raw": "44",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-w4",
+   "raw": "75",
+   "chart": "S-C034",
+   "role": "value",
+   "series": [
+    "우수"
+   ],
+   "category": [
+    "전사"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-w7",
+   "raw": "1.2",
+   "chart": "S-C034",
+   "role": "value",
+   "series": [
+    "개선 필요"
+   ],
+   "category": [
+    "전사"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-w5",
+   "raw": "73",
+   "chart": "S-C035",
+   "role": "value",
+   "series": [
+    "우수"
+   ],
+   "category": [
+    "DX부문"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-w6",
+   "raw": "1.6",
+   "chart": "S-C035",
+   "role": "value",
+   "series": [
+    "개선 필요"
+   ],
+   "category": [
+    "DX부문"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-w3",
+   "raw": "83",
+   "chart": "S-C036",
+   "role": "value",
+   "series": [
+    "우수"
+   ],
+   "category": [
+    "DS부문"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-w8",
+   "raw": "0.4",
+   "chart": "S-C036",
+   "role": "value",
+   "series": [
+    "개선 필요"
+   ],
+   "category": [
+    "DS부문"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-w1",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-w2",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-w9",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-w10",
+   "raw": "46",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w2",
+   "raw": "4%",
+   "chart": "C-C001",
+   "role": "value",
+   "series": null,
+   "category": [
+    "인도네시아"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p6-w3",
+   "raw": "6%",
+   "chart": "C-C001",
+   "role": "value",
+   "series": null,
+   "category": [
+    "미국"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p6-w4",
+   "raw": "3%",
+   "chart": "C-C001",
+   "role": "value",
+   "series": null,
+   "category": [
+    "태국"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p6-w6",
+   "raw": "26%",
+   "chart": "C-C001",
+   "role": "value",
+   "series": null,
+   "category": [
+    "중국"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p6-w7",
+   "raw": "64%",
+   "chart": "C-C001",
+   "role": "value",
+   "series": null,
+   "category": [
+    "한국"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p6-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w5",
+   "raw": "46",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w8",
+   "raw": "2023",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w9",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w10",
+   "raw": "1992",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w11",
+   "raw": "2022",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w12",
+   "raw": "2024",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w13",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-w14",
+   "raw": "6",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w9",
+   "raw": "6,226",
+   "chart": "C-C002",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p24-w7",
+   "raw": "7,742",
+   "chart": "C-C002",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p24-w11",
+   "raw": "2024",
+   "chart": "C-C002",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w12",
+   "raw": "2025",
+   "chart": "C-C002",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w2",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w3",
+   "raw": "2050",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w4",
+   "raw": "2050",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w5",
+   "raw": "50%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w6",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w8",
+   "raw": "11",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w10",
+   "raw": "24.3%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w13",
+   "raw": "24",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p24-w14",
+   "raw": "24",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w2",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w3",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w4",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w5",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w6",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w7",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w8",
+   "raw": "4",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w9",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w10",
+   "raw": "5",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w11",
+   "raw": "4",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w12",
+   "raw": "6",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w13",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w14",
+   "raw": "7",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w15",
+   "raw": "8",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w16",
+   "raw": "9",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w17",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w18",
+   "raw": "10",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w19",
+   "raw": "28",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p28-w20",
+   "raw": "28",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w4",
+   "raw": "2,314",
+   "chart": "C-C004",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p48-w3",
+   "raw": "2,727",
+   "chart": "C-C004",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p48-w9",
+   "raw": "2024",
+   "chart": "C-C004",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w10",
+   "raw": "2025",
+   "chart": "C-C004",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w6",
+   "raw": "732",
+   "chart": "C-C005",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p48-w5",
+   "raw": "1,169",
+   "chart": "C-C005",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p48-w7",
+   "raw": "2024",
+   "chart": "C-C005",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w8",
+   "raw": "2025",
+   "chart": "C-C005",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w2",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w11",
+   "raw": "2023",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w12",
+   "raw": "2024",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w13",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w14",
+   "raw": "100",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w15",
+   "raw": "100",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w16",
+   "raw": "100",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w17",
+   "raw": "6",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w18",
+   "raw": "6",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w19",
+   "raw": "8",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p48-w20",
+   "raw": "48",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w9",
+   "raw": "47",
+   "chart": "C-C006",
+   "role": "value",
+   "series": null,
+   "category": [
+    "'24년",
+    "2024년",
+    "2024"
+   ],
+   "ambiguous": true,
+   "note": "점 옆에 ''24년 배출량'이라 적혀 있고 가로축 눈금(2020, 2025 …)에는 2024 가 없다. 이 점에서 뻗는 점선에는 'Baseline 배출량'이라 적혀 있어 계열을 그렇게 볼 수도 있다."
+  },
+  {
+   "doc": "b",
+   "id": "p53-w13",
+   "raw": "24",
+   "chart": "C-C006",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p53-w15",
+   "raw": "2020",
+   "chart": "C-C006",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w16",
+   "raw": "2025",
+   "chart": "C-C006",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w17",
+   "raw": "2030",
+   "chart": "C-C006",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w18",
+   "raw": "2035",
+   "chart": "C-C006",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w19",
+   "raw": "2040",
+   "chart": "C-C006",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w20",
+   "raw": "2045",
+   "chart": "C-C006",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w21",
+   "raw": "2050",
+   "chart": "C-C006",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w2",
+   "raw": "2050",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w3",
+   "raw": "1,",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w4",
+   "raw": "2050",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w5",
+   "raw": "2050",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w6",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w7",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w8",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w10",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w11",
+   "raw": "50%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w12",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w14",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w22",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w23",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w24",
+   "raw": "53",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p53-w25",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w33",
+   "raw": "60",
+   "chart": "C-C007",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p55-w31",
+   "raw": "80",
+   "chart": "C-C007",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p55-w41",
+   "raw": "2024",
+   "chart": "C-C007",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w42",
+   "raw": "2025",
+   "chart": "C-C007",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w34",
+   "raw": "15",
+   "chart": "C-C008",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p55-w32",
+   "raw": "20",
+   "chart": "C-C008",
+   "role": "value",
+   "series": null,
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p55-w39",
+   "raw": "2024",
+   "chart": "C-C008",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w40",
+   "raw": "2025",
+   "chart": "C-C008",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w2",
+   "raw": "3)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w3",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w4",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w5",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w6",
+   "raw": "3",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w7",
+   "raw": "2023",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w8",
+   "raw": "2024",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w9",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w10",
+   "raw": "50,781",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w11",
+   "raw": "63,427",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w12",
+   "raw": "67,265",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w13",
+   "raw": "2,428",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w14",
+   "raw": "25,265",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w15",
+   "raw": "17,700",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w16",
+   "raw": "2,294",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w17",
+   "raw": "3,973",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w18",
+   "raw": "894",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w19",
+   "raw": "656",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w20",
+   "raw": "573",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w21",
+   "raw": "599",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w22",
+   "raw": "697",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w23",
+   "raw": "793",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w24",
+   "raw": "938",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w25",
+   "raw": "1,540",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w26",
+   "raw": "1,647",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w27",
+   "raw": "213",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w28",
+   "raw": "1,455",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w29",
+   "raw": "4,170",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w30",
+   "raw": "5,674",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w35",
+   "raw": "57,124",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w36",
+   "raw": "98,062",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w37",
+   "raw": "97,796",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w38",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w43",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p55-w44",
+   "raw": "55",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w11",
+   "raw": "14.8%",
+   "chart": "C-C009",
+   "role": "value",
+   "series": null,
+   "category": [
+    "화성 공장"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p56-w13",
+   "raw": "6.5%",
+   "chart": "C-C009",
+   "role": "value",
+   "series": null,
+   "category": [
+    "코스맥스네오"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p56-w15",
+   "raw": "3.1%",
+   "chart": "C-C009",
+   "role": "value",
+   "series": null,
+   "category": [
+    "코스맥스향약원"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p56-w16",
+   "raw": "75.5%",
+   "chart": "C-C009",
+   "role": "value",
+   "series": null,
+   "category": [
+    "평택 공장"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p56-w12",
+   "raw": "20.7%",
+   "chart": "C-C010",
+   "role": "value",
+   "series": null,
+   "category": [
+    "국내"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p56-w14",
+   "raw": "79.3%",
+   "chart": "C-C010",
+   "role": "value",
+   "series": null,
+   "category": [
+    "해외"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p56-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w2",
+   "raw": "2050",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w3",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w4",
+   "raw": "2023",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w5",
+   "raw": "2024",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w6",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w7",
+   "raw": "1.6",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w8",
+   "raw": "6.8",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w9",
+   "raw": "5.2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w10",
+   "raw": "3%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w17",
+   "raw": "236,918",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w18",
+   "raw": "251,042",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w19",
+   "raw": "1,599,199",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w20",
+   "raw": "1,208,077",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w21",
+   "raw": "278,263",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w22",
+   "raw": "6,142,576",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w23",
+   "raw": "49,815",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w24",
+   "raw": "202,200",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w25",
+   "raw": "104,389",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w26",
+   "raw": "7,741,775",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w27",
+   "raw": "1,599,199",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w28",
+   "raw": "1,457,929",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w29",
+   "raw": "50,000",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w30",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p56-w31",
+   "raw": "56",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p57-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p57-w2",
+   "raw": "3.11)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p57-w3",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p57-w4",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p57-w5",
+   "raw": "2)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p57-w6",
+   "raw": "57",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w2",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w3",
+   "raw": "(50%)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w4",
+   "raw": "(50%)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w5",
+   "raw": "(2026)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w6",
+   "raw": "(2028)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w7",
+   "raw": "(2030)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p93-w8",
+   "raw": "93",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w4",
+   "raw": "11,345,662",
+   "chart": "C-C013",
+   "role": "value",
+   "series": null,
+   "category": [
+    "보통주(1주 1의결권)",
+    "보통주 (1주 1의결권)"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p124-w9",
+   "raw": "3,847",
+   "chart": "C-C013",
+   "role": "value",
+   "series": null,
+   "category": [
+    "보통주(의결권 없음)",
+    "보통주 (의결권 없음)"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p124-w5",
+   "raw": "34.1",
+   "chart": "C-C014",
+   "role": "value",
+   "series": null,
+   "category": [
+    "외국계 투자자"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p124-w6",
+   "raw": "11.7",
+   "chart": "C-C014",
+   "role": "value",
+   "series": null,
+   "category": [
+    "국민연금공단"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p124-w8",
+   "raw": "15.7",
+   "chart": "C-C014",
+   "role": "value",
+   "series": null,
+   "category": [
+    "국내 기관투자자"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p124-w10",
+   "raw": "11.3",
+   "chart": "C-C014",
+   "role": "value",
+   "series": null,
+   "category": [
+    "국내 개인투자자 및 기타"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p124-w11",
+   "raw": "27.2",
+   "chart": "C-C014",
+   "role": "value",
+   "series": null,
+   "category": [
+    "코스맥스비티아이",
+    "코스맥스 비티아이"
+   ]
+  },
+  {
+   "doc": "b",
+   "id": "p124-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w2",
+   "raw": "30%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w3",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w7",
+   "raw": "3%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w12",
+   "raw": "27.2%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w13",
+   "raw": "11.7%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w14",
+   "raw": "15.7%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w15",
+   "raw": "11.3%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w16",
+   "raw": "34.1%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p124-w17",
+   "raw": "124",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w1",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w2",
+   "raw": "2026",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w3",
+   "raw": "2023",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w4",
+   "raw": "2024",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w5",
+   "raw": "2025",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w6",
+   "raw": "100%",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w7",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w8",
+   "raw": "12",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w9",
+   "raw": "11",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w10",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w11",
+   "raw": "11",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w12",
+   "raw": "10",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w13",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w14",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w15",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w16",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w17",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w18",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w19",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w20",
+   "raw": "12",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w21",
+   "raw": "11",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w22",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w23",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w24",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w25",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w26",
+   "raw": "10",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w27",
+   "raw": "5",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w28",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w29",
+   "raw": "0",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w30",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w31",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w32",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w33",
+   "raw": "4",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w34",
+   "raw": "2",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w35",
+   "raw": "11",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w36",
+   "raw": "10",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w37",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w38",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w39",
+   "raw": "1",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w40",
+   "raw": "1)",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p127-w41",
+   "raw": "127",
+   "chart": "",
+   "role": "other",
+   "series": null,
+   "category": null
+  }
+ ]
+}

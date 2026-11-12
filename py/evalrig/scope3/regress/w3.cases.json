@@ -1,0 +1,19 @@
+{
+  "schema": "evalrig.scope3.regress-w3/1",
+  "note": "지은 글(일반 낱말 — 원본 아님). 기대 kind: mode = 정규화 운송·이동수단 코드가 같아야 함 · codeNot = 그 코드가 나오면 틀림 · family = C1·C2 품목 갈래가 같아야 함. 코드 이름은 1차의 코드 체계(C4·C9 운송 rail·sea·road…, C6 출장 train·car_ev·car…, C1 family)다 — 2차가 다른 이름을 쓰면 드라이버가 옮겨 적는다.",
+  "cases": [
+    {"id": "w3-c4-ev-rail", "category": "C4", "sheet": "C4-2", "field": "운송수단", "text": "전기차", "expect": {"kind": "codeNot", "value": "rail"}, "why": "「전기차」 안의 「기차」 가 철도 낱말에 걸림"},
+    {"id": "w3-c4-ev-truck-rail", "category": "C4", "sheet": "C4-2", "field": "운송수단", "text": "전기차 트럭 운송", "expect": {"kind": "codeNot", "value": "rail"}, "why": "철도 낱말이 도로 낱말보다 먼저 봄"},
+    {"id": "w3-c6-ev-train", "category": "C6", "sheet": "C6-2", "field": "이동수단", "text": "전기차 렌트", "expect": {"kind": "codeNot", "value": "train"}, "why": "기차 규칙이 전기차 규칙보다 먼저"},
+    {"id": "w3-c6-ev2-train", "category": "C6", "sheet": "C6-2", "field": "이동수단", "text": "전기자동차", "expect": {"kind": "codeNot", "value": "train"}, "why": "대조 — 「기차」 글자가 없으면 걸리지 않아야 함(전기차 낱말 길)"},
+    {"id": "w3-c1-car-pantry", "category": "C1", "sheet": "C1", "field": "품목군", "text": "차량 유지", "expect": {"kind": "codeNot", "value": "pantry_supplies"}, "why": "탕비 낱말 「차」 가 「차량」 에 걸림"},
+    {"id": "w3-c1-car2-pantry", "category": "C1", "sheet": "C1", "field": "품목군", "text": "업무용 차량", "expect": {"kind": "codeNot", "value": "pantry_supplies"}, "why": "같은 흠, 다른 글"},
+    {"id": "w3-c4-delivery-sea", "category": "C4", "sheet": "C4-2", "field": "운송수단", "text": "배송 트럭", "expect": {"kind": "codeNot", "value": "sea"}, "why": "「배송」 안의 「배」 가 해상 낱말"},
+    {"id": "w3-c4-battery-sea", "category": "C4", "sheet": "C4-2", "field": "운송수단", "text": "배터리 운반 차량", "expect": {"kind": "codeNot", "value": "sea"}, "why": "「배터리」 안의 「배」"},
+    {"id": "w3-c9-delivery-sea", "category": "C9", "sheet": "C9-2", "field": "운송수단", "text": "제품 배송", "expect": {"kind": "codeNot", "value": "sea"}, "why": "C9 도 같은 낱말 표(「배송」 안의 「배」)"},
+    {"id": "w3-ctl-ktx-c4", "category": "C4", "sheet": "C4-2", "field": "운송수단", "text": "KTX", "expect": {"kind": "mode", "value": "rail"}, "why": "대조(맞아야 함)"},
+    {"id": "w3-ctl-ktx-c6", "category": "C6", "sheet": "C6-2", "field": "이동수단", "text": "KTX", "expect": {"kind": "mode", "value": "train"}, "why": "대조(맞아야 함)"},
+    {"id": "w3-ctl-container", "category": "C4", "sheet": "C4-2", "field": "운송수단", "text": "컨테이너선", "expect": {"kind": "mode", "value": "sea"}, "why": "대조(맞아야 함)"},
+    {"id": "w3-ctl-coffee", "category": "C1", "sheet": "C1", "field": "품목군", "text": "커피", "expect": {"kind": "family", "value": "pantry_supplies"}, "why": "대조(맞아야 함)"}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "llm",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "공급사에 묶이지 않는 LLM 호출 계층 (프롬프트 버전, 구조화 출력 검증, 호출 기록, 비용 상한, 대체 호출)",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "@google/genai": "^2.26.0",
+    "openai": "^7.25.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

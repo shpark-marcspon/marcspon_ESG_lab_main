@@ -1,0 +1,152 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "chart-candidates.schema.json",
+ "title": "도표 후보 구역 (docparse chartcands 의 산출)",
+ "description": "꼴을 보지 않고 가려낸 「도표가 있을 것 같은 구역」. 문서 모델과 따로인 새 산출이다. 도표라고 판정한 것이 아니라 후보다.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "schema_version",
+  "source",
+  "method",
+  "pages",
+  "candidates"
+ ],
+ "properties": {
+  "schema_version": {
+   "const": "0.1"
+  },
+  "source": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "file_name",
+    "sha256",
+    "page_count"
+   ],
+   "properties": {
+    "file_name": {
+     "type": "string"
+    },
+    "sha256": {
+     "type": "string"
+    },
+    "page_count": {
+     "type": "integer",
+     "minimum": 1
+    }
+   }
+  },
+  "method": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "name",
+    "llm_used",
+    "ocr_used",
+    "params"
+   ],
+   "properties": {
+    "name": {
+     "const": "docparse.chartcand"
+    },
+    "llm_used": {
+     "const": false
+    },
+    "ocr_used": {
+     "const": false
+    },
+    "params": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "number"
+     }
+    }
+   }
+  },
+  "pages": {
+   "type": "array",
+   "description": "분해한 쪽마다 정의별 후보 구역의 수",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "page",
+     "marks",
+     "numbers",
+     "both"
+    ],
+    "properties": {
+     "page": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "marks": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "numbers": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "both": {
+      "type": "integer",
+      "minimum": 0
+     }
+    }
+   }
+  },
+  "candidates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "page",
+     "definition",
+     "bbox",
+     "marks",
+     "loose_numbers"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^p[0-9]+-(marks|numbers|both)[0-9]+$"
+     },
+     "page": {
+      "type": "integer",
+      "minimum": 1
+     },
+     "definition": {
+      "enum": [
+       "marks",
+       "numbers",
+       "both"
+      ],
+      "description": "marks = 괘선도 바탕도 아닌 벡터 그림 요소가 모인 구역, numbers = 떠 있는 숫자가 모인 구역, both = marks 구역 안에 떠 있는 숫자가 든 것"
+     },
+     "bbox": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "PDF pt, 왼쪽 위 원점 [x0, y0, x1, y1]"
+     },
+     "marks": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "구역 안의 그림 표식 수"
+     },
+     "loose_numbers": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "구역 안의 떠 있는 숫자 낱말 수"
+     }
+    }
+   }
+  }
+ }
+}

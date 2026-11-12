@@ -1,0 +1,148 @@
+{
+ "schemaVersion": "dataverify.result@2",
+ "company": {
+  "name": "가상상사(지은 기업)",
+  "sasbIndustry": "가상 제조업",
+  "materialTopics": [
+   "기후변화 대응",
+   "자원순환"
+  ],
+  "reportingYear": "2024"
+ },
+ "scope": {
+  "themes": [
+   "환경"
+  ],
+  "itemCount": 17,
+  "keyItemCount": 4,
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ]
+ },
+ "settings": {
+  "model": "gpt-4.1",
+  "tolerance": "1.1",
+  "temperature": "0.1",
+  "maxSteps": {
+   "plan": 12,
+   "review": 9,
+   "insight": 12
+  },
+  "promptIds": {
+   "plan": "dataverify/plan@1",
+   "review": "dataverify/review@1",
+   "insight": "dataverify/insight@1"
+  }
+ },
+ "plan": {
+  "status": "done",
+  "partial": false,
+  "formulas": [
+   "지은 식(시험)"
+  ],
+  "raw": "[\"지은 식(시험)\"]",
+  "failure": null
+ },
+ "review": {
+  "status": "failed",
+  "partial": null,
+  "report": null,
+  "checks": [
+   {
+    "seq": 1,
+    "tool": "sum_check_by_name",
+    "kind": "check",
+    "rule": "sum",
+    "items": {
+     "byName": {
+      "total": [
+       "온실가스 배출량",
+       "총 배출량",
+       "Scope 1+2",
+       "tCO2eq"
+      ],
+      "a": [
+       "온실가스 배출량",
+       "직접 배출량",
+       "Scope 1",
+       "tCO2eq"
+      ],
+      "b": [
+       "온실가스 배출량",
+       "간접 배출량",
+       "Scope 2",
+       "tCO2eq"
+      ]
+     },
+     "raw": null
+    },
+    "tolerance": "1.1",
+    "years": [
+     {
+      "year": "2022",
+      "ok": true,
+      "status": "OK",
+      "diff": "0.0",
+      "note": null,
+      "explanation": "지은 설명(시험)."
+     },
+     {
+      "year": "2023",
+      "ok": false,
+      "status": "FAIL",
+      "diff": "9.0",
+      "note": null,
+      "explanation": "지은 설명(시험)."
+     },
+     {
+      "year": "2024",
+      "ok": true,
+      "status": "OK",
+      "diff": "0.0",
+      "note": null,
+      "explanation": "지은 설명(시험)."
+     }
+    ]
+   }
+  ],
+  "failure": {
+   "kind": "timeout",
+   "budgetSource": null,
+   "message": "지은 실패(시험)"
+  }
+ },
+ "insight": {
+  "status": "done",
+  "partial": false,
+  "report": "지은 인사이트(시험).",
+  "rows": [
+   {
+    "area": "환경",
+    "indicator": "매립",
+    "observation": "지은 관찰.",
+    "risk": "지은 리스크.",
+    "interpretation": "지은 해석."
+   },
+   {
+    "area": "환경",
+    "indicator": "용수 집약도 (E‑017)",
+    "observation": "지은 관찰.",
+    "risk": "지은 리스크.",
+    "interpretation": "지은 해석."
+   },
+   {
+    "area": "환경",
+    "indicator": "없는 지표",
+    "observation": "지은 관찰.",
+    "risk": "지은 리스크.",
+    "interpretation": "지은 해석."
+   }
+  ],
+  "rowsParsed": "parsed",
+  "sources": [],
+  "failure": null
+ },
+ "warnings": []
+}

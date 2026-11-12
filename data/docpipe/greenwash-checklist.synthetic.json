@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "decisionPending": "실제 판정 기준은 결정 대기다. 환경부 가이드라인, 공정위 심사지침, EU 규정 중 무엇을 체크리스트로 삼을지 정해지지 않았다(PRJ11-RPT-2).",
+  "note": "synthetic 예시 체크리스트다. 어느 규정의 조문도 옮긴 것이 아니고, 구조화 출력의 모양을 잡으려고 러너가 지어낸 유형이다. 이 유형으로 낸 판정을 검토 결과로 쓰지 않는다.",
+  "sectionHitMinChars": 40,
+  "sectionHitMinCharsBasis": "설계 기본값. 섹션 제목만 맞은 블록 중 짧은 소제목·도표 글자를 빼려는 하한이고 측정으로 정한 값이 아니다.",
+  "sectionTitleKeywords": ["환경", "기후", "탄소", "자원순환", "수자원", "오염물질", "생물다양성", "Planet", "Climate", "Circular", "Water", "Pollution", "Biodiversity", "Environmental"],
+  "claimKeywords": ["친환경", "탄소중립", "넷제로", "저탄소", "재생에너지", "재활용", "온실가스", "감축", "절감", "에너지 효율", "생분해", "무공해", "지속가능한", "순환", "저감"],
+  "types": [
+    { "id": "vague_claim", "label": "모호한 표현", "description": "범위나 기준 없이 '친환경', '지속가능한' 같은 말만 쓴 주장", "synthetic": true },
+    { "id": "no_evidence", "label": "근거 없음", "description": "수치, 기간, 인증 같은 근거가 문장이나 주변에 없는 주장", "synthetic": true },
+    { "id": "partial_scope", "label": "범위 부풀림", "description": "일부 제품·사업장의 성과를 전체의 성과처럼 쓴 주장", "synthetic": true },
+    { "id": "future_as_done", "label": "목표를 성과처럼", "description": "미래의 목표나 계획을 이미 이룬 것처럼 쓴 주장", "synthetic": true }
+  ]
+}

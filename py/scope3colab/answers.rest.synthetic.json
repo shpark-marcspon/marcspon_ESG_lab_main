@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "note": "짜 둔 가짜 AI 답(지은 것). 나머지 판(S3C-o4a): 템플릿 시트 차례 C3 → C8-1~3 → C11 → C12 → C13-1~3 → C14 → C15 에서 부름은 C3 3번 줄의 단위 AI(`_ai_unit_conversion_factor`, JSON) 하나뿐이다. C8-1 3번 줄은 같은 인자라 lru_cache 로 다시 부르지 않는다. 에너지·폐기물 계수 찾기는 AI 를 부르지 않는다.",
+  "answers": [
+    {
+      "expect": "입력 단위: 가상와트",
+      "text": "{\"factor\": 9.9}"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+ "models": {
+  "m-a": {
+   "pricing": {
+    "input": 1.0,
+    "output": 2.0,
+    "cacheRead": 0.25,
+    "cacheWrite": 1.25
+   }
+  },
+  "m-b": {
+   "pricing": {
+    "input": 0.5,
+    "output": 1.0,
+    "cacheRead": 0.05
+   }
+  }
+ },
+ "embeddingModels": {
+  "e-a": {
+   "pricing": {
+    "input": 0.3
+   }
+  }
+ }
+}

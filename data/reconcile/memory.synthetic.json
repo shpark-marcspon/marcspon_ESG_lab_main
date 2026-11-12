@@ -1,0 +1,42 @@
+{
+ "synthetic": true,
+ "note": "확정 기억의 예시 (synthetic). 사람이 실제로 확정한 것이 아니고 형식과 적용을 보이려고 러너가 지었다. KB금융 데이터북 21쪽 표의 머리글 경로다.",
+ "entries": [
+  {
+   "docKind": "databook",
+   "rowPath": [
+    "온실가스 배출량",
+    "직접 온실가스(Scope 1)",
+    "tCO2eq"
+   ],
+   "colPath": [],
+   "indicatorKey": "ghg.scope1",
+   "unit": "tCO2eq",
+   "boundary": "unspecified",
+   "basisNote": null,
+   "period": {
+    "from": "header_year"
+   },
+   "confirmedBy": "synthetic",
+   "confirmedAt": "2026-10-04"
+  },
+  {
+   "docKind": "databook",
+   "rowPath": [
+    "온실가스 배출량",
+    "간접 온실가스(Scope 2) - 지역기반",
+    "tCO2eq"
+   ],
+   "colPath": [],
+   "indicatorKey": "ghg.scope2.location",
+   "unit": "tCO2eq",
+   "boundary": "unspecified",
+   "basisNote": "지역기반",
+   "period": {
+    "from": "header_year"
+   },
+   "confirmedBy": "synthetic",
+   "confirmedAt": "2026-10-04"
+  }
+ ]
+}

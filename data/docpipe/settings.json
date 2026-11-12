@@ -1,0 +1,28 @@
+{
+  "note": "docpipe 의 설계 매개변수다. 공급사 수치(단가, 한도)는 여기에 없고 data/llm/models.json 에서 읽는다. basis 에 '가정'이라고 적힌 값은 실제 호출로 확인하지 못한 값이다.",
+  "checkedOn": "2026-10-01",
+  "translate": {
+    "chunkSourceTokenBudget": 1500,
+    "chunkSourceTokenBudgetBasis": "PRJ11-RPT-4 §4-3 의 번역 조각 조건(조각당 원문 상한 1,500토큰)을 따른 것이다. 사전 측정은 tiktoken o200k 로 셌고 여기서는 ts/llm 의 글자 수 어림(data/llm/models.json 의 tokenEstimate)으로 세므로 같은 1,500 이라도 조각 크기가 다르다.",
+    "expectedOutputRatio": 0.82,
+    "expectedOutputRatioBasis": "가정. PRJ11-RPT-4 §4-1 '번역 출력 토큰은 국문 입력의 약 0.82배다(영문판 실측, o200k)'. 실제 모델 번역으로 확인한 값이 아니고, 구조화 출력(JSON)의 id·괄호 토큰은 들어 있지 않다.",
+    "tableNumbers": "flag",
+    "unitCells": "fixed",
+    "tableCellBasis": "사용자 결정 2026-10-02 (MARC-ISSUE-16 노트, MARC-TICK-13). 근거는 MARC-TICK-9 실측: gpt-6-luna 로 삼성전자 국문판 123조각 중 23개가 table_number_changed 로 실패했고, 숫자가 달라진 62셀의 대부분이 정당한 표기 변환이었다. tableNumbers 를 strict 로, unitCells 를 model 로 두면 그 전의 규칙이다(비교 측정용)."
+  },
+  "greenwash": {
+    "chunkSourceTokenBudget": 6000,
+    "chunkSourceTokenBudgetBasis": "PRJ11-RPT-4 §4-3 의 그린워싱 조건(환경 서술을 6,000토큰씩)을 따른 것이다. 세는 방법의 차이는 번역과 같다.",
+    "expectedOutputRatio": 0.15,
+    "expectedOutputRatioBasis": "가정. PRJ11-RPT-4 §4-3 이 '임의 가정'으로 적은 값(입력 원문의 15%)을 그대로 가져왔다."
+  },
+  "runner": {
+    "concurrency": 4,
+    "maxAttempts": 3,
+    "basis": "설계 기본값. 공급사의 분당 한도를 확인해 정한 값이 아니다(키 없음)."
+  },
+  "furnitureMinPageShare": 0.5,
+  "furnitureMinPages": 3,
+  "furnitureBasis": "같은 글자의 블록이 텍스트가 있는 쪽의 절반 이상에 되풀이되면 머리말·꼬리말·내비게이션으로 본다. 삼성전자 국문판(89쪽)에서 내비게이션 7종이 85~86쪽에 되풀이되고 그다음으로 많은 것이 17쪽(소제목 '활동')이라 0.5 로 갈린다. 다른 보고서에서는 확인하지 않았다. furnitureMinPages 는 몇 쪽짜리 짧은 문서에서 본문이 장식으로 잡히지 않게 하는 하한이다(설계 기본값).",
+  "dryRunRoutes": ["light", "standard"]
+}

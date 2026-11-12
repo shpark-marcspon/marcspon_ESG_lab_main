@@ -1,0 +1,135 @@
+{
+ "events": 8,
+ "excludedNoYear": [
+  "p109-t1:r2c0",
+  "p109-t1:r2c1",
+  "p109-t1:r2c2",
+  "p109-t1:r2c3"
+ ],
+ "note": "엑셀 원천 ↔ PDF 대사 시험지에 심은 것. 원천(엑셀, git 밖)에만 심는다. 지표는 seed 고정 난수로 골랐다(손으로 고르지 않음). original 은 kb-2025.gold.json 의 그 칸 raw 글자 그대로다.",
+ "plants": [
+  {
+   "cell": "p46-t2:r1c3",
+   "event": "X01",
+   "indicator": "ghg.scope1",
+   "kind": "report_only",
+   "original": "23,325",
+   "period": "2023",
+   "planted": null
+  },
+  {
+   "cell": "p46-t2:r1c4",
+   "event": "X01",
+   "indicator": "ghg.scope1",
+   "kind": "report_only",
+   "original": "22,510",
+   "period": "2024",
+   "planted": null
+  },
+  {
+   "cell": "p46-t2:r1c5",
+   "event": "X01",
+   "indicator": "ghg.scope1",
+   "kind": "report_only",
+   "original": "22,253",
+   "period": "2025",
+   "planted": null
+  },
+  {
+   "cell": "p47-t2:r11c4",
+   "event": "X02",
+   "indicator": "ghg.scope3.cat13",
+   "kind": "year_swap",
+   "original": "617,196",
+   "period": "2023",
+   "planted": 248588
+  },
+  {
+   "cell": "p47-t2:r11c6",
+   "event": "X02",
+   "indicator": "ghg.scope3.cat13",
+   "kind": "year_swap",
+   "original": "248,588",
+   "period": "2025",
+   "planted": 617196
+  },
+  {
+   "cell": "p47-t2:r1c5",
+   "event": "X03",
+   "indicator": "ghg.scope3.cat1",
+   "kind": "digit",
+   "original": "3,419",
+   "period": "2024",
+   "planted": 3416
+  },
+  {
+   "cell": "p47-t2:r3c5",
+   "event": "X04",
+   "indicator": "ghg.scope3.cat3",
+   "kind": "digit",
+   "original": "18,400",
+   "period": "2024",
+   "planted": 17400
+  },
+  {
+   "cell": "p46-t2:r3c5",
+   "event": "X05",
+   "indicator": "ghg.scope1_2.total",
+   "kind": "unit_scale",
+   "original": "148,926",
+   "period": "2025",
+   "planted": 148926000
+  },
+  {
+   "cell": "p47-t2:r13c4",
+   "event": "X06",
+   "indicator": "ghg.scope3.total",
+   "kind": "unit_scale",
+   "original": "679,389",
+   "period": "2023",
+   "planted": 679389000
+  },
+  {
+   "cell": "p46-t2:r4c3",
+   "event": "X07",
+   "indicator": "revenue",
+   "kind": "rounding",
+   "original": "77,640",
+   "period": "2023",
+   "planted": 77640.4
+  },
+  {
+   "cell": null,
+   "event": "X08",
+   "indicator": "ghg.scope2.market",
+   "kind": "source_only",
+   "original": null,
+   "period": "2023",
+   "planted": 3480
+  },
+  {
+   "cell": null,
+   "event": "X08",
+   "indicator": "ghg.scope2.market",
+   "kind": "source_only",
+   "original": null,
+   "period": "2024",
+   "planted": 4434
+  },
+  {
+   "cell": null,
+   "event": "X08",
+   "indicator": "ghg.scope2.market",
+   "kind": "source_only",
+   "original": null,
+   "period": "2025",
+   "planted": 1185
+  }
+ ],
+ "seed": 20261110,
+ "sources": {
+  "catalog": "data/reconcile/indicators.synthetic.json sha16=964fb5d845d6b01e",
+  "kbGold": "data/reconcile/gold/kb-2025.gold.json sha16=ba3ca1138a05fd2e"
+ },
+ "status": "러너 작성, 전문가 검토 전 (밴드 EVB, 2026-11-09)"
+}

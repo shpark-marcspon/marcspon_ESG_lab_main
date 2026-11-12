@@ -1,0 +1,3475 @@
+{
+ "id": "kb-2025-reconcile-gold-0.1",
+ "status": "러너 작성, 전문가 검토 전",
+ "author": "runner-Q (밴드 Q, MARC-TICK-20)",
+ "createdOn": "2026-10-04",
+ "note": "KB금융 2025 지속가능경영보고서(문서 a)와 데이터북(문서 b)의 표 10개, 숫자 셀 전부에 단 뜻의 정답이다. 러너가 원문 PDF 를 보고 달았고 ESG 전문가의 검토를 받지 않았다. 모델을 돌리기 전에 확정했다. 지표 키는 synthetic 지표 목록(catalog)의 것이라, 목록이 바뀌면 이 정답도 다시 달아야 한다.",
+ "conventions": [
+  "kind: 지표 목록에 있으면 indicator, 데이터 값이지만 목록에 없으면 not_in_catalog, 데이터 값이 아니면 not_data.",
+  "period·unit·boundary 는 「요청에 실리는 글자(표, 제목 후보, 단위 줄)만 보고 프롬프트 규칙대로 답할 때」의 정답이다. 프롬프트는 원문에 적혀 있지 않으면 period 는 null, boundary 는 unspecified 로 두라고 한다.",
+  "truth: 원문 PDF 의 다른 자리(쪽의 본문, 요청에 실리지 않은 각주)까지 보면 알 수 있는 값이 위와 다를 때 적는다. 채점에는 쓰지 않고 「요청에 근거가 없어 붙일 수 없는 뜻」을 세는 데 쓴다.",
+  "accept: 판단이 갈리는 자리에서 같이 맞다고 볼 값. 모델을 돌리기 전에 정했다.",
+  "unit 은 원문에 적힌 단위 글자다. 견줄 때는 코드의 단위 글자 정규화(normalizeUnitText)를 거친다.",
+  "raw 는 그 셀의 원문 글자다. 정답을 읽을 때 코드가 뽑은 셀의 글자와 같은지 대조한다."
+ ],
+ "catalog": {
+  "id": "synthetic-esg-indicators-0.1",
+  "sha256": "964fb5d845d6b01e1f62c9a64f5b4960642f729e821cdf1826b9a4f0e514b5a5"
+ },
+ "documents": {
+  "a": {
+   "fileName": "kb_2025_kor.pdf",
+   "pdfSha256": "348361500479d12a5ad6bea8c53c89233774d0e7e913e3721e7afa3b3bf67132"
+  },
+  "b": {
+   "fileName": "kb_2025_databook_kor.pdf",
+   "pdfSha256": "c75dbe007a83b3dc5f5d7bd076d605829b655f66a82695a1a671576483b4eaac"
+  }
+ },
+ "tables": [
+  {
+   "doc": "a",
+   "tableId": "p46-t2",
+   "page": 46,
+   "why": "정답 씨앗. 지표·연도·단위가 머리글에 다 있고 범위는 표 제목에 있다 (데이터북 21쪽과 짝)",
+   "cells": [
+    {
+     "cell": "r1c3",
+     "raw": "23,325",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r1c4",
+     "raw": "22,510",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r1c5",
+     "raw": "22,253",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r2c3",
+     "raw": "132,121",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.location",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r2c4",
+     "raw": "132,814",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.location",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r2c5",
+     "raw": "126,673",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.location",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r3c3",
+     "raw": "155,446",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r3c4",
+     "raw": "155,324",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r3c5",
+     "raw": "148,926",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated"
+      ]
+     }
+    },
+    {
+     "cell": "r4c3",
+     "raw": "77,640",
+     "kind": "indicator",
+     "indicator": "revenue",
+     "period": "2023",
+     "unit": "십억 원",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "매출액의 범위는 각주(그룹 매출액 기준)에 있고 요청에는 없다. 표 제목의 범위를 그대로 물려받았는지는 판단이 갈린다"
+    },
+    {
+     "cell": "r4c4",
+     "raw": "85,214",
+     "kind": "indicator",
+     "indicator": "revenue",
+     "period": "2024",
+     "unit": "십억 원",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "매출액의 범위는 각주(그룹 매출액 기준)에 있고 요청에는 없다. 표 제목의 범위를 그대로 물려받았는지는 판단이 갈린다"
+    },
+    {
+     "cell": "r4c5",
+     "raw": "81,378",
+     "kind": "indicator",
+     "indicator": "revenue",
+     "period": "2025",
+     "unit": "십억 원",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "매출액의 범위는 각주(그룹 매출액 기준)에 있고 요청에는 없다. 표 제목의 범위를 그대로 물려받았는지는 판단이 갈린다"
+    },
+    {
+     "cell": "r5c3",
+     "raw": "2.00",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/십억 원",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "매출액 원단위. 목록에 없다"
+    },
+    {
+     "cell": "r5c4",
+     "raw": "1.82",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/십억 원",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "매출액 원단위. 목록에 없다"
+    },
+    {
+     "cell": "r5c5",
+     "raw": "1.83",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/십억 원",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "매출액 원단위. 목록에 없다"
+    },
+    {
+     "cell": "r6c3",
+     "raw": "5.77",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/명",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "임직원 1인당 배출량. 목록에 없다"
+    },
+    {
+     "cell": "r6c4",
+     "raw": "5.86",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/명",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "임직원 1인당 배출량. 목록에 없다"
+    },
+    {
+     "cell": "r6c5",
+     "raw": "5.77",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/명",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "consolidated",
+       "unspecified"
+      ]
+     },
+     "note": "임직원 1인당 배출량. 목록에 없다"
+    }
+   ]
+  },
+  {
+   "doc": "b",
+   "tableId": "p21-t1",
+   "page": 21,
+   "why": "정답 씨앗. 보고서 46쪽과 같은 표인데 범위가 각주에만 있어 요청에는 안 보인다",
+   "cells": [
+    {
+     "cell": "r1c3",
+     "raw": "23,325",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r1c4",
+     "raw": "22,510",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r1c5",
+     "raw": "22,253",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c3",
+     "raw": "132,121",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.location",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c4",
+     "raw": "132,814",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.location",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c5",
+     "raw": "126,673",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.location",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r3c3",
+     "raw": "155,446",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r3c4",
+     "raw": "155,324",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r3c5",
+     "raw": "148,926",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r4c3",
+     "raw": "77,640",
+     "kind": "indicator",
+     "indicator": "revenue",
+     "period": "2023",
+     "unit": "십억 원",
+     "boundary": "unspecified",
+     "note": "매출액의 범위는 각주(그룹 매출액 기준)에 있고 요청에는 없다. 표 제목의 범위를 그대로 물려받았는지는 판단이 갈린다"
+    },
+    {
+     "cell": "r4c4",
+     "raw": "85,214",
+     "kind": "indicator",
+     "indicator": "revenue",
+     "period": "2024",
+     "unit": "십억 원",
+     "boundary": "unspecified",
+     "note": "매출액의 범위는 각주(그룹 매출액 기준)에 있고 요청에는 없다. 표 제목의 범위를 그대로 물려받았는지는 판단이 갈린다"
+    },
+    {
+     "cell": "r4c5",
+     "raw": "81,378",
+     "kind": "indicator",
+     "indicator": "revenue",
+     "period": "2025",
+     "unit": "십억 원",
+     "boundary": "unspecified",
+     "note": "매출액의 범위는 각주(그룹 매출액 기준)에 있고 요청에는 없다. 표 제목의 범위를 그대로 물려받았는지는 판단이 갈린다"
+    },
+    {
+     "cell": "r5c3",
+     "raw": "2.00",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/십억 원",
+     "boundary": "unspecified",
+     "note": "매출액 원단위. 목록에 없다"
+    },
+    {
+     "cell": "r5c4",
+     "raw": "1.82",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/십억 원",
+     "boundary": "unspecified",
+     "note": "매출액 원단위. 목록에 없다"
+    },
+    {
+     "cell": "r5c5",
+     "raw": "1.83",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/십억 원",
+     "boundary": "unspecified",
+     "note": "매출액 원단위. 목록에 없다"
+    },
+    {
+     "cell": "r6c3",
+     "raw": "5.77",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/명",
+     "boundary": "unspecified",
+     "note": "임직원 1인당 배출량. 목록에 없다"
+    },
+    {
+     "cell": "r6c4",
+     "raw": "5.86",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/명",
+     "boundary": "unspecified",
+     "note": "임직원 1인당 배출량. 목록에 없다"
+    },
+    {
+     "cell": "r6c5",
+     "raw": "5.77",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/명",
+     "boundary": "unspecified",
+     "note": "임직원 1인당 배출량. 목록에 없다"
+    }
+   ]
+  },
+  {
+   "doc": "a",
+   "tableId": "p47-t2",
+   "page": 47,
+   "why": "정답 씨앗. 행이 많고 소계 행(목록에 없음)이 지표 행 사이에 끼어 있다. 단위는 표 밖의 단위 줄에 있다",
+   "cells": [
+    {
+     "cell": "r1c4",
+     "raw": "3,399",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat1",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r1c5",
+     "raw": "3,419",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat1",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r1c6",
+     "raw": "5,376",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat1",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c4",
+     "raw": "7,284",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat2",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c5",
+     "raw": "3,502",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat2",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c6",
+     "raw": "4,529",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat2",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r3c5",
+     "raw": "18,400",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat3",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r3c6",
+     "raw": "20,639",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat3",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r4c4",
+     "raw": "205",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat4",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r4c5",
+     "raw": "141",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat4",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r4c6",
+     "raw": "139",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat4",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r5c4",
+     "raw": "6,001",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat5",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r5c5",
+     "raw": "4,188",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat5",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r5c6",
+     "raw": "3,721",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat5",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r6c4",
+     "raw": "2,285",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat6",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r6c5",
+     "raw": "6,874",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat6",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r6c6",
+     "raw": "6,136",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat6",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r7c4",
+     "raw": "19,383",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat7",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r7c5",
+     "raw": "35,938",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat7",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r7c6",
+     "raw": "29,162",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat7",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r8c4",
+     "raw": "38,556",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r8c5",
+     "raw": "72,462",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r8c6",
+     "raw": "69,702",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r9c4",
+     "raw": "23,539",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat11",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r9c5",
+     "raw": "31,213",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat11",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r9c6",
+     "raw": "26,895",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat11",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r10c4",
+     "raw": "98",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat12",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r10c5",
+     "raw": "195",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat12",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r10c6",
+     "raw": "184",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat12",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r11c4",
+     "raw": "617,196",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat13",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r11c5",
+     "raw": "590,011",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat13",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r11c6",
+     "raw": "248,588",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat13",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r12c4",
+     "raw": "640,832",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r12c5",
+     "raw": "621,419",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r12c6",
+     "raw": "275,667",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r13c4",
+     "raw": "679,389",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.total",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "금융배출량(카테고리 15)을 뺀 카테고리 합계다. 밴드 P 의 씨앗을 따라 Scope 3 합계로 달았다"
+    },
+    {
+     "cell": "r13c5",
+     "raw": "693,881",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.total",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "금융배출량(카테고리 15)을 뺀 카테고리 합계다. 밴드 P 의 씨앗을 따라 Scope 3 합계로 달았다"
+    },
+    {
+     "cell": "r13c6",
+     "raw": "345,369",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.total",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "boundary": "domestic_overseas"
+     },
+     "note": "금융배출량(카테고리 15)을 뺀 카테고리 합계다. 밴드 P 의 씨앗을 따라 Scope 3 합계로 달았다"
+    }
+   ]
+  },
+  {
+   "doc": "b",
+   "tableId": "p21-t2",
+   "page": 21,
+   "why": "정답 씨앗. 보고서 47쪽과 짝. 요청의 제목 후보에 윗표의 각주(국내 및 해외 사업장)가 섞여 들어와 범위 판단이 갈린다",
+   "cells": [
+    {
+     "cell": "r1c5",
+     "raw": "3,399",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat1",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r1c6",
+     "raw": "3,419",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat1",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r1c7",
+     "raw": "5,376",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat1",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r2c5",
+     "raw": "7,284",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat2",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r2c6",
+     "raw": "3,502",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat2",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r2c7",
+     "raw": "4,529",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat2",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r3c6",
+     "raw": "18,400",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat3",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r3c7",
+     "raw": "20,639",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat3",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r4c5",
+     "raw": "205",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat4",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r4c6",
+     "raw": "141",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat4",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r4c7",
+     "raw": "139",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat4",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r5c5",
+     "raw": "6,001",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat5",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r5c6",
+     "raw": "4,188",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat5",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r5c7",
+     "raw": "3,721",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat5",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r6c5",
+     "raw": "2,285",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat6",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r6c6",
+     "raw": "6,874",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat6",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r6c7",
+     "raw": "6,136",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat6",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r7c5",
+     "raw": "19,383",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat7",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r7c6",
+     "raw": "35,938",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat7",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r7c7",
+     "raw": "29,162",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat7",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r8c5",
+     "raw": "38,556",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r8c6",
+     "raw": "72,462",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r8c7",
+     "raw": "69,702",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r9c5",
+     "raw": "23,539",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat11",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r9c6",
+     "raw": "31,213",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat11",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r9c7",
+     "raw": "26,895",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat11",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r10c5",
+     "raw": "98",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat12",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r10c6",
+     "raw": "195",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat12",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r10c7",
+     "raw": "184",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat12",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r11c5",
+     "raw": "617,196",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat13",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r11c6",
+     "raw": "590,011",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat13",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r11c7",
+     "raw": "248,588",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.cat13",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     }
+    },
+    {
+     "cell": "r12c5",
+     "raw": "640,832",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r12c6",
+     "raw": "621,419",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r12c7",
+     "raw": "275,667",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "업스트림·다운스트림 소계. 목록에 없다 (합계와 헷갈리기 쉽다)"
+    },
+    {
+     "cell": "r13c5",
+     "raw": "679,389",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.total",
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "금융배출량(카테고리 15)을 뺀 카테고리 합계다. 밴드 P 의 씨앗을 따라 Scope 3 합계로 달았다"
+    },
+    {
+     "cell": "r13c6",
+     "raw": "693,881",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.total",
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "금융배출량(카테고리 15)을 뺀 카테고리 합계다. 밴드 P 의 씨앗을 따라 Scope 3 합계로 달았다"
+    },
+    {
+     "cell": "r13c7",
+     "raw": "345,369",
+     "kind": "indicator",
+     "indicator": "ghg.scope3.total",
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic_overseas",
+     "accept": {
+      "boundary": [
+       "unspecified"
+      ]
+     },
+     "note": "금융배출량(카테고리 15)을 뺀 카테고리 합계다. 밴드 P 의 씨앗을 따라 Scope 3 합계로 달았다"
+    }
+   ]
+  },
+  {
+   "doc": "a",
+   "tableId": "p48-t1",
+   "page": 48,
+   "why": "정답 씨앗. 목록에 없는 숫자뿐인 표(익스포저=대출·투자 금액, 금융배출량, 집약도). 머리글이 두 층이고 기간은 표 제목에만 있다",
+   "cells": [
+    {
+     "cell": "r2c2",
+     "raw": "54.3",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c3",
+     "raw": "76.4%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c4",
+     "raw": "9,743,458",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c5",
+     "raw": "18.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c7",
+     "raw": "3.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c2",
+     "raw": "95.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c3",
+     "raw": "78.1%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c4",
+     "raw": "26,972,842",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c5",
+     "raw": "28.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c7",
+     "raw": "3.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c2",
+     "raw": "1.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c3",
+     "raw": "100.0%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c4",
+     "raw": "2,252,448",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c5",
+     "raw": "126.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c6",
+     "raw": "100.0%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c7",
+     "raw": "1.2",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c2",
+     "raw": "7.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c3",
+     "raw": "100.0%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c4",
+     "raw": "80,839",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c5",
+     "raw": "1.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c6",
+     "raw": "100.0%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c7",
+     "raw": "2.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c2",
+     "raw": "27.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c3",
+     "raw": "100.0%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c4",
+     "raw": "125,083",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c5",
+     "raw": "0.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c7",
+     "raw": "4.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c2",
+     "raw": "4.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c3",
+     "raw": "98.3%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c4",
+     "raw": "292,196",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c5",
+     "raw": "6.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c7",
+     "raw": "4.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c2",
+     "raw": "45.7",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c3",
+     "raw": "100.0%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c4",
+     "raw": "9,389,421",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c5",
+     "raw": "20.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c6",
+     "raw": "100%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c7",
+     "raw": "1.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c4",
+     "raw": "9,995,618",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c5",
+     "raw": "21.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c2",
+     "raw": "237.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c3",
+     "raw": "84.5%",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "%",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c4",
+     "raw": "49,462,484",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c5",
+     "raw": "20.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c7",
+     "raw": "3.2",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": null,
+     "boundary": "unspecified"
+    }
+   ]
+  },
+  {
+   "doc": "b",
+   "tableId": "p22-t1",
+   "page": 22,
+   "why": "정답 씨앗. 목록에 없는 숫자뿐이고 머리글이 두 층(연도 > 익스포저·배출량·집약도)이다. 세 요청으로 나뉜다",
+   "cells": [
+    {
+     "cell": "r2c2",
+     "raw": "54.3",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c3",
+     "raw": "13,509,835",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c4",
+     "raw": "24.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c5",
+     "raw": "54.3",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c6",
+     "raw": "9,743,458",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c7",
+     "raw": "18.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c8",
+     "raw": "55.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c9",
+     "raw": "9,630,565",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c10",
+     "raw": "17.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c2",
+     "raw": "89.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c3",
+     "raw": "29,914,545",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c4",
+     "raw": "33.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c5",
+     "raw": "95.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c6",
+     "raw": "26,972,842",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c7",
+     "raw": "28.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c8",
+     "raw": "101.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c9",
+     "raw": "27,924,087",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r3c10",
+     "raw": "27.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c2",
+     "raw": "1.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c3",
+     "raw": "2,858,759",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c4",
+     "raw": "181.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c5",
+     "raw": "1.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c6",
+     "raw": "2,252,448",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c7",
+     "raw": "126.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c8",
+     "raw": "1.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c9",
+     "raw": "2,776,424",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r4c10",
+     "raw": "146.4",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c2",
+     "raw": "6.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c3",
+     "raw": "92,213",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c4",
+     "raw": "1.4",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c5",
+     "raw": "7.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c6",
+     "raw": "80,839",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c7",
+     "raw": "1.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c8",
+     "raw": "9.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c9",
+     "raw": "124,353",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r5c10",
+     "raw": "1.4",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c2",
+     "raw": "18.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c3",
+     "raw": "92,489",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c4",
+     "raw": "0.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c5",
+     "raw": "27.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c6",
+     "raw": "125,083",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c7",
+     "raw": "0.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c8",
+     "raw": "34.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c9",
+     "raw": "138,720",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r6c10",
+     "raw": "0.4",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c2",
+     "raw": "5.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c3",
+     "raw": "335,975",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c4",
+     "raw": "6.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c5",
+     "raw": "4.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c6",
+     "raw": "292,196",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c7",
+     "raw": "6.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c8",
+     "raw": "5.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c9",
+     "raw": "283,895",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r7c10",
+     "raw": "5.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c2",
+     "raw": "40.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c3",
+     "raw": "8,691,579",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c4",
+     "raw": "21.4",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c5",
+     "raw": "45.7",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c6",
+     "raw": "9,389,421",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c7",
+     "raw": "20.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c8",
+     "raw": "49.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c9",
+     "raw": "10,122,751",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r8c10",
+     "raw": "20.4",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c3",
+     "raw": "9,107,769",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c4",
+     "raw": "22.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c6",
+     "raw": "9,995,618",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c7",
+     "raw": "21.9",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c9",
+     "raw": "10,688,220",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r9c10",
+     "raw": "21.6",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c2",
+     "raw": "215.4",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c3",
+     "raw": "55,911,585",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c4",
+     "raw": "26.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c5",
+     "raw": "238.0",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c6",
+     "raw": "49,462,484",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c7",
+     "raw": "20.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c8",
+     "raw": "256.2",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "조 원",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c9",
+     "raw": "51,566,264",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r10c10",
+     "raw": "20.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq/억 원",
+     "boundary": "unspecified"
+    }
+   ]
+  },
+  {
+   "doc": "a",
+   "tableId": "p109-t1",
+   "page": 109,
+   "why": "정답 씨앗. 연도와 범위가 표와 제목에 없고 쪽의 본문·각주에만 있다. 머리글이 두 층이고 머리글 열이 없다",
+   "cells": [
+    {
+     "cell": "r2c0",
+     "raw": "22,253",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": null,
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c1",
+     "raw": "126,673",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.unspecified",
+     "period": null,
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     },
+     "note": "표에는 지역기반·시장기반 표시가 없다. 값은 46쪽의 지역기반과 같다"
+    },
+    {
+     "cell": "r2c2",
+     "raw": "148,926",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": null,
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c3",
+     "raw": "2,689.020",
+     "kind": "indicator",
+     "indicator": "energy.total",
+     "period": null,
+     "unit": "TJ",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     },
+     "note": "검증의견서는 「에너지 사용량」이라고만 적었다. 데이터북 20쪽으로 보면 국내+해외 비재생에너지 사용량이다"
+    }
+   ]
+  },
+  {
+   "doc": "b",
+   "tableId": "p77-t1",
+   "page": 77,
+   "why": "정답 씨앗. 연도와 범위가 표와 제목에 없고 쪽의 본문·각주에만 있다. 머리글이 두 층이고 머리글 열이 없다",
+   "cells": [
+    {
+     "cell": "r2c0",
+     "raw": "22,253",
+     "kind": "indicator",
+     "indicator": "ghg.scope1",
+     "period": null,
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c1",
+     "raw": "126,673",
+     "kind": "indicator",
+     "indicator": "ghg.scope2.unspecified",
+     "period": null,
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     },
+     "note": "표에는 지역기반·시장기반 표시가 없다. 값은 46쪽의 지역기반과 같다"
+    },
+    {
+     "cell": "r2c2",
+     "raw": "148,926",
+     "kind": "indicator",
+     "indicator": "ghg.scope1_2.total",
+     "period": null,
+     "unit": "tCO2eq",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     }
+    },
+    {
+     "cell": "r2c3",
+     "raw": "2,689.020",
+     "kind": "indicator",
+     "indicator": "energy.total",
+     "period": null,
+     "unit": "TJ",
+     "boundary": "unspecified",
+     "truth": {
+      "period": "2025",
+      "boundary": "domestic_overseas"
+     },
+     "note": "검증의견서는 「에너지 사용량」이라고만 적었다. 데이터북 20쪽으로 보면 국내+해외 비재생에너지 사용량이다"
+    }
+   ]
+  },
+  {
+   "doc": "b",
+   "tableId": "p20-t1",
+   "page": 20,
+   "why": "정답 씨앗. 범위(국내, 국내+해외)가 행 머리글에 있고 병합 칸이라 아래 행은 물려받는다. 지표와 비슷한 이름의 목록 밖 행(집약도, 발전량)이 섞여 있다",
+   "cells": [
+    {
+     "cell": "r1c3",
+     "raw": "2,590",
+     "kind": "indicator",
+     "indicator": "energy.nonrenewable",
+     "period": "2023",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r1c4",
+     "raw": "2,540",
+     "kind": "indicator",
+     "indicator": "energy.nonrenewable",
+     "period": "2024",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r1c5",
+     "raw": "2,447",
+     "kind": "indicator",
+     "indicator": "energy.nonrenewable",
+     "period": "2025",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r2c3",
+     "raw": "6.89",
+     "kind": "indicator",
+     "indicator": "energy.renewable",
+     "period": "2023",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r2c4",
+     "raw": "9.05",
+     "kind": "indicator",
+     "indicator": "energy.renewable",
+     "period": "2024",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r2c5",
+     "raw": "13.10",
+     "kind": "indicator",
+     "indicator": "energy.renewable",
+     "period": "2025",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r3c3",
+     "raw": "2,596.89",
+     "kind": "indicator",
+     "indicator": "energy.total",
+     "period": "2023",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r3c4",
+     "raw": "2,549.05",
+     "kind": "indicator",
+     "indicator": "energy.total",
+     "period": "2024",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r3c5",
+     "raw": "2,460.10",
+     "kind": "indicator",
+     "indicator": "energy.total",
+     "period": "2025",
+     "unit": "TJ",
+     "boundary": "domestic"
+    },
+    {
+     "cell": "r4c3",
+     "raw": "33.36",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r4c4",
+     "raw": "29.81",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r4c5",
+     "raw": "30.07",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r5c3",
+     "raw": "0.09",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r5c4",
+     "raw": "0.11",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r5c5",
+     "raw": "0.16",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r6c3",
+     "raw": "33.45",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r6c4",
+     "raw": "29.92",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r6c5",
+     "raw": "30.23",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "TJ/조 원",
+     "boundary": "domestic",
+     "note": "집약도"
+    },
+    {
+     "cell": "r7c3",
+     "raw": "40",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "개소",
+     "boundary": "domestic",
+     "note": "발전설비 수"
+    },
+    {
+     "cell": "r7c4",
+     "raw": "59",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "개소",
+     "boundary": "domestic",
+     "note": "발전설비 수"
+    },
+    {
+     "cell": "r7c5",
+     "raw": "62",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "개소",
+     "boundary": "domestic",
+     "note": "발전설비 수"
+    },
+    {
+     "cell": "r8c3",
+     "raw": "6.89",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "TJ",
+     "boundary": "domestic",
+     "note": "재생에너지 발전량. 사용량이 아니다 (값은 사용량과 같다)"
+    },
+    {
+     "cell": "r8c4",
+     "raw": "9.05",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "TJ",
+     "boundary": "domestic",
+     "note": "재생에너지 발전량. 사용량이 아니다 (값은 사용량과 같다)"
+    },
+    {
+     "cell": "r8c5",
+     "raw": "13.10",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "TJ",
+     "boundary": "domestic",
+     "note": "재생에너지 발전량. 사용량이 아니다 (값은 사용량과 같다)"
+    },
+    {
+     "cell": "r9c3",
+     "raw": "878.8",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "tCO2eq",
+     "boundary": "domestic",
+     "note": "온실가스 감축량"
+    },
+    {
+     "cell": "r9c4",
+     "raw": "1,154.5",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "tCO2eq",
+     "boundary": "domestic",
+     "note": "온실가스 감축량"
+    },
+    {
+     "cell": "r9c5",
+     "raw": "1,671.1",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "tCO2eq",
+     "boundary": "domestic",
+     "note": "온실가스 감축량"
+    },
+    {
+     "cell": "r10c3",
+     "raw": "2,907",
+     "kind": "indicator",
+     "indicator": "energy.nonrenewable",
+     "period": "2023",
+     "unit": "TJ",
+     "boundary": "domestic_overseas"
+    },
+    {
+     "cell": "r10c4",
+     "raw": "2,815",
+     "kind": "indicator",
+     "indicator": "energy.nonrenewable",
+     "period": "2024",
+     "unit": "TJ",
+     "boundary": "domestic_overseas"
+    },
+    {
+     "cell": "r10c5",
+     "raw": "2,689",
+     "kind": "indicator",
+     "indicator": "energy.nonrenewable",
+     "period": "2025",
+     "unit": "TJ",
+     "boundary": "domestic_overseas"
+    },
+    {
+     "cell": "r11c3",
+     "raw": "37.44",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "TJ/조 원",
+     "boundary": "domestic_overseas",
+     "note": "집약도"
+    },
+    {
+     "cell": "r11c4",
+     "raw": "33.03",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "TJ/조 원",
+     "boundary": "domestic_overseas",
+     "note": "집약도"
+    },
+    {
+     "cell": "r11c5",
+     "raw": "33.04",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "TJ/조 원",
+     "boundary": "domestic_overseas",
+     "note": "집약도"
+    }
+   ]
+  },
+  {
+   "doc": "b",
+   "tableId": "p40-t2",
+   "page": 40,
+   "why": "목록에 없는 숫자가 많은 표. 성별 합계(임직원 수) 한 행만 목록에 있고 성별·계약조건별 인원은 없다. 억지로 붙이는지를 본다",
+   "cells": [
+    {
+     "cell": "r1c4",
+     "raw": "26,975",
+     "kind": "indicator",
+     "indicator": "employees.total",
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r1c5",
+     "raw": "26,530",
+     "kind": "indicator",
+     "indicator": "employees.total",
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r1c6",
+     "raw": "25,806",
+     "kind": "indicator",
+     "indicator": "employees.total",
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified"
+    },
+    {
+     "cell": "r2c4",
+     "raw": "13,274",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "남성 인원"
+    },
+    {
+     "cell": "r2c5",
+     "raw": "12,765",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "남성 인원"
+    },
+    {
+     "cell": "r2c6",
+     "raw": "12,106",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "남성 인원"
+    },
+    {
+     "cell": "r3c4",
+     "raw": "13,701",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "여성 인원"
+    },
+    {
+     "cell": "r3c5",
+     "raw": "13,765",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "여성 인원"
+    },
+    {
+     "cell": "r3c6",
+     "raw": "13,700",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "여성 인원"
+    },
+    {
+     "cell": "r4c4",
+     "raw": "224",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 합계"
+    },
+    {
+     "cell": "r4c5",
+     "raw": "229",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 합계"
+    },
+    {
+     "cell": "r4c6",
+     "raw": "218",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 합계"
+    },
+    {
+     "cell": "r5c4",
+     "raw": "207",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 남성"
+    },
+    {
+     "cell": "r5c5",
+     "raw": "212",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 남성"
+    },
+    {
+     "cell": "r5c6",
+     "raw": "197",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 남성"
+    },
+    {
+     "cell": "r6c4",
+     "raw": "17",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 여성"
+    },
+    {
+     "cell": "r6c5",
+     "raw": "17",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 여성"
+    },
+    {
+     "cell": "r6c6",
+     "raw": "21",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "임원 여성"
+    },
+    {
+     "cell": "r7c4",
+     "raw": "23,347",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 합계"
+    },
+    {
+     "cell": "r7c5",
+     "raw": "22,529",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 합계"
+    },
+    {
+     "cell": "r7c6",
+     "raw": "21,689",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 합계"
+    },
+    {
+     "cell": "r8c4",
+     "raw": "11,339",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 남성"
+    },
+    {
+     "cell": "r8c5",
+     "raw": "10,750",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 남성"
+    },
+    {
+     "cell": "r8c6",
+     "raw": "10,124",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 남성"
+    },
+    {
+     "cell": "r9c4",
+     "raw": "12,008",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 여성"
+    },
+    {
+     "cell": "r9c5",
+     "raw": "11,779",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 여성"
+    },
+    {
+     "cell": "r9c6",
+     "raw": "11,565",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "정규직 여성"
+    },
+    {
+     "cell": "r10c4",
+     "raw": "3,404",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 합계"
+    },
+    {
+     "cell": "r10c5",
+     "raw": "3,772",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 합계"
+    },
+    {
+     "cell": "r10c6",
+     "raw": "3,899",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 합계"
+    },
+    {
+     "cell": "r11c4",
+     "raw": "1,728",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 남성"
+    },
+    {
+     "cell": "r11c5",
+     "raw": "1,803",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 남성"
+    },
+    {
+     "cell": "r11c6",
+     "raw": "1,785",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 남성"
+    },
+    {
+     "cell": "r12c4",
+     "raw": "1,676",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2023",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 여성"
+    },
+    {
+     "cell": "r12c5",
+     "raw": "1,969",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2024",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 여성"
+    },
+    {
+     "cell": "r12c6",
+     "raw": "2,114",
+     "kind": "not_in_catalog",
+     "indicator": null,
+     "period": "2025",
+     "unit": "명",
+     "boundary": "unspecified",
+     "note": "계약직 여성"
+    }
+   ]
+  }
+ ]
+}

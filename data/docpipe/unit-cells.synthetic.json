@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "note": "synthetic 예시 표다. 단위만 있는 표 셀(`억 원`, `천 톤`)을 모델에 보내지 않고 옮길 때 쓰는 고정 번역이다. 영어 표기는 러너가 정했고 마크스폰이나 고객사가 정한 표기가 아니다. 출처로 확인한 항목은 없다. 실제 표기(예: `KRW 100 million` 과 `100 million KRW`, `tons` 와 `tonnes`, `건` 을 `cases` 로 둘지)는 결정 대기.",
+  "sourceLang": "ko",
+  "targetLang": "en",
+  "grammar": {
+    "note": "단위 셀인지 가르는 낱말 목록이다. 셀의 토큰이 전부 수 단위 낱말(`억`), 계량 단위 낱말(`원`), 붙여 쓴 꼴이 아래 phrases 에 있는 것(`억원`), 한글 없는 단위 기호(`CO₂e`, `MWh`, `%`) 가운데 하나이고 한글 토큰 묶음이 계량 단위로 끝날 때만 단위 셀로 본다. 단위 셀이라도 낱말 묶음이 아래 phrases 에 없으면 고정 번역하지 않고 모델에 보낸다(결과에 표시가 남는다). 낱말 목록의 근거: 한국어의 수 단위와, 지속가능경영보고서 표의 단위 칸에 흔한 계량 단위를 러너가 고른 것이다.",
+    "multipliers": ["십", "백", "천", "만", "십만", "백만", "천만", "억", "십억", "백억", "천억", "조"],
+    "measures": ["원", "톤", "건", "명", "개", "개사", "개소", "곳", "회", "대", "시간", "일", "주", "개월", "년", "킬로그램", "리터", "달러", "유로"]
+  },
+  "phrases": [
+    { "ko": "원", "en": "KRW", "synthetic": true },
+    { "ko": "천 원", "en": "KRW 1,000", "synthetic": true },
+    { "ko": "만 원", "en": "KRW 10,000", "synthetic": true },
+    { "ko": "백만 원", "en": "KRW 1 million", "synthetic": true },
+    { "ko": "억 원", "en": "KRW 100 million", "synthetic": true },
+    { "ko": "십억 원", "en": "KRW 1 billion", "synthetic": true },
+    { "ko": "조 원", "en": "KRW 1 trillion", "synthetic": true },
+    { "ko": "톤", "en": "tons", "synthetic": true },
+    { "ko": "천 톤", "en": "1,000 tons", "synthetic": true },
+    { "ko": "만 톤", "en": "10,000 tons", "synthetic": true },
+    { "ko": "백만 톤", "en": "1 million tons", "synthetic": true },
+    { "ko": "명", "en": "persons", "synthetic": true },
+    { "ko": "천 명", "en": "1,000 persons", "synthetic": true },
+    { "ko": "만 명", "en": "10,000 persons", "synthetic": true },
+    { "ko": "건", "en": "cases", "synthetic": true },
+    { "ko": "천 건", "en": "1,000 cases", "synthetic": true },
+    { "ko": "만 건", "en": "10,000 cases", "synthetic": true },
+    { "ko": "개사", "en": "companies", "synthetic": true }
+  ]
+}

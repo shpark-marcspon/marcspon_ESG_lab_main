@@ -1,0 +1,19 @@
+{
+ "synthetic": "지은 verdicts — mock 실행 outcome.json 꼴(recon 시험용)",
+ "method": "d2",
+ "exam": {"a": "made-up", "b": "made-up"},
+ "outcome": {
+  "verdicts": [
+   {"a": "p1-t1:r1c8", "b": "p9-t1:r1c1", "outcome": "match", "reason": "same_value", "valuesDiffer": false},
+   {"a": "p1-t1:r1c9", "b": "p9-t1:r9c9", "outcome": "match", "reason": "same_value", "valuesDiffer": false},
+   {"a": "p1-t1:r2c8", "b": "p9-t1:r2c1", "outcome": "mismatch", "reason": "value", "valuesDiffer": true},
+   {"a": "p1-t1:r2c9", "b": "p9-t1:r2c2", "outcome": "match", "reason": "same_value", "valuesDiffer": false},
+   {"a": "p1-t1:r3c8", "b": "p9-t1:r3c1", "outcome": "needs_explanation", "reason": "unit_one_side", "valuesDiffer": null},
+   {"a": "p1-t1:r3c9", "b": "p9-t1:r3c2", "outcome": "needs_explanation", "reason": "unit_one_side", "valuesDiffer": null},
+   {"a": "p1-t1:r4c8", "b": "p9-t1:r4c1", "outcome": "mismatch", "reason": "value", "valuesDiffer": true},
+   {"a": "p1-t1:r4c9", "b": "p9-t1:r4c2", "outcome": "match", "reason": "rounded", "valuesDiffer": false},
+   {"a": "p1-t1:r6c8", "b": "p9-t1:r7c7", "outcome": "mismatch", "reason": "value", "valuesDiffer": true},
+   {"a": "p1-t1:r99c8", "b": "p9-t1:r8c1", "outcome": "mismatch", "reason": "value", "valuesDiffer": true}
+  ]
+ }
+}

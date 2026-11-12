@@ -1,0 +1,5 @@
+{
+  "synthetic": true,
+  "note": "회색 칸 판(S3C-o4b, `--input filled`) 짜 둔 가짜 AI 답 — 없음. 줄은 기존 판에서 AI 를 부르지 않던 것만 골랐다(synthetic_filled.py). 코랩 `build_filled_template` 이 시트마다 표준화를 다시 돌려도 부름이 생기면 답이 모자라 멈춘다(도구 실패 2).",
+  "answers": []
+}

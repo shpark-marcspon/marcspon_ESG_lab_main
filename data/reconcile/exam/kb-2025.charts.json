@@ -1,0 +1,7719 @@
+{
+ "note": "도표와 라벨의 정답. 러너(runner-W)가 두 문서의 쪽 그림을 보고 만들었다. 전문가 검토 전. 값은 싣지 않는다(raw 는 대조용 원문 글자). series·category 는 받아들이는 답의 목록이고 첫째가 주된 답이다(둘 이상이면 그림만으로 가르기 어려운 자리). series 의 null 은 계열이 하나뿐이거나 기준 막대라 계열 이름이 없는 자리. bbox 는 쪽 그림에서 읽은 어림(pt).",
+ "roles": {
+  "value": "도표의 값 (막대·점 옆의 숫자, 목표의 감축률 포함)",
+  "tick": "값 축의 눈금",
+  "category": "범주 축의 글자(연도, 기간) 속 숫자",
+  "other": "도표 안의 그 밖의 숫자(제목·계열 이름 속)"
+ },
+ "charts": [
+  {
+   "id": "A-C01",
+   "doc": "a",
+   "page": 10,
+   "kind": "scatter",
+   "title": "재무 중대성 평가 결과",
+   "unit": null,
+   "series": [
+    "환경",
+    "사회",
+    "지배구조/경제"
+   ],
+   "bbox": [
+    46,
+    283,
+    550,
+    594
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C02",
+   "doc": "a",
+   "page": 33,
+   "kind": "line_multi",
+   "title": "① 탄소배출량 (한국)",
+   "unit": "MtCO2eq/yr",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    46,
+    408,
+    292,
+    581
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C03",
+   "doc": "a",
+   "page": 33,
+   "kind": "line_multi",
+   "title": "② 탄소가격 (한국)",
+   "unit": "US$2010/tCO2",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    303,
+    408,
+    550,
+    581
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C04",
+   "doc": "a",
+   "page": 36,
+   "kind": "line_multi",
+   "title": "시나리오별 PD 변동폭 [합계]",
+   "unit": "기준시점 대비 %p",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    55,
+    485,
+    213,
+    612
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C05",
+   "doc": "a",
+   "page": 36,
+   "kind": "line_multi",
+   "title": "시나리오별 PD 변동폭 [투자적격]",
+   "unit": "기준시점 대비 %p",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    220,
+    485,
+    378,
+    612
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C06",
+   "doc": "a",
+   "page": 36,
+   "kind": "line_multi",
+   "title": "시나리오별 PD 변동폭 [투자비적격]",
+   "unit": "기준시점 대비 %p",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    385,
+    485,
+    546,
+    612
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C07",
+   "doc": "a",
+   "page": 36,
+   "kind": "bar_grouped",
+   "title": "시나리오 및 시점별 RWA 변화",
+   "unit": "조 원",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    55,
+    618,
+    546,
+    765
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C08",
+   "doc": "a",
+   "page": 37,
+   "kind": "bar_grouped",
+   "title": "① BIS비율",
+   "unit": "%",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    46,
+    220,
+    292,
+    380
+   ],
+   "value_texts_without_fact": [
+    "15.85%"
+   ]
+  },
+  {
+   "id": "A-C09",
+   "doc": "a",
+   "page": 37,
+   "kind": "bar_grouped",
+   "title": "② CET1비율",
+   "unit": "%",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "bbox": [
+    303,
+    220,
+    550,
+    380
+   ],
+   "value_texts_without_fact": [
+    "13.53%"
+   ]
+  },
+  {
+   "id": "A-C10",
+   "doc": "a",
+   "page": 37,
+   "kind": "line_multi",
+   "title": "재해 피해규모",
+   "unit": "조 원",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "bbox": [
+    55,
+    625,
+    295,
+    740
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C11",
+   "doc": "a",
+   "page": 37,
+   "kind": "line_multi",
+   "title": "담보가치 하락률",
+   "unit": "%",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "bbox": [
+    303,
+    625,
+    546,
+    740
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C12",
+   "doc": "a",
+   "page": 38,
+   "kind": "hbar_single",
+   "title": "담보가치 하락률 RCP2.6",
+   "unit": "%",
+   "series": null,
+   "bbox": [
+    59,
+    258,
+    173,
+    510
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C13",
+   "doc": "a",
+   "page": 38,
+   "kind": "hbar_single",
+   "title": "담보가치 하락률 RCP4.5",
+   "unit": "%",
+   "series": null,
+   "bbox": [
+    184,
+    258,
+    298,
+    510
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C14",
+   "doc": "a",
+   "page": 38,
+   "kind": "hbar_single",
+   "title": "담보가치 하락률 RCP6.0",
+   "unit": "%",
+   "series": null,
+   "bbox": [
+    309,
+    258,
+    422,
+    510
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C15",
+   "doc": "a",
+   "page": 38,
+   "kind": "hbar_single",
+   "title": "담보가치 하락률 RCP8.5",
+   "unit": "%",
+   "series": null,
+   "bbox": [
+    433,
+    258,
+    546,
+    510
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C16",
+   "doc": "a",
+   "page": 38,
+   "kind": "bar_grouped",
+   "title": "시나리오 및 시점별 RWA 변화",
+   "unit": "조 원",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "bbox": [
+    46,
+    582,
+    550,
+    771
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C17",
+   "doc": "a",
+   "page": 39,
+   "kind": "bar_grouped",
+   "title": "① BIS비율",
+   "unit": "%",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "bbox": [
+    46,
+    238,
+    292,
+    394
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C18",
+   "doc": "a",
+   "page": 39,
+   "kind": "bar_grouped",
+   "title": "② CET1비율",
+   "unit": "%",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "bbox": [
+    303,
+    238,
+    550,
+    394
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C19",
+   "doc": "a",
+   "page": 40,
+   "kind": "bar_grouped",
+   "title": "[BIS비율]",
+   "unit": "%",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립",
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "bbox": [
+    46,
+    603,
+    292,
+    696
+   ],
+   "value_texts_without_fact": [
+    "14.5%",
+    "12.5%"
+   ]
+  },
+  {
+   "id": "A-C20",
+   "doc": "a",
+   "page": 40,
+   "kind": "bar_grouped",
+   "title": "[CET1비율]",
+   "unit": "%",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립",
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "bbox": [
+    303,
+    603,
+    550,
+    696
+   ],
+   "value_texts_without_fact": [
+    "11%",
+    "9%"
+   ]
+  },
+  {
+   "id": "A-C21",
+   "doc": "a",
+   "page": 46,
+   "kind": "bar_stacked_line",
+   "title": "목표 이행 현황 (국내 사업장 기준)",
+   "unit": "tCO2eq",
+   "series": [
+    "Scope 2 실적",
+    "Scope 1 실적",
+    "감축 목표"
+   ],
+   "bbox": [
+    46,
+    372,
+    550,
+    473
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C22",
+   "doc": "a",
+   "page": 47,
+   "kind": "bar_line",
+   "title": "금융배출량 목표 이행 현황",
+   "unit": "tCO2eq",
+   "series": [
+    "Scope 3 실적",
+    "감축 목표"
+   ],
+   "bbox": [
+    46,
+    317,
+    550,
+    393
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C23",
+   "doc": "a",
+   "page": 62,
+   "kind": "line_single",
+   "title": "발전",
+   "unit": "tCO2eq",
+   "series": null,
+   "bbox": [
+    55,
+    540,
+    212,
+    613
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C24",
+   "doc": "a",
+   "page": 62,
+   "kind": "line_single",
+   "title": "철강",
+   "unit": "tCO2eq",
+   "series": null,
+   "bbox": [
+    220,
+    540,
+    377,
+    613
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C25",
+   "doc": "a",
+   "page": 62,
+   "kind": "line_single",
+   "title": "시멘트",
+   "unit": "tCO2eq",
+   "series": null,
+   "bbox": [
+    385,
+    540,
+    541,
+    613
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C26",
+   "doc": "a",
+   "page": 62,
+   "kind": "line_single",
+   "title": "제지&펄프",
+   "unit": "tCO2eq",
+   "series": null,
+   "bbox": [
+    55,
+    628,
+    212,
+    701
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C27",
+   "doc": "a",
+   "page": 62,
+   "kind": "line_single",
+   "title": "알루미늄",
+   "unit": "tCO2eq",
+   "series": null,
+   "bbox": [
+    220,
+    628,
+    377,
+    701
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C28",
+   "doc": "a",
+   "page": 62,
+   "kind": "line_single",
+   "title": "발전PF",
+   "unit": "tCO2eq",
+   "series": null,
+   "bbox": [
+    385,
+    628,
+    541,
+    701
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C29",
+   "doc": "a",
+   "page": 62,
+   "kind": "line_single",
+   "title": "상업용부동산",
+   "unit": "tCO2eq",
+   "series": null,
+   "bbox": [
+    55,
+    716,
+    212,
+    789
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C30",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "전체 포트폴리오 Scope 1&2",
+   "unit": "℃",
+   "series": null,
+   "bbox": [
+    75,
+    383,
+    288,
+    448
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C31",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "전체 포트폴리오 Scope 1&2&3",
+   "unit": "℃",
+   "series": null,
+   "bbox": [
+    306,
+    383,
+    520,
+    448
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C32",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "대출 포트폴리오 Scope 1&2",
+   "unit": "℃",
+   "series": [
+    "목표"
+   ],
+   "bbox": [
+    75,
+    484,
+    288,
+    560
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C33",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "대출 포트폴리오 Scope 1&2&3",
+   "unit": "℃",
+   "series": [
+    "목표"
+   ],
+   "bbox": [
+    306,
+    484,
+    520,
+    560
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C34",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "주식 포트폴리오 Scope 1&2",
+   "unit": "℃",
+   "series": [
+    "목표"
+   ],
+   "bbox": [
+    75,
+    594,
+    288,
+    669
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C35",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "주식 포트폴리오 Scope 1&2&3",
+   "unit": "℃",
+   "series": [
+    "목표"
+   ],
+   "bbox": [
+    306,
+    594,
+    520,
+    669
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C36",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "채권 포트폴리오 Scope 1&2",
+   "unit": "℃",
+   "series": [
+    "목표"
+   ],
+   "bbox": [
+    75,
+    711,
+    288,
+    785
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "A-C37",
+   "doc": "a",
+   "page": 63,
+   "kind": "bar_single",
+   "title": "채권 포트폴리오 Scope 1&2&3",
+   "unit": "℃",
+   "series": [
+    "목표"
+   ],
+   "bbox": [
+    306,
+    711,
+    520,
+    785
+   ],
+   "value_texts_without_fact": []
+  },
+  {
+   "id": "B-C38",
+   "doc": "b",
+   "page": 6,
+   "kind": "scatter",
+   "title": "중대성 평가 결과",
+   "unit": null,
+   "series": [
+    "환경",
+    "사회",
+    "지배구조/경제"
+   ],
+   "bbox": [
+    40,
+    190,
+    414,
+    563
+   ],
+   "value_texts_without_fact": []
+  }
+ ],
+ "labels": [
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n1",
+   "raw": "18.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n2",
+   "raw": "16.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n3",
+   "raw": "14.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n4",
+   "raw": "12.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n5",
+   "raw": "10.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n6",
+   "raw": "8.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n7",
+   "raw": "6.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n8",
+   "raw": "4.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n9",
+   "raw": "2.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n10",
+   "raw": "0.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c1",
+   "raw": "0.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c2",
+   "raw": "2.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c3",
+   "raw": "4.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c4",
+   "raw": "6.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c5",
+   "raw": "8.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c6#n1",
+   "raw": "10.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c6#n2",
+   "raw": "12.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c7",
+   "raw": "14.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c9",
+   "raw": "16.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c10",
+   "raw": "18.0",
+   "chart": "A-C01",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r0c1",
+   "raw": "691",
+   "chart": "A-C02",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환",
+    "탄소중립"
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r0c2",
+   "raw": "706",
+   "chart": "A-C02",
+   "role": "value",
+   "series": [
+    "지연전환",
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2025",
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r1c2",
+   "raw": "680",
+   "chart": "A-C02",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r2c5",
+   "raw": "530",
+   "chart": "A-C02",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r3c5",
+   "raw": "22",
+   "chart": "A-C02",
+   "role": "value",
+   "series": [
+    "지연전환",
+    "탄소중립"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r4c1",
+   "raw": "2020",
+   "chart": "A-C02",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r4c4",
+   "raw": "2045",
+   "chart": "A-C02",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p33-t3:r1c7",
+   "raw": "1,630",
+   "chart": "A-C03",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p33-t3:r2c8",
+   "raw": "1,192",
+   "chart": "A-C03",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n4",
+   "raw": "12.6",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r0c5",
+   "raw": "12.6",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n10",
+   "raw": "10.2",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r1c5",
+   "raw": "10.2",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n9",
+   "raw": "4.7",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r1c3",
+   "raw": "4.7",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n15",
+   "raw": "0.3",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r1c2#n1",
+   "raw": "0.3",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n16",
+   "raw": "1.3",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r1c2#n2",
+   "raw": "1.3",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n14",
+   "raw": "0.4",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r1c1",
+   "raw": "0.4",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n13",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립",
+    "지연전환",
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2026"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r1c0",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "탄소중립",
+    "지연전환",
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2026"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n21",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r2c2",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n22",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r2c3",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n23",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r2c4",
+   "raw": "0.1",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n24",
+   "raw": "0.0",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r2c5",
+   "raw": "0.0",
+   "chart": "A-C04",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r3c0",
+   "raw": "2026",
+   "chart": "A-C04",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r3c1",
+   "raw": "2030",
+   "chart": "A-C04",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r3c2",
+   "raw": "2035",
+   "chart": "A-C04",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r3c3",
+   "raw": "2040",
+   "chart": "A-C04",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r3c4",
+   "raw": "2050",
+   "chart": "A-C04",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n1",
+   "raw": "20.0",
+   "chart": "A-C04",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n5",
+   "raw": "10.0",
+   "chart": "A-C04",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n7",
+   "raw": "9.6",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r0c5",
+   "raw": "9.6",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n12",
+   "raw": "7.6",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r1c5",
+   "raw": "7.6",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n11",
+   "raw": "3.5",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r1c3",
+   "raw": "3.5",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n19",
+   "raw": "0.7",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r1c2",
+   "raw": "0.7",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n17",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립",
+    "지연전환",
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2026"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r1c0",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립",
+    "지연전환",
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2026"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n18",
+   "raw": "0.2",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r1c1",
+   "raw": "0.2",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n20",
+   "raw": "0.5",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r1c4",
+   "raw": "0.5",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n25",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r2c2",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n26",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r2c3",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n27",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r2c4",
+   "raw": "0.1",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n28",
+   "raw": "0.0",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r2c5",
+   "raw": "0.0",
+   "chart": "A-C05",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r3c0",
+   "raw": "2026",
+   "chart": "A-C05",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r3c1",
+   "raw": "2030",
+   "chart": "A-C05",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r3c2",
+   "raw": "2035",
+   "chart": "A-C05",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r3c3",
+   "raw": "2040",
+   "chart": "A-C05",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r3c4",
+   "raw": "2050",
+   "chart": "A-C05",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n2",
+   "raw": "20.0",
+   "chart": "A-C05",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n6",
+   "raw": "10.0",
+   "chart": "A-C05",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c5",
+   "raw": "28.5",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c6",
+   "raw": "24.1",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r1c4",
+   "raw": "11.0",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r2c3",
+   "raw": "4.1",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r2c5",
+   "raw": "3.8",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r2c2",
+   "raw": "1.5",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r2c1",
+   "raw": "0.4",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "탄소중립",
+    "지연전환"
+   ],
+   "category": [
+    "2026"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r3c2",
+   "raw": "0.3",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2026"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r3c3",
+   "raw": "0.3",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r3c4",
+   "raw": "0.3",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "2035"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r3c5",
+   "raw": "0.3",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r3c6",
+   "raw": "0.1",
+   "chart": "A-C06",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r4c1",
+   "raw": "2026",
+   "chart": "A-C06",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r4c2",
+   "raw": "2030",
+   "chart": "A-C06",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r4c3",
+   "raw": "2035",
+   "chart": "A-C06",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r4c4",
+   "raw": "2040",
+   "chart": "A-C06",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r4c5",
+   "raw": "2050",
+   "chart": "A-C06",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n3",
+   "raw": "20.0",
+   "chart": "A-C06",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n8",
+   "raw": "10.0",
+   "chart": "A-C06",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c4",
+   "raw": "364.8",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n6",
+   "raw": "358.6",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n3",
+   "raw": "358.6",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n4",
+   "raw": "359.4",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n9",
+   "raw": "357.0",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "기준시점"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n5",
+   "raw": "358.1",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n2",
+   "raw": "358.1",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n7",
+   "raw": "358.1",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n1",
+   "raw": "358.1",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n8",
+   "raw": "358.1",
+   "chart": "A-C07",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r2c2#n1",
+   "raw": "1",
+   "chart": "A-C07",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r2c3#n1",
+   "raw": "5",
+   "chart": "A-C07",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r2c4#n1",
+   "raw": "10",
+   "chart": "A-C07",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c0#n1",
+   "raw": "365.0",
+   "chart": "A-C07",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c0#n2",
+   "raw": "360.0",
+   "chart": "A-C07",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c0#n3",
+   "raw": "355.0",
+   "chart": "A-C07",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c0#n4",
+   "raw": "350.0",
+   "chart": "A-C07",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r0c1",
+   "raw": "16.13%",
+   "chart": "A-C08",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r0c2",
+   "raw": "16.01%",
+   "chart": "A-C08",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r0c3",
+   "raw": "16.09%",
+   "chart": "A-C08",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r1c0",
+   "raw": "16.20%",
+   "chart": "A-C08",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "기준시점"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r1c1",
+   "raw": "16.15%",
+   "chart": "A-C08",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r1c2",
+   "raw": "16.15%",
+   "chart": "A-C08",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r1c3",
+   "raw": "16.15%",
+   "chart": "A-C08",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r1c5",
+   "raw": "13.76%",
+   "chart": "A-C09",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r1c6",
+   "raw": "13.67%",
+   "chart": "A-C09",
+   "role": "value",
+   "series": [
+    "탄소중립"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r1c7",
+   "raw": "13.73%",
+   "chart": "A-C09",
+   "role": "value",
+   "series": [
+    "지연전환"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r2c4",
+   "raw": "13.82%",
+   "chart": "A-C09",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "기준시점"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r2c5",
+   "raw": "13.78%",
+   "chart": "A-C09",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r2c6",
+   "raw": "13.78%",
+   "chart": "A-C09",
+   "role": "value",
+   "series": [
+    "현재 정책 유지",
+    "지연전환"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t3:r2c7",
+   "raw": "13.78%",
+   "chart": "A-C09",
+   "role": "value",
+   "series": [
+    "현재 정책 유지"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r1c1#n1",
+   "raw": "565",
+   "chart": "A-C10",
+   "role": "value",
+   "series": [
+    "RCP8.5"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r1c1#n2",
+   "raw": "512",
+   "chart": "A-C10",
+   "role": "value",
+   "series": [
+    "RCP6.0"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r1c1#n3",
+   "raw": "509",
+   "chart": "A-C10",
+   "role": "value",
+   "series": [
+    "RCP4.5"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r3c1",
+   "raw": "492",
+   "chart": "A-C10",
+   "role": "value",
+   "series": [
+    "RCP2.6"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-b24#n1",
+   "raw": "17",
+   "chart": "A-C10",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c0#n1",
+   "raw": "600",
+   "chart": "A-C10",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c0#n2",
+   "raw": "400",
+   "chart": "A-C10",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r4c0#n1",
+   "raw": "200",
+   "chart": "A-C10",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c3",
+   "raw": "19.8",
+   "chart": "A-C11",
+   "role": "value",
+   "series": [
+    "RCP8.5"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r2c3#n1",
+   "raw": "18.2",
+   "chart": "A-C11",
+   "role": "value",
+   "series": [
+    "RCP6.0"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r2c3#n2",
+   "raw": "18.1",
+   "chart": "A-C11",
+   "role": "value",
+   "series": [
+    "RCP4.5"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r3c3",
+   "raw": "17.5",
+   "chart": "A-C11",
+   "role": "value",
+   "series": [
+    "RCP2.6"
+   ],
+   "category": [
+    "2100"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p37-b26#n1",
+   "raw": "17",
+   "chart": "A-C11",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c2#n1",
+   "raw": "20.0",
+   "chart": "A-C11",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c2#n2",
+   "raw": "15.0",
+   "chart": "A-C11",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r4c2#n1",
+   "raw": "10.0",
+   "chart": "A-C11",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r4c2#n2",
+   "raw": "5.0",
+   "chart": "A-C11",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r0c1",
+   "raw": "66.71",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r1c1",
+   "raw": "4.48",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r2c1",
+   "raw": "2.12",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r3c1",
+   "raw": "1.81",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "울산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r4c1",
+   "raw": "1.72",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r5c1",
+   "raw": "1.32",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "강원"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r6c1",
+   "raw": "1.30",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r7c1",
+   "raw": "1.19",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r8c1",
+   "raw": "0.90",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대구"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r9c1",
+   "raw": "0.58",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "세종"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r10c1",
+   "raw": "0.30",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "광주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r11c1",
+   "raw": "0.20",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경기"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r12c1",
+   "raw": "0.20",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대전"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r13c1",
+   "raw": "0.19",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "제주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r14c1",
+   "raw": "0.10",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "부산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r15c1",
+   "raw": "0.05",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "서울"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r16c1",
+   "raw": "0.02",
+   "chart": "A-C12",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "인천"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r17c1#n1",
+   "raw": "20.00",
+   "chart": "A-C12",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r17c1#n2",
+   "raw": "40.00",
+   "chart": "A-C12",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r17c1#n3",
+   "raw": "60.00",
+   "chart": "A-C12",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r0c1",
+   "raw": "66.72",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r1c1",
+   "raw": "4.54",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r2c1",
+   "raw": "2.13",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r3c1",
+   "raw": "1.81",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "울산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r4c1",
+   "raw": "1.75",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r5c1",
+   "raw": "1.33",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "강원"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r6c1",
+   "raw": "1.31",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r7c1",
+   "raw": "1.22",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r8c1",
+   "raw": "0.90",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대구"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r9c1",
+   "raw": "0.60",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "세종"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r10c1",
+   "raw": "0.30",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "광주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r11c1",
+   "raw": "0.22",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "제주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r12c1",
+   "raw": "0.20",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경기"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r13c1",
+   "raw": "0.20",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대전"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r14c1",
+   "raw": "0.10",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "부산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r15c1",
+   "raw": "0.05",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "서울"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r16c1",
+   "raw": "0.02",
+   "chart": "A-C13",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "인천"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c1#n1",
+   "raw": "20.00",
+   "chart": "A-C13",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c1#n2",
+   "raw": "40.00",
+   "chart": "A-C13",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c1#n3",
+   "raw": "60.00",
+   "chart": "A-C13",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r0c3",
+   "raw": "66.72",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r1c3",
+   "raw": "4.43",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r2c3",
+   "raw": "2.14",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r3c3",
+   "raw": "1.81",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "울산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r4c3",
+   "raw": "1.75",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r5c3",
+   "raw": "1.34",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "강원"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r6c3",
+   "raw": "1.32",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r7c3",
+   "raw": "1.22",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r8c3",
+   "raw": "0.90",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대구"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r9c3",
+   "raw": "0.59",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "세종"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r10c3",
+   "raw": "0.31",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "광주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r11c3",
+   "raw": "0.20",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경기"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r12c3",
+   "raw": "0.20",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대전"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r13c3",
+   "raw": "0.16",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "제주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r14c3",
+   "raw": "0.10",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "부산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r15c3",
+   "raw": "0.05",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "서울"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r16c3",
+   "raw": "0.02",
+   "chart": "A-C14",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "인천"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c3#n1",
+   "raw": "20.00",
+   "chart": "A-C14",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c3#n2",
+   "raw": "40.00",
+   "chart": "A-C14",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c3#n3",
+   "raw": "60.00",
+   "chart": "A-C14",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r0c5",
+   "raw": "66.80",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r1c5",
+   "raw": "4.60",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r2c5",
+   "raw": "2.66",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r3c5",
+   "raw": "2.16",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전북"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r4c5",
+   "raw": "1.82",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "울산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r5c5",
+   "raw": "1.65",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "충남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r6c5",
+   "raw": "1.64",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "강원"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r7c5",
+   "raw": "1.53",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "전남"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r8c5",
+   "raw": "0.91",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대구"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r9c5",
+   "raw": "0.72",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "세종"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r10c5",
+   "raw": "0.39",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "광주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r11c5",
+   "raw": "0.25",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "경기"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r12c5",
+   "raw": "0.25",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "대전"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r13c5",
+   "raw": "0.15",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "제주"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r14c5",
+   "raw": "0.12",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "부산"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r15c5",
+   "raw": "0.06",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "서울"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r16c5",
+   "raw": "0.02",
+   "chart": "A-C15",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "인천"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c5#n1",
+   "raw": "20.00",
+   "chart": "A-C15",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c5#n2",
+   "raw": "40.00",
+   "chart": "A-C15",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c5#n3",
+   "raw": "60.00",
+   "chart": "A-C15",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r1c5",
+   "raw": "358.1",
+   "chart": "A-C16",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r1c4",
+   "raw": "358.0",
+   "chart": "A-C16",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r1c3",
+   "raw": "357.96",
+   "chart": "A-C16",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r2c2",
+   "raw": "357.0",
+   "chart": "A-C16",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "기준시점"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r3c3#n1",
+   "raw": "1",
+   "chart": "A-C16",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r3c4#n1",
+   "raw": "5",
+   "chart": "A-C16",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r3c5#n1",
+   "raw": "10",
+   "chart": "A-C16",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r0c0",
+   "raw": "16.20%",
+   "chart": "A-C17",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "기준시점"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r0c1",
+   "raw": "16.15%",
+   "chart": "A-C17",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r0c2",
+   "raw": "16.15%",
+   "chart": "A-C17",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r0c3",
+   "raw": "16.15%",
+   "chart": "A-C17",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-b12#n1",
+   "raw": "1",
+   "chart": "A-C17",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p39-b13#n1",
+   "raw": "5",
+   "chart": "A-C17",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p39-b14#n1",
+   "raw": "10",
+   "chart": "A-C17",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r1c4",
+   "raw": "13.82%",
+   "chart": "A-C18",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "기준시점"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r1c5",
+   "raw": "13.79%",
+   "chart": "A-C18",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "단기(1년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r2c6",
+   "raw": "13.78%",
+   "chart": "A-C18",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "중기(5년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-t1:r2c7",
+   "raw": "13.78%",
+   "chart": "A-C18",
+   "role": "value",
+   "series": [
+    "RCP2.6",
+    "RCP4.5",
+    "RCP6.0",
+    "RCP8.5"
+   ],
+   "category": [
+    "장기(10년)"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p39-b17#n1",
+   "raw": "1",
+   "chart": "A-C18",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p39-b18#n1",
+   "raw": "5",
+   "chart": "A-C18",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p39-b19#n1",
+   "raw": "10",
+   "chart": "A-C18",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c4",
+   "raw": "134,013",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c7",
+   "raw": "128,137",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c10",
+   "raw": "122,262",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c13",
+   "raw": "116,387",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c14#n1",
+   "raw": "110,512",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c15#n1",
+   "raw": "42%",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r1c1",
+   "raw": "122,027",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 2 실적"
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c2#n1",
+   "raw": "116,818",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 2 실적"
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r2c5#n1",
+   "raw": "114,994",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 2 실적"
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c8",
+   "raw": "112,383",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 2 실적"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c11",
+   "raw": "111,861",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 2 실적"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c14#n2",
+   "raw": "106,870",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 2 실적"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r3c1",
+   "raw": "17,861",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 1 실적"
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c2#n2",
+   "raw": "15,649",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 1 실적"
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r2c5#n2",
+   "raw": "13,993",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 1 실적"
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r4c8",
+   "raw": "13,429",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 1 실적"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r4c11",
+   "raw": "11,684",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 1 실적"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r4c14",
+   "raw": "11,653",
+   "chart": "A-C21",
+   "role": "value",
+   "series": [
+    "Scope 1 실적"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c1",
+   "raw": "2020",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c2",
+   "raw": "2021",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c5",
+   "raw": "2022",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c9",
+   "raw": "2023",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c12",
+   "raw": "2024",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c14",
+   "raw": "2025",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c16",
+   "raw": "2030",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r5c17",
+   "raw": "2040",
+   "chart": "A-C21",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n3",
+   "raw": "26,761,188",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "Scope 3 실적"
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n4",
+   "raw": "28,061,961",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "Scope 3 실적"
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n2",
+   "raw": "39,174,263",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "Scope 3 실적"
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n1",
+   "raw": "49,366,990",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "Scope 3 실적"
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r0c7",
+   "raw": "55,911,585",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "Scope 3 실적"
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r0c9",
+   "raw": "49,462,484",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "Scope 3 실적"
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r0c11",
+   "raw": "51,566,264",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "Scope 3 실적"
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c13#n1",
+   "raw": "33.3%",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c13#n2",
+   "raw": "61.0%",
+   "chart": "A-C22",
+   "role": "value",
+   "series": [
+    "감축 목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c1",
+   "raw": "2019",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c3",
+   "raw": "2020",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c4",
+   "raw": "2021",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c6",
+   "raw": "2022",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c8",
+   "raw": "2023",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c10",
+   "raw": "2024",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c12",
+   "raw": "2025",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c15",
+   "raw": "2030",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c16",
+   "raw": "2040",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c17",
+   "raw": "2050",
+   "chart": "A-C22",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c0#n1",
+   "raw": "4,028,721",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c0#n1",
+   "raw": "3,259,811",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c0#n2",
+   "raw": "4,537,651",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c0#n3",
+   "raw": "5,952,069",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r2c0",
+   "raw": "7,653,390",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c0#n1",
+   "raw": "3,264,569",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c0#n2",
+   "raw": "4,267,521",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c0#n2",
+   "raw": "39.4%",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c0#n4",
+   "raw": "77.1%",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c0#n3",
+   "raw": "0",
+   "chart": "A-C23",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c1#n1",
+   "raw": "4,743,935",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n6",
+   "raw": "4,685,781",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r2c1#n1",
+   "raw": "5,577,328",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n7",
+   "raw": "3,747,961",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c1#n2",
+   "raw": "2,757,010",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n1",
+   "raw": "2,647,946",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n1",
+   "raw": "2,875,248",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n2",
+   "raw": "45.3%",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n2",
+   "raw": "69.7%",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n3",
+   "raw": "0",
+   "chart": "A-C24",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n4",
+   "raw": "453,175",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n3",
+   "raw": "588,073",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n8",
+   "raw": "593,611",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n4",
+   "raw": "790,178",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r2c1#n2",
+   "raw": "813,484",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c1#n3",
+   "raw": "581,360",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n5",
+   "raw": "623,360",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n5",
+   "raw": "16%",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n9",
+   "raw": "42%",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n6",
+   "raw": "0",
+   "chart": "A-C25",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n1",
+   "raw": "78,257",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c0#n1",
+   "raw": "145,402",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n2",
+   "raw": "124,455",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c0#n2",
+   "raw": "101,805",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n3",
+   "raw": "80,474",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r9c0",
+   "raw": "35,708",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c0#n1",
+   "raw": "30,914",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n4",
+   "raw": "33.1%",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n5",
+   "raw": "68%",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c0#n2",
+   "raw": "0",
+   "chart": "A-C26",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n1",
+   "raw": "152,314",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c1#n4",
+   "raw": "451,822",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n1",
+   "raw": "598,181",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c1#n1",
+   "raw": "600,836",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r9c1#n1",
+   "raw": "274,692",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n2",
+   "raw": "250,792",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n2",
+   "raw": "274,811",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n3",
+   "raw": "21.4%",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n3",
+   "raw": "42%",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n4",
+   "raw": "0",
+   "chart": "A-C27",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r9c1#n2",
+   "raw": "2,172,390",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n5",
+   "raw": "2,310,499",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c1#n2",
+   "raw": "2,887,589",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n4",
+   "raw": "2,688,479",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c1#n3",
+   "raw": "2,858,759",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n6",
+   "raw": "2,252,448",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c1#n5",
+   "raw": "2,776,424",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n5",
+   "raw": "39.4%",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n6",
+   "raw": "77.3%",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n7",
+   "raw": "0",
+   "chart": "A-C28",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r16c0",
+   "raw": "62,243",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r18c0#n1",
+   "raw": "36,531",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r15c0",
+   "raw": "65,629",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r17c0#n1",
+   "raw": "85,472",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r14c0#n1",
+   "raw": "92,213",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r17c0#n2",
+   "raw": "80,839",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r14c0#n2",
+   "raw": "124,353",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r18c0#n2",
+   "raw": "47.4%",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2030"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r17c0#n3",
+   "raw": "78.7%",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r18c0#n3",
+   "raw": "0",
+   "chart": "A-C29",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2050"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r4c2",
+   "raw": "3.06",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r0c0",
+   "raw": "3.06",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r5c4",
+   "raw": "2.67",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r1c1",
+   "raw": "2.67",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r5c6",
+   "raw": "2.56",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r1c2",
+   "raw": "2.56",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r5c7",
+   "raw": "2.35",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r1c3",
+   "raw": "2.35",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r4c9",
+   "raw": "2.94",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r0c4",
+   "raw": "2.94",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r4c11",
+   "raw": "2.93",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r0c5",
+   "raw": "2.93",
+   "chart": "A-C30",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c2",
+   "raw": "2020",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r2c0",
+   "raw": "2020",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c4",
+   "raw": "2021",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r2c1",
+   "raw": "2021",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c6",
+   "raw": "2022",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r2c2",
+   "raw": "2022",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c7",
+   "raw": "2023",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r2c3",
+   "raw": "2023",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c9",
+   "raw": "2024",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r2c4",
+   "raw": "2024",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c11",
+   "raw": "2025",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t3:r2c5",
+   "raw": "2025",
+   "chart": "A-C30",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r4c15",
+   "raw": "3.10",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r0c0",
+   "raw": "3.10",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r5c17",
+   "raw": "2.87",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r1c1",
+   "raw": "2.87",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r5c19",
+   "raw": "2.85",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r1c2",
+   "raw": "2.85",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r5c20",
+   "raw": "2.80",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r1c3",
+   "raw": "2.80",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r4c22",
+   "raw": "3.05",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r0c4",
+   "raw": "3.05",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r4c24",
+   "raw": "3.05",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r0c5",
+   "raw": "3.05",
+   "chart": "A-C31",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c15",
+   "raw": "2020",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r2c0",
+   "raw": "2020",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c17",
+   "raw": "2021",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r2c1",
+   "raw": "2021",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c19",
+   "raw": "2022",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r2c2",
+   "raw": "2022",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c20",
+   "raw": "2023",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r2c3",
+   "raw": "2023",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c22",
+   "raw": "2024",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r2c4",
+   "raw": "2024",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r6c24",
+   "raw": "2025",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t2:r2c5",
+   "raw": "2025",
+   "chart": "A-C31",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c1",
+   "raw": "3.13",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r0c0",
+   "raw": "3.13",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c3",
+   "raw": "3.09",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r0c1",
+   "raw": "3.09",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c5",
+   "raw": "3.12",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r0c2",
+   "raw": "3.12",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c6",
+   "raw": "3.03",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r0c3",
+   "raw": "3.03",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r11c7",
+   "raw": "2.61",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r1c4",
+   "raw": "2.61",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c8",
+   "raw": "3.06",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r0c5",
+   "raw": "3.06",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c10",
+   "raw": "3.05",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r0c6",
+   "raw": "3.05",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r12c12",
+   "raw": "1.75",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r1c7",
+   "raw": "1.75",
+   "chart": "A-C32",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c1",
+   "raw": "2019",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c0",
+   "raw": "2019",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c3",
+   "raw": "2020",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c1",
+   "raw": "2020",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c5",
+   "raw": "2021",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c2",
+   "raw": "2021",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c6",
+   "raw": "2022",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c3",
+   "raw": "2022",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c7",
+   "raw": "2023",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c4",
+   "raw": "2023",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c8",
+   "raw": "2024",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c5",
+   "raw": "2024",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c10",
+   "raw": "2025",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c6",
+   "raw": "2025",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c12",
+   "raw": "2040",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t5:r2c7",
+   "raw": "2040",
+   "chart": "A-C32",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c14",
+   "raw": "3.15",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r0c0",
+   "raw": "3.15",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c16",
+   "raw": "3.13",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r0c1",
+   "raw": "3.13",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c18",
+   "raw": "3.13",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r0c2",
+   "raw": "3.13",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c19",
+   "raw": "3.11",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r0c3",
+   "raw": "3.11",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r11c20",
+   "raw": "2.97",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r1c4",
+   "raw": "2.97",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c21",
+   "raw": "3.13",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r0c5",
+   "raw": "3.13",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r10c23",
+   "raw": "3.11",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r0c6",
+   "raw": "3.11",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r12c25",
+   "raw": "2.00",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r1c7",
+   "raw": "2.00",
+   "chart": "A-C33",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c14",
+   "raw": "2019",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c0",
+   "raw": "2019",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c16",
+   "raw": "2020",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c1",
+   "raw": "2020",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c18",
+   "raw": "2021",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c2",
+   "raw": "2021",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c19",
+   "raw": "2022",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c3",
+   "raw": "2022",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c20",
+   "raw": "2023",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c4",
+   "raw": "2023",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c21",
+   "raw": "2024",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c5",
+   "raw": "2024",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c23",
+   "raw": "2025",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c6",
+   "raw": "2025",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r13c25",
+   "raw": "2040",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r2c7",
+   "raw": "2040",
+   "chart": "A-C33",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r8c13#n2",
+   "raw": "2",
+   "chart": "A-C33",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r8c13#n3",
+   "raw": "3",
+   "chart": "A-C33",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r16c1",
+   "raw": "3.18",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c3",
+   "raw": "2.76",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c1",
+   "raw": "2.76",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c5",
+   "raw": "3.03",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c2",
+   "raw": "3.03",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c6",
+   "raw": "2.95",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c3",
+   "raw": "2.95",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c7",
+   "raw": "3.02",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c4",
+   "raw": "3.02",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r18c8",
+   "raw": "2.66",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c5",
+   "raw": "2.66",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r18c10",
+   "raw": "2.64",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c6",
+   "raw": "2.64",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r18c12",
+   "raw": "1.75",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c7",
+   "raw": "1.75",
+   "chart": "A-C34",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c1",
+   "raw": "2019",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c3",
+   "raw": "2020",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r1c1",
+   "raw": "2020",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c5",
+   "raw": "2021",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r1c2",
+   "raw": "2021",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c6",
+   "raw": "2022",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r1c3",
+   "raw": "2022",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c7",
+   "raw": "2023",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r1c4",
+   "raw": "2023",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c8",
+   "raw": "2024",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r1c5",
+   "raw": "2024",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c10",
+   "raw": "2025",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r1c6",
+   "raw": "2025",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c12",
+   "raw": "2040",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r1c7",
+   "raw": "2040",
+   "chart": "A-C34",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r16c14",
+   "raw": "3.18",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r0c0",
+   "raw": "3.18",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c16",
+   "raw": "2.92",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r1c1",
+   "raw": "2.92",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c18",
+   "raw": "3.10",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r0c2",
+   "raw": "3.10",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c19",
+   "raw": "3.09",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r0c3",
+   "raw": "3.09",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c20",
+   "raw": "3.13",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r0c4",
+   "raw": "3.13",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c21",
+   "raw": "3.06",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r1c5",
+   "raw": "3.06",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c23",
+   "raw": "3.06",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r1c6",
+   "raw": "3.06",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r18c25",
+   "raw": "2.00",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t6:r1c7",
+   "raw": "2.00",
+   "chart": "A-C35",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c14",
+   "raw": "2019",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c16",
+   "raw": "2020",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c18",
+   "raw": "2021",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c19",
+   "raw": "2022",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c20",
+   "raw": "2023",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c21",
+   "raw": "2024",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c23",
+   "raw": "2025",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c25",
+   "raw": "2040",
+   "chart": "A-C35",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r15c13#n2",
+   "raw": "2",
+   "chart": "A-C35",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r15c13#n3",
+   "raw": "3",
+   "chart": "A-C35",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c1",
+   "raw": "3.09",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c3",
+   "raw": "3.00",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c5",
+   "raw": "2.08",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c2",
+   "raw": "2.08",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c6",
+   "raw": "2.10",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c3",
+   "raw": "2.10",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c7",
+   "raw": "2.06",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c4",
+   "raw": "2.06",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c8",
+   "raw": "2.78",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c10",
+   "raw": "2.73",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c12",
+   "raw": "1.75",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c7",
+   "raw": "1.75",
+   "chart": "A-C36",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c2",
+   "raw": "2021",
+   "chart": "A-C36",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c3",
+   "raw": "2022",
+   "chart": "A-C36",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c4",
+   "raw": "2023",
+   "chart": "A-C36",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c5",
+   "raw": "2024",
+   "chart": "A-C36",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c6",
+   "raw": "2025",
+   "chart": "A-C36",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c7",
+   "raw": "2040",
+   "chart": "A-C36",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c14",
+   "raw": "3.09",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2019"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c16",
+   "raw": "3.03",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2020"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c18",
+   "raw": "2.42",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c10",
+   "raw": "2.42",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2021"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c19",
+   "raw": "2.38",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c11",
+   "raw": "2.38",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2022"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c20",
+   "raw": "2.45",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c12",
+   "raw": "2.45",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2023"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c21",
+   "raw": "2.95",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2024"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c23",
+   "raw": "2.94",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    null
+   ],
+   "category": [
+    "2025"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c25",
+   "raw": "2.00",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r0c15",
+   "raw": "2.00",
+   "chart": "A-C37",
+   "role": "value",
+   "series": [
+    "목표"
+   ],
+   "category": [
+    "2040"
+   ]
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c8",
+   "raw": "2019",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c9",
+   "raw": "2020",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c10",
+   "raw": "2021",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c11",
+   "raw": "2022",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c12",
+   "raw": "2023",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c13",
+   "raw": "2024",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c14",
+   "raw": "2025",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t8:r1c15",
+   "raw": "2040",
+   "chart": "A-C37",
+   "role": "category",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r21c13#n2",
+   "raw": "2",
+   "chart": "A-C37",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r21c13#n3",
+   "raw": "3",
+   "chart": "A-C37",
+   "role": "other",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b6#n1",
+   "raw": "18.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b8#n1",
+   "raw": "16.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b9#n1",
+   "raw": "14.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b10#n1",
+   "raw": "12.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b12#n1",
+   "raw": "10.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b15#n1",
+   "raw": "8.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b17#n1",
+   "raw": "6.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b18#n1",
+   "raw": "4.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-b19#n1",
+   "raw": "2.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r0c0",
+   "raw": "0.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c1",
+   "raw": "0.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c2",
+   "raw": "2.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c3",
+   "raw": "4.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c4",
+   "raw": "6.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c5",
+   "raw": "8.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c6",
+   "raw": "10.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c7",
+   "raw": "12.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c8",
+   "raw": "14.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c9#n1",
+   "raw": "16.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  },
+  {
+   "doc": "b",
+   "id": "p6-t4:r1c9#n2",
+   "raw": "18.0",
+   "chart": "B-C38",
+   "role": "tick",
+   "series": null,
+   "category": null
+  }
+ ]
+}

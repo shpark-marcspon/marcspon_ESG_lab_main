@@ -1,0 +1,27 @@
+{
+  "name": "reconcile",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "데이터 검증 시제품: 두 문서의 숫자를 코드가 뽑고, 뜻은 AI 가 셀·블록 ID 를 가리켜 붙이고, 짝짓기와 비교는 코드가 한다",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5",
+    "fflate": "^0.8.2",
+    "kernel": "workspace:*",
+    "llm": "workspace:*",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

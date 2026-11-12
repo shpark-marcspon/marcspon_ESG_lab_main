@@ -1,0 +1,7 @@
+{
+ "checkedOn": "2000-01-01",
+ "note": "지은 단가 픽스처 — 실제 단가가 아니다(GM1 손셈 시험용).",
+ "models": {
+  "gpt-4.1-mini": {"pricing": {"input": 2.0, "output": 8.0}, "notes": ["지은 값"]}
+ }
+}

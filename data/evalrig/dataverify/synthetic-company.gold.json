@@ -1,0 +1,822 @@
+{
+ "conventions": {
+  "accept": "items[].accept — 판단이 갈리는 자리에서 같이 맞다고 볼 판정. 돌리기 전에 정했다.",
+  "kinds": [
+   "sum",
+   "ratio",
+   "intensity",
+   "unit_slip",
+   "denominator_basis"
+  ],
+  "labels": [
+   "FAIL",
+   "OK"
+  ],
+  "rules": [
+   "참값 = 모든 관계가 서는 표. 보고값 = 참값에서 심은 칸만 바꾼 것. 심은 칸은 FAIL{kind}, 나머지는 OK.",
+   "FAIL 은 심은 칸 하나에만 단다. 그 칸이 든 관계(relations)는 그 해에 다 어긋나지만 다른 칸은 OK 다.",
+   "허용 오차 = 1.1(1차 colab_156 의 TOLERANCE, 절댓값 — 합은 단위 그대로, 비율은 %p). 경계 짝: edge=over 는 참값과 차 1.2 라 FAIL, edge=under 는 차 1.0 이라 OK(FAIL 도 accept).",
+   "비율은 소수 2자리, 집약도는 소수 4자리로 보고한다 — 심지 않은 칸의 「차 0」은 그 자리의 반올림 안.",
+   "정답 칸은 「환경」 테마만(1차 흐름이 「환경」만 검토). 「사회」·「지배구조」 행은 거르기 확인용.",
+   "intensity 는 1차 ratio 도구(×100)로 맞게 잴 도구가 없다(prework/dataverify-demo 심은 오류 답 md)."
+  ]
+ },
+ "coverage": "exhaustive",
+ "items": [
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-001",
+   "kind": null,
+   "relations": [
+    "sum1"
+   ],
+   "reported": 11470,
+   "true": 11470,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-001",
+   "kind": null,
+   "relations": [
+    "sum1"
+   ],
+   "reported": 11120,
+   "true": 11120,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-001",
+   "kind": null,
+   "relations": [
+    "sum1"
+   ],
+   "reported": 12250,
+   "true": 12250,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [
+    "FAIL"
+   ],
+   "edge": "under",
+   "indicator": "E-002",
+   "kind": "tolerance_edge",
+   "relations": [
+    "sum1"
+   ],
+   "reported": 4371.0,
+   "true": 4370,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-002",
+   "kind": null,
+   "relations": [
+    "sum1"
+   ],
+   "reported": 4790,
+   "true": 4790,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-002",
+   "kind": null,
+   "relations": [
+    "sum1"
+   ],
+   "reported": 4170,
+   "true": 4170,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-003",
+   "kind": null,
+   "relations": [
+    "sum1",
+    "int1"
+   ],
+   "reported": 15840,
+   "true": 15840,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-003",
+   "kind": "sum",
+   "relations": [
+    "sum1",
+    "int1"
+   ],
+   "reported": 16387,
+   "true": 15910,
+   "verdict": "FAIL",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-003",
+   "kind": null,
+   "relations": [
+    "sum1",
+    "int1"
+   ],
+   "reported": 16420,
+   "true": 16420,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-004",
+   "kind": null,
+   "relations": [
+    "sum2",
+    "ratio1",
+    "int2"
+   ],
+   "reported": 49500,
+   "true": 49500,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-004",
+   "kind": null,
+   "relations": [
+    "sum2",
+    "ratio1",
+    "int2"
+   ],
+   "reported": 54600,
+   "true": 54600,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-004",
+   "kind": null,
+   "relations": [
+    "sum2",
+    "ratio1",
+    "int2"
+   ],
+   "reported": 47500,
+   "true": 47500,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-005",
+   "kind": "unit_slip",
+   "relations": [
+    "sum2",
+    "ratio1"
+   ],
+   "reported": 11.4,
+   "true": 11400,
+   "verdict": "FAIL",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-005",
+   "kind": null,
+   "relations": [
+    "sum2",
+    "ratio1"
+   ],
+   "reported": 10700,
+   "true": 10700,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-005",
+   "kind": null,
+   "relations": [
+    "sum2",
+    "ratio1"
+   ],
+   "reported": 8300,
+   "true": 8300,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-006",
+   "kind": null,
+   "relations": [
+    "sum2"
+   ],
+   "reported": 38100,
+   "true": 38100,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-006",
+   "kind": null,
+   "relations": [
+    "sum2"
+   ],
+   "reported": 43900,
+   "true": 43900,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": "over",
+   "indicator": "E-006",
+   "kind": "sum",
+   "relations": [
+    "sum2"
+   ],
+   "reported": 39201.2,
+   "true": 39200,
+   "verdict": "FAIL",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-007",
+   "kind": null,
+   "relations": [
+    "ratio1"
+   ],
+   "reported": 23.03,
+   "true": 23.03,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-007",
+   "kind": null,
+   "relations": [
+    "ratio1"
+   ],
+   "reported": 19.6,
+   "true": 19.6,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-007",
+   "kind": "ratio",
+   "relations": [
+    "ratio1"
+   ],
+   "reported": 23.47,
+   "true": 17.47,
+   "verdict": "FAIL",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-008",
+   "kind": null,
+   "relations": [
+    "int1",
+    "int3"
+   ],
+   "reported": 506,
+   "true": 506,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-008",
+   "kind": null,
+   "relations": [
+    "int1",
+    "int3"
+   ],
+   "reported": 543,
+   "true": 543,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-008",
+   "kind": null,
+   "relations": [
+    "int1",
+    "int3"
+   ],
+   "reported": 507,
+   "true": 507,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-009",
+   "kind": "intensity",
+   "relations": [
+    "int1"
+   ],
+   "reported": 34.4347,
+   "true": 31.3043,
+   "verdict": "FAIL",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-009",
+   "kind": null,
+   "relations": [
+    "int1"
+   ],
+   "reported": 29.3002,
+   "true": 29.3002,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-009",
+   "kind": "denominator_basis",
+   "relations": [
+    "int1"
+   ],
+   "reported": 0.421,
+   "true": 32.3866,
+   "verdict": "FAIL",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-010",
+   "kind": null,
+   "relations": [
+    "sum3",
+    "ratio2"
+   ],
+   "reported": 2530,
+   "true": 2530,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-010",
+   "kind": null,
+   "relations": [
+    "sum3",
+    "ratio2"
+   ],
+   "reported": 3040,
+   "true": 3040,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-010",
+   "kind": null,
+   "relations": [
+    "sum3",
+    "ratio2"
+   ],
+   "reported": 2390,
+   "true": 2390,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-011",
+   "kind": null,
+   "relations": [
+    "sum3",
+    "ratio2"
+   ],
+   "reported": 1730,
+   "true": 1730,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-011",
+   "kind": null,
+   "relations": [
+    "sum3",
+    "ratio2"
+   ],
+   "reported": 2030,
+   "true": 2030,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-011",
+   "kind": null,
+   "relations": [
+    "sum3",
+    "ratio2"
+   ],
+   "reported": 1600,
+   "true": 1600,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-012",
+   "kind": null,
+   "relations": [
+    "sum3"
+   ],
+   "reported": 800,
+   "true": 800,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-012",
+   "kind": "sum",
+   "relations": [
+    "sum3"
+   ],
+   "reported": 960,
+   "true": 1010,
+   "verdict": "FAIL",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-012",
+   "kind": null,
+   "relations": [
+    "sum3"
+   ],
+   "reported": 790,
+   "true": 790,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-013",
+   "kind": "ratio",
+   "relations": [
+    "ratio2"
+   ],
+   "reported": 64.38,
+   "true": 68.38,
+   "verdict": "FAIL",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-013",
+   "kind": null,
+   "relations": [
+    "ratio2"
+   ],
+   "reported": 66.78,
+   "true": 66.78,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-013",
+   "kind": null,
+   "relations": [
+    "ratio2"
+   ],
+   "reported": 66.95,
+   "true": 66.95,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-014",
+   "kind": null,
+   "relations": [
+    "int2"
+   ],
+   "reported": 43100,
+   "true": 43100,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-014",
+   "kind": null,
+   "relations": [
+    "int2"
+   ],
+   "reported": 43800,
+   "true": 43800,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-014",
+   "kind": null,
+   "relations": [
+    "int2"
+   ],
+   "reported": 39000,
+   "true": 39000,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-015",
+   "kind": null,
+   "relations": [
+    "int2"
+   ],
+   "reported": 1.1485,
+   "true": 1.1485,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-015",
+   "kind": "denominator_basis",
+   "relations": [
+    "int2"
+   ],
+   "reported": 100.5525,
+   "true": 1.2466,
+   "verdict": "FAIL",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-015",
+   "kind": null,
+   "relations": [
+    "int2"
+   ],
+   "reported": 1.2179,
+   "true": 1.2179,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-016",
+   "kind": null,
+   "relations": [
+    "int3"
+   ],
+   "reported": 79400,
+   "true": 79400,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-016",
+   "kind": "unit_slip",
+   "relations": [
+    "int3"
+   ],
+   "reported": 80800000,
+   "true": 80800,
+   "verdict": "FAIL",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-016",
+   "kind": null,
+   "relations": [
+    "int3"
+   ],
+   "reported": 80200,
+   "true": 80200,
+   "verdict": "OK",
+   "year": "2024"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-017",
+   "kind": null,
+   "relations": [
+    "int3"
+   ],
+   "reported": 156.917,
+   "true": 156.917,
+   "verdict": "OK",
+   "year": "2022"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-017",
+   "kind": null,
+   "relations": [
+    "int3"
+   ],
+   "reported": 148.8029,
+   "true": 148.8029,
+   "verdict": "OK",
+   "year": "2023"
+  },
+  {
+   "accept": [],
+   "edge": null,
+   "indicator": "E-017",
+   "kind": "intensity",
+   "relations": [
+    "int3"
+   ],
+   "reported": 134.4576,
+   "true": 158.1854,
+   "verdict": "FAIL",
+   "year": "2024"
+  }
+ ],
+ "meta": {
+  "input": "synthetic-company.input.json",
+  "inputSha16": "034bffafc1d7bf1b",
+  "relations": [
+   {
+    "addends": [
+     "E-001",
+     "E-002"
+    ],
+    "id": "sum1",
+    "rule": "sum",
+    "target": "E-003"
+   },
+   {
+    "addends": [
+     "E-005",
+     "E-006"
+    ],
+    "id": "sum2",
+    "rule": "sum",
+    "target": "E-004"
+   },
+   {
+    "addends": [
+     "E-011",
+     "E-012"
+    ],
+    "id": "sum3",
+    "rule": "sum",
+    "target": "E-010"
+   },
+   {
+    "den": "E-004",
+    "id": "ratio1",
+    "num": "E-005",
+    "rule": "ratio",
+    "target": "E-007"
+   },
+   {
+    "den": "E-010",
+    "id": "ratio2",
+    "num": "E-011",
+    "rule": "ratio",
+    "target": "E-013"
+   },
+   {
+    "den": "E-008",
+    "id": "int1",
+    "num": "E-003",
+    "rule": "intensity",
+    "target": "E-009"
+   },
+   {
+    "den": "E-014",
+    "id": "int2",
+    "num": "E-004",
+    "rule": "intensity",
+    "target": "E-015"
+   },
+   {
+    "den": "E-008",
+    "id": "int3",
+    "num": "E-016",
+    "rule": "intensity",
+    "target": "E-017"
+   }
+  ],
+  "seed": 20261109,
+  "tolerance": 1.1,
+  "years": [
+   "2022",
+   "2023",
+   "2024"
+  ]
+ },
+ "module": "dataverify",
+ "pending": [
+  {
+   "question": "MARC-ENT-607",
+   "slot": "consultant",
+   "what": "컨설턴트가 쓰는 결과 양식(데이터 리스크 워드)과 그 정답"
+  },
+  {
+   "question": "MARC-ENT-8",
+   "slot": "consultant",
+   "what": "정확도 합격 기준·정답셋·기존 컨설팅 오류 기록"
+  }
+ ],
+ "provenance": {
+  "at": "2026-11-09",
+  "by": "runner-EVB (MARC-TICK-553)",
+  "from": [
+   "evalrig.dataverify.synth seed=20261109",
+   "꼴 바탕: prework/dataverify-demo/데이터검증-시연입력-가상기업-data.json(복사 0)"
+  ],
+  "kind": "runner_made"
+ },
+ "review": {
+  "at": null,
+  "by": null,
+  "note": "러너가 지음. 사람(컨설턴트) 검토 0",
+  "sample": null,
+  "status": "none"
+ },
+ "schema": "evalrig.gold@1",
+ "setId": "dataverify.synthetic-company",
+ "synthetic": true,
+ "unit": "dataverify.indicator_year@1",
+ "version": 1
+}

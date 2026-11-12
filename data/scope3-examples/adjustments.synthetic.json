@@ -1,0 +1,7 @@
+{
+  "synthetic": true,
+  "note": "테스트와 시연 전용 가상 보정 계수다. 실제 환율·물가지수가 아니며 계산하기 쉬운 숫자로 지어냈다. 어떤 환율과 물가지수를 쓸지는 결정 대기다. 이 값으로 나온 배출량은 실제 배출량으로 쓰지 않는다.",
+  "adjustments": [
+    { "currency": "KRW", "targetCurrency": "USD", "targetPriceYear": 2022, "multiplier": "0.001", "synthetic": true, "source": null }
+  ]
+}

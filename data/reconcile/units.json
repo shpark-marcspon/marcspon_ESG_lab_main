@@ -1,0 +1,340 @@
+{
+ "note": "단위 읽기와 환산의 표. 환산은 정의상 10 의 거듭제곱인 것만 싣는다 (exp 는 그 계열의 기준 단위 대비 10 의 지수). checkedOn 이 null 인 줄은 이번에 URL 을 열어 확인하지 못한 정의상 값이다 (밴드 P, 2026-10-04). kWh↔J 같은 10 의 거듭제곱이 아닌 환산과 복합 단위(tCO2eq/억 원)는 싣지 않았다. compactScale 이 켜진 단위만 수 단위 낱말을 붙여 쓴 꼴(억원, 천톤)로 읽는다. 꺼진 단위는 띄어 쓴 꼴(천 명)만 읽는다.",
+ "scaleWords": [
+  {
+   "word": "십",
+   "exp": 1,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "백",
+   "exp": 2,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "천",
+   "exp": 3,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "만",
+   "exp": 4,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "십만",
+   "exp": 5,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "백만",
+   "exp": 6,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "천만",
+   "exp": 7,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "억",
+   "exp": 8,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "십억",
+   "exp": 9,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "백억",
+   "exp": 10,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "천억",
+   "exp": 11,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "word": "조",
+   "exp": 12,
+   "sourceUrl": "https://stdict.korean.go.kr/",
+   "checkedOn": null,
+   "sourceNote": "한국어 수 단위 낱말의 뜻 (표준국어대사전). 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  }
+ ],
+ "units": [
+  {
+   "symbol": "t",
+   "family": "mass",
+   "exp": 0,
+   "aliases": [
+    "톤",
+    "ton",
+    "tons",
+    "tonne",
+    "tonnes"
+   ],
+   "compactScale": true,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "kg",
+   "family": "mass",
+   "exp": -3,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/publications/si-brochure",
+   "checkedOn": null,
+   "sourceNote": "SI Brochure 9판 표 8: 1 t = 10^3 kg. 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "symbol": "tCO2eq",
+   "family": "mass_co2e",
+   "exp": 0,
+   "aliases": [
+    "tCO2e",
+    "tCO2-eq",
+    "tCO2",
+    "톤CO2eq",
+    "톤CO2e",
+    "tCO₂eq",
+    "tCO₂e"
+   ],
+   "compactScale": true,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "ktCO2eq",
+   "family": "mass_co2e",
+   "exp": 3,
+   "aliases": [
+    "ktCO2e"
+   ],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/measurement-units/si-prefixes",
+   "checkedOn": "2026-10-04",
+   "sourceNote": "SI 접두어 k = 10^3 (BIPM, SI prefixes)"
+  },
+  {
+   "symbol": "MtCO2eq",
+   "family": "mass_co2e",
+   "exp": 6,
+   "aliases": [
+    "MtCO2e"
+   ],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/measurement-units/si-prefixes",
+   "checkedOn": "2026-10-04",
+   "sourceNote": "SI 접두어 M = 10^6 (BIPM, SI prefixes)"
+  },
+  {
+   "symbol": "kgCO2eq",
+   "family": "mass_co2e",
+   "exp": -3,
+   "aliases": [
+    "kgCO2e"
+   ],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/publications/si-brochure",
+   "checkedOn": null,
+   "sourceNote": "SI Brochure 9판 표 8: 1 t = 10^3 kg. 이번에 URL 을 열어 확인하지 못한 정의상 값"
+  },
+  {
+   "symbol": "TJ",
+   "family": "energy_joule",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "GJ",
+   "family": "energy_joule",
+   "exp": -3,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/measurement-units/si-prefixes",
+   "checkedOn": "2026-10-04",
+   "sourceNote": "SI 접두어 G = 10^9, T = 10^12 (BIPM, SI prefixes). 1 GJ = 10^-3 TJ"
+  },
+  {
+   "symbol": "MJ",
+   "family": "energy_joule",
+   "exp": -6,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/measurement-units/si-prefixes",
+   "checkedOn": "2026-10-04",
+   "sourceNote": "SI 접두어 M = 10^6, T = 10^12 (BIPM, SI prefixes). 1 MJ = 10^-6 TJ"
+  },
+  {
+   "symbol": "MWh",
+   "family": "energy_wh",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "kWh",
+   "family": "energy_wh",
+   "exp": -3,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/measurement-units/si-prefixes",
+   "checkedOn": "2026-10-04",
+   "sourceNote": "SI 접두어 k = 10^3, M = 10^6 (BIPM, SI prefixes). 1 kWh = 10^-3 MWh"
+  },
+  {
+   "symbol": "GWh",
+   "family": "energy_wh",
+   "exp": 3,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": "https://www.bipm.org/en/measurement-units/si-prefixes",
+   "checkedOn": "2026-10-04",
+   "sourceNote": "SI 접두어 G = 10^9, M = 10^6 (BIPM, SI prefixes). 1 GWh = 10^3 MWh"
+  },
+  {
+   "symbol": "원",
+   "family": "currency_krw",
+   "exp": 0,
+   "aliases": [
+    "KRW"
+   ],
+   "compactScale": true,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "명",
+   "family": "count_person",
+   "exp": 0,
+   "aliases": [
+    "인"
+   ],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "건",
+   "family": "count_case",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "개",
+   "family": "count_item",
+   "exp": 0,
+   "aliases": [
+    "개소"
+   ],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "개사",
+   "family": "count_company",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "시간",
+   "family": "duration_hour",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "%",
+   "family": "ratio_percent",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "%p",
+   "family": "ratio_percent_point",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "배",
+   "family": "ratio_times",
+   "exp": 0,
+   "aliases": [],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  },
+  {
+   "symbol": "m3",
+   "family": "volume_m3",
+   "exp": 0,
+   "aliases": [
+    "㎥",
+    "m³"
+   ],
+   "compactScale": false,
+   "sourceUrl": null,
+   "checkedOn": null,
+   "sourceNote": "기준 단위. 환산 없음"
+  }
+ ]
+}

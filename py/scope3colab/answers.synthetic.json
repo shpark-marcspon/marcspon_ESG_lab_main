@@ -1,0 +1,42 @@
+{
+  "synthetic": true,
+  "note": "짜 둔 가짜 AI 답(지은 것). 차례는 synthetic.py 의 템플릿 시트·줄 차례를 따른다(C1·C2 8개 → C6-2 이동수단 1개). 앞의 8개는 S3C-o 그대로.",
+  "answers": [
+    {
+      "expect": "가상상자 묶음",
+      "text": "```json\n{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Paperboard Container Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}\n```"
+    },
+    {
+      "expect": "가상자문 용역 계약",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Management Consulting Services\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "품목명: 가상부속 세트",
+      "text": "가상부속류"
+    },
+    {
+      "expect": "가상부속 세트",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상의자 교체",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Office Furniture Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상압착기 1호",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Industrial Machinery Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상화물차 2대",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Motor Vehicle Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "가상서버 증설",
+      "text": "{\"generic_korean\": \"가상 품목\", \"generic_english\": \"Synthetic Computer Equipment Manufacturing\", \"selected_titles\": [], \"confidence\": 0.9, \"reason_short\": \"가상 답\"}"
+    },
+    {
+      "expect": "입력값: 가상기타경비",
+      "text": "{\"mode\": \"taxi\"}"
+    }
+  ]
+}

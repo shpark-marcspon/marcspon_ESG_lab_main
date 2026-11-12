@@ -1,0 +1,1158 @@
+{
+ "note": "방법 H 의 칸 검수가 「상대 없음」이라 답한 (남은 칸, 상대 표)의 합집합(다섯 실행)을 원문 PDF(kb_2025_kor.pdf 47·48·111쪽, kb_2025_databook_kor.pdf 21·22·78쪽)에서 그 상대 표에 같은 항목·같은 기간·같은 범위의 칸이 정말 없는지 본 기록. 근거의 행 이름과 열은 문서 모델의 머리글을 원문과 대조해 적었다.",
+ "status": "러너 작성, 전문가 검토 전 (밴드 T, 2026-10-04). 원문은 pdftotext -layout 의 글 계층으로 봤다 (쪽을 그림으로 보지는 않았다)",
+ "judgments": [
+  {
+   "cell": "a:p111-t1:r12c2",
+   "other_table": "b:p21-t2",
+   "verdict": "not_a_value",
+   "counterpart": null,
+   "evidence": {
+    "page": 111,
+    "row": "CAT 15 투자(PCAF)주2)",
+    "column": "연도 표시 「2024」"
+   },
+   "note": "이 칸은 값이 아니라 CAT 15 줄의 연도 표시다 (코드가 값 후보로 읽었다). 데이터북 21쪽의 Scope 3 표에는 Category 15 행도 없다"
+  },
+  {
+   "cell": "a:p111-t1:r12c3",
+   "other_table": "b:p21-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 111,
+    "row": "CAT 15 투자(PCAF)주2)",
+    "column": "2024 > 온실가스 배출량(tCO2eq)"
+   },
+   "note": "데이터북 21쪽의 외부 온실가스 배출량(Scope 3) 표는 Category 1~7, 11~13 과 소계·합계뿐이고 Category 15 행이 없다 (금융배출량은 22쪽에 따로 실려 있다)"
+  },
+  {
+   "cell": "a:p48-t1:r2c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 상장주식 및 회사채",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r2c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 상장주식 및 회사채",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r3c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 비상장주식 및 기업대출",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r3c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 비상장주식 및 기업대출",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r4c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 발전PF",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r4c6",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 발전PF",
+    "column": "SBTi 커버리지"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r4c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 발전PF",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r5c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 상업용 부동산",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r5c6",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 상업용 부동산",
+    "column": "SBTi 커버리지"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r5c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 상업용 부동산",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r6c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 주거용 부동산",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r6c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 주거용 부동산",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r7c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 차량 대출",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r7c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 차량 대출",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r8c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 국채(순 배출량)3)",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r8c6",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 국채(순 배출량)3)",
+    "column": "SBTi 커버리지"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r8c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 국채(순 배출량)3)",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r10c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 합계4)",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t1:r10c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "① 2024년 표 > 합계4)",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r2c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 상장주식 및 회사채",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r2c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 상장주식 및 회사채",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r3c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 비상장주식 및 기업대출",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r3c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 비상장주식 및 기업대출",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r4c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 발전PF",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r4c6",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 발전PF",
+    "column": "SBTi 커버리지"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r4c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 발전PF",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r5c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 상업용 부동산",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r5c6",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 상업용 부동산",
+    "column": "SBTi 커버리지"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r5c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 상업용 부동산",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r6c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 주거용 부동산",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r6c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 주거용 부동산",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r7c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 차량 대출",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r7c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 차량 대출",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r8c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 국채(순 배출량)3)",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r8c6",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 국채(순 배출량)3)",
+    "column": "SBTi 커버리지"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r8c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 국채(순 배출량)3)",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r10c3",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 합계4)",
+    "column": "익스포저 > 산출 비율1)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "a:p48-t2:r10c7",
+   "other_table": "b:p22-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 48,
+    "row": "② 2025년 표 > 합계4)",
+    "column": "데이터 스코어2)"
+   },
+   "note": "데이터북 22쪽 표의 열은 연도마다 익스포저(조 원)·배출량(tCO2eq)·집약도(tCO2eq/억 원) 셋뿐이다. 산출 비율, SBTi 커버리지, 데이터 스코어 열이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r2c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상장주식 및 회사채",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r2c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상장주식 및 회사채",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r2c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상장주식 및 회사채",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r2c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상장주식 및 회사채",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r2c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상장주식 및 회사채",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r2c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상장주식 및 회사채",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r3c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "비상장주식 및 기업대출",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r3c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "비상장주식 및 기업대출",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r3c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "비상장주식 및 기업대출",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r3c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "비상장주식 및 기업대출",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r3c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "비상장주식 및 기업대출",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r3c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "비상장주식 및 기업대출",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r4c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "발전PF",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r4c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "발전PF",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r4c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "발전PF",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r4c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "발전PF",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r4c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "발전PF",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r4c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "발전PF",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r5c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상업용 부동산",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r5c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상업용 부동산",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r5c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상업용 부동산",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r5c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상업용 부동산",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r5c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상업용 부동산",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r5c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "상업용 부동산",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r6c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "주거용 부동산",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r6c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "주거용 부동산",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r6c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "주거용 부동산",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r6c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "주거용 부동산",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r6c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "주거용 부동산",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r6c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "주거용 부동산",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r7c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "차량 대출",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r7c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "차량 대출",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r7c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "차량 대출",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r7c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "차량 대출",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r7c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "차량 대출",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r7c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "차량 대출",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r8c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(순 배출량)2)",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r8c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(순 배출량)2)",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r8c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(순 배출량)2)",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r8c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(순 배출량)2)",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r8c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(순 배출량)2)",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r8c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(순 배출량)2)",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r9c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(총 배출량)2)",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r9c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(총 배출량)2)",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r9c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(총 배출량)2)",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r9c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "국채(총 배출량)2)",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r10c2",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "합계3)",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r10c2",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "합계3)",
+    "column": "2023 > 익스포저 (조 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r10c3",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "합계3)",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다. 다만 이 값(2023년 금융배출량 합계 55,911,585)은 보고서의 다른 표(47쪽 위의 금융배출량 추이 표, 2023 열)에는 실려 있다. 「상대 없음」은 물어본 상대 표에 없다는 뜻이고 상대 문서에 없다는 뜻이 아니다 (검증 에이전트 지적)"
+  },
+  {
+   "cell": "b:p22-t1:r10c3",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "합계3)",
+    "column": "2023 > 배출량 (tCO2eq)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다. 다만 이 값(2023년 금융배출량 합계 55,911,585)은 보고서의 다른 표(47쪽 위의 금융배출량 추이 표, 2023 열)에는 실려 있다. 「상대 없음」은 물어본 상대 표에 없다는 뜻이고 상대 문서에 없다는 뜻이 아니다 (검증 에이전트 지적)"
+  },
+  {
+   "cell": "b:p22-t1:r10c4",
+   "other_table": "a:p48-t1",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "합계3)",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2024년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p22-t1:r10c4",
+   "other_table": "a:p48-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 22,
+    "row": "합계3)",
+    "column": "2023 > 집약도 (tCO2eq/억 원)"
+   },
+   "note": "보고서 48쪽의 그 표는 2025년 표 하나다. 48쪽에는 2024년 표와 2025년 표만 있고 2023년 값이 없다"
+  },
+  {
+   "cell": "b:p78-t1:r13c2",
+   "other_table": "a:p47-t2",
+   "verdict": "not_a_value",
+   "counterpart": null,
+   "evidence": {
+    "page": 78,
+    "row": "CAT 15 투자(PCAF)주2)",
+    "column": "연도 표시 「2024」"
+   },
+   "note": "이 칸은 값이 아니라 CAT 15 줄의 연도 표시다 (코드가 값 후보로 읽었다). 보고서 47쪽의 카테고리별 표에는 Category 15 행도 없다"
+  },
+  {
+   "cell": "b:p78-t1:r13c3",
+   "other_table": "a:p47-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 78,
+    "row": "CAT 15 투자(PCAF)주2)",
+    "column": "2024 > 온실가스 배출량(tCO2eq)"
+   },
+   "note": "보고서 47쪽의 카테고리별 배출량 실적 표는 Category 1~7, 11~13 과 소계·합계뿐이고 Category 15(금융배출량) 행이 없다. 같은 쪽 위의 금융배출량 표는 다른 표다"
+  },
+  {
+   "cell": "b:p78-t1:r14c2",
+   "other_table": "a:p47-t2",
+   "verdict": "not_a_value",
+   "counterpart": null,
+   "evidence": {
+    "page": 78,
+    "row": "CAT 15 투자(PCAF)주2)",
+    "column": "연도 표시 「2025」"
+   },
+   "note": "이 칸은 값이 아니라 CAT 15 줄의 연도 표시다 (코드가 값 후보로 읽었다). 보고서 47쪽의 카테고리별 표에는 Category 15 행도 없다"
+  },
+  {
+   "cell": "b:p78-t1:r14c3",
+   "other_table": "a:p47-t2",
+   "verdict": "no_counterpart",
+   "counterpart": null,
+   "evidence": {
+    "page": 78,
+    "row": "CAT 15 투자(PCAF)주2)",
+    "column": "2025 > 온실가스 배출량(tCO2eq)"
+   },
+   "note": "보고서 47쪽의 카테고리별 배출량 실적 표는 Category 1~7, 11~13 과 소계·합계뿐이고 Category 15(금융배출량) 행이 없다. 같은 쪽 위의 금융배출량 표는 다른 표다"
+  }
+ ]
+}

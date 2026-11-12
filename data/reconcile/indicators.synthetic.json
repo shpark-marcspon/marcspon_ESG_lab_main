@@ -1,0 +1,234 @@
+{
+ "id": "synthetic-esg-indicators-0.1",
+ "synthetic": true,
+ "note": "짝짓기의 기준표(지표 목록) 자리를 채우는 가상(synthetic) 목록이다. 마크스폰·EDK 의 지표 체계가 아니고 어느 공개 기준의 사본도 아니다. 다만 Scope 1·2·3 의 구분과 Scope 3 카테고리의 번호·이름은 온실가스 프로토콜(GHG Protocol)의 분류를 따르는 KB 보고서의 머리글에서 온 것이다 (프로토콜 원문과 대조하지 않았다). 러너가 KB금융 2025 보고서와 데이터북의 표 머리글을 보고 시제품을 돌릴 만큼만 지었다. 공개 기준(GRI)으로 만들지 않은 까닭: GRI 의 이용·재배포 조건을 확인하지 못했다 (2026-10-04, 안내 페이지 URL 두 개가 404). 실제 목록이 정해지면 이 파일을 갈아 끼운다 (loadCatalog 의 path).",
+ "source": null,
+ "boundaries": [
+  {
+   "key": "unspecified",
+   "label": "범위 표시 없음",
+   "aliases": []
+  },
+  {
+   "key": "domestic",
+   "label": "국내 사업장",
+   "aliases": [
+    "국내"
+   ]
+  },
+  {
+   "key": "domestic_overseas",
+   "label": "국내와 해외 사업장",
+   "aliases": [
+    "국내+해외",
+    "국내외"
+   ]
+  },
+  {
+   "key": "overseas",
+   "label": "해외 사업장",
+   "aliases": [
+    "해외"
+   ]
+  },
+  {
+   "key": "consolidated",
+   "label": "연결 기준",
+   "aliases": [
+    "연결"
+   ]
+  }
+ ],
+ "indicators": [
+  {
+   "key": "ghg.scope1",
+   "label": "직접 온실가스 배출량 (Scope 1)",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "직접 온실가스(Scope 1)",
+    "직접 배출량 (Scope 1)",
+    "Scope 1"
+   ]
+  },
+  {
+   "key": "ghg.scope2.location",
+   "label": "간접 온실가스 배출량 (Scope 2, 지역 기반)",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "간접 온실가스(Scope 2) - 지역기반"
+   ]
+  },
+  {
+   "key": "ghg.scope2.market",
+   "label": "간접 온실가스 배출량 (Scope 2, 시장 기반)",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "간접 온실가스(Scope 2) - 시장기반"
+   ]
+  },
+  {
+   "key": "ghg.scope2.unspecified",
+   "label": "간접 온실가스 배출량 (Scope 2, 기준 표시 없음)",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "간접 배출량 (Scope 2)",
+    "Scope 2"
+   ]
+  },
+  {
+   "key": "ghg.scope1_2.total",
+   "label": "Scope 1·2 합계",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "온실가스 배출량 > 합계",
+    "합 계 (Scope1+2)"
+   ]
+  },
+  {
+   "key": "ghg.scope3.total",
+   "label": "Scope 3 합계",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "Scope 3 합계"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat1",
+   "label": "Scope 3 카테고리 1 구매한 제품 및 서비스",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "구매한 제품 및 서비스"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat2",
+   "label": "Scope 3 카테고리 2 자본재",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "자본재"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat3",
+   "label": "Scope 3 카테고리 3 연료 및 에너지 관련 활동",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "에너지(기타)"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat4",
+   "label": "Scope 3 카테고리 4 업스트림 운송 및 유통",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "운송 및 유통"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat5",
+   "label": "Scope 3 카테고리 5 사업장 발생 폐기물",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "Category5 > 폐기물"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat6",
+   "label": "Scope 3 카테고리 6 출장",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "출장"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat7",
+   "label": "Scope 3 카테고리 7 임직원 통근",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "임직원 통근"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat11",
+   "label": "Scope 3 카테고리 11 판매된 제품의 사용",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "판매된 제품의 사용"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat12",
+   "label": "Scope 3 카테고리 12 판매된 제품의 폐기",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "판매된 제품의 폐기"
+   ]
+  },
+  {
+   "key": "ghg.scope3.cat13",
+   "label": "Scope 3 카테고리 13 다운스트림 임대자산",
+   "unitFamily": "mass_co2e",
+   "aliases": [
+    "다운스트림 임대자산"
+   ]
+  },
+  {
+   "key": "energy.total",
+   "label": "총 에너지 사용량",
+   "unitFamily": "energy_joule",
+   "aliases": [
+    "총 에너지 사용량",
+    "에너지 사용량"
+   ]
+  },
+  {
+   "key": "energy.nonrenewable",
+   "label": "비재생에너지 사용량",
+   "unitFamily": "energy_joule",
+   "aliases": [
+    "비재생에너지 사용량"
+   ]
+  },
+  {
+   "key": "energy.renewable",
+   "label": "재생에너지 사용량",
+   "unitFamily": "energy_joule",
+   "aliases": [
+    "재생에너지 사용량"
+   ]
+  },
+  {
+   "key": "revenue",
+   "label": "매출액",
+   "unitFamily": "currency_krw",
+   "aliases": [
+    "매출액"
+   ]
+  },
+  {
+   "key": "employees.total",
+   "label": "임직원 수",
+   "unitFamily": "count_person",
+   "aliases": [
+    "임직원 수",
+    "총 임직원 수"
+   ]
+  },
+  {
+   "key": "water.use",
+   "label": "용수 사용량",
+   "unitFamily": "mass",
+   "aliases": [
+    "용수 사용량"
+   ]
+  },
+  {
+   "key": "waste.generated",
+   "label": "폐기물 발생량",
+   "unitFamily": "mass",
+   "aliases": [
+    "폐기물 발생량"
+   ]
+  }
+ ]
+}

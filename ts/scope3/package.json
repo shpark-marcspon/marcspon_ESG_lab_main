@@ -1,0 +1,26 @@
+{
+  "name": "scope3",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scope 3 분류·배출계수 추천 시제품과 평가 도구 (확정 매핑 기억 → 분류 → 후보 조회 → top-3 추천 → 계산)",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "kernel": "workspace:*",
+    "llm": "workspace:*",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "ajv": "^8.20.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

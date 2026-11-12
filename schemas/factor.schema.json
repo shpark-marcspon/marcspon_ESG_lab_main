@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://esg-lab.local/schemas/factor.schema.json",
+  "title": "계수 레코드",
+  "description": "공개 배출계수·발열량 한 건. py/factors 가 만들고 data/factors/factors.jsonl 에 한 줄에 하나씩 싣는다. 원 값은 바꾸지 않는다. 십진 정확도가 필요한 쪽은 value 가 아니라 value_raw 문자열을 읽는다.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "id", "record_type", "scope", "scope3_categories", "scope3_mapping_basis",
+    "factor_type", "name", "category_path", "classification",
+    "value", "value_raw", "value_status",
+    "unit", "unit_numerator", "unit_denominator",
+    "gas", "gas_basis", "heating_value_basis", "conditions",
+    "region", "year", "spend", "adjusted",
+    "source", "license", "license_status", "synthetic", "extra"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "id": {"type": "string", "minLength": 1, "description": "출처 id 로 시작하는 고유 키. 예: defra-2026:1_100_1000_15_1"},
+    "record_type": {
+      "enum": ["emission_factor", "heating_value", "energy_conversion", "oxidation_factor"],
+      "description": "emission_factor: 활동 단위당 배출량. heating_value: 연료 단위당 열량. energy_conversion: 활동 단위당 에너지(kWh) 환산값. oxidation_factor: 연소 때 CO2 로 산화되는 비율 (단위 없는 0~1 의 값, CO2 배출량에만 곱한다)"
+    },
+    "scope": {"enum": ["scope1", "scope2", "scope3", "outside_of_scopes", "unspecified"]},
+    "scope3_categories": {
+      "type": "array",
+      "description": "이 계수가 후보가 될 수 있는 Scope 3 카테고리 번호. 후보일 뿐 확정이 아니다",
+      "items": {"type": "integer", "minimum": 1, "maximum": 15},
+      "uniqueItems": true
+    },
+    "scope3_mapping_basis": {"type": ["string", "null"], "description": "카테고리 후보를 붙인 기준. 후보가 없으면 null"},
+    "factor_type": {"enum": ["activity", "distance", "spend"]},
+    "name": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["original", "ko", "en"],
+      "properties": {
+        "original": {"type": "string", "minLength": 1, "description": "출처 표기 그대로"},
+        "ko": {"type": ["string", "null"], "description": "번역하지 않는다. 출처가 한글이면 original 과 같고 아니면 null"},
+        "en": {"type": ["string", "null"], "description": "번역하지 않는다. 출처가 영문이면 original 과 같고 아니면 null"}
+      }
+    },
+    "category_path": {"type": "array", "items": {"type": "string"}, "description": "출처의 분류 계층 (위에서 아래로)"},
+    "classification": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["system", "code"],
+      "properties": {
+        "system": {"type": "string", "minLength": 1},
+        "code": {"type": "string", "minLength": 1}
+      }
+    },
+    "value": {"type": ["number", "null"], "description": "원 값. value_status 가 ok 가 아니면 null (0 으로 채우지 않는다)"},
+    "value_raw": {"type": ["string", "null"], "description": "원자료에 적힌 표기 그대로의 문자열 (xlsx 는 셀의 부동소수 값을 repr 한 것)"},
+    "value_status": {
+      "enum": ["ok", "not_available_in_source", "not_applicable_in_source"],
+      "description": "not_available_in_source: 출처가 빈칸 또는 '-' 로 둔 값. not_applicable_in_source: 출처가 '해당없음' 으로 적은 값"
+    },
+    "unit": {"type": "string", "minLength": 1, "description": "원 단위. 분자/분모"},
+    "unit_numerator": {"type": "string", "minLength": 1},
+    "unit_denominator": {"type": "string", "minLength": 1, "description": "활동자료 쪽 단위 (출처 표기 그대로)"},
+    "gas": {"enum": ["CO2e", "CO2", "CH4", "N2O", "C", "none"], "description": "none 은 발열량·에너지 환산값"},
+    "gas_basis": {
+      "enum": ["co2e", "gas_mass", "carbon_mass", "not_applicable"],
+      "description": "co2e: 이미 GWP 가 곱해진 CO2 환산량 (DEFRA 의 기체별 값 포함). gas_mass: 해당 기체의 질량 (GWP 미적용). carbon_mass: 탄소 질량"
+    },
+    "heating_value_basis": {"enum": ["net", "gross", null], "description": "발열량 레코드의 순·총 구분"},
+    "conditions": {
+      "type": "object",
+      "description": "같은 대상의 여러 값을 가르는 적용 조건 (부문, 발전단·소비단, 기간, 산정 지침 등). 출처 표기 그대로",
+      "additionalProperties": {"type": "string"}
+    },
+    "region": {"type": "string", "minLength": 2, "description": "계수가 대표하는 지역. ISO 3166-1 alpha-2 또는 GLOBAL"},
+    "year": {"type": ["integer", "null"], "description": "계수의 기준 연도 또는 계수집 연도. 출처에서 확인하지 못하면 null"},
+    "spend": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["currency", "price_year", "price_basis"],
+      "properties": {
+        "currency": {"type": "string", "pattern": "^[A-Z]{3}$"},
+        "price_year": {"type": "integer"},
+        "price_basis": {"type": "string", "minLength": 1}
+      }
+    },
+    "adjusted": {
+      "type": ["object", "null"],
+      "description": "환율·물가 보정이나 단위 환산을 한 값. 원 값과 따로 둔다. 어떤 환율과 물가지수를 쓸지 결정 전이라 지금은 전부 null",
+      "additionalProperties": false,
+      "required": ["value", "unit", "method", "inputs"],
+      "properties": {
+        "value": {"type": "number"},
+        "unit": {"type": "string", "minLength": 1},
+        "method": {"type": "string", "minLength": 1},
+        "inputs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "value", "source_url", "retrieved"],
+            "properties": {
+              "name": {"type": "string", "minLength": 1},
+              "value": {"type": "number"},
+              "source_url": {"type": "string", "pattern": "^https?://\\S+$"},
+              "retrieved": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+            }
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "publisher", "url", "version", "retrieved", "file_name", "file_sha256", "locator"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "publisher": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "pattern": "^https?://\\S+$", "description": "출처 페이지 URL"},
+        "version": {"type": "string", "minLength": 1, "description": "버전, 고시 번호 또는 발행 연도"},
+        "retrieved": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "원자료를 내려받아 확인한 날"},
+        "file_name": {"type": "string", "minLength": 1},
+        "file_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "locator": {"type": "string", "minLength": 1, "description": "원자료 안의 위치 (시트·행, 쪽·표·행)"}
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "url", "note"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "url": {"type": "string", "pattern": "^https?://\\S+$"},
+        "note": {"type": ["string", "null"]}
+      }
+    },
+    "license_status": {
+      "enum": ["ok", "disputed", "unverified"],
+      "description": "ok: 이용 조건 원문을 확인했고 상업 이용에 제한 문구가 없다. disputed: 두 공식 페이지의 조건이 충돌한다. unverified: 이용 조건을 확정하지 못했다"
+    },
+    "synthetic": {"type": "boolean", "description": "테스트용 가상 값이면 true. 적재본은 전부 false"},
+    "extra": {"type": "object", "description": "출처 고유의 부가 값 (원문 그대로). 정규화 대상이 아니다"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"factor_type": {"const": "spend"}}},
+      "then": {"properties": {"spend": {"type": "object"}}},
+      "else": {"properties": {"spend": {"type": "null"}}}
+    },
+    {
+      "if": {"properties": {"value_status": {"const": "ok"}}},
+      "then": {"properties": {"value": {"type": "number"}, "value_raw": {"type": "string", "minLength": 1}}},
+      "else": {"properties": {"value": {"type": "null"}}}
+    },
+    {
+      "if": {"properties": {"record_type": {"const": "heating_value"}}},
+      "then": {"properties": {"heating_value_basis": {"enum": ["net", "gross"]}, "gas": {"const": "none"}}},
+      "else": {"properties": {"heating_value_basis": {"type": "null"}}}
+    },
+    {
+      "if": {"properties": {"scope": {"const": "scope3"}}},
+      "then": {"properties": {"scope3_categories": {"minItems": 1}}},
+      "else": {"properties": {"scope3_categories": {"maxItems": 0}}}
+    },
+    {
+      "if": {"properties": {"scope3_categories": {"minItems": 1}}},
+      "then": {"properties": {"scope3_mapping_basis": {"type": "string", "minLength": 1}}}
+    }
+  ]
+}

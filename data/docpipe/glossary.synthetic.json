@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "note": "synthetic 예시 용어집이다. 마크스폰이나 고객사가 정한 용어집이 아니고, 파이프라인을 돌려 보려고 러너가 지어낸 대응이다. 실제 용어집은 결정 대기.",
+  "sourceLang": "ko",
+  "targetLang": "en",
+  "terms": [
+    { "ko": "온실가스 배출량", "en": "GHG emissions", "variants": ["greenhouse gas emissions"], "synthetic": true },
+    { "ko": "온실가스", "en": "greenhouse gas", "variants": ["GHG"], "synthetic": true },
+    { "ko": "탄소중립", "en": "carbon neutrality", "variants": ["net zero", "net-zero"], "synthetic": true },
+    { "ko": "재생에너지", "en": "renewable energy", "variants": ["renewables"], "synthetic": true },
+    { "ko": "자원순환", "en": "circular economy", "variants": ["resource circulation"], "synthetic": true },
+    { "ko": "수자원", "en": "water resources", "variants": [], "synthetic": true },
+    { "ko": "오염물질", "en": "pollutants", "variants": ["contaminants"], "synthetic": true },
+    { "ko": "생물다양성", "en": "biodiversity", "variants": [], "synthetic": true },
+    { "ko": "기후변화", "en": "climate change", "variants": [], "synthetic": true },
+    { "ko": "지속가능경영", "en": "sustainability management", "variants": ["sustainable management"], "synthetic": true },
+    { "ko": "이해관계자", "en": "stakeholders", "variants": ["interested parties"], "synthetic": true },
+    { "ko": "공급망", "en": "supply chain", "variants": [], "synthetic": true },
+    { "ko": "협력회사", "en": "suppliers", "variants": ["partner companies", "business partners"], "synthetic": true },
+    { "ko": "임직원", "en": "employees", "variants": ["executives and employees", "staff"], "synthetic": true },
+    { "ko": "중대성 평가", "en": "materiality assessment", "variants": [], "synthetic": true },
+    { "ko": "인권 실사", "en": "human rights due diligence", "variants": [], "synthetic": true },
+    { "ko": "사업장", "en": "worksites", "variants": ["sites", "business sites"], "synthetic": true },
+    { "ko": "폐기물", "en": "waste", "variants": [], "synthetic": true },
+    { "ko": "이사회", "en": "Board of Directors", "variants": ["the Board"], "synthetic": true },
+    { "ko": "준법", "en": "compliance", "variants": [], "synthetic": true }
+  ]
+}

@@ -1,0 +1,5120 @@
+{
+ "note": "값 후보의 종류의 정답 (밴드 V). 대상: 두 문서의 서술 값 후보(문장 속, 숫자뿐인 블록) 전부와, 표의 글 칸 속·표의 숫자 칸에서 씨앗 고정 난수로 갈래마다 150개. 종류는 러너가 원문의 문맥과(도표가 낀 쪽은) 쪽 그림을 보고 달았다. 종류 규칙을 쓰기 전에 확정했고, 규칙의 성적을 본 뒤 고치지 않는다. kind: value 검증할 값(잰 양·금액·비율·목표값) / identifier 가리키는 번호(규격·조항·각주·쪽 번호, 이름의 일부) / duration 기간·시점 / count 구성을 센 수와 정해 둔 빈도 / year_label 연도 표시 / scale 눈금·척도·기준 단위. ambiguousWith 는 경계에서 애매한 자리에 달 수 있었던 다른 종류다.",
+ "status": "러너 작성, 전문가 검토 전 (밴드 V, 2026-10-04)",
+ "seed": 20261004,
+ "perBucket": 150,
+ "items": [
+  {
+   "doc": "a",
+   "id": "p9-t1:r1c3",
+   "bucket": "table_cell",
+   "raw": "38%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "18.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n4",
+   "bucket": "table_text_cell",
+   "raw": "12.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n5",
+   "bucket": "table_text_cell",
+   "raw": "10.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n8",
+   "bucket": "table_text_cell",
+   "raw": "4.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n9",
+   "bucket": "table_text_cell",
+   "raw": "2.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r0c0#n10",
+   "bucket": "table_text_cell",
+   "raw": "0.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c1",
+   "bucket": "table_cell",
+   "raw": "0.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (10쪽 도표의 원점)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "10.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-t1:r3c6#n2",
+   "bucket": "table_text_cell",
+   "raw": "12.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p12-t2:r4c2#n4",
+   "bucket": "table_text_cell",
+   "raw": "25.11",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "날짜의 조각 (’25.11.26 의 25.11)"
+  },
+  {
+   "doc": "a",
+   "id": "p12-t2:r4c2#n6",
+   "bucket": "table_text_cell",
+   "raw": "25.10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "날짜의 조각 (’25.11.26 의 25.11)"
+  },
+  {
+   "doc": "a",
+   "id": "p12-t2:r4c2#n8",
+   "bucket": "table_text_cell",
+   "raw": "25.12",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "날짜의 조각 (’25.11.26 의 25.11)"
+  },
+  {
+   "doc": "a",
+   "id": "p12-t2:r5c2#n2",
+   "bucket": "table_text_cell",
+   "raw": "25.10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "날짜의 조각 (’25.11.26 의 25.11)"
+  },
+  {
+   "doc": "a",
+   "id": "p12-t2:r5c2#n4",
+   "bucket": "table_text_cell",
+   "raw": "25.12",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "날짜의 조각 (’25.11.26 의 25.11)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r1c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "27.9%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r2c6#n2",
+   "bucket": "table_text_cell",
+   "raw": "8,325,738",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r3c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "12.6%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r3c6#n2",
+   "bucket": "table_text_cell",
+   "raw": "4,607,329",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r4c3",
+   "bucket": "table_cell",
+   "raw": "18.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r4c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "11.9%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r5c6#n2",
+   "bucket": "table_text_cell",
+   "raw": "310,502",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r6c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "5.5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r8c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "2.4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r9c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "1.9%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r9c6#n2",
+   "bucket": "table_text_cell",
+   "raw": "294,485",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r10c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "1.7%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r11c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "1.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r11c6#n2",
+   "bucket": "table_text_cell",
+   "raw": "4,452,772",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p26-t1:r18c2",
+   "bucket": "table_cell",
+   "raw": "0.061",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p33-t2:r1c2",
+   "bucket": "table_cell",
+   "raw": "680",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n3",
+   "bucket": "table_text_cell",
+   "raw": "20.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n6",
+   "bucket": "table_text_cell",
+   "raw": "10.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n7",
+   "bucket": "table_text_cell",
+   "raw": "9.6",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n10",
+   "bucket": "table_text_cell",
+   "raw": "10.2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n11",
+   "bucket": "table_text_cell",
+   "raw": "3.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n12",
+   "bucket": "table_text_cell",
+   "raw": "7.6",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n13",
+   "bucket": "table_text_cell",
+   "raw": "0.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n15",
+   "bucket": "table_text_cell",
+   "raw": "0.3",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n17",
+   "bucket": "table_text_cell",
+   "raw": "0.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n19",
+   "bucket": "table_text_cell",
+   "raw": "0.7",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n21",
+   "bucket": "table_text_cell",
+   "raw": "0.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n23",
+   "bucket": "table_text_cell",
+   "raw": "0.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n27",
+   "bucket": "table_text_cell",
+   "raw": "0.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r0c0#n28",
+   "bucket": "table_text_cell",
+   "raw": "0.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r3c6",
+   "bucket": "table_cell",
+   "raw": "0.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t1:r4c3",
+   "bucket": "table_cell",
+   "raw": "2035",
+   "kind": "year_label",
+   "ambiguousWith": null,
+   "basis": "연도 표시 (도표의 가로축, 목표 연도)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t2:r1c2#n1",
+   "bucket": "table_text_cell",
+   "raw": "0.3",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t3:r3c2",
+   "bucket": "table_cell",
+   "raw": "2035",
+   "kind": "year_label",
+   "ambiguousWith": null,
+   "basis": "연도 표시 (도표의 가로축, 목표 연도)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "365.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c0#n2",
+   "bucket": "table_text_cell",
+   "raw": "360.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r0c0#n3",
+   "bucket": "table_text_cell",
+   "raw": "355.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n1",
+   "bucket": "table_text_cell",
+   "raw": "358.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "358.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n5",
+   "bucket": "table_text_cell",
+   "raw": "358.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n7",
+   "bucket": "table_text_cell",
+   "raw": "358.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n8",
+   "bucket": "table_text_cell",
+   "raw": "358.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r1c1#n9",
+   "bucket": "table_text_cell",
+   "raw": "357.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r2c2#n1",
+   "bucket": "table_text_cell",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간 (단기 1년, 중기 5년)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-t4:r2c3#n1",
+   "bucket": "table_text_cell",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간 (단기 1년, 중기 5년)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "600",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c2#n1",
+   "bucket": "table_text_cell",
+   "raw": "20.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r0c2#n2",
+   "bucket": "table_text_cell",
+   "raw": "15.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r1c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "512",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r1c1#n3",
+   "bucket": "table_text_cell",
+   "raw": "509",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r2c3#n1",
+   "bucket": "table_text_cell",
+   "raw": "18.2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r4c2#n1",
+   "bucket": "table_text_cell",
+   "raw": "10.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-t4:r4c2#n2",
+   "bucket": "table_text_cell",
+   "raw": "5.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r0c1",
+   "bucket": "table_cell",
+   "raw": "66.71",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r8c1",
+   "bucket": "table_cell",
+   "raw": "0.90",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r17c1#n1",
+   "bucket": "table_text_cell",
+   "raw": "20.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r17c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "40.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t1:r17c1#n3",
+   "bucket": "table_text_cell",
+   "raw": "60.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c1#n1",
+   "bucket": "table_text_cell",
+   "raw": "20.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "40.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c1#n3",
+   "bucket": "table_text_cell",
+   "raw": "60.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c3#n2",
+   "bucket": "table_text_cell",
+   "raw": "40.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c3#n3",
+   "bucket": "table_text_cell",
+   "raw": "60.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c5#n2",
+   "bucket": "table_text_cell",
+   "raw": "40.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t2:r17c5#n3",
+   "bucket": "table_text_cell",
+   "raw": "60.00",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-t3:r3c4#n1",
+   "bucket": "table_text_cell",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간 (단기 1년, 중기 5년)"
+  },
+  {
+   "doc": "a",
+   "id": "p41-t3:r1c3#n3",
+   "bucket": "table_text_cell",
+   "raw": "13.82%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p41-t3:r7c3#n2",
+   "bucket": "table_text_cell",
+   "raw": "20.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c14#n2",
+   "bucket": "table_text_cell",
+   "raw": "106,870",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r0c15#n1",
+   "bucket": "table_text_cell",
+   "raw": "42%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r2c5#n1",
+   "bucket": "table_text_cell",
+   "raw": "114,994",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r2c5#n2",
+   "bucket": "table_text_cell",
+   "raw": "13,993",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r9c12#n1",
+   "bucket": "table_text_cell",
+   "raw": "13,429",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r9c12#n2",
+   "bucket": "table_text_cell",
+   "raw": "11,684",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r10c12#n2",
+   "bucket": "table_text_cell",
+   "raw": "111,861",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r11c12#n1",
+   "bucket": "table_text_cell",
+   "raw": "125,812",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r11c12#n2",
+   "bucket": "table_text_cell",
+   "raw": "123,545",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r12c12#n2",
+   "bucket": "table_text_cell",
+   "raw": "116,387",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r12c17#n1",
+   "bucket": "table_text_cell",
+   "raw": "42%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t1:r13c12#n2",
+   "bucket": "table_text_cell",
+   "raw": "11.7%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t2:r3c3",
+   "bucket": "table_cell",
+   "raw": "155,446",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p46-t2:r6c3",
+   "bucket": "table_cell",
+   "raw": "5.77",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "49,366,990",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n2",
+   "bucket": "table_text_cell",
+   "raw": "39,174,263",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n3",
+   "bucket": "table_text_cell",
+   "raw": "26,761,188",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c0#n4",
+   "bucket": "table_text_cell",
+   "raw": "28,061,961",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r1c13#n2",
+   "bucket": "table_text_cell",
+   "raw": "61.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r2c15",
+   "bucket": "table_cell",
+   "raw": "2030",
+   "kind": "year_label",
+   "ambiguousWith": null,
+   "basis": "연도 표시 (도표의 가로축, 목표 연도)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r4c11",
+   "bucket": "table_cell",
+   "raw": "49,462,484",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r4c16#n1",
+   "bucket": "table_text_cell",
+   "raw": "33.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t1:r4c17#n1",
+   "bucket": "table_text_cell",
+   "raw": "61.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t2:r13c4",
+   "bucket": "table_cell",
+   "raw": "679,389",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p47-t2:r13c6",
+   "bucket": "table_cell",
+   "raw": "345,369",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p48-t1:r2c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "83.7%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p48-t2:r2c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "99.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p48-t2:r2c6#n2",
+   "bucket": "table_text_cell",
+   "raw": "79.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p48-t2:r3c6#n1",
+   "bucket": "table_text_cell",
+   "raw": "77.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p48-t2:r6c7",
+   "bucket": "table_cell",
+   "raw": "4.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p49-t1:r3c6",
+   "bucket": "table_cell",
+   "raw": "4,496",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p49-t1:r8c4",
+   "bucket": "table_cell",
+   "raw": "88.8%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p49-t1:r12c6",
+   "bucket": "table_cell",
+   "raw": "942",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p49-t1:r16c3",
+   "bucket": "table_cell",
+   "raw": "487",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p49-t1:r17c7",
+   "bucket": "table_cell",
+   "raw": "145,587",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p50-t1:r2c8",
+   "bucket": "table_cell",
+   "raw": "26,760,889",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p50-t1:r3c6",
+   "bucket": "table_cell",
+   "raw": "6,117",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p50-t1:r4c8",
+   "bucket": "table_cell",
+   "raw": "9,985,164",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p50-t1:r12c7",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p50-t1:r14c7",
+   "bucket": "table_cell",
+   "raw": "94,984",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p51-t1:r6c5",
+   "bucket": "table_cell",
+   "raw": "126,377",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p51-t1:r21c2",
+   "bucket": "table_cell",
+   "raw": "41",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r3c4",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r4c8",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r6c10",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r10c4",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r16c7",
+   "bucket": "table_cell",
+   "raw": "23,860",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r17c3",
+   "bucket": "table_cell",
+   "raw": "12.2%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r21c5",
+   "bucket": "table_cell",
+   "raw": "2,087",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r21c12",
+   "bucket": "table_cell",
+   "raw": "45,951",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r22c9",
+   "bucket": "table_cell",
+   "raw": "21.9%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p52-t1:r24c7",
+   "bucket": "table_cell",
+   "raw": "11,097",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p53-t1:r2c2",
+   "bucket": "table_cell",
+   "raw": "16,452",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p53-t1:r2c7",
+   "bucket": "table_cell",
+   "raw": "1,136,577",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p53-t1:r3c6",
+   "bucket": "table_cell",
+   "raw": "5,213,864",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p53-t1:r8c6",
+   "bucket": "table_cell",
+   "raw": "468,556",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p53-t1:r18c7",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p53-t1:r29c6",
+   "bucket": "table_cell",
+   "raw": "394",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r4c13",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r5c13",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r6c15",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r7c4",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r17c7",
+   "bucket": "table_cell",
+   "raw": "30,369",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r18c3",
+   "bucket": "table_cell",
+   "raw": "15.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r18c7",
+   "bucket": "table_cell",
+   "raw": "43,362",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r20c6",
+   "bucket": "table_cell",
+   "raw": "7.6%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r21c2",
+   "bucket": "table_cell",
+   "raw": "5,293",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r21c9",
+   "bucket": "table_cell",
+   "raw": "3.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p54-t1:r23c2",
+   "bucket": "table_cell",
+   "raw": "27,621",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r2c3",
+   "bucket": "table_cell",
+   "raw": "1.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r3c6",
+   "bucket": "table_cell",
+   "raw": "5,719",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r5c4",
+   "bucket": "table_cell",
+   "raw": "142",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r5c5",
+   "bucket": "table_cell",
+   "raw": "75",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r8c3",
+   "bucket": "table_cell",
+   "raw": "7.8%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r12c2",
+   "bucket": "table_cell",
+   "raw": "4,663",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r21c5",
+   "bucket": "table_cell",
+   "raw": "56",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r22c3",
+   "bucket": "table_cell",
+   "raw": "0.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r24c2",
+   "bucket": "table_cell",
+   "raw": "4,865",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p55-t1:r29c3",
+   "bucket": "table_cell",
+   "raw": "0.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p56-t1:r3c10",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p56-t1:r11c8",
+   "bucket": "table_cell",
+   "raw": "930,018",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p56-t1:r18c5",
+   "bucket": "table_cell",
+   "raw": "10,933",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p56-t1:r19c16",
+   "bucket": "table_cell",
+   "raw": "14",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p56-t1:r23c12",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p56-t1:r24c14",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p56-t1:r25c6",
+   "bucket": "table_cell",
+   "raw": "2.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r3c5",
+   "bucket": "table_cell",
+   "raw": "3,065",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r4c3",
+   "bucket": "table_cell",
+   "raw": "33.4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r5c5",
+   "bucket": "table_cell",
+   "raw": "76",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r10c2",
+   "bucket": "table_cell",
+   "raw": "486",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r11c4",
+   "bucket": "table_cell",
+   "raw": "378,942",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r18c2",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r21c6",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r23c2",
+   "bucket": "table_cell",
+   "raw": "112",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r24c4",
+   "bucket": "table_cell",
+   "raw": "168,965",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r29c7",
+   "bucket": "table_cell",
+   "raw": "1,293",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p57-t1:r31c2",
+   "bucket": "table_cell",
+   "raw": "701",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p58-t1:r7c6",
+   "bucket": "table_cell",
+   "raw": "0.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p58-t1:r16c5",
+   "bucket": "table_cell",
+   "raw": "194",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p58-t1:r20c9",
+   "bucket": "table_cell",
+   "raw": "0.0%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p58-t1:r22c3",
+   "bucket": "table_cell",
+   "raw": "4.5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r5c7#n1",
+   "bucket": "table_text_cell",
+   "raw": "9,107,783",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r5c7#n2",
+   "bucket": "table_text_cell",
+   "raw": "21.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r6c7#n1",
+   "bucket": "table_text_cell",
+   "raw": "484,667",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r7c7#n2",
+   "bucket": "table_text_cell",
+   "raw": "39.2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r8c1",
+   "bucket": "table_cell",
+   "raw": "0.7",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r8c7#n2",
+   "bucket": "table_text_cell",
+   "raw": "27.4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r9c5",
+   "bucket": "table_cell",
+   "raw": "0.2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r9c7#n1",
+   "bucket": "table_text_cell",
+   "raw": "45,143",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r9c7#n2",
+   "bucket": "table_text_cell",
+   "raw": "26.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r10c7#n2",
+   "bucket": "table_text_cell",
+   "raw": "30.6",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t1:r12c5",
+   "bucket": "table_cell",
+   "raw": "49.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t2:r7c6",
+   "bucket": "table_cell",
+   "raw": "20.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p59-t2:r8c3",
+   "bucket": "table_cell",
+   "raw": "0.02%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r2c1#n1",
+   "bucket": "table_text_cell",
+   "raw": "5,577,328",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "3,264,569",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c0#n2",
+   "bucket": "table_text_cell",
+   "raw": "4,537,651",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "2,757,010",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r3c1#n3",
+   "bucket": "table_text_cell",
+   "raw": "581,360",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c0#n4",
+   "bucket": "table_text_cell",
+   "raw": "77.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "69.7%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n3",
+   "bucket": "table_text_cell",
+   "raw": "588,073",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n4",
+   "bucket": "table_text_cell",
+   "raw": "790,178",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n6",
+   "bucket": "table_text_cell",
+   "raw": "4,685,781",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n8",
+   "bucket": "table_text_cell",
+   "raw": "593,611",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r4c1#n9",
+   "bucket": "table_text_cell",
+   "raw": "42%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c0#n2",
+   "bucket": "table_text_cell",
+   "raw": "39.4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c0#n3",
+   "bucket": "table_text_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n1",
+   "bucket": "table_text_cell",
+   "raw": "2,647,946",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "45.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n3",
+   "bucket": "table_text_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r5c1#n5",
+   "bucket": "table_text_cell",
+   "raw": "16%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c1#n2",
+   "bucket": "table_text_cell",
+   "raw": "2,887,589",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r8c1#n4",
+   "bucket": "table_text_cell",
+   "raw": "451,822",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "78,257",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n2",
+   "bucket": "table_text_cell",
+   "raw": "124,455",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n3",
+   "bucket": "table_text_cell",
+   "raw": "80,474",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c0#n4",
+   "bucket": "table_text_cell",
+   "raw": "33.1%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n1",
+   "bucket": "table_text_cell",
+   "raw": "598,181",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r10c1#n3",
+   "bucket": "table_text_cell",
+   "raw": "42%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "30,914",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c0#n2",
+   "bucket": "table_text_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n1",
+   "bucket": "table_text_cell",
+   "raw": "152,314",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r11c1#n6",
+   "bucket": "table_text_cell",
+   "raw": "77.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r14c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "92,213",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r14c0#n2",
+   "bucket": "table_text_cell",
+   "raw": "124,353",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-t2:r18c0#n1",
+   "bucket": "table_text_cell",
+   "raw": "36,531",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "도표의 값·표의 글 칸에 든 잰 양·비율·목표값 (쪽 그림으로 확인)"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r4c2",
+   "bucket": "table_cell",
+   "raw": "3.06",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r5c20",
+   "bucket": "table_cell",
+   "raw": "2.80",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r8c13#n3",
+   "bucket": "table_text_cell",
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r17c3",
+   "bucket": "table_cell",
+   "raw": "2.76",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r19c25",
+   "bucket": "table_cell",
+   "raw": "2040",
+   "kind": "year_label",
+   "ambiguousWith": null,
+   "basis": "연도 표시 (도표의 가로축, 목표 연도)"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r21c13#n2",
+   "bucket": "table_text_cell",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r21c13#n3",
+   "bucket": "table_text_cell",
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c5",
+   "bucket": "table_cell",
+   "raw": "2.08",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t1:r23c8",
+   "bucket": "table_cell",
+   "raw": "2.78",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t4:r0c2",
+   "bucket": "table_cell",
+   "raw": "3.13",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p63-t7:r0c4",
+   "bucket": "table_cell",
+   "raw": "3.02",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p89-t1:r14c3#n4",
+   "bucket": "table_text_cell",
+   "raw": "10",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "a",
+   "id": "p89-t1:r24c3#n1",
+   "bucket": "table_text_cell",
+   "raw": "14",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "a",
+   "id": "p111-t1:r4c3",
+   "bucket": "table_cell",
+   "raw": "20,639",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p111-t1:r5c3",
+   "bucket": "table_cell",
+   "raw": "139",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "a",
+   "id": "p2-b6#n1",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p2-b9#n3",
+   "bucket": "sentence",
+   "raw": "4",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p3-b6#n3",
+   "bucket": "sentence",
+   "raw": "4",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p3-b6#n5",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p3-b8#n9",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p3-b8#n12",
+   "bucket": "sentence",
+   "raw": "4",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p4-b9#n1",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p4-b18#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p4-b19#n1",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "보고 범위의 계열사 수. 구성을 센 수이지만 조직의 사실이기도 하다"
+  },
+  {
+   "doc": "a",
+   "id": "p4-b19#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p8-b8#n2",
+   "bucket": "sentence",
+   "raw": "9",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "잰 인원·횟수 (이사 9명 중 3명, 위원회 3회 개최)"
+  },
+  {
+   "doc": "a",
+   "id": "p8-b8#n3",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "잰 인원·횟수 (이사 9명 중 3명, 위원회 3회 개최)"
+  },
+  {
+   "doc": "a",
+   "id": "p8-b8#n4",
+   "bucket": "sentence",
+   "raw": "33.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p8-b12#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p8-b12#n3",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "잰 인원·횟수 (이사 9명 중 3명, 위원회 3회 개최)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-b6#n3",
+   "bucket": "sentence",
+   "raw": "4",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p10-b7#n2",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p12-b10#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p12-b10#n2",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p12-b10#n3",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p12-b11#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p12-b13#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p14-b9#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p14-b9#n4",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p16-b12#n1",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b7#n2",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b7#n6",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b7#n7",
+   "bucket": "sentence",
+   "raw": "148,926",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b7#n9",
+   "bucket": "sentence",
+   "raw": "6,398",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n2",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호 (*1, *2, *3, 3)1))"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n3",
+   "bucket": "sentence",
+   "raw": "20.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n5",
+   "bucket": "sentence",
+   "raw": "3.4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n6",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호 (*1, *2, *3, 3)1))"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n8",
+   "bucket": "sentence",
+   "raw": "84.5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n10",
+   "bucket": "sentence",
+   "raw": "84.8%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n11",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호 (*1, *2, *3, 3)1))"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b8#n14",
+   "bucket": "sentence",
+   "raw": "3.2",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b9#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호 (*1, *2, *3, 3)1))"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b9#n2",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "scale",
+   "ambiguousWith": "value",
+   "basis": "기준 단위 (1억 원 당)"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b9#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호 (*1, *2, *3, 3)1))"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b9#n4",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호 (*1, *2, *3, 3)1))"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b9#n5",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "척도의 범위·눈금 (5점 척도, 1점~5점, 1에 가까울수록)"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b9#n7",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "척도의 범위·눈금 (5점 척도, 1점~5점, 1에 가까울수록)"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b12#n4",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b12#n6",
+   "bucket": "sentence",
+   "raw": "0.35%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b12#n7",
+   "bucket": "sentence",
+   "raw": "0.29%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b13#n4",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b13#n6",
+   "bucket": "sentence",
+   "raw": "0.05%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p17-b13#n7",
+   "bucket": "sentence",
+   "raw": "0.04%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p20-b10#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p20-b10#n4",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p22-b9#n1",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "보고 범위의 계열사 수. 구성을 센 수이지만 조직의 사실이기도 하다"
+  },
+  {
+   "doc": "a",
+   "id": "p26-b9#n1",
+   "bucket": "sentence",
+   "raw": "3.804",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p26-b9#n2",
+   "bucket": "sentence",
+   "raw": "0.475",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p26-b9#n3",
+   "bucket": "sentence",
+   "raw": "0.389",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p26-b17#n1",
+   "bucket": "sentence",
+   "raw": "17",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p28-b11#n4",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p28-b11#n6",
+   "bucket": "sentence",
+   "raw": "42%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p29-b8#n2",
+   "bucket": "sentence",
+   "raw": "19.7",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p31-b9#n2",
+   "bucket": "sentence",
+   "raw": "19.7",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p31-b9#n5",
+   "bucket": "sentence",
+   "raw": "1.9",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p31-b11#n4",
+   "bucket": "sentence",
+   "raw": "50",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p31-b11#n5",
+   "bucket": "sentence",
+   "raw": "25",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p33-b8#n3",
+   "bucket": "sentence",
+   "raw": "7",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p33-b8#n4",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p33-b23#n1",
+   "bucket": "sentence",
+   "raw": "13",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p34-b8#n3",
+   "bucket": "sentence",
+   "raw": "27",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p34-b12#n4",
+   "bucket": "sentence",
+   "raw": "940",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "정의를 설명하는 예의 농도 (940ppm)"
+  },
+  {
+   "doc": "a",
+   "id": "p35-b12#n1",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "보고 범위의 계열사 수. 구성을 센 수이지만 조직의 사실이기도 하다"
+  },
+  {
+   "doc": "a",
+   "id": "p35-b13#n1",
+   "bucket": "sentence",
+   "raw": "21",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p36-b8#n3",
+   "bucket": "sentence",
+   "raw": "25",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-b12#n1",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p36-b12#n2",
+   "bucket": "sentence",
+   "raw": "7.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b7#n2",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b7#n4",
+   "bucket": "sentence",
+   "raw": "0.35%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b7#n5",
+   "bucket": "sentence",
+   "raw": "0.29%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b7#n7",
+   "bucket": "sentence",
+   "raw": "0.5%p",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값 (몇 %p 미만, 몇 억 원 이상, 중요도 5% 미만)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b13#n2",
+   "bucket": "sentence",
+   "raw": "16.20%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b14#n3",
+   "bucket": "sentence",
+   "raw": "13.82%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b17#n2",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b17#n3",
+   "bucket": "sentence",
+   "raw": "17",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b18#n2",
+   "bucket": "sentence",
+   "raw": "19.8%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b18#n4",
+   "bucket": "sentence",
+   "raw": "17.5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b18#n5",
+   "bucket": "sentence",
+   "raw": "2.3%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b24#n1",
+   "bucket": "sentence",
+   "raw": "17",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p37-b26#n1",
+   "bucket": "sentence",
+   "raw": "17",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-b15#n3",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p38-b15#n4",
+   "bucket": "sentence",
+   "raw": "1.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b7#n3",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b7#n5",
+   "bucket": "sentence",
+   "raw": "0.05%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b7#n6",
+   "bucket": "sentence",
+   "raw": "0.04%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b7#n8",
+   "bucket": "sentence",
+   "raw": "0.1%p",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값 (몇 %p 미만, 몇 억 원 이상, 중요도 5% 미만)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b12#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b13#n1",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b14#n1",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b17#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b18#n1",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b19#n1",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b21#n2",
+   "bucket": "sentence",
+   "raw": "16.20%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p39-b22#n3",
+   "bucket": "sentence",
+   "raw": "13.82%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p40-b10#n3",
+   "bucket": "sentence",
+   "raw": "13%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p42-b13#n1",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "척도의 범위·눈금 (5점 척도, 1점~5점, 1에 가까울수록)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b7#n2",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b9#n4",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b9#n5",
+   "bucket": "sentence",
+   "raw": "148,926",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b9#n7",
+   "bucket": "sentence",
+   "raw": "6,398",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b10#n1",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "보고 범위의 계열사 수. 구성을 센 수이지만 조직의 사실이기도 하다"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b10#n4",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b10#n5",
+   "bucket": "sentence",
+   "raw": "118,523",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b10#n7",
+   "bucket": "sentence",
+   "raw": "5,022",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p46-b10#n9",
+   "bucket": "sentence",
+   "raw": "15.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p47-b11#n2",
+   "bucket": "sentence",
+   "raw": "30",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값 (몇 %p 미만, 몇 억 원 이상, 중요도 5% 미만)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-b11#n4",
+   "bucket": "sentence",
+   "raw": "25",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값 (몇 %p 미만, 몇 억 원 이상, 중요도 5% 미만)"
+  },
+  {
+   "doc": "a",
+   "id": "p47-b15#n4",
+   "bucket": "sentence",
+   "raw": "15",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수 (보고서 종 수, 핵심요소, 주제, 시나리오, 산업 부문, 시도, 재해유형, 카테고리 수)"
+  },
+  {
+   "doc": "a",
+   "id": "p48-b11#n3",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "척도의 범위·눈금 (5점 척도, 1점~5점, 1에 가까울수록)"
+  },
+  {
+   "doc": "a",
+   "id": "p48-b11#n4",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "척도의 범위·눈금 (5점 척도, 1점~5점, 1에 가까울수록)"
+  },
+  {
+   "doc": "a",
+   "id": "p48-b11#n5",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "척도의 범위·눈금 (5점 척도, 1점~5점, 1에 가까울수록)"
+  },
+  {
+   "doc": "a",
+   "id": "p59-b8#n2",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호 (*1, *2, *3, 3)1))"
+  },
+  {
+   "doc": "a",
+   "id": "p60-b11#n1",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p60-b11#n2",
+   "bucket": "sentence",
+   "raw": "12.5%p",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p60-b14#n2",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p60-b14#n3",
+   "bucket": "sentence",
+   "raw": "19.8%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p60-b16#n3",
+   "bucket": "sentence",
+   "raw": "50",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p60-b16#n5",
+   "bucket": "sentence",
+   "raw": "36.9",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p61-b8#n2",
+   "bucket": "sentence",
+   "raw": "6.0",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "모델 판 번호·관용 표기 (GCAM 6.0, 24/365)"
+  },
+  {
+   "doc": "a",
+   "id": "p61-b8#n7",
+   "bucket": "sentence",
+   "raw": "28,501",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p61-b8#n8",
+   "bucket": "sentence",
+   "raw": "3,057,076",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p62-b9#n1",
+   "bucket": "sentence",
+   "raw": "1.5",
+   "kind": "identifier",
+   "ambiguousWith": "value",
+   "basis": "시나리오 이름으로 쓰인 온도 (1.5℃ 경로)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-b9#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p62-b12#n3",
+   "bucket": "sentence",
+   "raw": "33.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p62-b12#n5",
+   "bucket": "sentence",
+   "raw": "61%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p63-b8#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p63-b8#n4",
+   "bucket": "sentence",
+   "raw": "1.75",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p63-b8#n6",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p63-b8#n7",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p63-b8#n8",
+   "bucket": "sentence",
+   "raw": "2.0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p64-b9#n4",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p64-b9#n5",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p64-b15#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p64-b15#n4",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p64-b17#n4",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부 (Scope 1&2, Scope 1, 2, 3)"
+  },
+  {
+   "doc": "a",
+   "id": "p64-b17#n5",
+   "bucket": "sentence",
+   "raw": "15.3%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액·목표값"
+  },
+  {
+   "doc": "a",
+   "id": "p65-b19#n1",
+   "bucket": "sentence",
+   "raw": "24",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "모델 판 번호·관용 표기 (GCAM 6.0, 24/365)"
+  },
+  {
+   "doc": "a",
+   "id": "p65-b19#n2",
+   "bucket": "sentence",
+   "raw": "365",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "모델 판 번호·관용 표기 (GCAM 6.0, 24/365)"
+  },
+  {
+   "doc": "a",
+   "id": "p66-b17#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p69-b10#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p69-b10#n4",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p77-b10#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p77-b10#n4",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p80-b8#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도(연·분기·반기 몇 회 이상). 실적이 아니라 규정이다"
+  },
+  {
+   "doc": "a",
+   "id": "p80-b20#n1",
+   "bucket": "sentence",
+   "raw": "72",
+   "kind": "duration",
+   "ambiguousWith": "value",
+   "basis": "통지 기한 (72시간 이내)"
+  },
+  {
+   "doc": "a",
+   "id": "p85-b11#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p85-b11#n4",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·시점 (개년, 몇 년 이내·초과, 장기 10년, 향후 25년, 몇 년 단위)"
+  },
+  {
+   "doc": "a",
+   "id": "p107-b14#n3",
+   "bucket": "sentence",
+   "raw": "3000",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "규격 번호 (ISAE 3000, ISO/IEC 17029·17021)"
+  },
+  {
+   "doc": "a",
+   "id": "p107-b14#n5",
+   "bucket": "sentence",
+   "raw": "3000",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "규격 번호 (ISAE 3000, ISO/IEC 17029·17021)"
+  },
+  {
+   "doc": "a",
+   "id": "p107-b14#n11",
+   "bucket": "sentence",
+   "raw": "3000",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "규격 번호 (ISAE 3000, ISO/IEC 17029·17021)"
+  },
+  {
+   "doc": "a",
+   "id": "p108-b13#n1",
+   "bucket": "sentence",
+   "raw": "17029",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "규격 번호 (ISAE 3000, ISO/IEC 17029·17021)"
+  },
+  {
+   "doc": "a",
+   "id": "p108-b13#n5",
+   "bucket": "sentence",
+   "raw": "17021",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "규격 번호 (ISAE 3000, ISO/IEC 17029·17021)"
+  },
+  {
+   "doc": "a",
+   "id": "p108-b13#n9",
+   "bucket": "sentence",
+   "raw": "17029",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "규격 번호 (ISAE 3000, ISO/IEC 17029·17021)"
+  },
+  {
+   "doc": "a",
+   "id": "p109-b9#n2",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "보고 범위의 계열사 수. 구성을 센 수이지만 조직의 사실이기도 하다"
+  },
+  {
+   "doc": "a",
+   "id": "p109-b19#n1",
+   "bucket": "sentence",
+   "raw": "5%",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값 (몇 %p 미만, 몇 억 원 이상, 중요도 5% 미만)"
+  },
+  {
+   "doc": "a",
+   "id": "p110-b9#n2",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "보고 범위의 계열사 수. 구성을 센 수이지만 조직의 사실이기도 하다"
+  },
+  {
+   "doc": "a",
+   "id": "p110-b19#n1",
+   "bucket": "sentence",
+   "raw": "5%",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값 (몇 %p 미만, 몇 억 원 이상, 중요도 5% 미만)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r3c3#n3",
+   "bucket": "table_text_cell",
+   "raw": "205",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r4c3#n3",
+   "bucket": "table_text_cell",
+   "raw": "10",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r4c3#n4",
+   "bucket": "table_text_cell",
+   "raw": "11",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r8c3#n1",
+   "bucket": "table_text_cell",
+   "raw": "203",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r9c3#n1",
+   "bucket": "table_text_cell",
+   "raw": "302",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r9c3#n2",
+   "bucket": "table_text_cell",
+   "raw": "303",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r9c3#n3",
+   "bucket": "table_text_cell",
+   "raw": "305",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p6-t3:r9c3#n4",
+   "bucket": "table_text_cell",
+   "raw": "306",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "이름의 일부·문단 번호·GRI 지표 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p14-t2:r1c3",
+   "bucket": "table_cell",
+   "raw": "1.3",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p20-t1:r10c4",
+   "bucket": "table_cell",
+   "raw": "2,815",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p20-t2:r1c2",
+   "bucket": "table_cell",
+   "raw": "2,517",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p20-t4:r3c3",
+   "bucket": "table_cell",
+   "raw": "5,658",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p20-t5:r1c4",
+   "bucket": "table_cell",
+   "raw": "142",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p20-t5:r3c3",
+   "bucket": "table_cell",
+   "raw": "1,673",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p21-t1:r4c5",
+   "bucket": "table_cell",
+   "raw": "81,378",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p21-t2:r5c6",
+   "bucket": "table_cell",
+   "raw": "4,188",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p21-t2:r10c7",
+   "bucket": "table_cell",
+   "raw": "184",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p22-t1:r3c10",
+   "bucket": "table_cell",
+   "raw": "27.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p22-t1:r9c9",
+   "bucket": "table_cell",
+   "raw": "10,688,220",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p22-t1:r10c6",
+   "bucket": "table_cell",
+   "raw": "49,462,484",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p31-t2:r7c6",
+   "bucket": "table_cell",
+   "raw": "606",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p36-t4:r1c3",
+   "bucket": "table_cell",
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "순위 (NCSI 1위)"
+  },
+  {
+   "doc": "b",
+   "id": "p39-t2:r4c3",
+   "bucket": "table_cell",
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-t2:r7c6",
+   "bucket": "table_cell",
+   "raw": "21,689",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-t2:r9c6",
+   "bucket": "table_cell",
+   "raw": "11,565",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-t3:r20c6",
+   "bucket": "table_cell",
+   "raw": "15",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-t3:r23c6",
+   "bucket": "table_cell",
+   "raw": "16",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p41-t1:r9c4",
+   "bucket": "table_cell",
+   "raw": "145",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p42-t1:r7c3",
+   "bucket": "table_cell",
+   "raw": "9.4",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p42-t1:r14c5",
+   "bucket": "table_cell",
+   "raw": "0.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p42-t1:r17c4",
+   "bucket": "table_cell",
+   "raw": "3.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p42-t2:r1c2",
+   "bucket": "table_cell",
+   "raw": "16.1",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p47-t4:r1c5",
+   "bucket": "table_cell",
+   "raw": "240",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p47-t4:r6c3",
+   "bucket": "table_cell",
+   "raw": "470",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p50-t4:r7c4",
+   "bucket": "table_cell",
+   "raw": "4,565",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p52-t1:r6c3",
+   "bucket": "table_cell",
+   "raw": "9.7",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p52-t2:r1c2",
+   "bucket": "table_cell",
+   "raw": "30.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p52-t2:r3c2",
+   "bucket": "table_cell",
+   "raw": "8.6",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p57-t4:r2c3",
+   "bucket": "table_cell",
+   "raw": "0.004",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p57-t4:r4c3",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p57-t4:r5c5",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p57-t4:r6c3",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p58-t2:r1c4",
+   "bucket": "table_cell",
+   "raw": "798",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p58-t3:r3c4",
+   "bucket": "table_cell",
+   "raw": "42,211",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p59-t1:r9c1",
+   "bucket": "table_cell",
+   "raw": "227",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p59-t1:r10c3",
+   "bucket": "table_cell",
+   "raw": "241",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p59-t1:r12c2",
+   "bucket": "table_cell",
+   "raw": "840",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p63-t2:r1c3",
+   "bucket": "table_cell",
+   "raw": "1.47",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p63-t3:r3c4",
+   "bucket": "table_cell",
+   "raw": "5,717",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p69-t1:r4c5",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p69-t1:r5c3",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p69-t2:r1c2",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p69-t2:r3c2",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p69-t3:r1c2",
+   "bucket": "table_cell",
+   "raw": "0",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p78-t1:r7c3",
+   "bucket": "table_cell",
+   "raw": "3,721",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "표의 숫자 칸의 잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p2-b2#n1",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수"
+  },
+  {
+   "doc": "b",
+   "id": "p2-b7#n3",
+   "bucket": "sentence",
+   "raw": "4",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수"
+  },
+  {
+   "doc": "b",
+   "id": "p2-b13#n9",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b6#n1",
+   "bucket": "sentence",
+   "raw": "32",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b7#n1",
+   "bucket": "sentence",
+   "raw": "55",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b9#n1",
+   "bucket": "sentence",
+   "raw": "70",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b10#n1",
+   "bucket": "sentence",
+   "raw": "16",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b11#n1",
+   "bucket": "sentence",
+   "raw": "37",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b12#n1",
+   "bucket": "sentence",
+   "raw": "58",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b13#n1",
+   "bucket": "sentence",
+   "raw": "75",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b14#n1",
+   "bucket": "sentence",
+   "raw": "23",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b15#n1",
+   "bucket": "sentence",
+   "raw": "40",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b16#n1",
+   "bucket": "sentence",
+   "raw": "64",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b17#n1",
+   "bucket": "sentence",
+   "raw": "77",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b18#n1",
+   "bucket": "sentence",
+   "raw": "27",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p3-b19#n1",
+   "bucket": "sentence",
+   "raw": "51",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b11#n1",
+   "bucket": "number_only_block",
+   "raw": "25,806",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b12#n2",
+   "bucket": "sentence",
+   "raw": "25,806",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b12#n3",
+   "bucket": "sentence",
+   "raw": "14",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "잰 수 (14개국, 의결권 1개)"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b36#n1",
+   "bucket": "number_only_block",
+   "raw": "13.82%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b38#n1",
+   "bucket": "number_only_block",
+   "raw": "798",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b41#n1",
+   "bucket": "number_only_block",
+   "raw": "9.93%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b43#n1",
+   "bucket": "number_only_block",
+   "raw": "81",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b45#n1",
+   "bucket": "number_only_block",
+   "raw": "15,410",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b47#n1",
+   "bucket": "number_only_block",
+   "raw": "8.5",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b49#n1",
+   "bucket": "number_only_block",
+   "raw": "52.4%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b51#n1",
+   "bucket": "number_only_block",
+   "raw": "5.8",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p4-b54#n1",
+   "bucket": "number_only_block",
+   "raw": "1,449",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b3#n2",
+   "bucket": "sentence",
+   "raw": "14",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "평가로 뽑힌 이슈 수·계열사 수. 구성을 센 수이지만 결과이기도 하다"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b3#n3",
+   "bucket": "sentence",
+   "raw": "5",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b3#n6",
+   "bucket": "sentence",
+   "raw": "4",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b3#n7",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "평가로 뽑힌 이슈 수·계열사 수. 구성을 센 수이지만 결과이기도 하다"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b6#n1",
+   "bucket": "number_only_block",
+   "raw": "18.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b8#n1",
+   "bucket": "number_only_block",
+   "raw": "16.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b9#n1",
+   "bucket": "number_only_block",
+   "raw": "14.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b10#n1",
+   "bucket": "number_only_block",
+   "raw": "12.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b12#n1",
+   "bucket": "number_only_block",
+   "raw": "10.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b15#n1",
+   "bucket": "number_only_block",
+   "raw": "8.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b17#n1",
+   "bucket": "number_only_block",
+   "raw": "6.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b18#n1",
+   "bucket": "number_only_block",
+   "raw": "4.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p6-b19#n1",
+   "bucket": "number_only_block",
+   "raw": "2.0",
+   "kind": "scale",
+   "ambiguousWith": null,
+   "basis": "도표의 축 눈금 (6쪽 중대성 평가 도표)"
+  },
+  {
+   "doc": "b",
+   "id": "p8-b4#n2",
+   "bucket": "sentence",
+   "raw": "14",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "평가로 뽑힌 이슈 수·계열사 수. 구성을 센 수이지만 결과이기도 하다"
+  },
+  {
+   "doc": "b",
+   "id": "p20-b9#n4",
+   "bucket": "sentence",
+   "raw": "2,880",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p21-b9#n4",
+   "bucket": "sentence",
+   "raw": "15",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수"
+  },
+  {
+   "doc": "b",
+   "id": "p22-b3#n2",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p24-b7#n2",
+   "bucket": "sentence",
+   "raw": "90%",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값·순위 (90% 이상, 80% 이상, 4% 이하, 5% 미만, 1위)"
+  },
+  {
+   "doc": "b",
+   "id": "p31-b5#n3",
+   "bucket": "sentence",
+   "raw": "2,883",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p31-b5#n4",
+   "bucket": "sentence",
+   "raw": "7,263",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p31-b8#n4",
+   "bucket": "sentence",
+   "raw": "345",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p31-b8#n6",
+   "bucket": "sentence",
+   "raw": "414",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p36-b12#n2",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값·순위 (90% 이상, 80% 이상, 4% 이하, 5% 미만, 1위)"
+  },
+  {
+   "doc": "b",
+   "id": "p38-b5#n5",
+   "bucket": "sentence",
+   "raw": "80%",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값·순위 (90% 이상, 80% 이상, 4% 이하, 5% 미만, 1위)"
+  },
+  {
+   "doc": "b",
+   "id": "p40-b8#n5",
+   "bucket": "sentence",
+   "raw": "99.83%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-b8#n6",
+   "bucket": "sentence",
+   "raw": "0.07%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-b8#n7",
+   "bucket": "sentence",
+   "raw": "0.07%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-b8#n8",
+   "bucket": "sentence",
+   "raw": "0.01%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p40-b8#n9",
+   "bucket": "sentence",
+   "raw": "0.02%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p43-b5#n2",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "scale",
+   "ambiguousWith": "value",
+   "basis": "기준 단위 (1인당, 10,000명당, 1주당)"
+  },
+  {
+   "doc": "b",
+   "id": "p45-b11#n1",
+   "bucket": "sentence",
+   "raw": "50",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p46-b5#n2",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p46-b5#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p46-b5#n4",
+   "bucket": "sentence",
+   "raw": "6",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p46-b5#n5",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p46-b5#n6",
+   "bucket": "sentence",
+   "raw": "6",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p46-b5#n7",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p46-b5#n8",
+   "bucket": "sentence",
+   "raw": "6",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p47-b11#n3",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p47-b11#n4",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p47-b11#n6",
+   "bucket": "sentence",
+   "raw": "12",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p47-b11#n8",
+   "bucket": "sentence",
+   "raw": "12",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p48-b8#n2",
+   "bucket": "sentence",
+   "raw": "91.5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p48-b11#n1",
+   "bucket": "sentence",
+   "raw": "91.5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p50-b5#n2",
+   "bucket": "sentence",
+   "raw": "91.5%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p51-b6#n3",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "count",
+   "ambiguousWith": null,
+   "basis": "문서·체계의 구성 요소를 센 수"
+  },
+  {
+   "doc": "b",
+   "id": "p53-b6#n2",
+   "bucket": "sentence",
+   "raw": "100%",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p53-b8#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도 (연 1회 이상)"
+  },
+  {
+   "doc": "b",
+   "id": "p53-b19#n1",
+   "bucket": "sentence",
+   "raw": "10",
+   "kind": "duration",
+   "ambiguousWith": null,
+   "basis": "기간·기한 (개년, 휴직 기간, 몇 년·개월 이내, 접수 후 10일 이내)"
+  },
+  {
+   "doc": "b",
+   "id": "p57-b13#n3",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p57-b13#n5",
+   "bucket": "sentence",
+   "raw": "10,000",
+   "kind": "scale",
+   "ambiguousWith": "value",
+   "basis": "기준 단위 (1인당, 10,000명당, 1주당)"
+  },
+  {
+   "doc": "b",
+   "id": "p57-b13#n7",
+   "bucket": "sentence",
+   "raw": "10,000",
+   "kind": "scale",
+   "ambiguousWith": "value",
+   "basis": "기준 단위 (1인당, 10,000명당, 1주당)"
+  },
+  {
+   "doc": "b",
+   "id": "p58-b13#n4",
+   "bucket": "sentence",
+   "raw": "2,883",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p58-b13#n5",
+   "bucket": "sentence",
+   "raw": "7,263",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p60-b7#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p60-b10#n1",
+   "bucket": "sentence",
+   "raw": "2",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p60-b13#n1",
+   "bucket": "sentence",
+   "raw": "3",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p61-b3#n1",
+   "bucket": "sentence",
+   "raw": "4",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p63-b5#n5",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "scale",
+   "ambiguousWith": "value",
+   "basis": "기준 단위 (1인당, 10,000명당, 1주당)"
+  },
+  {
+   "doc": "b",
+   "id": "p63-b5#n6",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "value",
+   "ambiguousWith": "count",
+   "basis": "잰 수 (14개국, 의결권 1개)"
+  },
+  {
+   "doc": "b",
+   "id": "p63-b8#n8",
+   "bucket": "sentence",
+   "raw": "124,700",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p63-b8#n9",
+   "bucket": "sentence",
+   "raw": "737",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p63-b8#n10",
+   "bucket": "sentence",
+   "raw": "500",
+   "kind": "value",
+   "ambiguousWith": null,
+   "basis": "잰 양·비율·금액"
+  },
+  {
+   "doc": "b",
+   "id": "p63-b8#n16",
+   "bucket": "sentence",
+   "raw": "4%",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값·순위 (90% 이상, 80% 이상, 4% 이하, 5% 미만, 1위)"
+  },
+  {
+   "doc": "b",
+   "id": "p63-b9#n1",
+   "bucket": "sentence",
+   "raw": "8",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p69-b3#n1",
+   "bucket": "sentence",
+   "raw": "1",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "정해 둔 빈도 (연 1회 이상)"
+  },
+  {
+   "doc": "b",
+   "id": "p75-b10#n3",
+   "bucket": "sentence",
+   "raw": "3000",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p75-b10#n5",
+   "bucket": "sentence",
+   "raw": "3000",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p75-b10#n11",
+   "bucket": "sentence",
+   "raw": "3000",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p76-b7#n1",
+   "bucket": "sentence",
+   "raw": "76",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "쪽 번호 (차례의 쪽, 본문이 가리키는 쪽, 쪽 끝의 쪽 번호)"
+  },
+  {
+   "doc": "b",
+   "id": "p76-b9#n1",
+   "bucket": "sentence",
+   "raw": "17029",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p76-b9#n5",
+   "bucket": "sentence",
+   "raw": "17021",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p76-b9#n9",
+   "bucket": "sentence",
+   "raw": "17029",
+   "kind": "identifier",
+   "ambiguousWith": null,
+   "basis": "각주 번호·조항 번호·원칙 번호·규격 번호"
+  },
+  {
+   "doc": "b",
+   "id": "p77-b5#n2",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "평가로 뽑힌 이슈 수·계열사 수. 구성을 센 수이지만 결과이기도 하다"
+  },
+  {
+   "doc": "b",
+   "id": "p77-b15#n1",
+   "bucket": "sentence",
+   "raw": "5%",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값·순위 (90% 이상, 80% 이상, 4% 이하, 5% 미만, 1위)"
+  },
+  {
+   "doc": "b",
+   "id": "p78-b5#n2",
+   "bucket": "sentence",
+   "raw": "11",
+   "kind": "count",
+   "ambiguousWith": "value",
+   "basis": "평가로 뽑힌 이슈 수·계열사 수. 구성을 센 수이지만 결과이기도 하다"
+  },
+  {
+   "doc": "b",
+   "id": "p78-b15#n1",
+   "bucket": "sentence",
+   "raw": "5%",
+   "kind": "value",
+   "ambiguousWith": "scale",
+   "basis": "문턱값·순위 (90% 이상, 80% 이상, 4% 이하, 5% 미만, 1위)"
+  }
+ ]
+}

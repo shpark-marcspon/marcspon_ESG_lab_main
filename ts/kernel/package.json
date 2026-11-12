@@ -1,0 +1,19 @@
+{
+  "name": "kernel",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "공유 커널: 십진 정확 연산(Decimal)과 수치의 출처(Provenance). 다른 패키지에 기대지 않는다",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

@@ -1,0 +1,1357 @@
+{
+ "note": "[옮긴 사본: 밴드 CT2 (MARC-TICK-38) 가 대응표 unnamed-row/vision-merged 로 자리 ID 만 파생 문서의 ID 로 옮겼다. 글자와 그 밖의 내용은 원래 파일 그대로다. 원래 파일을 고친 것이 아니다.] KB금융 2025 보고서(A)와 데이터북(B)의 넓힌 정답 (밴드 U). 밴드 R 의 정답 쌍(kb-2025.pairs.json, 표의 숫자 칸끼리)은 그대로 두고 둘을 더한다. prosePairs: 한쪽 이상이 서술(문장 속 숫자, 숫자뿐인 블록, 표의 글 칸 속 숫자)인 두 문서 사이의 쌍. groups: 한 문서 안에서 같은 항목이 둘 이상의 자리에 실린 묶음. 자리의 ID 는 값 후보의 ID 다. 찾은 방법: 두 문서의 문장 속 값 후보(A 163, B 105개)를 전부 문맥과 함께 읽고, 값이 같은 자리를 양쪽 문서에서 찾은 뒤, 원문 PDF(글 계층, 도표는 쪽 그림)로 같은 항목임을 확인했다. control 이 natural_rounding 인 것은 두 자리의 표기 자릿수가 원문에서 다른 것이다(오류가 아니다). 원문 PDF 는 git 밖(../prework/reports/)이다.",
+ "status": "러너 작성, 전문가 검토 전 (밴드 U, 2026-10-04)",
+ "docs": {
+  "a": {
+   "file": "kb_2025_kor.pdf",
+   "sha256": "348361500479d12a5ad6bea8c53c89233774d0e7e913e3721e7afa3b3bf67132"
+  },
+  "b": {
+   "file": "kb_2025_databook_kor.pdf",
+   "sha256": "c75dbe007a83b3dc5f5d7bd076d605829b655f66a82695a1a671576483b4eaac"
+  }
+ },
+ "prosePairs": [
+  {
+   "id": "N01",
+   "item": "ghg.scope1_2.total",
+   "period": "2025",
+   "a": "p17-b7#n7",
+   "b": "p21-t1:r3c5",
+   "rawA": "148,926",
+   "rawB": "148,926",
+   "control": null,
+   "evidence": "보고서 17쪽 본문 「2025년 내부 온실가스 배출량(Scope 1&2)은 148,926 tCO2eq」 ↔ 데이터북 21쪽 온실가스 배출량 표 합계 행 2025 열"
+  },
+  {
+   "id": "N02",
+   "item": "ghg.scope1_2.total",
+   "period": "2025",
+   "a": "p17-b7#n7",
+   "b": "p77-t1:r2c2",
+   "rawA": "148,926",
+   "rawB": "148,926",
+   "control": null,
+   "evidence": "보고서 17쪽 본문 「2025년 내부 온실가스 배출량(Scope 1&2)은 148,926 tCO2eq」 ↔ 데이터북 77쪽 검증의견서 표 합계(Scope1+2)"
+  },
+  {
+   "id": "N03",
+   "item": "ghg.scope1_2.total",
+   "period": "2025",
+   "a": "p46-b9#n5",
+   "b": "p21-t1:r3c5",
+   "rawA": "148,926",
+   "rawB": "148,926",
+   "control": null,
+   "evidence": "보고서 46쪽 본문 「2025년 내부 온실가스 배출량(Scope 1&2)은 148,926 tCO2eq」 ↔ 데이터북 21쪽 온실가스 배출량 표 합계 행 2025 열"
+  },
+  {
+   "id": "N04",
+   "item": "ghg.scope1_2.total",
+   "period": "2025",
+   "a": "p46-b9#n5",
+   "b": "p77-t1:r2c2",
+   "rawA": "148,926",
+   "rawB": "148,926",
+   "control": null,
+   "evidence": "보고서 46쪽 본문 「2025년 내부 온실가스 배출량(Scope 1&2)은 148,926 tCO2eq」 ↔ 데이터북 77쪽 검증의견서 표 합계(Scope1+2)"
+  },
+  {
+   "id": "N05",
+   "item": "financed.intensity.total",
+   "period": "2025",
+   "a": "p17-b8#n3",
+   "b": "p22-t1:r10c10",
+   "rawA": "20.1",
+   "rawB": "20.1",
+   "control": null,
+   "evidence": "보고서 17쪽 본문 「자산 단위당 탄소집약도는 20.1 tCO2eq/억 원」(2025) ↔ 데이터북 22쪽 금융배출량 표 합계 행 2025 집약도 열"
+  },
+  {
+   "id": "N06",
+   "item": "esg_bond.cumulative",
+   "period": "2025",
+   "a": "p29-b8#n2",
+   "b": "p14-t2:r4c4",
+   "rawA": "19.7",
+   "rawB": "19.7",
+   "control": null,
+   "evidence": "보고서 29쪽 본문 「2025년 말 누적 19.7조 원 규모의 ESG 채권」 ↔ 데이터북 14쪽 ESG 채권 발행 실적 표(누적 발행금액 기준) 합계 행 2025 열"
+  },
+  {
+   "id": "N07",
+   "item": "esg_bond.cumulative",
+   "period": "2025",
+   "a": "p31-b9#n2",
+   "b": "p14-t2:r4c4",
+   "rawA": "19.7",
+   "rawB": "19.7",
+   "control": null,
+   "evidence": "보고서 31쪽 본문 「2025년 말 누적 기준 19.7조 원 규모의 ESG 채권」 ↔ 데이터북 14쪽 ESG 채권 발행 실적 표(누적 발행금액 기준) 합계 행 2025 열"
+  },
+  {
+   "id": "N08",
+   "item": "esg_bond.cumulative",
+   "period": "2025",
+   "a": "p41-t3:r2c3#n2",
+   "b": "p14-t2:r4c4",
+   "rawA": "19.7",
+   "rawB": "19.7",
+   "control": null,
+   "evidence": "보고서 41쪽 표의 글 칸 「2025년 말 기준 ESG 채권 누적 19.7조 원 발행」 ↔ 데이터북 14쪽 ESG 채권 발행 실적 표(누적 발행금액 기준) 합계 행 2025 열"
+  },
+  {
+   "id": "N09",
+   "item": "esg_product.environment",
+   "period": "2025",
+   "a": "p41-t3:r7c3#n2",
+   "b": "p11-t3:r1c5",
+   "rawA": "20.8",
+   "rawB": "20.84",
+   "control": "natural_rounding",
+   "evidence": "보고서 41쪽 표의 글 칸 「2025년 말 잔액 기준 ESG금융상품 환경 부문 20.8조 원」 ↔ 데이터북 11쪽 ESG 금융상품 실적 표 환경 부문 행 2025 열 20.84 (자릿수가 다르다)"
+  },
+  {
+   "id": "N10",
+   "item": "capital.cet1_ratio",
+   "period": "2025",
+   "a": "p37-b14#n3",
+   "b": "p4-b36#n1",
+   "rawA": "13.82%",
+   "rawB": "13.82%",
+   "control": null,
+   "evidence": "보고서 37쪽 도표 아래 글 「기준시점: 2025년 말 기준 CET1비율 13.82%」 ↔ 데이터북 4쪽 주요 재무성과 「CET1 비율 13.82%」(2025년 말 연결재무제표 기준)"
+  },
+  {
+   "id": "N11",
+   "item": "capital.cet1_ratio",
+   "period": "2025",
+   "a": "p39-b22#n3",
+   "b": "p4-b36#n1",
+   "rawA": "13.82%",
+   "rawB": "13.82%",
+   "control": null,
+   "evidence": "보고서 39쪽 도표 아래 글 「기준시점: 2025년 말 기준 CET1비율 13.82%」 ↔ 데이터북 4쪽 주요 재무성과 「CET1 비율 13.82%」(2025년 말 연결재무제표 기준)"
+  },
+  {
+   "id": "N12",
+   "item": "capital.cet1_ratio",
+   "period": "2025",
+   "a": "p41-t3:r1c3#n3",
+   "b": "p4-b36#n1",
+   "rawA": "13.82%",
+   "rawB": "13.82%",
+   "control": null,
+   "evidence": "보고서 41쪽 표의 글 칸 「2025년 말 CET1비율 13.82%」 ↔ 데이터북 4쪽 주요 재무성과 「CET1 비율 13.82%」(2025년 말 연결재무제표 기준)"
+  },
+  {
+   "id": "N13",
+   "item": "capital.cet1_ratio",
+   "period": "2025",
+   "a": "p37-t6:r3c1",
+   "b": "p4-b36#n1",
+   "rawA": "13.82%",
+   "rawB": "13.82%",
+   "control": null,
+   "evidence": "보고서 37쪽 CET1비율 도표의 기준시점 막대 값(쪽 그림으로 확인) ↔ 데이터북 4쪽 주요 재무성과 「CET1 비율 13.82%」(2025년 말 연결재무제표 기준)"
+  },
+  {
+   "id": "N14",
+   "item": "capital.cet1_ratio",
+   "period": "2025",
+   "a": "p39-t4:r1c1",
+   "b": "p4-b36#n1",
+   "rawA": "13.82%",
+   "rawB": "13.82%",
+   "control": null,
+   "evidence": "보고서 39쪽 CET1비율 도표의 기준시점 막대 값(쪽 그림으로 확인) ↔ 데이터북 4쪽 주요 재무성과 「CET1 비율 13.82%」(2025년 말 연결재무제표 기준)"
+  },
+  {
+   "id": "N15",
+   "item": "esg_product.total",
+   "period": "2025",
+   "a": "p60-b16#n5",
+   "b": "p11-t3:r5c5",
+   "rawA": "36.9",
+   "rawB": "36.88",
+   "control": "natural_rounding",
+   "evidence": "보고서 60쪽 본문 「(ESG 금융상품) 2025년 기준 누적 실적은 36.9조 원」 ↔ 데이터북 11쪽 ESG 금융상품 실적 표 합계 행 2025 열 36.88 (자릿수가 다르다)"
+  }
+ ],
+ "groups": [
+  {
+   "id": "GA01",
+   "doc": "a",
+   "item": "ghg.scope1",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p46-t2:r1c5",
+     "raw": "22,253"
+    },
+    {
+     "id": "p109-t1:r2c0",
+     "raw": "22,253"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P03, P45 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB01",
+   "doc": "b",
+   "item": "ghg.scope1",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t1:r1c5",
+     "raw": "22,253"
+    },
+    {
+     "id": "p77-t1:r2c0",
+     "raw": "22,253"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P03, P45 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA02",
+   "doc": "a",
+   "item": "ghg.scope2",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p46-t2:r2c5",
+     "raw": "126,673"
+    },
+    {
+     "id": "p109-t1:r2c1",
+     "raw": "126,673"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P06, P46 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB02",
+   "doc": "b",
+   "item": "ghg.scope2",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t1:r2c5",
+     "raw": "126,673"
+    },
+    {
+     "id": "p77-t1:r2c1",
+     "raw": "126,673"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P06, P46 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA03",
+   "doc": "a",
+   "item": "ghg.scope1_2.total",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p46-t2:r3c5",
+     "raw": "148,926"
+    },
+    {
+     "id": "p109-t1:r2c2",
+     "raw": "148,926"
+    },
+    {
+     "id": "p17-b7#n7",
+     "raw": "148,926"
+    },
+    {
+     "id": "p46-b9#n5",
+     "raw": "148,926"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P09, P47 (본문 표와 검증의견서 표에 같은 항목) + 17·46쪽 본문의 같은 값"
+  },
+  {
+   "id": "GB03",
+   "doc": "b",
+   "item": "ghg.scope1_2.total",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t1:r3c5",
+     "raw": "148,926"
+    },
+    {
+     "id": "p77-t1:r2c2",
+     "raw": "148,926"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P09, P47 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA04",
+   "doc": "a",
+   "item": "ghg.scope3.cat1",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r1c6",
+     "raw": "5,376"
+    },
+    {
+     "id": "p111-t1:r2c3",
+     "raw": "5,376"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P15, P49 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB04",
+   "doc": "b",
+   "item": "ghg.scope3.cat1",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r1c7",
+     "raw": "5,376"
+    },
+    {
+     "id": "p78-t1:r3c3",
+     "raw": "5,376"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P15, P49 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA05",
+   "doc": "a",
+   "item": "ghg.scope3.cat2",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r2c6",
+     "raw": "4,529"
+    },
+    {
+     "id": "p111-t1:r3c3",
+     "raw": "4,529"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P18, P50 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB05",
+   "doc": "b",
+   "item": "ghg.scope3.cat2",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r2c7",
+     "raw": "4,529"
+    },
+    {
+     "id": "p78-t1:r4c3",
+     "raw": "4,529"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P18, P50 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA06",
+   "doc": "a",
+   "item": "ghg.scope3.cat3",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r3c6",
+     "raw": "20,639"
+    },
+    {
+     "id": "p111-t1:r4c3",
+     "raw": "20,639"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P20, P51 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB06",
+   "doc": "b",
+   "item": "ghg.scope3.cat3",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r3c7",
+     "raw": "20,639"
+    },
+    {
+     "id": "p78-t1:r5c3",
+     "raw": "20,639"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P20, P51 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA07",
+   "doc": "a",
+   "item": "ghg.scope3.cat4",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r4c6",
+     "raw": "139"
+    },
+    {
+     "id": "p111-t1:r5c3",
+     "raw": "139"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P23, P52 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB07",
+   "doc": "b",
+   "item": "ghg.scope3.cat4",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r4c7",
+     "raw": "139"
+    },
+    {
+     "id": "p78-t1:r6c3",
+     "raw": "139"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P23, P52 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA08",
+   "doc": "a",
+   "item": "ghg.scope3.cat5",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r5c6",
+     "raw": "3,721"
+    },
+    {
+     "id": "p111-t1:r6c3",
+     "raw": "3,721"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P26, P53 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB08",
+   "doc": "b",
+   "item": "ghg.scope3.cat5",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r5c7",
+     "raw": "3,721"
+    },
+    {
+     "id": "p78-t1:r7c3",
+     "raw": "3,721"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P26, P53 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA09",
+   "doc": "a",
+   "item": "ghg.scope3.cat6",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r6c6",
+     "raw": "6,136"
+    },
+    {
+     "id": "p111-t1:r7c3",
+     "raw": "6,136"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P29, P54 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB09",
+   "doc": "b",
+   "item": "ghg.scope3.cat6",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r6c7",
+     "raw": "6,136"
+    },
+    {
+     "id": "p78-t1:r8c3",
+     "raw": "6,136"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P29, P54 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA10",
+   "doc": "a",
+   "item": "ghg.scope3.cat7",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r7c6",
+     "raw": "29,162"
+    },
+    {
+     "id": "p111-t1:r8c3",
+     "raw": "29,162"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P32, P55 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB10",
+   "doc": "b",
+   "item": "ghg.scope3.cat7",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r7c7",
+     "raw": "29,162"
+    },
+    {
+     "id": "p78-t1:r9c3",
+     "raw": "29,162"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P32, P55 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA11",
+   "doc": "a",
+   "item": "ghg.scope3.cat11",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r9c6",
+     "raw": "26,895"
+    },
+    {
+     "id": "p111-t1:r9c3",
+     "raw": "26,895"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P35, P56 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB11",
+   "doc": "b",
+   "item": "ghg.scope3.cat11",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r9c7",
+     "raw": "26,895"
+    },
+    {
+     "id": "p78-t1:r10c3",
+     "raw": "26,895"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P35, P56 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA12",
+   "doc": "a",
+   "item": "ghg.scope3.cat12",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r10c6",
+     "raw": "184"
+    },
+    {
+     "id": "p111-t1:r10c3",
+     "raw": "184"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P38, P57 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB12",
+   "doc": "b",
+   "item": "ghg.scope3.cat12",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r10c7",
+     "raw": "184"
+    },
+    {
+     "id": "p78-t1:r11c3",
+     "raw": "184"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P38, P57 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA13",
+   "doc": "a",
+   "item": "ghg.scope3.cat13",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t2:r11c6",
+     "raw": "248,588"
+    },
+    {
+     "id": "p111-t1:r11c3",
+     "raw": "248,588"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P41, P58 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GB13",
+   "doc": "b",
+   "item": "ghg.scope3.cat13",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p21-t2:r11c7",
+     "raw": "248,588"
+    },
+    {
+     "id": "p78-t1:r12c3",
+     "raw": "248,588"
+    }
+   ],
+   "control": null,
+   "evidence": "밴드 R 의 정답 쌍 P41, P58 (본문 표와 검증의견서 표에 같은 항목)"
+  },
+  {
+   "id": "GA14",
+   "doc": "a",
+   "item": "ghg.scope1_2.decrease_yoy",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p17-b7#n9",
+     "raw": "6,398"
+    },
+    {
+     "id": "p46-b9#n7",
+     "raw": "6,398"
+    }
+   ],
+   "control": null,
+   "evidence": "17쪽과 46쪽 본문의 같은 문장 「전년 대비 약 6,398 tCO2eq 감소」"
+  },
+  {
+   "id": "GA15",
+   "doc": "a",
+   "item": "transition.bis_impact_10y",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p17-b12#n6",
+     "raw": "0.35%p"
+    },
+    {
+     "id": "p37-b7#n4",
+     "raw": "0.35%p"
+    }
+   ],
+   "control": null,
+   "evidence": "17쪽 「BIS비율 및 CET1비율의 영향도는 각각 0.35%p, 0.29%p」 ↔ 37쪽 「각각 0.35%p, 0.29%p 감소」(NGFS 탄소중립, 장기) 의 BIS비율"
+  },
+  {
+   "id": "GA16",
+   "doc": "a",
+   "item": "transition.cet1_impact_10y",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p17-b12#n7",
+     "raw": "0.29%p"
+    },
+    {
+     "id": "p37-b7#n5",
+     "raw": "0.29%p"
+    }
+   ],
+   "control": null,
+   "evidence": "위 두 문장의 CET1비율 0.29%p"
+  },
+  {
+   "id": "GA17",
+   "doc": "a",
+   "item": "physical.bis_impact_10y",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p17-b13#n6",
+     "raw": "0.05%p"
+    },
+    {
+     "id": "p39-b7#n5",
+     "raw": "0.05%p"
+    }
+   ],
+   "control": null,
+   "evidence": "17쪽 「각각 0.05%p, 0.04%p」 ↔ 39쪽 「각각 0.05%p, 0.04%p 감소」(RCP8.5, 장기) 의 BIS비율"
+  },
+  {
+   "id": "GA18",
+   "doc": "a",
+   "item": "physical.cet1_impact_10y",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p17-b13#n7",
+     "raw": "0.04%p"
+    },
+    {
+     "id": "p39-b7#n6",
+     "raw": "0.04%p"
+    }
+   ],
+   "control": null,
+   "evidence": "위 두 문장의 CET1비율 0.04%p"
+  },
+  {
+   "id": "GA19",
+   "doc": "a",
+   "item": "capital.bis_ratio",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p37-b13#n2",
+     "raw": "16.20%"
+    },
+    {
+     "id": "p39-b21#n2",
+     "raw": "16.20%"
+    },
+    {
+     "id": "p37-t5:r3c1",
+     "raw": "16.20%"
+    },
+    {
+     "id": "p39-t3:r1c1",
+     "raw": "16.20%"
+    }
+   ],
+   "control": null,
+   "evidence": "37·39쪽 도표 아래 글 「기준시점: 2025년 말 기준 BIS비율 16.20%」 와 두 도표의 기준시점 막대 값(쪽 그림으로 확인)"
+  },
+  {
+   "id": "GA20",
+   "doc": "a",
+   "item": "capital.cet1_ratio",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p37-b14#n3",
+     "raw": "13.82%"
+    },
+    {
+     "id": "p39-b22#n3",
+     "raw": "13.82%"
+    },
+    {
+     "id": "p41-t3:r1c3#n3",
+     "raw": "13.82%"
+    },
+    {
+     "id": "p37-t6:r3c1",
+     "raw": "13.82%"
+    },
+    {
+     "id": "p39-t4:r1c1",
+     "raw": "13.82%"
+    }
+   ],
+   "control": null,
+   "evidence": "37·39쪽 「기준시점: 2025년 말 기준 CET1비율 13.82%」, 41쪽 표의 글 칸, 두 도표의 기준시점 막대 값(쪽 그림으로 확인)"
+  },
+  {
+   "id": "GA21",
+   "doc": "a",
+   "item": "physical.collateral_drop.rcp85",
+   "period": "장기",
+   "places": [
+    {
+     "id": "p37-b18#n2",
+     "raw": "19.8%"
+    },
+    {
+     "id": "p60-b14#n3",
+     "raw": "19.8%"
+    },
+    {
+     "id": "p37-t8:r1c1",
+     "raw": "19.8"
+    }
+   ],
+   "control": null,
+   "evidence": "37쪽 본문 「RCP8.5 시나리오에서 담보가치 하락률이 19.8%」, 60쪽 본문 「RCP8.5 시나리오 적용시 장기(10년) 시점에서 19.8%」, 37쪽 담보가치 하락률 도표의 RCP8.5 끝 값(쪽 그림으로 확인)"
+  },
+  {
+   "id": "GA22",
+   "doc": "a",
+   "item": "physical.collateral_drop.rcp26",
+   "period": "장기",
+   "places": [
+    {
+     "id": "p37-b18#n4",
+     "raw": "17.5%"
+    },
+    {
+     "id": "p37-t8:r4c1",
+     "raw": "17.5"
+    }
+   ],
+   "control": null,
+   "evidence": "37쪽 본문 「RCP2.6 시나리오(17.5%)」 ↔ 같은 쪽 담보가치 하락률 도표의 RCP2.6 끝 값(쪽 그림으로 확인)"
+  },
+  {
+   "id": "GA23",
+   "doc": "a",
+   "item": "esg_bond.cumulative",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p29-b8#n2",
+     "raw": "19.7"
+    },
+    {
+     "id": "p31-b9#n2",
+     "raw": "19.7"
+    },
+    {
+     "id": "p41-t3:r2c3#n2",
+     "raw": "19.7"
+    }
+   ],
+   "control": null,
+   "evidence": "29쪽·31쪽 본문과 41쪽 표의 글 칸의 「2025년 말 누적 19.7조 원 ESG 채권」"
+  },
+  {
+   "id": "GA24",
+   "doc": "a",
+   "item": "esg_product.target",
+   "period": "2030",
+   "places": [
+    {
+     "id": "p31-b11#n4",
+     "raw": "50"
+    },
+    {
+     "id": "p60-b16#n3",
+     "raw": "50"
+    }
+   ],
+   "control": null,
+   "evidence": "31쪽 본문 「ESG 금융상품 규모를 2030년 50조 원」 ↔ 60쪽 본문 「2030년까지 ESG 금융상품 규모 50조 원」"
+  },
+  {
+   "id": "GA25",
+   "doc": "a",
+   "item": "ghg.scope1_2.sbti_basis",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p46-b10#n5",
+     "raw": "118,523"
+    },
+    {
+     "id": "p46-t1:r11c16",
+     "raw": "118,523"
+    }
+   ],
+   "control": null,
+   "evidence": "46쪽 본문 「(SBTi 감축 목표 수립 기준) 2025년 내부 온실가스 배출량(Scope 1&2)은 118,523 tCO2eq」 ↔ 같은 쪽 도표 표의 합계 행 마지막 실적 열"
+  },
+  {
+   "id": "GA26",
+   "doc": "a",
+   "item": "ghg.scope1_2.reduction_vs_base",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p46-b10#n9",
+     "raw": "15.3%"
+    },
+    {
+     "id": "p64-b17#n5",
+     "raw": "15.3%"
+    },
+    {
+     "id": "p46-t1:r13c16",
+     "raw": "15.3%"
+    }
+   ],
+   "control": null,
+   "evidence": "46쪽 본문 「기준연도 대비 감축률 15.3%」, 64쪽 본문 「기준연도 대비 약 15.3%를 감축」, 46쪽 도표 표의 기준연도 대비 감축률 행"
+  },
+  {
+   "id": "GA27",
+   "doc": "a",
+   "item": "portfolio.carbon_intensity.유틸리티",
+   "period": null,
+   "places": [
+    {
+     "id": "p26-b9#n1",
+     "raw": "3.804"
+    },
+    {
+     "id": "p26-t1:r15c14",
+     "raw": "3.804"
+    }
+   ],
+   "control": null,
+   "evidence": "26쪽 본문 「탄소집약도가 가장 높은 산업은 유틸리티(3.804), 소재(0.475), 에너지(0.389)」 의 유틸리티 ↔ 같은 쪽 표의 종합 행 유틸리티 열"
+  },
+  {
+   "id": "GA28",
+   "doc": "a",
+   "item": "portfolio.carbon_intensity.소재",
+   "period": null,
+   "places": [
+    {
+     "id": "p26-b9#n2",
+     "raw": "0.475"
+    },
+    {
+     "id": "p26-t1:r15c13",
+     "raw": "0.475"
+    }
+   ],
+   "control": null,
+   "evidence": "26쪽 본문 「탄소집약도가 가장 높은 산업은 유틸리티(3.804), 소재(0.475), 에너지(0.389)」 의 소재 ↔ 같은 쪽 표의 종합 행 소재 열"
+  },
+  {
+   "id": "GA29",
+   "doc": "a",
+   "item": "portfolio.carbon_intensity.에너지",
+   "period": null,
+   "places": [
+    {
+     "id": "p26-b9#n3",
+     "raw": "0.389"
+    },
+    {
+     "id": "p26-t1:r15c11",
+     "raw": "0.389"
+    }
+   ],
+   "control": null,
+   "evidence": "26쪽 본문 「탄소집약도가 가장 높은 산업은 유틸리티(3.804), 소재(0.475), 에너지(0.389)」 의 에너지 ↔ 같은 쪽 표의 종합 행 에너지 열"
+  },
+  {
+   "id": "GA30",
+   "doc": "a",
+   "item": "financed.coverage",
+   "period": "2024",
+   "places": [
+    {
+     "id": "p17-b8#n8",
+     "raw": "84.5%"
+    },
+    {
+     "id": "p48-t1:r10c3",
+     "raw": "84.5%"
+    }
+   ],
+   "control": null,
+   "evidence": "17쪽 본문 「산출 커버리지(2024년: 84.5% → 2025년: 84.8%)」, 각주 「산출 대상 자산 익스포저 중 산출 익스포저 비율」 ↔ 48쪽 2024년 표 합계 행 익스포저 산출 비율"
+  },
+  {
+   "id": "GA31",
+   "doc": "a",
+   "item": "financed.coverage",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p17-b8#n10",
+     "raw": "84.8%"
+    },
+    {
+     "id": "p48-t2:r10c3",
+     "raw": "84.8%"
+    }
+   ],
+   "control": null,
+   "evidence": "위 문장의 2025년 값 ↔ 48쪽 2025년 표 합계 행 익스포저 산출 비율"
+  },
+  {
+   "id": "GA32",
+   "doc": "a",
+   "item": "financed.intensity.total",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p17-b8#n3",
+     "raw": "20.1"
+    },
+    {
+     "id": "p48-t2:r10c5",
+     "raw": "20.1"
+    }
+   ],
+   "control": null,
+   "evidence": "17쪽 본문 「탄소집약도는 20.1 tCO2eq/억 원」 ↔ 48쪽 2025년 표 합계 행 집약도"
+  },
+  {
+   "id": "GA33",
+   "doc": "a",
+   "item": "ghg.scope1_2.target_reduction",
+   "period": "2030",
+   "places": [
+    {
+     "id": "p28-b11#n6",
+     "raw": "42%"
+    },
+    {
+     "id": "p46-t3:r3c7",
+     "raw": "42%"
+    },
+    {
+     "id": "p46-t1:r12c17#n1",
+     "raw": "42%"
+    }
+   ],
+   "control": null,
+   "evidence": "28쪽 본문 「내부 온실가스 배출량(Scope 1&2) … 2030년까지 42% 감축」 ↔ 46쪽 도표의 「42% 감축」 표시 두 곳"
+  },
+  {
+   "id": "GA34",
+   "doc": "a",
+   "item": "financed.target_reduction",
+   "period": "2030",
+   "places": [
+    {
+     "id": "p62-b12#n3",
+     "raw": "33.3%"
+    },
+    {
+     "id": "p47-t4:r1c1",
+     "raw": "33.3%"
+    },
+    {
+     "id": "p47-t1:r4c16#n1",
+     "raw": "33.3%"
+    }
+   ],
+   "control": null,
+   "evidence": "62쪽 본문 「2019년 대비 2030년 33.3% 감축」 ↔ 47쪽 금융배출량 도표의 「33.3% 감축」 표시 두 곳"
+  },
+  {
+   "id": "GA35",
+   "doc": "a",
+   "item": "financed.target_reduction",
+   "period": "2040",
+   "places": [
+    {
+     "id": "p62-b12#n5",
+     "raw": "61%"
+    },
+    {
+     "id": "p47-t4:r1c2",
+     "raw": "61.0%"
+    },
+    {
+     "id": "p47-t1:r4c17#n1",
+     "raw": "61.0%"
+    }
+   ],
+   "control": "natural_rounding",
+   "evidence": "62쪽 본문 「2040년 61% 감축」 ↔ 47쪽 도표의 「61.0% 감축」 표시 두 곳 (자릿수가 다르다)"
+  },
+  {
+   "id": "GA36",
+   "doc": "a",
+   "item": "financed.emissions.total",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p47-t3:r1c6",
+     "raw": "51,566,264"
+    },
+    {
+     "id": "p47-t1:r4c14",
+     "raw": "51,566,264"
+    },
+    {
+     "id": "p48-t2:r10c4",
+     "raw": "51,566,264"
+    },
+    {
+     "id": "p111-t1:r13c3",
+     "raw": "51,566,264"
+    }
+   ],
+   "control": null,
+   "evidence": "47쪽 금융배출량 추이 도표의 2025 값 두 곳, 48쪽 2025년 표 합계 행 금융배출량, 111쪽 검증의견서 CAT 15 투자(PCAF) 2025"
+  },
+  {
+   "id": "GA37",
+   "doc": "a",
+   "item": "financed.emissions.total",
+   "period": "2024",
+   "places": [
+    {
+     "id": "p47-t3:r1c5",
+     "raw": "49,462,484"
+    },
+    {
+     "id": "p47-t1:r4c11",
+     "raw": "49,462,484"
+    },
+    {
+     "id": "p48-t1:r10c4",
+     "raw": "49,462,484"
+    },
+    {
+     "id": "p111-t1:r12c3",
+     "raw": "49,462,484"
+    }
+   ],
+   "control": null,
+   "evidence": "같은 자리들의 2024 값"
+  },
+  {
+   "id": "GA38",
+   "doc": "a",
+   "item": "financed.emissions.total",
+   "period": "2023",
+   "places": [
+    {
+     "id": "p47-t3:r1c4",
+     "raw": "55,911,585"
+    },
+    {
+     "id": "p47-t1:r4c9",
+     "raw": "55,911,585"
+    }
+   ],
+   "control": null,
+   "evidence": "47쪽 금융배출량 추이 도표의 2023 값 두 곳"
+  },
+  {
+   "id": "GB14",
+   "doc": "b",
+   "item": "employees.total",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p4-b11#n1",
+     "raw": "25,806"
+    },
+    {
+     "id": "p4-b12#n2",
+     "raw": "25,806"
+    },
+    {
+     "id": "p40-t2:r1c6",
+     "raw": "25,806"
+    }
+   ],
+   "control": null,
+   "evidence": "4쪽 「임직원 수 25,806명」, 같은 쪽 문장 「총 25,806명의 임직원」 ↔ 40쪽 임직원 현황 표 성별 합계 행 2025 열"
+  },
+  {
+   "id": "GB15",
+   "doc": "b",
+   "item": "social.cashback",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p31-b5#n3",
+     "raw": "2,883"
+    },
+    {
+     "id": "p58-b13#n4",
+     "raw": "2,883"
+    }
+   ],
+   "control": null,
+   "evidence": "31쪽 각주와 58쪽 각주의 같은 문장 「소상공인 이자 캐시백 2,883억 원 포함 시 총 7,263억 원」 의 2,883"
+  },
+  {
+   "id": "GB16",
+   "doc": "b",
+   "item": "social.total_with_cashback",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p31-b5#n4",
+     "raw": "7,263"
+    },
+    {
+     "id": "p58-b13#n5",
+     "raw": "7,263"
+    }
+   ],
+   "control": null,
+   "evidence": "위 두 각주의 7,263"
+  },
+  {
+   "id": "GB17",
+   "doc": "b",
+   "item": "employees.coverage_major_subsidiaries",
+   "period": null,
+   "places": [
+    {
+     "id": "p48-b8#n2",
+     "raw": "91.5%"
+    },
+    {
+     "id": "p48-b11#n1",
+     "raw": "91.5%"
+    },
+    {
+     "id": "p50-b5#n2",
+     "raw": "91.5%"
+    }
+   ],
+   "control": null,
+   "evidence": "48쪽 각주 두 곳과 50쪽 각주의 같은 문장 「그룹 전체 구성원의 91.5%를 차지하는 주요 계열사 기준」"
+  },
+  {
+   "id": "GB18",
+   "doc": "b",
+   "item": "finance.total_assets",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p4-b38#n1",
+     "raw": "798"
+    },
+    {
+     "id": "p58-t2:r1c4",
+     "raw": "798"
+    }
+   ],
+   "control": null,
+   "evidence": "4쪽 주요 재무성과 「연결총자산 798조 원」 ↔ 58쪽 재무성과 표 총 자산 행 2025 열"
+  },
+  {
+   "id": "GB19",
+   "doc": "b",
+   "item": "finance.operating_revenue",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p4-b43#n1",
+     "raw": "81"
+    },
+    {
+     "id": "p58-t2:r2c4",
+     "raw": "81"
+    }
+   ],
+   "control": null,
+   "evidence": "4쪽 「영업수익(매출액) 81조 원」 ↔ 58쪽 재무성과 표 영업수익 행 2025 열"
+  },
+  {
+   "id": "GB20",
+   "doc": "b",
+   "item": "finance.net_income",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p4-b51#n1",
+     "raw": "5.8"
+    },
+    {
+     "id": "p58-t2:r3c4",
+     "raw": "5.8"
+    }
+   ],
+   "control": null,
+   "evidence": "4쪽 「지배주주지분 당기순이익 5.8조 원」 ↔ 58쪽 재무성과 표 당기순이익(지배기업주주지분 기준) 행 2025 열"
+  },
+  {
+   "id": "GB21",
+   "doc": "b",
+   "item": "finance.shareholder_return",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p4-b49#n1",
+     "raw": "52.4%"
+    },
+    {
+     "id": "p63-t3:r4c6",
+     "raw": "52.4"
+    }
+   ],
+   "control": null,
+   "evidence": "4쪽 「주주환원율 52.4%」 ↔ 63쪽 표 주주환원율 행 2025 열"
+  },
+  {
+   "id": "GB22",
+   "doc": "b",
+   "item": "financed.emissions.total",
+   "period": "2025",
+   "places": [
+    {
+     "id": "p22-t1:r10c9",
+     "raw": "51,566,264"
+    },
+    {
+     "id": "p78-t1:r14c3",
+     "raw": "51,566,264"
+    }
+   ],
+   "control": null,
+   "evidence": "22쪽 금융배출량 표 합계 행 2025 배출량 ↔ 78쪽 검증의견서 CAT 15 투자(PCAF) 2025"
+  },
+  {
+   "id": "GB23",
+   "doc": "b",
+   "item": "financed.emissions.total",
+   "period": "2024",
+   "places": [
+    {
+     "id": "p22-t1:r10c6",
+     "raw": "49,462,484"
+    },
+    {
+     "id": "p78-t1:r13c3",
+     "raw": "49,462,484"
+    }
+   ],
+   "control": null,
+   "evidence": "같은 자리들의 2024 값"
+  }
+ ]
+}

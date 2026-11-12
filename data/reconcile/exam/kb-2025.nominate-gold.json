@@ -1,0 +1,874 @@
+{
+ "note": "KB금융 2025 보고서(a)와 데이터북(b) 사이에서 「이 단위(표·도표)의 상대는 저 쪽·저 표」와 「상대 없음」을 적은 지목 채점용 정답 (밴드 EB1, MARC-TICK-45). 새로 판정한 것이 없다: data/reconcile/exam 의 있는 정답 쌍과 판정 기록(records)에 아래 규칙(rules)을 적용해 기계로 끌어냈다 (ts/reconcile/src/compare/embed-nominate.ts 의 deriveGold, cli14.ts 의 gold 명령. `gold --check` 가 이 파일과 다시 끌어낸 것이 같은지 본다). 판정이 없는 표·도표는 여기에 없고 채점의 분모에서 빠진다. 방향은 한 벌이다: a→b 로 읽으면 보고서의 단위가 질의, b→a 로 읽으면 데이터북의 단위가 질의다.",
+ "status": "기계로 끌어냄. 바탕의 판정 기록은 전부 러너 작성·전문가 검토 전이다 (2026-10-06, 첫 임베딩 호출 전에 굳힘)",
+ "docs": {
+  "a": {
+   "file": "kb_2025_kor.pdf",
+   "sha256": "348361500479d12a5ad6bea8c53c89233774d0e7e913e3721e7afa3b3bf67132"
+  },
+  "b": {
+   "file": "kb_2025_databook_kor.pdf",
+   "sha256": "c75dbe007a83b3dc5f5d7bd076d605829b655f66a82695a1a671576483b4eaac"
+  }
+ },
+ "rules": [
+  "1. 「같은 항목」으로 판정된 두 문서 사이의 짝 가운데 양쪽 자리가 다 표 안인 것 → 표 짝. 양쪽이 표의 숫자 칸이면 cells, 한쪽 이상이 표의 글 칸 속 숫자면 prose.",
+  "2. 보고서 쪽이 도표의 값인 짝 → chart. 넓힌 정답(kb-2025.gold-v2.json)의 서술 쌍 N13·N14·N16~N21 (밴드 CH1 의 보고와 kb-2025.focus-judgments.json 의 설명이 도표 쌍이라 적은 것)과 kb-2025.ct2-aims.json 의 「47쪽 도표의 막대 값」 세 자리. 상대 자리가 표 밖(데이터북 4쪽의 요약 숫자)이면 상대는 쪽으로만 적는다(table 이 null).",
+  "3. 그 밖의 「같은 항목」 짝(문장 ↔ 문장, 문장 ↔ 표)은 쓰지 않는다 (unused 에 수).",
+  "4. 「같은 항목 아님」 판정(different_item, not_same, wrong_pair, 칸 검수의 no_counterpart)에 나온 표 가운데 규칙 1·2 의 짝에 한 번도 들지 않은 표 → 상대 없음 (kind table). 「값이 아님」 판정은 쓰지 않는다.",
+  "5. 상대 없는 도표 쪽 (kind chart-page): 밴드 CH1 이 센 보고서 33·36·38·46·63쪽. 도표 대상이 든 아홉 쪽 가운데 같은 긴 숫자가 데이터북에 없는 쪽이라 아래쪽 끝이다 (46쪽의 「42% 감축」은 데이터북 8쪽에 있다고 CH1 의 검증 에이전트가 적었다. 그대로 「상대 없음」에 두고 보고에서 따로 적는다).",
+  "6. 파생 문서의 사본(kb-2025.ct2.*, kb-2025.ct2-judgments.json)과 한 문서 안의 판정(scope 가 a 또는 b)은 읽지 않는다.",
+  "채점에서: 도표 짝은 보고서 쪽에서 도표 단위와 쪽 단위에만 걸린다 (도표가 얹힌 격자를 표 단위로 볼 때는 걸리지 않는다). 쪽 단위는 그 쪽에 걸리는 옳은 짝이 하나라도 있으면 「옳은 상대가 있다」, 하나도 없고 상대 없음 항목만 있으면 「상대 없음」이다. 옳은 상대가 여럿이면(47쪽 → 22쪽·78쪽) 하나라도 k 등 안에 들면 맞은 것으로 세고, 전부 드는지는 따로 센다."
+ ],
+ "links": [
+  {
+   "a": {
+    "doc": "a",
+    "page": 37,
+    "table": "p37-t3"
+   },
+   "b": {
+    "doc": "b",
+    "page": 4,
+    "table": null
+   },
+   "kind": "chart",
+   "support": {
+    "gold-v2": 1
+   },
+   "placesA": [
+    "p37-t3:r2c4"
+   ],
+   "placesB": [
+    "p4-b36#n1"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 39,
+    "table": "p39-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 4,
+    "table": null
+   },
+   "kind": "chart",
+   "support": {
+    "gold-v2": 1
+   },
+   "placesA": [
+    "p39-t1:r1c4"
+   ],
+   "placesB": [
+    "p4-b36#n1"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 41,
+    "table": "p41-t3"
+   },
+   "b": {
+    "doc": "b",
+    "page": 11,
+    "table": "p11-t3"
+   },
+   "kind": "prose",
+   "support": {
+    "gold-v2": 1
+   },
+   "placesA": [
+    "p41-t3:r7c3#n2"
+   ],
+   "placesB": [
+    "p11-t3:r1c5"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 41,
+    "table": "p41-t3"
+   },
+   "b": {
+    "doc": "b",
+    "page": 14,
+    "table": "p14-t2"
+   },
+   "kind": "prose",
+   "support": {
+    "gold-v2": 1
+   },
+   "placesA": [
+    "p41-t3:r2c3#n2"
+   ],
+   "placesB": [
+    "p14-t2:r4c4"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 46,
+    "table": "p46-t2"
+   },
+   "b": {
+    "doc": "b",
+    "page": 21,
+    "table": "p21-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "pairs": 12,
+    "outside-gold": 6,
+    "recover-judgments": 6
+   },
+   "placesA": [
+    "p46-t2:r1c3",
+    "p46-t2:r1c4",
+    "p46-t2:r1c5",
+    "p46-t2:r2c3",
+    "p46-t2:r2c4",
+    "p46-t2:r2c5",
+    "p46-t2:r3c3",
+    "p46-t2:r3c4",
+    "p46-t2:r3c5",
+    "p46-t2:r4c3",
+    "p46-t2:r4c4",
+    "p46-t2:r4c5",
+    "p46-t2:r5c3",
+    "p46-t2:r5c4",
+    "p46-t2:r5c5",
+    "p46-t2:r6c3",
+    "p46-t2:r6c4",
+    "p46-t2:r6c5"
+   ],
+   "placesB": [
+    "p21-t1:r1c3",
+    "p21-t1:r1c4",
+    "p21-t1:r1c5",
+    "p21-t1:r2c3",
+    "p21-t1:r2c4",
+    "p21-t1:r2c5",
+    "p21-t1:r3c3",
+    "p21-t1:r3c4",
+    "p21-t1:r3c5",
+    "p21-t1:r4c3",
+    "p21-t1:r4c4",
+    "p21-t1:r4c5",
+    "p21-t1:r5c3",
+    "p21-t1:r5c4",
+    "p21-t1:r5c5",
+    "p21-t1:r6c3",
+    "p21-t1:r6c4",
+    "p21-t1:r6c5"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 46,
+    "table": "p46-t2"
+   },
+   "b": {
+    "doc": "b",
+    "page": 77,
+    "table": "p77-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "outside-gold": 2,
+    "recover-judgments": 1
+   },
+   "placesA": [
+    "p46-t2:r1c5",
+    "p46-t2:r3c5",
+    "p46-t2:r2c5"
+   ],
+   "placesB": [
+    "p77-t1:r2c0",
+    "p77-t1:r2c2",
+    "p77-t1:r2c1"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 47,
+    "table": "p47-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 22,
+    "table": "p22-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "ct2-aims": 3,
+    "ask-judgments": 3
+   },
+   "placesA": [
+    "p47-t1:r4c9",
+    "p47-t1:r4c11",
+    "p47-t1:r4c14",
+    "p47-t1:r0c7",
+    "p47-t1:r0c9",
+    "p47-t1:r0c11"
+   ],
+   "placesB": [
+    "p22-t1:r10c3",
+    "p22-t1:r10c6",
+    "p22-t1:r10c9"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 47,
+    "table": "p47-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 22,
+    "table": "p22-t1"
+   },
+   "kind": "chart",
+   "support": {
+    "ct2-aims": 3
+   },
+   "placesA": [
+    "p47-t1:r0c7",
+    "p47-t1:r0c9",
+    "p47-t1:r0c11"
+   ],
+   "placesB": [
+    "p22-t1:r10c3",
+    "p22-t1:r10c6",
+    "p22-t1:r10c9"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 47,
+    "table": "p47-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 78,
+    "table": "p78-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "ct2-aims": 2,
+    "focus-judgments": 1
+   },
+   "placesA": [
+    "p47-t1:r4c11",
+    "p47-t1:r4c14"
+   ],
+   "placesB": [
+    "p78-t1:r13c3",
+    "p78-t1:r14c3"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 47,
+    "table": "p47-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 78,
+    "table": "p78-t1"
+   },
+   "kind": "chart",
+   "support": {
+    "ct2-aims": 2
+   },
+   "placesA": [
+    "p47-t1:r0c9",
+    "p47-t1:r0c11"
+   ],
+   "placesB": [
+    "p78-t1:r13c3",
+    "p78-t1:r14c3"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 47,
+    "table": "p47-t2"
+   },
+   "b": {
+    "doc": "b",
+    "page": 21,
+    "table": "p21-t2"
+   },
+   "kind": "cells",
+   "support": {
+    "pairs": 32,
+    "outside-gold": 6,
+    "recover-judgments": 6
+   },
+   "placesA": [
+    "p47-t2:r1c4",
+    "p47-t2:r1c5",
+    "p47-t2:r1c6",
+    "p47-t2:r2c4",
+    "p47-t2:r2c5",
+    "p47-t2:r2c6",
+    "p47-t2:r3c5",
+    "p47-t2:r3c6",
+    "p47-t2:r4c4",
+    "p47-t2:r4c5",
+    "p47-t2:r4c6",
+    "p47-t2:r5c4",
+    "p47-t2:r5c5",
+    "p47-t2:r5c6",
+    "p47-t2:r6c4",
+    "p47-t2:r6c5",
+    "p47-t2:r6c6",
+    "p47-t2:r7c4",
+    "p47-t2:r7c5",
+    "p47-t2:r7c6",
+    "p47-t2:r9c4",
+    "p47-t2:r9c5",
+    "p47-t2:r9c6",
+    "p47-t2:r10c4",
+    "p47-t2:r10c5",
+    "p47-t2:r10c6",
+    "p47-t2:r11c4",
+    "p47-t2:r11c5",
+    "p47-t2:r11c6",
+    "p47-t2:r13c4",
+    "p47-t2:r13c5",
+    "p47-t2:r13c6",
+    "p47-t2:r8c4",
+    "p47-t2:r8c5",
+    "p47-t2:r8c6",
+    "p47-t2:r12c4",
+    "p47-t2:r12c5",
+    "p47-t2:r12c6"
+   ],
+   "placesB": [
+    "p21-t2:r1c5",
+    "p21-t2:r1c6",
+    "p21-t2:r1c7",
+    "p21-t2:r2c5",
+    "p21-t2:r2c6",
+    "p21-t2:r2c7",
+    "p21-t2:r3c6",
+    "p21-t2:r3c7",
+    "p21-t2:r4c5",
+    "p21-t2:r4c6",
+    "p21-t2:r4c7",
+    "p21-t2:r5c5",
+    "p21-t2:r5c6",
+    "p21-t2:r5c7",
+    "p21-t2:r6c5",
+    "p21-t2:r6c6",
+    "p21-t2:r6c7",
+    "p21-t2:r7c5",
+    "p21-t2:r7c6",
+    "p21-t2:r7c7",
+    "p21-t2:r9c5",
+    "p21-t2:r9c6",
+    "p21-t2:r9c7",
+    "p21-t2:r10c5",
+    "p21-t2:r10c6",
+    "p21-t2:r10c7",
+    "p21-t2:r11c5",
+    "p21-t2:r11c6",
+    "p21-t2:r11c7",
+    "p21-t2:r13c5",
+    "p21-t2:r13c6",
+    "p21-t2:r13c7",
+    "p21-t2:r8c5",
+    "p21-t2:r8c6",
+    "p21-t2:r8c7",
+    "p21-t2:r12c5",
+    "p21-t2:r12c6",
+    "p21-t2:r12c7"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 47,
+    "table": "p47-t2"
+   },
+   "b": {
+    "doc": "b",
+    "page": 78,
+    "table": "p78-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "outside-gold": 6,
+    "recover-judgments": 4
+   },
+   "placesA": [
+    "p47-t2:r1c6",
+    "p47-t2:r2c6",
+    "p47-t2:r6c6",
+    "p47-t2:r7c6",
+    "p47-t2:r9c6",
+    "p47-t2:r11c6",
+    "p47-t2:r10c6",
+    "p47-t2:r3c6",
+    "p47-t2:r4c6",
+    "p47-t2:r5c6"
+   ],
+   "placesB": [
+    "p78-t1:r3c3",
+    "p78-t1:r4c3",
+    "p78-t1:r8c3",
+    "p78-t1:r9c3",
+    "p78-t1:r10c3",
+    "p78-t1:r12c3",
+    "p78-t1:r11c3",
+    "p78-t1:r5c3",
+    "p78-t1:r6c3",
+    "p78-t1:r7c3"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 48,
+    "table": "p48-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 22,
+    "table": "p22-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "outside-gold": 25,
+    "recover-judgments": 1
+   },
+   "placesA": [
+    "p48-t1:r2c2",
+    "p48-t1:r2c4",
+    "p48-t1:r2c5",
+    "p48-t1:r3c2",
+    "p48-t1:r3c4",
+    "p48-t1:r3c5",
+    "p48-t1:r4c2",
+    "p48-t1:r4c4",
+    "p48-t1:r4c5",
+    "p48-t1:r5c2",
+    "p48-t1:r5c4",
+    "p48-t1:r5c5",
+    "p48-t1:r6c2",
+    "p48-t1:r6c4",
+    "p48-t1:r6c5",
+    "p48-t1:r7c2",
+    "p48-t1:r7c4",
+    "p48-t1:r7c5",
+    "p48-t1:r8c2",
+    "p48-t1:r8c4",
+    "p48-t1:r8c5",
+    "p48-t1:r9c4",
+    "p48-t1:r9c5",
+    "p48-t1:r10c4",
+    "p48-t1:r10c5",
+    "p48-t1:r10c2"
+   ],
+   "placesB": [
+    "p22-t1:r2c5",
+    "p22-t1:r2c6",
+    "p22-t1:r2c7",
+    "p22-t1:r3c5",
+    "p22-t1:r3c6",
+    "p22-t1:r3c7",
+    "p22-t1:r4c5",
+    "p22-t1:r4c6",
+    "p22-t1:r4c7",
+    "p22-t1:r5c5",
+    "p22-t1:r5c6",
+    "p22-t1:r5c7",
+    "p22-t1:r6c5",
+    "p22-t1:r6c6",
+    "p22-t1:r6c7",
+    "p22-t1:r7c5",
+    "p22-t1:r7c6",
+    "p22-t1:r7c7",
+    "p22-t1:r8c5",
+    "p22-t1:r8c6",
+    "p22-t1:r8c7",
+    "p22-t1:r9c6",
+    "p22-t1:r9c7",
+    "p22-t1:r10c6",
+    "p22-t1:r10c7",
+    "p22-t1:r10c5"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 48,
+    "table": "p48-t2"
+   },
+   "b": {
+    "doc": "b",
+    "page": 22,
+    "table": "p22-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "outside-gold": 26
+   },
+   "placesA": [
+    "p48-t2:r2c2",
+    "p48-t2:r2c4",
+    "p48-t2:r2c5",
+    "p48-t2:r3c2",
+    "p48-t2:r3c4",
+    "p48-t2:r3c5",
+    "p48-t2:r4c2",
+    "p48-t2:r4c4",
+    "p48-t2:r4c5",
+    "p48-t2:r5c2",
+    "p48-t2:r5c4",
+    "p48-t2:r5c5",
+    "p48-t2:r6c2",
+    "p48-t2:r6c4",
+    "p48-t2:r6c5",
+    "p48-t2:r7c2",
+    "p48-t2:r7c4",
+    "p48-t2:r7c5",
+    "p48-t2:r8c2",
+    "p48-t2:r8c4",
+    "p48-t2:r8c5",
+    "p48-t2:r9c4",
+    "p48-t2:r9c5",
+    "p48-t2:r10c2",
+    "p48-t2:r10c4",
+    "p48-t2:r10c5"
+   ],
+   "placesB": [
+    "p22-t1:r2c8",
+    "p22-t1:r2c9",
+    "p22-t1:r2c10",
+    "p22-t1:r3c8",
+    "p22-t1:r3c9",
+    "p22-t1:r3c10",
+    "p22-t1:r4c8",
+    "p22-t1:r4c9",
+    "p22-t1:r4c10",
+    "p22-t1:r5c8",
+    "p22-t1:r5c9",
+    "p22-t1:r5c10",
+    "p22-t1:r6c8",
+    "p22-t1:r6c9",
+    "p22-t1:r6c10",
+    "p22-t1:r7c8",
+    "p22-t1:r7c9",
+    "p22-t1:r7c10",
+    "p22-t1:r8c8",
+    "p22-t1:r8c9",
+    "p22-t1:r8c10",
+    "p22-t1:r9c9",
+    "p22-t1:r9c10",
+    "p22-t1:r10c8",
+    "p22-t1:r10c9",
+    "p22-t1:r10c10"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 62,
+    "table": "p62-t2"
+   },
+   "b": {
+    "doc": "b",
+    "page": 22,
+    "table": "p22-t1"
+   },
+   "kind": "chart",
+   "support": {
+    "gold-v2": 6
+   },
+   "placesA": [
+    "p62-t2:r8c1#n3",
+    "p62-t2:r8c1#n5",
+    "p62-t2:r10c1#n6",
+    "p62-t2:r14c0#n1",
+    "p62-t2:r14c0#n2",
+    "p62-t2:r17c0#n2"
+   ],
+   "placesB": [
+    "p22-t1:r4c3",
+    "p22-t1:r4c9",
+    "p22-t1:r4c6",
+    "p22-t1:r5c3",
+    "p22-t1:r5c9",
+    "p22-t1:r5c6"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 109,
+    "table": "p109-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 21,
+    "table": "p21-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "outside-gold": 1,
+    "recover-judgments": 2
+   },
+   "placesA": [
+    "p109-t1:r2c1",
+    "p109-t1:r2c0",
+    "p109-t1:r2c2"
+   ],
+   "placesB": [
+    "p21-t1:r2c5",
+    "p21-t1:r1c5",
+    "p21-t1:r3c5"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 109,
+    "table": "p109-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 77,
+    "table": "p77-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "pairs": 4
+   },
+   "placesA": [
+    "p109-t1:r2c0",
+    "p109-t1:r2c1",
+    "p109-t1:r2c2",
+    "p109-t1:r2c3"
+   ],
+   "placesB": [
+    "p77-t1:r2c0",
+    "p77-t1:r2c1",
+    "p77-t1:r2c2",
+    "p77-t1:r2c3"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 111,
+    "table": "p111-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 21,
+    "table": "p21-t2"
+   },
+   "kind": "cells",
+   "support": {
+    "outside-gold": 8,
+    "recover-judgments": 2
+   },
+   "placesA": [
+    "p111-t1:r2c3",
+    "p111-t1:r4c3",
+    "p111-t1:r5c3",
+    "p111-t1:r6c3",
+    "p111-t1:r8c3",
+    "p111-t1:r9c3",
+    "p111-t1:r10c3",
+    "p111-t1:r11c3",
+    "p111-t1:r3c3",
+    "p111-t1:r7c3"
+   ],
+   "placesB": [
+    "p21-t2:r1c7",
+    "p21-t2:r3c7",
+    "p21-t2:r4c7",
+    "p21-t2:r5c7",
+    "p21-t2:r7c7",
+    "p21-t2:r9c7",
+    "p21-t2:r10c7",
+    "p21-t2:r11c7",
+    "p21-t2:r2c7",
+    "p21-t2:r6c7"
+   ]
+  },
+  {
+   "a": {
+    "doc": "a",
+    "page": 111,
+    "table": "p111-t1"
+   },
+   "b": {
+    "doc": "b",
+    "page": 78,
+    "table": "p78-t1"
+   },
+   "kind": "cells",
+   "support": {
+    "pairs": 10,
+    "outside-gold": 3,
+    "review-new-pairs": 3,
+    "prose-judgments": 3
+   },
+   "placesA": [
+    "p111-t1:r2c3",
+    "p111-t1:r3c3",
+    "p111-t1:r4c3",
+    "p111-t1:r5c3",
+    "p111-t1:r6c3",
+    "p111-t1:r7c3",
+    "p111-t1:r8c3",
+    "p111-t1:r9c3",
+    "p111-t1:r10c3",
+    "p111-t1:r11c3",
+    "p111-t1:r0c2",
+    "p111-t1:r12c3",
+    "p111-t1:r13c3"
+   ],
+   "placesB": [
+    "p78-t1:r3c3",
+    "p78-t1:r4c3",
+    "p78-t1:r5c3",
+    "p78-t1:r6c3",
+    "p78-t1:r7c3",
+    "p78-t1:r8c3",
+    "p78-t1:r9c3",
+    "p78-t1:r10c3",
+    "p78-t1:r11c3",
+    "p78-t1:r12c3",
+    "p78-t1:r1c2",
+    "p78-t1:r13c3",
+    "p78-t1:r14c3"
+   ]
+  }
+ ],
+ "none": [
+  {
+   "doc": "a",
+   "page": 59,
+   "table": "p59-t1",
+   "kind": "table",
+   "basis": "「같은 항목 아님」 판정만 있다 (recover-judgments 4, named-judgments 2), 「같은 항목」 0"
+  },
+  {
+   "doc": "a",
+   "page": 33,
+   "table": null,
+   "kind": "chart-page",
+   "basis": "밴드 CH1 (band-reports/CH1-charts-why.md 의 (가)·(3)): 이 쪽의 도표 값과 같은 긴 숫자(유효 숫자 4자리 이상)가 데이터북에 없다. 값으로 센 것이라 짧은 숫자의 상대는 보지 못한다 (46쪽의 「42% 감축」은 데이터북 8쪽에 있다고 CH1 의 검증 에이전트가 적었다)"
+  },
+  {
+   "doc": "a",
+   "page": 36,
+   "table": null,
+   "kind": "chart-page",
+   "basis": "밴드 CH1 (band-reports/CH1-charts-why.md 의 (가)·(3)): 이 쪽의 도표 값과 같은 긴 숫자(유효 숫자 4자리 이상)가 데이터북에 없다. 값으로 센 것이라 짧은 숫자의 상대는 보지 못한다 (46쪽의 「42% 감축」은 데이터북 8쪽에 있다고 CH1 의 검증 에이전트가 적었다)"
+  },
+  {
+   "doc": "a",
+   "page": 38,
+   "table": null,
+   "kind": "chart-page",
+   "basis": "밴드 CH1 (band-reports/CH1-charts-why.md 의 (가)·(3)): 이 쪽의 도표 값과 같은 긴 숫자(유효 숫자 4자리 이상)가 데이터북에 없다. 값으로 센 것이라 짧은 숫자의 상대는 보지 못한다 (46쪽의 「42% 감축」은 데이터북 8쪽에 있다고 CH1 의 검증 에이전트가 적었다)"
+  },
+  {
+   "doc": "a",
+   "page": 46,
+   "table": null,
+   "kind": "chart-page",
+   "basis": "밴드 CH1 (band-reports/CH1-charts-why.md 의 (가)·(3)): 이 쪽의 도표 값과 같은 긴 숫자(유효 숫자 4자리 이상)가 데이터북에 없다. 값으로 센 것이라 짧은 숫자의 상대는 보지 못한다 (46쪽의 「42% 감축」은 데이터북 8쪽에 있다고 CH1 의 검증 에이전트가 적었다)"
+  },
+  {
+   "doc": "a",
+   "page": 63,
+   "table": null,
+   "kind": "chart-page",
+   "basis": "밴드 CH1 (band-reports/CH1-charts-why.md 의 (가)·(3)): 이 쪽의 도표 값과 같은 긴 숫자(유효 숫자 4자리 이상)가 데이터북에 없다. 값으로 센 것이라 짧은 숫자의 상대는 보지 못한다 (46쪽의 「42% 감축」은 데이터북 8쪽에 있다고 CH1 의 검증 에이전트가 적었다)"
+  }
+ ],
+ "unused": {
+  "같은 항목이지만 표 짝이 아님 (문장이 낌)": 37,
+  "값이 아님 등의 판정": 15
+ },
+ "records": {
+  "kb-2025.pairs.json": {
+   "sha256": "10cb18c0a5a86a82bf68de5e2331b4197e0e3b7f3685059e548e5f82346bc784",
+   "read": 58,
+   "skippedScope": 0
+  },
+  "kb-2025.gold-v2.json": {
+   "sha256": "bce881a1266eaba5955fa97de3342e53a8001e37a6baa95df418917aa3009319",
+   "read": 21,
+   "skippedScope": 0
+  },
+  "kb-2025.ct2-aims.json": {
+   "sha256": "003736d0287249b87681ac2fc9b2584f308fd18fac7951c2dd80b9e05ee459ef",
+   "read": 10,
+   "skippedScope": 0
+  },
+  "kb-2025.outside-gold.json": {
+   "sha256": "a5f22001fbf0241deee92dd5bee1c2b19e43ce2bd1c74bd12f80af6b6be6c105",
+   "read": 85,
+   "skippedScope": 0
+  },
+  "kb-2025.review-new-pairs.json": {
+   "sha256": "2cfc62b751011bbbba1abcac9ac7aec5152c005e4070bd2811100fd725f8457e",
+   "read": 7,
+   "skippedScope": 0
+  },
+  "kb-2025.recover-judgments.json": {
+   "sha256": "18af6f7a0cdc79c15911be447a4e1db98def3d24f6b6d08faa090aa3a3df5c54",
+   "read": 32,
+   "skippedScope": 0
+  },
+  "kb-2025.prose-judgments.json": {
+   "sha256": "ad272e19af7647608660733803e565ebab23627b9b021d3614c382640d18630d",
+   "read": 24,
+   "skippedScope": 16
+  },
+  "kb-2025.named-judgments.json": {
+   "sha256": "0411f16f48ebac726fcafe793884e61d98a2aaf2459077c1325ac5be07869420",
+   "read": 11,
+   "skippedScope": 1
+  },
+  "kb-2025.charts-judgments.json": {
+   "sha256": "db21165612cb45b6eb1071f679b7c14e76b98bd037a9b7ab7da327bbe2c3e37c",
+   "read": 1,
+   "skippedScope": 1
+  },
+  "kb-2025.focus-judgments.json": {
+   "sha256": "c9f2970f72a6944b246e8d41b324ef2361f1fb32afc44a7c103b52b062e2bc4f",
+   "read": 10,
+   "skippedScope": 0
+  },
+  "kb-2025.ask-judgments.json": {
+   "sha256": "cfcaf58cca550e229588e0b4d02abaeac967c4c86bc91dbafe63ace3d62cc297",
+   "read": 5,
+   "skippedScope": 0
+  },
+  "kb-2025.review-no-counterpart.json": {
+   "sha256": "0763d79e1d1a3a469b468bd46751f5a406e6c7ea1208e7c301e4d2cdf769ba33",
+   "read": 96,
+   "skippedScope": 0
+  }
+ }
+}
